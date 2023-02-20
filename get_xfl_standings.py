@@ -1,24 +1,18 @@
 import pandas as pd
 import json
-from urllib.request import urlopen, urlretrieve
-import requests
-from bs4 import BeautifulSoup
+from urllib.request import urlopen
 from tqdm import tqdm
-import time
+from get_xfl_api_token import get_xfl_api_token
 
-def get_xfl_rosters(season=2023,week=1,save=False):
-    xfl_api_token = "firefox" ## firefox is a placeholder
+def get_xfl_standings(season=2023,week=1,save=False):
+    xfl_api_token = get_xfl_api_token()
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
-
-    ## Yes this is bad practice, but there is nothing in their JSON
-    ## files to indicate what is what.
+    
     xfl_season = season
     xfl_week = week
-
     #headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
     
-    ## This gets the rosters for all teams, rather than a specific game.
     url = f"https://api.xfl.com/scoring/v3.30/standings?access_token={xfl_api_token}"
     response = urlopen(url)
     json_data = json.loads(response.read())
@@ -112,22 +106,18 @@ def get_xfl_rosters(season=2023,week=1,save=False):
         main_df.to_csv(f'standings/{xfl_season}_xfl_standings.csv',index=False)
         main_df.to_parquet(f'standings/{xfl_season}_xfl_standings.parquet',index=False)
 
-        main_df['Week'] = xfl_week
 
         main_df.to_parquet(f'standings/weekly_standings/parquet/{xfl_season}_{xfl_week}_xfl_standings.parquet',index=False)
         main_df.to_csv(f'standings/weekly_standings/csv/{xfl_season}_{xfl_week}_xfl_standings.csv',index=False)
-        #urlretrieve(url, filename=f"standings/weekly_standingss/json/{xfl_season}_{xfl_week}_xfl_standings.json")
         with open(f"standings/weekly_standings/json/{xfl_season}_{xfl_week}_xfl_standings.json", "w+") as f:
             f.write(json.dumps(json_data,indent=2))
-
-    main_df['Week'] = xfl_week
 
     return main_df
 
 def main():
     season = 2023
     week = 2
-    get_xfl_rosters(season,week,True)
+    get_xfl_standings(season,week,True)
 
 if __name__ == "__main__":
     main()

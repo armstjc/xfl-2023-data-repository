@@ -1,7 +1,6 @@
 import urllib.request
 import pandas as pd
 from tqdm import tqdm
-import ssl
 import time
 
 def get_xfl_headshots(season:int):
@@ -16,7 +15,7 @@ def get_xfl_headshots(season:int):
         try:
             urllib.request.urlretrieve(urls_arr[i],filename=f"player_info/photos/{player_ids_arr[i]}.png")
         except:
-            #raise RuntimeError(f'Could not retrive the photo for player #{player_ids_arr[i]}')
+            print(f'Could not retrive the photo for player #{player_ids_arr[i]}')
             pass
         time.sleep(2)
 

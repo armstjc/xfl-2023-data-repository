@@ -69,6 +69,8 @@ def get_xfl_schedule(season=2023,save=False):
 
         main_df = pd.concat([main_df,row_df],ignore_index=True)
 
+    main_df = main_df.sort_values(by=['NowUTC'])
+
     if save == True:
         
         main_df.to_csv(f'schedule/{xfl_season}_xfl_schedule.csv',index=False)

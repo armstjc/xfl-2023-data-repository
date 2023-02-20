@@ -1,12 +1,33 @@
 import pandas as pd
 import json
+import glob
 from datetime import datetime
 from urllib.request import urlopen
 from tqdm import tqdm
 from get_xfl_api_token import get_xfl_api_token
-#import pytz
 
-def get_xfl_player_box(game_id:str,save=False):
+def combine_pbp_files():
+    main_df = pd.DataFrame()
+    game_df = pd.DataFrame()
+    season_df = pd.DataFrame()
+    file_path = "pbp/single_game/csv/"
+
+    for file in glob.iglob(file_path+"*.csv"):
+        game_df = pd.read_csv(file)
+        main_df = pd.concat([main_df,game_df],ignore_index=True)
+
+    del game_df
+
+    seasons_arr = main_df['Season'].to_list()
+    seasons_arr = [*set(seasons_arr)]
+
+    for i in seasons_arr:
+        season_df = main_df[main_df['Season'] == i]
+        season_df.to_csv(f"pbp/season/csv/{i}_xfl_pbp.csv",index=False)
+        season_df.to_parquet(f"pbp/season/parquet/{i}_xfl_pbp.parquet",index=False)
+
+def get_xfl_pbp(game_id:str,save=False):
+    print(game_id)
     xfl_api_token = get_xfl_api_token()
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
@@ -84,22 +105,265 @@ def get_xfl_player_box(game_id:str,save=False):
         row_df['PossTeam'] = play['Properties'][0]['FootballEventContext']['PossTeam']
         row_df['LastPlaySummary'] = play['Properties'][0]['FootballEventContext']['LastPlaySummary']
         row_df['LastPlayStatus'] = play['Properties'][0]['FootballEventContext']['LastPlayStatus']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        # row_df['Confidence'] = play['Confidence']
-        main_df = pd.concat([main_df,row_df],ignore_index=True)
 
-    if save == True:
-        main_df.to_csv(f'pbp/single_game/csv/{game_id}.csv')
-        main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet')
+        try:
+            for i in play['Participants']:
+                row_df[i['Role']] = i['OfficialId']
+        except:
+            pass
+
+        for i in play['Properties']:
+            ########################################################################################################################################################################################
+            ## Timeout info (if != Null, this is the teamID for who called a timeout on this play)
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['FootballTimeoutTeamId'] = i['FootballTimeoutTeamId']
+            except:
+                pass
+            
+            ########################################################################################################################################################################################
+            ## Down, Distance and Score
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['FootballStatus'] = i['FootballStatus']
+            except:
+                pass
+
+            try:
+                row_df['Down'] = i['FootballEventContext']['Down']
+            except:
+                pass
+            
+            try:
+                row_df['Distance'] = i['FootballEventContext']['Distance']
+            except:
+                pass
+            
+            try:
+                row_df['VisScore'] = i['FootballEventContext']['VisScore']
+            except:
+                pass
+
+            try:
+                row_df['HomeScore'] = i['HomeScore']
+            except:
+                pass
+
+            ########################################################################################################################################################################################
+            ## Play Result, Zone, and Yards gained/lost
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['FootballPlayResult'] = i['FootballPlayResult']
+            except:
+                pass
+
+            try:
+                row_df['FootballZone'] = i['FootballZone']
+            except:
+                pass
+            
+            try:
+                row_df['FootballYards'] = i['FootballYards']
+            except:
+                pass
+
+
+            ########################################################################################################################################################################################
+            ## Drive Summary
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['Drive_Start_VisOrHome'] = i['FootballDriveSummary']['DriveStart']['VisOrHome']
+            except:
+                pass
+
+            try:
+                row_df['Drive_Start_YardNum'] = i['FootballDriveSummary']['DriveStart']['YardNum']
+            except:
+                pass
+
+            try:
+                row_df['Drive_Plays'] = i['FootballDriveSummary']['Plays']
+            except:
+                pass
+
+            try:
+                row_df['Drive_Yards'] = i['FootballDriveSummary']['Yards']
+            except:
+                pass
+
+            try:
+                row_df['Drive_TOP'] = i['FootballDriveSummary']['TOP']
+            except:
+                pass
+
+            try:
+                row_df['Result'] = i['FootballDriveSummary']['Result']
+            except:
+                pass
+
+            ########################################################################################################################################################################################
+            ## Scoring (on this play specifically)
+            ########################################################################################################################################################################################
+            
+            try:
+                row_df['FootballMainScoringPlay'] = i['FootballMainScoringPlay']
+            except:
+                pass
+            
+            try:
+                row_df['FootballConvAttPts'] = i['FootballConvAttPts']
+            except:
+                pass
+
+            try:
+                row_df['FootballMiscScore_MiscScoreType'] = i['FootballMiscScore']['MiscScoreType']
+            except:
+                pass
+
+            try:
+                row_df['FootballMiscScore_TeamId'] = i['FootballMiscScore']['TeamId']
+            except:
+                pass
+
+            try:
+                row_df['FootballMiscScore_PlayerId'] = i['FootballMiscScore']['PlayerId']
+            except:
+                pass
+
+            ########################################################################################################################################################################################
+            ## Special Teams Yards
+            ########################################################################################################################################################################################
+            try:
+                row_df['FootballKickYards'] = i['FootballKickYards']
+            except:
+                pass
+
+            try:
+                row_df['FootballPuntYards'] = i['FootballPuntYards']
+            except:
+                pass
+          
+            try:
+                row_df['FootballKickRetYards'] = i['FootballKickRetYards']
+            except:
+                pass
+
+            try:
+                row_df['FootballPuntRetYards'] = i['FootballPuntRetYards']
+            except:
+                pass
+
+            ########################################################################################################################################################################################
+            ## Penalty Info
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['FootballPenalty_TeamId'] = i['FootballPenalty']['TeamId']
+            except:
+                pass
+
+            try:
+                row_df['FootballPenalty_PlayerId'] = i['FootballPenalty']['PlayerId']
+            except:
+                pass
+
+            try:
+                row_df['FootballPenalty_Yards'] = i['FootballPenalty']['Yards']
+            except:
+                pass
+
+            try:
+                row_df['FootballPenalty_PenaltyResult'] = i['FootballPenalty']['PenaltyResult']
+            except:
+                pass
+
+            try:
+                row_df['FootballPenalty_Description'] = i['FootballPenalty']['Description']
+            except:
+                pass
+
+
+            ########################################################################################################################################################################################
+            ## Fumble Info
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['FootballFumble_TeamFumbled'] = i['FootballFumble']['TeamFumbled']
+            except:
+                pass
+
+            try:
+                row_df['FootballFumble_PlayerFumbled'] = i['FootballFumble']['PlayerFumbled']
+            except:
+                pass
+
+            try:
+                row_df['FootballFumble_TeamRecovered'] = i['FootballFumble']['TeamRecovered']
+            except:
+                pass
+
+            try:
+                row_df['FootballFumble_PlayerRecovered'] = i['FootballFumble']['PlayerRecovered']
+            except:
+                pass
+
+            try:
+                row_df['FootballFumble_PlayerForcedFumble'] = i['FootballFumble']['PlayerForcedFumble']
+            except:
+                pass
+
+            ########################################################################################################################################################################################
+            ## Extra yards
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['FootballExtraYards_IndivOrTeam'] = i['FootballExtraYards']['IndivOrTeam']
+            except:
+                pass
+
+            try:
+                row_df['FootballExtraYards_TeamId'] = i['FootballExtraYards']['TeamId']
+            except:
+                pass
+
+            try:
+                row_df['FootballExtraYards_PlayerId'] = i['FootballExtraYards']['PlayerId']
+            except:
+                pass
+
+            try:
+                row_df['FootballExtraYards_Yards'] = i['FootballExtraYards']['Yards']
+            except:
+                pass
+
+            ########################################################################################################################################################################################
+            ## "Ball Set On" info (TBD on the exact purpose of this stat)
+            ########################################################################################################################################################################################
+
+            try:
+                row_df['FootballSetBallOn_VisOrHome'] = i['FootballSetBallOn']['VisOrHome']
+            except:
+                pass
+
+            try:
+                row_df['FootballSetBallOn_YardNum'] = i['FootballSetBallOn']['YardNum']
+            except:
+                pass
+
+        main_df = pd.concat([main_df,row_df],ignore_index=True)
+    
+    try:
+        main_df = main_df.sort_values(by=['MarkerUTC'])
+    except:
+        print('Could not sort dataframe. This may be because [MarkerUTC] does not exist in this JSON, or the dataframe is empty.')
+    
+    if save == True and len(main_df) >0:
+        main_df.to_csv(f'pbp/single_game/csv/{game_id}.csv',index=False)
+        main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
         with open(f"pbp/single_game/json/{game_id}.json", "w+") as f:
             f.write(json.dumps(json_data,indent=2))
 
@@ -111,8 +375,9 @@ def main():
     event_id_arr = sched_df['EventId'].to_list()
     
     for i in event_id_arr:
-        get_xfl_player_box(i,True)
+        get_xfl_pbp(i,True)
         
+    combine_pbp_files()
 
 if __name__ == "__main__":
     main()

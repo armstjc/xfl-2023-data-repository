@@ -34,6 +34,8 @@ jobs:
         python -m pip install tqdm
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: run Python Script
+      env:
+        XFL_API_TOKEN: ${{ secrets.XFL_API_TOKEN }}
       run: |
         python get_xfl_schedule.py
         python get_xfl_standings.py
@@ -42,8 +44,7 @@ jobs:
         python get_xfl_game_stats.py
         python get_xfl_pbp.py
     - name: commit files
-      env:
-        XFL_API_TOKEN: ${{secrets.XFL_API_TOKEN}}
+
       run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

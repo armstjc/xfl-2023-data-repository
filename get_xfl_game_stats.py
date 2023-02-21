@@ -3,6 +3,9 @@ import json
 from urllib.request import urlopen
 from tqdm import tqdm
 from get_xfl_api_token import get_xfl_api_token
+import warnings
+
+warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 
 def get_xfl_player_box(game_id:str,save=False):
     xfl_api_token = get_xfl_api_token()

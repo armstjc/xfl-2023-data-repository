@@ -3,6 +3,7 @@ import json
 from urllib.request import urlopen
 from get_xfl_api_token import get_xfl_api_token
 from tqdm import tqdm
+import glob
 
 def get_xfl_rosters(season=2023,week=1,save=False):
     xfl_api_token = get_xfl_api_token()
@@ -67,12 +68,32 @@ def get_xfl_rosters(season=2023,week=1,save=False):
     main_df['Week'] = xfl_week
     return main_df
 
+def combine_weekly_rosters():
+    main_df = pd.DataFrame()
+    game_df = pd.DataFrame()
+    season_df = pd.DataFrame()
+    file_path = "rosters/weekly_rosters/csv/"
+
+    for file in glob.iglob(file_path+"*.csv"):
+        game_df = pd.read_csv(file)
+        main_df = pd.concat([main_df,game_df],ignore_index=True)
+
+    del game_df
+
+    seasons_arr = main_df['Season'].to_list()
+    seasons_arr = [*set(seasons_arr)]
+
+    for i in seasons_arr:
+        season_df = main_df[main_df['Season'] == i]
+        season_df.to_csv(f"rosters/weekly_rosters/{i}_weekly_xfl_roster.csv",index=False)
+        season_df.to_parquet(f"rosters/weekly_rosters/{i}_weekly_xfl_roster.parquet",index=False)
+
 def main():
     season = 2023
     week = 2
     get_xfl_rosters(season,week,True)
 
-
+    combine_weekly_rosters()
 
 
 if __name__ == "__main__":

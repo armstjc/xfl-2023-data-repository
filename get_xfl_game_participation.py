@@ -72,7 +72,10 @@ def get_xfl_game_participation(game_id:str,save=False):
         row_df['SquadId'] = player['SquadId']
         row_df['College'] = player['College']
         row_df['LeagueStatus'] = player['LeagueStatus']
-
+        try:
+            row_df['Participated'] = player['Participated']
+        except:
+            row_df['Participated'] = None
         main_df = pd.concat([main_df,row_df],ignore_index=True)
 
     if save == True:

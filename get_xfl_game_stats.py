@@ -32,8 +32,10 @@ def get_xfl_player_box(game_id:str,save=False):
         ## Game Participation
         ##############################################################################################################
         ## G
-        
-        row_df['G'] = 1
+        try:
+            row_df['G'] = player['GamesPlayed']
+        except:
+            row_df['G'] = 0
 
         ## GS
         try:
@@ -1540,7 +1542,7 @@ def main():
         get_xfl_team_box(i,True)
         
     combine_player_box()
-    combine_team_box()
+    #combine_team_box()
 
 if __name__ == "__main__":
     main()

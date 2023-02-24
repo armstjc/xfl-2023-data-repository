@@ -1,46 +1,5 @@
 [
   {
-    "MarkerId": "1",
-    "MarkerUTC": 1676855110.74278,
-    "MajorType": "Event",
-    "MinorType": "EventStart",
-    "Descriptor_": "Game Start Marker",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 15
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 900.0,
-          "TimeRemStr": "15:00",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 30
-          },
-          "DriveNum": 1,
-          "PossTeam": "6",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_19_SEA@DC",
-    "SituationCode": "",
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10005",
-    "OfficialCode": "2302004-SEA-at-DC"
-  },
-  {
     "MarkerId": "3",
     "MarkerUTC": 1676855113.0,
     "MarkerLTC": 72313,
@@ -12292,113 +12251,6 @@
     "OfficialCode": "2302004-SEA-at-DC"
   },
   {
-    "MarkerId": "303",
-    "MarkerUTC": 1676863413.0,
-    "MarkerLTC": 80613,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-7-SEA 25 (7:00) 10 J. Ta'amu pass intended for 82 E. Wolf INTERCEPTED by 27 B. Thompson returned 0 yards to SEA 20",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 7
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21711",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleInterceptor",
-        "OfficialId": "22377",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePassDefender",
-        "OfficialId": "22377",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 22,
-          "Period": 4,
-          "TimeRemSecTotal": 420.0,
-          "TimeRemStr": "7:00",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 25
-          },
-          "Distance": 7,
-          "DriveNum": 22,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassInterception",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "3",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 20
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 35
-          },
-          "Plays": 10,
-          "Yards": 40,
-          "TOP": "5:17",
-          "Result": "INT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_19_SEA@DC",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 22,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "138",
-    "OfficialCode": "2302004-SEA-at-DC"
-  },
-  {
     "MarkerId": "305",
     "MarkerUTC": 1676863644.0,
     "MarkerLTC": 80844,
@@ -15097,8 +14949,115 @@
     "OfficialCode": "2302004-SEA-at-DC"
   },
   {
-    "MarkerId": "373",
-    "MarkerUTC": 1676865604.36209,
+    "MarkerId": "387",
+    "MarkerUTC": 1676863413.0,
+    "MarkerLTC": 80613,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-7-SEA 25 (7:00) 10 J. Ta'amu pass intended for 82 E. Wolf INTERCEPTED by 1 B. Thompson returned 0 yards to SEA 20",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21711",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleInterceptor",
+        "OfficialId": "22377",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "22377",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 22,
+          "Period": 4,
+          "TimeRemSecTotal": 420.0,
+          "TimeRemStr": "7:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Distance": 7,
+          "DriveNum": 22,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassInterception",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 20
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Plays": 10,
+          "Yards": 40,
+          "TOP": "5:17",
+          "Result": "INT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_19_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 22,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "138",
+    "OfficialCode": "2302004-SEA-at-DC"
+  },
+  {
+    "MarkerId": "390",
+    "MarkerUTC": 1677187918.0102072,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

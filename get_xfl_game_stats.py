@@ -25,17 +25,15 @@ def get_xfl_player_box(game_id:str,save=False):
     for player in tqdm(json_data):
         
         official_id = player['OfficialId']
-        print(f"Player #{official_id}")
+        print(f"\nPlayer #{official_id}")
         row_df = pd.DataFrame({'Season':xfl_season,'game_id':game_id,'OfficialID':official_id},index=[0])
 
         ##############################################################################################################
         ## Game Participation
         ##############################################################################################################
         ## G
-        try:
-            row_df['G'] = player['GamesPlayed']
-        except:
-            row_df['G'] = 0
+        
+        row_df['G'] = 1
 
         ## GS
         try:
@@ -642,15 +640,15 @@ def get_xfl_player_box(game_id:str,save=False):
 
         ## FGA_50_59
         try:
-            row_df['FG50To59Att'] = player['FG50To59Att']
+            row_df['FG50PlusAtt'] = player['FG50PlusAtt']
         except:
-            row_df['FG50To59Att'] = None
+            row_df['FG50PlusAtt'] = None
 
         ## FGM_50_59
         try:
-            row_df['FG50To59Made'] = player['FG50To59Made']
+            row_df['FG50PlusMade'] = player['FG50PlusMade']
         except:
-            row_df['FG50To59Made'] = None
+            row_df['FG50PlusMade'] = None
 
         ##############################################################################################################
         ## Punting Stats

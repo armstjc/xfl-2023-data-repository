@@ -1,0 +1,7533 @@
+[
+  {
+    "MarkerId": "1",
+    "MarkerUTC": 1677445448.40873,
+    "MajorType": "Event",
+    "MinorType": "EventStart",
+    "Descriptor_": "Game Start Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 15
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10005",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "6",
+    "MarkerUTC": 1677445593.0,
+    "MarkerLTC": 57993,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 45 (14:37) 11 K. Ballage rush to ORL 46 for -1 yards (88 C. Patton)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 37
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22034",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22001",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 877.0,
+          "TimeRemStr": "14:37",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 1,
+          "Yards": -1,
+          "TOP": "0:42",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "2",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "8",
+    "MarkerUTC": 1677445618.0,
+    "MarkerLTC": 58018,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-11-ORL 46 (14:13) 16 J. Coan pass to 18 T. Vasher to ORL 36 for 10 yards (20 B. Buchanan)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21898",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20221",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 853.0,
+          "TimeRemStr": "14:13",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 46
+          },
+          "Distance": 11,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 2,
+          "Yards": 9,
+          "TOP": "1:02",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "3",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "11",
+    "MarkerUTC": 1677445655.0,
+    "MarkerLTC": 58055,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-1-ORL 36 (13:38) 11 K. Ballage rush to ORL 37 for -1 yards (44 T. Plummer)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 38
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22034",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21244",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 818.0,
+          "TimeRemStr": "13:38",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 36
+          },
+          "Distance": 1,
+          "DriveNum": 1,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 3,
+          "Yards": 8,
+          "TOP": "1:46",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "4",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "13",
+    "MarkerUTC": 1677445699.0,
+    "MarkerLTC": 58099,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "4-2-ORL 37 (12:54) 16 J. Coan pass to 88 A. Mack to ORL 34 for 3 yards (13 M. Lee)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 54
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21765",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20942",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 774.0,
+          "TimeRemStr": "12:54",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 37
+          },
+          "Distance": 2,
+          "DriveNum": 1,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 4,
+          "Yards": 11,
+          "TOP": "2:22",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "5",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "15",
+    "MarkerUTC": 1677445734.0,
+    "MarkerLTC": 58134,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 34 (12:18) 16 J. Coan pass to 18 T. Vasher to ORL 18 for 16 yards (22 M. Elam)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 18
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21898",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20444",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 738.0,
+          "TimeRemStr": "12:18",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 16,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 5,
+          "Yards": 27,
+          "TOP": "2:56",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "6",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "19",
+    "MarkerUTC": 1677445822.0,
+    "MarkerLTC": 58222,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-5-ORL 13 (11:26) 11 K. Ballage rush to ORL 11 for 2 yards (8 T. Smith)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 26
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22034",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21448",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 686.0,
+          "TimeRemStr": "11:26",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Distance": 5,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 6,
+          "Yards": 34,
+          "TOP": "3:42",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "8",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "20",
+    "MarkerUTC": 1677445771.0,
+    "MarkerLTC": 58171,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-ORL 18 (11:46) PENALTY on Orlando Guardians, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 46
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 706.0,
+          "TimeRemStr": "11:46",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 18
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "TM",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 6,
+          "Yards": 34,
+          "TOP": "3:53",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "7",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "22",
+    "MarkerUTC": 1677445859.0,
+    "MarkerLTC": 58259,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-3-ORL 11 (10:48) 16 J. Coan pass to 84 D. Yelder to ORL 1 for 10 yards (8 T. Smith, 22 M. Elam)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10,
+      "ClockSeconds": 48
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22022",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21448",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20444",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 648.0,
+          "TimeRemStr": "10:48",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 11
+          },
+          "Distance": 3,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 7,
+          "Yards": 44,
+          "TOP": "4:37",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "9",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "24",
+    "MarkerUTC": 1677445899.0,
+    "MarkerLTC": 58299,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-1-ORL 1 (10:08) 11 K. Ballage rush to ORL 3 for -2 yards (49 E. Olenga)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22034",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21162",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 608.0,
+          "TimeRemStr": "10:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 1
+          },
+          "Distance": 1,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 8,
+          "Yards": 42,
+          "TOP": "5:08",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "26",
+    "MarkerUTC": 1677445938.0,
+    "MarkerLTC": 58338,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-3-ORL 3 (9:31) 16 J. Coan pass to 84 D. Yelder for 3 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 31
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22022",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 571.0,
+          "TimeRemStr": "9:31",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 3
+          },
+          "Distance": 3,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 9,
+          "Yards": 45,
+          "TOP": "5:29",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "11",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "28",
+    "MarkerUTC": 1677445965.0,
+    "MarkerLTC": 58365,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat2PtPass",
+    "Descriptor_": "16 J. Coan 2-pt conversion pass to 80 J. Tolliver NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 31
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21568",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 571.0,
+          "TimeRemStr": "9:31",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 5
+          },
+          "DriveNum": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 2,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "12",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "30",
+    "MarkerUTC": 1677446210.0,
+    "MarkerLTC": 58610,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "23 P. Romo kicks from SA 30. 17 E. Rogers to ORL 33 for 25 yards (25 D. Lewis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 29
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22597",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20723",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "22028",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 569.0,
+          "TimeRemStr": "9:29",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 25,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 33
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "13",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "32",
+    "MarkerUTC": 1677446258.0,
+    "MarkerLTC": 58658,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 33 (9:15) 6 P. Lynch pass to 16 D. Byrd to SA 35 for 32 yards (20 K. Siverand)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20242",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21419",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 555.0,
+          "TimeRemStr": "9:15",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "4",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 32,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 1,
+          "Yards": 32,
+          "TOP": "0:34",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "14",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "35",
+    "MarkerUTC": 1677446309.0,
+    "MarkerLTC": 58709,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-SA 35 (8:48) PENALTY on 77 A. Beecham, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 48
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 528.0,
+          "TimeRemStr": "8:48",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "22414",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 1,
+          "Yards": 22,
+          "TOP": "0:46",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "15",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "37",
+    "MarkerUTC": 1677446334.0,
+    "MarkerLTC": 58734,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-20-SA 45 (8:35) 6 P. Lynch sacked at ORL 48 for -7 yards (45 D. Scott, 33 D. Beesley)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "22844",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker2",
+        "OfficialId": "21740",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 515.0,
+          "TimeRemStr": "8:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Distance": 20,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 2,
+          "Yards": 15,
+          "TOP": "1:08",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "16",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "39",
+    "MarkerUTC": 1677446375.0,
+    "MarkerLTC": 58775,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-27-ORL 48 (7:54) 6 P. Lynch pass to 11 C. Latimer to ORL 49 for 1 yard (2 T. Bonds)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 7,
+      "ClockSeconds": 54
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20142",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 474.0,
+          "TimeRemStr": "7:54",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 48
+          },
+          "Distance": 27,
+          "DriveNum": 2,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 3,
+          "Yards": 16,
+          "TOP": "1:49",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "17",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "42",
+    "MarkerUTC": 1677446418.0,
+    "MarkerLTC": 58818,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-26-ORL 49 (7:11) 30 J. Martin rush to SA 13 for 38 yards (2 T. Bonds)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 7,
+      "ClockSeconds": 11
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20142",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 431.0,
+          "TimeRemStr": "7:11",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 26,
+          "DriveNum": 2,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 38,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 4,
+          "Yards": 54,
+          "TOP": "2:47",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "18",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "45",
+    "MarkerUTC": 1677446451.0,
+    "MarkerLTC": 58851,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 13 (6:38) 30 J. Martin rush to SA 9 for 4 yards (90 M. Gotel, 95 K. Tongamoa)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 38
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20567",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22778",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 398.0,
+          "TimeRemStr": "6:38",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 5,
+          "Yards": 58,
+          "TOP": "3:27",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "19",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "47",
+    "MarkerUTC": 1677446490.0,
+    "MarkerLTC": 58890,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-6-SA 9 (5:59) 28 K. Taylor rush to SA 8 for 1 yard (1 L. Barcoo)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 59
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21528",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 359.0,
+          "TimeRemStr": "5:59",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 9
+          },
+          "Distance": 6,
+          "DriveNum": 2,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 6,
+          "Yards": 59,
+          "TOP": "3:49",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "20",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "49",
+    "MarkerUTC": 1677446530.0,
+    "MarkerLTC": 58930,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-5-SA 8 (5:19) 6 P. Lynch pass to 17 E. Rogers for 8 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22708",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 319.0,
+          "TimeRemStr": "5:19",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 8
+          },
+          "Distance": 5,
+          "DriveNum": 2,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 7,
+          "Yards": 67,
+          "TOP": "4:12",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "21",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "51",
+    "MarkerUTC": 1677446561.0,
+    "MarkerLTC": 58961,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat1PtRush",
+    "Descriptor_": "30 J. Martin 1-pt conversion rush attempt NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 319.0,
+          "TimeRemStr": "5:19",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 2
+          },
+          "DriveNum": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 1,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "22",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "52",
+    "MarkerUTC": 1677445519.0,
+    "MarkerLTC": 57919,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "0 J. Borregales kicks from ORL 30. 6 F. Brown to ORL 45 for 35 yards PENALTY on 25 J. Harvey-Clemons, 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 54
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 894.0,
+          "TimeRemStr": "14:54",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 35,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 45
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "20649",
+          "Yards": 15,
+          "PenaltyResult": "ResultPenaltyOnkickoffpat",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "1",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "55",
+    "MarkerUTC": 1677446773.0,
+    "MarkerLTC": 59173,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "0 J. Borregales kicks from ORL 30. 6 F. Brown to SA 25 for 17 yards (23 N. Hosein)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20723",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 319.0,
+          "TimeRemStr": "5:19",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 17,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 25
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "23",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "57",
+    "MarkerUTC": 1677446883.0,
+    "MarkerLTC": 59283,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-SA 25 (5:04) PENALTY on 71 R. Joseph, 12 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 304.0,
+          "TimeRemStr": "5:04",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "3",
+          "PlayerId": "20862",
+          "Yards": 12,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Yards": -12,
+          "TOP": "0:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "24",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "59",
+    "MarkerUTC": 1677446933.0,
+    "MarkerLTC": 59333,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-22-SA 13 (4:34) 16 J. Coan pass incomplete to 13 D. Roberson",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 4,
+      "ClockSeconds": 34
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 274.0,
+          "TimeRemStr": "4:34",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Distance": 22,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Plays": 1,
+          "Yards": -12,
+          "TOP": "0:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "25",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "61",
+    "MarkerUTC": 1677446973.0,
+    "MarkerLTC": 59373,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-22-SA 13 (3:55) 16 J. Coan pass to 18 T. Vasher to SA 22 for 9 yards Fumbled by 18 T. Vasher,  Forced by 44 T. Plummer Recovered by 66 K. Levao",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 3,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21898",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 235.0,
+          "TimeRemStr": "3:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Distance": 22,
+          "DriveNum": 3,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "3",
+          "PlayerFumbled": "21898",
+          "TeamRecovered": "3",
+          "PlayerRecovered": "20948",
+          "PlayerForcedFumble": "21244"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Plays": 2,
+          "Yards": -3,
+          "TOP": "2:08",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "26",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "63",
+    "MarkerUTC": 1677447021.0,
+    "MarkerLTC": 59421,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-13-SA 22 (3:06) 16 J. Coan pass to 80 J. Tolliver to SA 25 for 3 yards (38 M. Murphy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 3,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21568",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21121",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 186.0,
+          "TimeRemStr": "3:06",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 22
+          },
+          "Distance": 13,
+          "DriveNum": 3,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Plays": 3,
+          "TOP": "2:22",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "27",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "65",
+    "MarkerUTC": 1677447063.0,
+    "MarkerLTC": 59463,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-10-SA 25 (2:27) 0 B. Wing punts 48 yards from SA 25 to ORL 27. 32 J. Rogers to ORL 41 for 14 yards (5 T. Adewusi)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 2,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20599",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21333",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 147.0,
+          "TimeRemStr": "2:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 48,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 14,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 41
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Plays": 3,
+          "TOP": "2:52",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "28",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "67",
+    "MarkerUTC": 1677447115.0,
+    "MarkerLTC": 59515,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 41 (2:24) 6 P. Lynch pass dropped by 18 A. Jamiel",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 2,
+      "ClockSeconds": 24
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20783",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 144.0,
+          "TimeRemStr": "2:24",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 4,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 1,
+          "TOP": "0:10",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "29",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "69",
+    "MarkerUTC": 1677447146.0,
+    "MarkerLTC": 59546,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-10-ORL 41 (1:57) 30 J. Martin rush to ORL 41 for 0 yards (28 J. Koerner, 33 D. Beesley)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 57
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20901",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21740",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 117.0,
+          "TimeRemStr": "1:57",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 4,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 2,
+          "TOP": "0:56",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "30",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "71",
+    "MarkerUTC": 1677447196.0,
+    "MarkerLTC": 59596,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-10-ORL 41 (1:16) 6 P. Lynch pass incomplete to 18 A. Jamiel",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 16
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20783",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 76.0,
+          "TimeRemStr": "1:16",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 4,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 3,
+          "TOP": "1:20",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "31",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "74",
+    "MarkerUTC": 1677447214.0,
+    "MarkerLTC": 59614,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-10-ORL 41 (0:59) 19 J. Townsend punts 49 yards from ORL 41 to SA 10. 13 D. Roberson to SA 28 for 18 yards (40 E. Thompson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockSeconds": 59
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20785",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21895",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 59.0,
+          "TimeRemStr": "0:59",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 4,
+          "Down": 4,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 49,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 18,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 28
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 3,
+          "TOP": "1:28",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "32",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "76",
+    "MarkerUTC": 1677447274.0,
+    "MarkerLTC": 59674,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 28 (0:42) 9 J. Patrick rush to SA 27 for -1 yards (13 M. Lee)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockSeconds": 42
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21196",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20942",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 42.0,
+          "TimeRemStr": "0:42",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 1,
+          "Yards": -1,
+          "TOP": "0:18",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "33",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "78",
+    "MarkerUTC": 1677447316.0,
+    "MarkerLTC": 59716,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-11-SA 27 (0:00) 16 J. Coan pass to 13 D. Roberson to SA 39 for 12 yards (20 B. Buchanan)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20221",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleQbHitter",
+        "OfficialId": "22001",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 27
+          },
+          "Distance": 11,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 12,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 2,
+          "Yards": 11,
+          "TOP": "0:46",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "34",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "81",
+    "MarkerUTC": 1677447538.0,
+    "MarkerLTC": 59938,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 39 (14:53) 9 J. Patrick rush to SA 37 for -2 yards (40 E. Thompson, 22 M. Elam)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 14,
+      "ClockSeconds": 53
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21196",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21550",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20444",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 893.0,
+          "TimeRemStr": "14:53",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 3,
+          "Yards": 9,
+          "TOP": "1:06",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "35",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "83",
+    "MarkerUTC": 1677447580.0,
+    "MarkerLTC": 59980,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-12-SA 37 (14:22) 16 J. Coan pass incomplete to 31 J. Hilliman",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 14,
+      "ClockSeconds": 22
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20697",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 862.0,
+          "TimeRemStr": "14:22",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 37
+          },
+          "Distance": 12,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 4,
+          "Yards": 9,
+          "TOP": "1:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "36",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "85",
+    "MarkerUTC": 1677447625.0,
+    "MarkerLTC": 60025,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-12-SA 37 (13:48) 16 J. Coan pass incomplete to 13 D. Roberson",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 13,
+      "ClockSeconds": 48
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 828.0,
+          "TimeRemStr": "13:48",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 37
+          },
+          "Distance": 12,
+          "DriveNum": 5,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "6",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 5,
+          "Yards": 9,
+          "TOP": "2:01",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "37",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "87",
+    "MarkerUTC": 1677447656.0,
+    "MarkerLTC": 60056,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-12-SA 37 (13:19) 0 B. Wing punts 38 yards from SA 37 to 32 J. Rogers, Fair Catch at ORL 25",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 13,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21333",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 799.0,
+          "TimeRemStr": "13:19",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 37
+          },
+          "Distance": 12,
+          "DriveNum": 5,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickFaircatch",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 38,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 25
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 5,
+          "Yards": 9,
+          "TOP": "2:40",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "38",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "89",
+    "MarkerUTC": 1677447717.0,
+    "MarkerLTC": 60117,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 25 (13:06) 28 K. Taylor rush to ORL 27 for 2 yards (45 D. Scott)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 13,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21528",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22844",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 786.0,
+          "TimeRemStr": "13:06",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Distance": 10,
+          "DriveNum": 6,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Plays": 1,
+          "Yards": 2,
+          "TOP": "0:15",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "39",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "91",
+    "MarkerUTC": 1677447786.0,
+    "MarkerLTC": 60186,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "2-8-ORL 27 (12:31) PENALTY on Orlando Guardians, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 12,
+      "ClockSeconds": 31
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 751.0,
+          "TimeRemStr": "12:31",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Distance": 8,
+          "DriveNum": 6,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "TM",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Plays": 1,
+          "Yards": -3,
+          "TOP": "0:52",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "40",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "95",
+    "MarkerUTC": 1677447945.0,
+    "MarkerLTC": 60345,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-9-ORL 26 (11:16) PENALTY on 77 A. Beecham, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 11,
+      "ClockSeconds": 16
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 676.0,
+          "TimeRemStr": "11:16",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 9,
+          "DriveNum": 6,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "22414",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Plays": 2,
+          "Yards": -4,
+          "TOP": "1:54",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "42",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "97",
+    "MarkerUTC": 1677447979.0,
+    "MarkerLTC": 60379,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-14-ORL 21 (10:56) 28 K. Taylor rush to ORL 26 for 5 yards (5 T. Adewusi)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 10,
+      "ClockSeconds": 56
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21528",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20008",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 656.0,
+          "TimeRemStr": "10:56",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 21
+          },
+          "Distance": 14,
+          "DriveNum": 6,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Plays": 3,
+          "Yards": 1,
+          "TOP": "2:23",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "43",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "98",
+    "MarkerUTC": 1677447809.0,
+    "MarkerLTC": 60209,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-13-ORL 22 (12:11) 6 P. Lynch pass to 15 J. Payton to ORL 26 for 4 yards (1 L. Barcoo)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 12,
+      "ClockSeconds": 11
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22354",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleQbHitter",
+        "OfficialId": "20567",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 731.0,
+          "TimeRemStr": "12:11",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 22
+          },
+          "Distance": 13,
+          "DriveNum": 6,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Plays": 3,
+          "Yards": 1,
+          "TOP": "2:28",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "41",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "100",
+    "MarkerUTC": 1677448010.0,
+    "MarkerLTC": 60410,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-9-ORL 26 (10:24) 19 J. Townsend punts 46 yards from ORL 26 to SA 28. 6 F. Brown to SA 34 for 6 yards (80 R. Becker, 56 S. Maponga)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 10,
+      "ClockSeconds": 24
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21568",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "56",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21895",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "20203",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 624.0,
+          "TimeRemStr": "10:24",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 9,
+          "DriveNum": 6,
+          "Down": 4,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 46,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 34
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Plays": 3,
+          "Yards": 1,
+          "TOP": "2:55",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "44",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "102",
+    "MarkerUTC": 1677448239.0,
+    "MarkerLTC": 60639,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SA 34 (10:13) 16 J. Coan pass incomplete to 6 F. Brown",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 10,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20203",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "20444",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 613.0,
+          "TimeRemStr": "10:13",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 7,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "4",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 1,
+          "TOP": "0:12",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "45",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "104",
+    "MarkerUTC": 1677448278.0,
+    "MarkerLTC": 60678,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "2-10-SA 34 (9:35) 16 J. Coan sacked at SA 26 for -8 yards (13 M. Lee)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 9,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "20942",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 575.0,
+          "TimeRemStr": "9:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 7,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 2,
+          "Yards": -8,
+          "TOP": "0:59",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "46",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "107",
+    "MarkerUTC": 1677448319.0,
+    "MarkerLTC": 60719,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-18-SA 26 (8:55) 9 J. Patrick rush to SA 30 for 4 yards Fumbled by 16 J. Coan,  Recovered by 9 J. Patrick (46 T. Scales)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 8,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21196",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22319",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 535.0,
+          "TimeRemStr": "8:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Distance": 18,
+          "DriveNum": 7,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 30
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "3",
+          "PlayerFumbled": "20301",
+          "TeamRecovered": "3",
+          "PlayerRecovered": "21196",
+          "PlayerForcedFumble": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 3,
+          "Yards": -4,
+          "TOP": "2:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "47",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "109",
+    "MarkerUTC": 1677448376.0,
+    "MarkerLTC": 60776,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-14-SA 30 (8:13) 0 B. Wing punts 53 yards from SA 30 to ORL 17. 32 J. Rogers to ORL 24 for 7 yards (40 R. Jeffers, 47 R. Sunahara)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 8,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21550",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "47",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21333",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 493.0,
+          "TimeRemStr": "8:13",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Distance": 14,
+          "DriveNum": 7,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 53,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 24
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 3,
+          "Yards": -4,
+          "TOP": "2:11",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "48",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "111",
+    "MarkerUTC": 1677448428.0,
+    "MarkerLTC": 60828,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 24 (8:02) 3 D. Francois rush to ORL 28 for 4 yards (33 D. Beesley, 25 D. Lewis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 8,
+      "ClockSeconds": 2
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20512",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21740",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22597",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 482.0,
+          "TimeRemStr": "8:02",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 1,
+          "Yards": 4,
+          "TOP": "0:38",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "49",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "113",
+    "MarkerUTC": 1677448460.0,
+    "MarkerLTC": 60860,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-6-ORL 28 (7:29) 28 K. Taylor rush to ORL 33 for 5 yards (45 D. Scott)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 7,
+      "ClockSeconds": 29
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21528",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22844",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 449.0,
+          "TimeRemStr": "7:29",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 28
+          },
+          "Distance": 6,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 2,
+          "Yards": 9,
+          "TOP": "0:57",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "50",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "115",
+    "MarkerUTC": 1677448481.0,
+    "MarkerLTC": 60881,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-1-ORL 33 (7:08) 28 K. Taylor rush to ORL 35 for 2 yards (45 D. Scott, 15 J. Williams)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 7,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21528",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22844",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21974",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 428.0,
+          "TimeRemStr": "7:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Distance": 1,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 3,
+          "Yards": 11,
+          "TOP": "1:17",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "51",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "118",
+    "MarkerUTC": 1677448514.0,
+    "MarkerLTC": 60914,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 35 (6:35) 3 D. Francois rush to ORL 37 for 2 yards (21 S. Williams, 1 L. Barcoo)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 6,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20512",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22819",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 395.0,
+          "TimeRemStr": "6:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 4,
+          "Yards": 13,
+          "TOP": "2:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "52",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "122",
+    "MarkerUTC": 1677448624.0,
+    "MarkerLTC": 61024,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 42 (5:22) 3 D. Francois pass incomplete to 18 A. Jamiel",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 5,
+      "ClockSeconds": 22
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20512",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20783",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 322.0,
+          "TimeRemStr": "5:22",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 42
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 5,
+          "Yards": 18,
+          "TOP": "2:57",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "54",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "124",
+    "MarkerUTC": 1677448652.0,
+    "MarkerLTC": 61052,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "2-10-ORL 42 (5:00) PENALTY on 11 C. Latimer, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 5
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 300.0,
+          "TimeRemStr": "5:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 42
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "20929",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 5,
+          "Yards": 13,
+          "TOP": "3:14",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "55",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "126",
+    "MarkerUTC": 1677448682.0,
+    "MarkerLTC": 61082,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-15-ORL 37 (4:39) 28 K. Taylor rush to ORL 48 for 11 yards (28 J. Koerner)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 4,
+      "ClockSeconds": 39
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21528",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20901",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 279.0,
+          "TimeRemStr": "4:39",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 37
+          },
+          "Distance": 15,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 6,
+          "Yards": 24,
+          "TOP": "3:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "56",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "128",
+    "MarkerUTC": 1677448725.0,
+    "MarkerLTC": 61125,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-4-ORL 48 (3:56) 3 D. Francois pass to 28 K. Taylor to ORL 45 for -3 yards (15 J. Williams, 25 D. Lewis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 3,
+      "ClockSeconds": 56
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20512",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21528",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21974",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22597",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleQbHitter",
+        "OfficialId": "21740",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 236.0,
+          "TimeRemStr": "3:56",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 48
+          },
+          "Distance": 4,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 7,
+          "Yards": 21,
+          "TOP": "4:37",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "57",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "130",
+    "MarkerUTC": 1677448754.0,
+    "MarkerLTC": 61154,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-7-ORL 45 (3:27) 19 J. Townsend punts 45 yards from ORL 45 to SA 10. 13 D. Roberson to SA 23 for 13 yards (10 D. Thomas)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 3,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20856",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21895",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 207.0,
+          "TimeRemStr": "3:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 7,
+          "DriveNum": 8,
+          "Down": 4,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 45,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 13,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 23
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 7,
+          "Yards": 21,
+          "TOP": "4:46",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "58",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "133",
+    "MarkerUTC": 1677448964.0,
+    "MarkerLTC": 61364,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 23 (3:20) 11 K. Ballage rush to SA 18 for -5 yards (88 C. Patton)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 3,
+      "ClockSeconds": 20
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22034",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22001",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 200.0,
+          "TimeRemStr": "3:20",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 1,
+          "Yards": -5,
+          "TOP": "0:30",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "59",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "135",
+    "MarkerUTC": 1677449005.0,
+    "MarkerLTC": 61405,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-15-SA 18 (2:39) 16 J. Coan pass to 88 A. Mack to SA 37 for 19 yards (38 M. Murphy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 2,
+      "ClockSeconds": 39
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21765",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21121",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 159.0,
+          "TimeRemStr": "2:39",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 18
+          },
+          "Distance": 15,
+          "DriveNum": 9,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 19,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 2,
+          "Yards": 14,
+          "TOP": "1:11",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "60",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "137",
+    "MarkerUTC": 1677449034.0,
+    "MarkerLTC": 61434,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SA 37 (2:13) 16 J. Coan pass to 80 J. Tolliver to SA 41 for 4 yards (13 M. Lee)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 2,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21568",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20942",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 133.0,
+          "TimeRemStr": "2:13",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 37
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 3,
+          "Yards": 18,
+          "TOP": "1:23",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "61",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "138",
+    "MarkerUTC": 1677448605.0,
+    "MarkerLTC": 61005,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "2-8-ORL 37 (5:33) PENALTY on 55 D. Downey, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 5,
+      "ClockSeconds": 33
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 333.0,
+          "TimeRemStr": "5:33",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 37
+          },
+          "Distance": 8,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "3",
+          "PlayerId": "20410",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 7,
+          "Yards": 21,
+          "TOP": "4:46",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "53",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "140",
+    "MarkerUTC": 1677449259.0,
+    "MarkerLTC": 61659,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-6-SA 41 (1:55) 16 J. Coan pass to 13 D. Roberson to ORL 49 for 10 yards (13 M. Lee)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20942",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 115.0,
+          "TimeRemStr": "1:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 41
+          },
+          "Distance": 6,
+          "DriveNum": 9,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 4,
+          "Yards": 28,
+          "TOP": "1:37",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "62",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "142",
+    "MarkerUTC": 1677449282.0,
+    "MarkerLTC": 61682,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 49 (1:44) 16 J. Coan pass dropped by 84 D. Yelder",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22022",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 104.0,
+          "TimeRemStr": "1:44",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 5,
+          "Yards": 28,
+          "TOP": "1:41",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "63",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "147",
+    "MarkerUTC": 1677449353.0,
+    "MarkerLTC": 61753,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "2-10-ORL 49 (1:40) PENALTY on 36 J. Jones, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 40
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 100.0,
+          "TimeRemStr": "1:40",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "20841",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 5,
+          "Yards": 33,
+          "TOP": "1:45",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "64",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "149",
+    "MarkerUTC": 1677449377.0,
+    "MarkerLTC": 61777,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-5-ORL 44 (1:35) 16 J. Coan pass incomplete to 13 D. Roberson",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 95.0,
+          "TimeRemStr": "1:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 5,
+          "DriveNum": 9,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "4",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 6,
+          "Yards": 33,
+          "TOP": "1:50",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "65",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "151",
+    "MarkerUTC": 1677449415.0,
+    "MarkerLTC": 61815,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by San Antonio Brahmas at 1:35",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 35
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 95.0,
+          "TimeRemStr": "1:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 5,
+          "DriveNum": 9,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 6,
+          "Yards": 33,
+          "TOP": "1:50",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "66",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "153",
+    "MarkerUTC": 1677449498.0,
+    "MarkerLTC": 61898,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-5-ORL 44 (1:26) PENALTY on 56 S. Maponga, 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 26
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 86.0,
+          "TimeRemStr": "1:26",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 5,
+          "DriveNum": 9,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "20992",
+          "Yards": 15,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 6,
+          "Yards": 48,
+          "TOP": "1:59",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "67",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "155",
+    "MarkerUTC": 1677449546.0,
+    "MarkerLTC": 61946,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 29 (1:19) 16 J. Coan pass to 13 D. Roberson to ORL 19 for 10 yards (13 M. Lee)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21311",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20942",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 79.0,
+          "TimeRemStr": "1:19",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 29
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 7,
+          "Yards": 58,
+          "TOP": "2:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "68",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "157",
+    "MarkerUTC": 1677449570.0,
+    "MarkerLTC": 61970,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 19 (1:06) 16 J. Coan pass incomplete to 88 A. Mack",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21765",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "20444",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 66.0,
+          "TimeRemStr": "1:06",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 19
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 8,
+          "Yards": 58,
+          "TOP": "2:19",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "69",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "159",
+    "MarkerUTC": 1677449635.0,
+    "MarkerLTC": 62035,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by San Antonio Brahmas at 1:06",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 6
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 66.0,
+          "TimeRemStr": "1:06",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 19
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 8,
+          "Yards": 58,
+          "TOP": "2:19",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "70",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "161",
+    "MarkerUTC": 1677449671.0,
+    "MarkerLTC": 62071,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-ORL 19 (1:01) 16 J. Coan pass to 88 A. Mack for 19 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21765",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 61.0,
+          "TimeRemStr": "1:01",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 19
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "6",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 19,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 23
+          },
+          "Plays": 9,
+          "Yards": 77,
+          "TOP": "2:24",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "71",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "163",
+    "MarkerUTC": 1677449697.0,
+    "MarkerLTC": 62097,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat1PtPass",
+    "Descriptor_": "16 J. Coan 1-pt conversion pass to 18 T. Vasher GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21898",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 12,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 61.0,
+          "TimeRemStr": "1:01",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 2
+          },
+          "DriveNum": 9,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeConv",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 1,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 12,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "72",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "165",
+    "MarkerUTC": 1677449800.0,
+    "MarkerLTC": 62200,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "23 P. Romo kicks from SA 30. 32 J. Rogers to ORL 31 for 21 yards (28 J. Koerner)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20901",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20723",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "32",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 61.0,
+          "TimeRemStr": "1:01",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 10,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 21,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 31
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "73",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "167",
+    "MarkerUTC": 1677449852.0,
+    "MarkerLTC": 62252,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 31 (0:49) 6 P. Lynch pass to 11 C. Latimer to ORL 41 for 10 yards (5 T. Adewusi)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 49
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20008",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 49.0,
+          "TimeRemStr": "0:49",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 1,
+          "Yards": 10,
+          "TOP": "0:12",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "74",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "169",
+    "MarkerUTC": 1677449885.0,
+    "MarkerLTC": 62285,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 41 (0:44) 30 J. Martin rush to ORL 44 for 3 yards (90 M. Gotel)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20567",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 44.0,
+          "TimeRemStr": "0:44",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 2,
+          "Yards": 13,
+          "TOP": "0:29",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "75",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "171",
+    "MarkerUTC": 1677449908.0,
+    "MarkerLTC": 62308,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-7-ORL 44 (0:23) 6 P. Lynch pass dropped by 11 C. Latimer",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 23
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 23.0,
+          "TimeRemStr": "0:23",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 7,
+          "DriveNum": 10,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 3,
+          "Yards": 13,
+          "TOP": "0:38",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "76",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "173",
+    "MarkerUTC": 1677449943.0,
+    "MarkerLTC": 62343,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-7-ORL 44 (0:16) 6 P. Lynch rush to SA 47 for 9 yards (8 K. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 16
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22884",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 16.0,
+          "TimeRemStr": "0:16",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 7,
+          "DriveNum": 10,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 4,
+          "Yards": 22,
+          "TOP": "0:45",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "77",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "175",
+    "MarkerUTC": 1677449979.0,
+    "MarkerLTC": 62379,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by Orlando Guardians at 0:16",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 16
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 16.0,
+          "TimeRemStr": "0:16",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "4",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 4,
+          "Yards": 22,
+          "TOP": "0:45",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "78",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "177",
+    "MarkerUTC": 1677450023.0,
+    "MarkerLTC": 62423,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SA 47 (0:10) 6 P. Lynch pass to 15 J. Payton to SA 36 for 11 yards (1 L. Barcoo)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22354",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 10.0,
+          "TimeRemStr": "0:10",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 5,
+          "Yards": 33,
+          "TOP": "0:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "79",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "179",
+    "MarkerUTC": 1677450040.0,
+    "MarkerLTC": 62440,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by Orlando Guardians at 0:10",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 10
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 10.0,
+          "TimeRemStr": "0:10",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "4",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 5,
+          "Yards": 33,
+          "TOP": "0:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "80",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "184",
+    "MarkerUTC": 1677450090.0,
+    "MarkerLTC": 62490,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 36 (0:06) 30 J. Martin rush to SA 38 for -2 yards (5 T. Adewusi, 15 J. Williams)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20008",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21974",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 6.0,
+          "TimeRemStr": "0:06",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 6,
+          "Yards": 32,
+          "TOP": "0:55",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "81",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "186",
+    "MarkerUTC": 1677450106.0,
+    "MarkerLTC": 62506,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by Orlando Guardians at 0:06",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 6
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 6.0,
+          "TimeRemStr": "0:06",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Distance": 12,
+          "DriveNum": 10,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "4",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 6,
+          "Yards": 31,
+          "TOP": "1:01",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "82",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "188",
+    "MarkerUTC": 1677450153.0,
+    "MarkerLTC": 62553,
+    "MajorType": "Event",
+    "MinorType": "EventFootballFg",
+    "Descriptor_": "2-12-SA 38 (0:00) 0 J. Borregales 56 yard field goal is NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "21741",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Distance": 12,
+          "DriveNum": 10,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickMissed",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 56,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 7,
+          "Yards": 31,
+          "TOP": "1:01",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "83",
+    "OfficialCode": "2302007-SA-at-ORL"
+  },
+  {
+    "MarkerId": "190",
+    "MarkerUTC": 1677450210.0,
+    "MarkerLTC": 62610,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 38 (0:00) 16 J. Coan rush to SA 37 for -1 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Distance": 10,
+          "DriveNum": 11,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 1,
+          "Yards": -1,
+          "TOP": "0:00",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_SA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "84",
+    "OfficialCode": "2302007-SA-at-ORL"
+  }
+]

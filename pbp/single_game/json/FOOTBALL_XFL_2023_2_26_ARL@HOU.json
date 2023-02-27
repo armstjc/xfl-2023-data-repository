@@ -4660,115 +4660,6 @@
     "OfficialCode": "2302008-ARL-at-HOU"
   },
   {
-    "MarkerId": "143",
-    "MarkerUTC": 1677459727.0,
-    "MarkerLTC": 72127,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-6-ARL 35 (5:42) 0 M. King punts 53 yards from ARL 35 to HOU 12. 4 W. Likely to HOU 40 for 24 yards Fumbled by 4 W. Likely,  Forced by 11 L. Winningham Recovered by 49 A. Ortiz",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 5,
-      "ClockSeconds": 42
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "20891",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "22601",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 6,
-          "HomeScore": 11,
-          "Period": 2,
-          "TimeRemSecTotal": 342.0,
-          "TimeRemStr": "5:42",
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Distance": 6,
-          "DriveNum": 10,
-          "Down": 4,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 53,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": 24,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 40
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "2",
-          "PlayerFumbled": "22601",
-          "TeamRecovered": "1",
-          "PlayerRecovered": "22000",
-          "PlayerForcedFumble": "21707"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 31
-          },
-          "Plays": 3,
-          "Yards": 4,
-          "TOP": "1:49",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
-    "SituationCode": "",
-    "VisitorScore": 6,
-    "HomeScore": 11,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "59",
-    "OfficialCode": "2302008-ARL-at-HOU"
-  },
-  {
     "MarkerId": "145",
     "MarkerUTC": 1677459843.0,
     "MarkerLTC": 72243,
@@ -5969,111 +5860,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "70",
-    "OfficialCode": "2302008-ARL-at-HOU"
-  },
-  {
-    "MarkerId": "173",
-    "MarkerUTC": 1677460471.0,
-    "MarkerLTC": 72871,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-ARL 15 (1:29) 12 B. Silvers pass to 1 D. Burnett to ARL 11 for 4 yards Fumbled by 1 D. Burnett,  Forced by 28 J. Hawkins Recovered by 28 J. Hawkins",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 1,
-      "ClockSeconds": 29
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21984",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20229",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 14,
-          "HomeScore": 11,
-          "Period": 2,
-          "TimeRemSecTotal": 89.0,
-          "TimeRemStr": "1:29",
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 15
-          },
-          "Distance": 10,
-          "DriveNum": 12,
-          "Down": 1,
-          "PossTeam": "2",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 4,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 35
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "2",
-          "PlayerFumbled": "20229",
-          "TeamRecovered": "1",
-          "PlayerRecovered": "20654",
-          "PlayerForcedFumble": "20654"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 33
-          },
-          "Plays": 6,
-          "Yards": 32,
-          "TOP": "2:23",
-          "Result": "FUMBLE"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
-    "SituationCode": "",
-    "VisitorScore": 14,
-    "HomeScore": 11,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "71",
     "OfficialCode": "2302008-ARL-at-HOU"
   },
   {
@@ -12741,113 +12527,6 @@
     "OfficialCode": "2302008-ARL-at-HOU"
   },
   {
-    "MarkerId": "348",
-    "MarkerUTC": 1677458744.0,
-    "MarkerLTC": 71144,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-8-ARL 49 (12:27) 0 M. King punts 40 yards from ARL 49 to HOU 11. 4 W. Likely to HOU 23 for 10 yards Fumbled by 4 W. Likely,  Forced by 11 L. Winningham Recovered by 80 S. Cannella",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 12,
-      "ClockSeconds": 27
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "20891",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "22601",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 13,
-          "Period": 2,
-          "TimeRemSecTotal": 747.0,
-          "TimeRemStr": "12:27",
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 49
-          },
-          "Distance": 8,
-          "DriveNum": 7,
-          "Down": 4,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 40,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": 10,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 23
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "2",
-          "PlayerFumbled": "22601",
-          "TeamRecovered": "1",
-          "PlayerRecovered": "22030",
-          "PlayerForcedFumble": "21707"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 6
-          },
-          "Plays": 8,
-          "Yards": 43,
-          "TOP": "4:35",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
-    "SituationCode": "",
-    "HomeScore": 13,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "43",
-    "OfficialCode": "2302008-ARL-at-HOU"
-  },
-  {
     "MarkerId": "351",
     "MarkerUTC": 1677465588.0,
     "MarkerLTC": 77988,
@@ -13329,7 +13008,221 @@
     "OfficialCode": "2302008-ARL-at-HOU"
   },
   {
-    "MarkerId": "368",
+    "MarkerId": "369",
+    "MarkerUTC": 1677459727.0,
+    "MarkerLTC": 72127,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-6-ARL 35 (5:42) 0 M. King punts 53 yards from ARL 35 to HOU 12. 4 W. Likely to HOU 40 for 24 yards Fumbled by 4 W. Likely,  Forced by 11 L. Winningham Recovered by 49 A. Ortiz",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 5,
+      "ClockSeconds": 42
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "20891",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "22601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 11,
+          "Period": 2,
+          "TimeRemSecTotal": 342.0,
+          "TimeRemStr": "5:42",
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 6,
+          "DriveNum": 10,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 53,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 24,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 40
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "2",
+          "PlayerFumbled": "22601",
+          "TeamRecovered": "1",
+          "PlayerRecovered": "22000",
+          "PlayerForcedFumble": "21707"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 31
+          },
+          "Plays": 3,
+          "Yards": 4,
+          "TOP": "1:49",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 11,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "59",
+    "OfficialCode": "2302008-ARL-at-HOU"
+  },
+  {
+    "MarkerId": "370",
+    "MarkerUTC": 1677460471.0,
+    "MarkerLTC": 72871,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ARL 15 (1:29) 12 B. Silvers pass to 1 D. Burnett to ARL 11 for 4 yards Fumbled by 1 D. Burnett,  Forced by 28 J. Hawkins Recovered by 28 J. Hawkins",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 29
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20229",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 14,
+          "HomeScore": 11,
+          "Period": 2,
+          "TimeRemSecTotal": 89.0,
+          "TimeRemStr": "1:29",
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Distance": 10,
+          "DriveNum": 12,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 35
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "2",
+          "PlayerFumbled": "20229",
+          "TeamRecovered": "1",
+          "PlayerRecovered": "20654",
+          "PlayerForcedFumble": "20654"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Plays": 6,
+          "Yards": 32,
+          "TOP": "2:23",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
+    "SituationCode": "",
+    "VisitorScore": 14,
+    "HomeScore": 11,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "71",
+    "OfficialCode": "2302008-ARL-at-HOU"
+  },
+  {
+    "MarkerId": "371",
     "MarkerUTC": 1677465907.0,
     "MarkerLTC": 78307,
     "MajorType": "Event",
@@ -13392,8 +13285,161 @@
           },
           "Plays": 8,
           "Yards": 25,
-          "TOP": "2:57",
+          "TOP": "3:10",
           "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
+    "SituationCode": "",
+    "VisitorScore": 14,
+    "HomeScore": 23,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "153",
+    "OfficialCode": "2302008-ARL-at-HOU"
+  },
+  {
+    "MarkerId": "372",
+    "MarkerUTC": 1677458744.0,
+    "MarkerLTC": 71144,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-8-ARL 49 (12:27) 0 M. King punts 40 yards from ARL 49 to HOU 11. 4 W. Likely to HOU 23 for 10 yards Fumbled by 4 W. Likely,  Forced by 11 L. Winningham Recovered by 80 S. Cannella",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 12,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "20891",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "22601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 13,
+          "Period": 2,
+          "TimeRemSecTotal": 747.0,
+          "TimeRemStr": "12:27",
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Distance": 8,
+          "DriveNum": 7,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 40,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 23
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "2",
+          "PlayerFumbled": "22601",
+          "TeamRecovered": "1",
+          "PlayerRecovered": "22030",
+          "PlayerForcedFumble": "21707"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 6
+          },
+          "Plays": 8,
+          "Yards": 43,
+          "TOP": "4:35",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
+    "SituationCode": "",
+    "HomeScore": 13,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "43",
+    "OfficialCode": "2302008-ARL-at-HOU"
+  },
+  {
+    "MarkerId": "373",
+    "MarkerUTC": 1677466954.9119425,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 14,
+          "HomeScore": 23,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Distance": 16,
+          "DriveNum": 25,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
         },
         "SourceId": "QBStat"
       }
@@ -13403,9 +13449,52 @@
     "SituationCode": "",
     "VisitorScore": 14,
     "HomeScore": 23,
-    "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "153",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302008-ARL-at-HOU"
+  },
+  {
+    "MarkerId": "374",
+    "MarkerUTC": 1677466982.4314296,
+    "MajorType": "Event",
+    "MinorType": "EventOfficial",
+    "Descriptor_": "Game Official Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 14,
+          "HomeScore": 23,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Distance": 16,
+          "DriveNum": 25,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_2_26_ARL@HOU",
+    "SituationCode": "",
+    "VisitorScore": 14,
+    "HomeScore": 23,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10025",
     "OfficialCode": "2302008-ARL-at-HOU"
   }
 ]

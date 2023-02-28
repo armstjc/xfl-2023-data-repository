@@ -90,7 +90,7 @@ def combine_weekly_rosters():
 
 def main():
     season = 2023
-    week = 2
+    week = 3
     get_xfl_rosters(season,week,True)
 
     combine_weekly_rosters()

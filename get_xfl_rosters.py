@@ -1,9 +1,12 @@
-import pandas as pd
+import glob
 import json
 from urllib.request import urlopen
-from get_xfl_api_token import get_xfl_api_token
+
+import pandas as pd
 from tqdm import tqdm
-import glob
+
+from get_xfl_api_token import get_xfl_api_token
+
 
 def get_xfl_rosters(season=2023,week=1,save=False):
     xfl_api_token = get_xfl_api_token()

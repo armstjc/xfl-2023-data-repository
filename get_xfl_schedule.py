@@ -1,8 +1,11 @@
-import pandas as pd
 import json
 from urllib.request import urlopen
-from get_xfl_api_token import get_xfl_api_token
+
+import pandas as pd
 from tqdm import tqdm
+
+from get_xfl_api_token import get_xfl_api_token
+
 
 def get_xfl_schedule(season=2023,save=False):
     xfl_api_token = get_xfl_api_token()

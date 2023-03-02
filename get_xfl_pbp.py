@@ -1,10 +1,13 @@
-import pandas as pd
-import json
 import glob
+import json
 from datetime import datetime
 from urllib.request import urlopen
+
+import pandas as pd
 from tqdm import tqdm
+
 from get_xfl_api_token import get_xfl_api_token
+
 
 def combine_pbp_files():
     main_df = pd.DataFrame()

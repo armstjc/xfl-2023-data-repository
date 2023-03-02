@@ -1,11 +1,15 @@
-import pandas as pd
-import json
-from urllib.request import urlopen
-from tqdm import tqdm
-from get_xfl_api_token import get_xfl_api_token
-import warnings
 import glob
+import json
 #import time
+import warnings
+from urllib.request import urlopen
+
+import pandas as pd
+from tqdm import tqdm
+
+from get_xfl_api_token import get_xfl_api_token
+
+
 
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 

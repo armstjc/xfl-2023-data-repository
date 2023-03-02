@@ -1,5 +1,6 @@
-import os
 import json
+import os
+
 
 def get_xfl_api_token(key_path=""):
     try:

@@ -24,7 +24,7 @@ def get_xfl_game_participation(game_id:str,save=False):
         
         official_id = player['OfficialId']
         #print(f"Player #{official_id}")
-        row_df = pd.DataFrame({'Season':xfl_season,'OfficialID':official_id},index=[0])
+        row_df = pd.DataFrame({'Season':xfl_season,'OfficialID':official_id,'game_id':game_id},index=[0])
         row_df['VisOrHome'] = player['VisOrHome']
         row_df['JerseyNum'] = player['JerseyNum']
         row_df['FirstName'] = player['FirstName']

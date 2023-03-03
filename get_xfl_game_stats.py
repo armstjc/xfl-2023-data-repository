@@ -771,11 +771,16 @@ def get_xfl_player_box(game_id:str,save=False):
 
         main_df = pd.concat([main_df,row_df],ignore_index=True)
 
+    participation_df = pd.read_parquet(f'player_info/participation_data/parquet/{game_id}.parquet')
+    participation_df = participation_df.filter(items=['Season','game_id','OfficialID','VisOrHome','JerseyNum','FirstName','LastName','LastNameSuffix','Position','Scratch'])
+
+    finished_df = pd.merge(participation_df,main_df,left_on=['Season','game_id','OfficialID'],right_on=['Season','game_id','OfficialID'],how='left')
+
     #main_df = pd.DataFrame(data=json_data)
     if save == True:
         
-        main_df.to_csv(f'game_stats/player/raw/csv/{game_id}.csv',index=False)
-        main_df.to_parquet(f'game_stats/player/raw/parquet/{game_id}.parquet',index=False)
+        finished_df.to_csv(f'game_stats/player/raw/csv/{game_id}.csv',index=False)
+        finished_df.to_parquet(f'game_stats/player/raw/parquet/{game_id}.parquet',index=False)
 
         with open(f"game_stats/player/raw/json/{game_id}.json", "w+") as f:
             f.write(json.dumps(json_data,indent=2))

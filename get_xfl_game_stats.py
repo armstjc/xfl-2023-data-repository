@@ -9,8 +9,6 @@ from tqdm import tqdm
 
 from get_xfl_api_token import get_xfl_api_token
 
-
-
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 
 def get_xfl_player_box(game_id:str,save=False):
@@ -35,15 +33,16 @@ def get_xfl_player_box(game_id:str,save=False):
         ##############################################################################################################
         ## Game Participation
         ##############################################################################################################
-        ## G
-        
-        row_df['G'] = 1
+        ## No longer needed.
 
-        ## GS
-        try:
-            row_df['GamesStarted'] = player['GamesStarted']
-        except:
-            row_df['GamesStarted'] = 0
+        ## G        
+        # row_df['G'] = 1
+
+        # ## GS
+        # try:
+        #     row_df['GamesStarted'] = player['GamesStarted']
+        # except:
+        #     row_df['GamesStarted'] = 0
 
         ##############################################################################################################
         ## Passing
@@ -772,9 +771,11 @@ def get_xfl_player_box(game_id:str,save=False):
         main_df = pd.concat([main_df,row_df],ignore_index=True)
 
     participation_df = pd.read_parquet(f'player_info/participation_data/parquet/{game_id}.parquet')
-    participation_df = participation_df.filter(items=['Season','game_id','OfficialID','VisOrHome','JerseyNum','FirstName','LastName','LastNameSuffix','Position','Scratch'])
+    participation_df = participation_df.filter(items=['Season','game_id','OfficialID','VisOrHome','JerseyNum','FirstName','LastName','LastNameSuffix','Position','Participated','IsStarting','Scratch'])
 
     finished_df = pd.merge(participation_df,main_df,left_on=['Season','game_id','OfficialID'],right_on=['Season','game_id','OfficialID'],how='left')
+
+    del participation_df,main_df
 
     #main_df = pd.DataFrame(data=json_data)
     if save == True:
@@ -786,7 +787,7 @@ def get_xfl_player_box(game_id:str,save=False):
             f.write(json.dumps(json_data,indent=2))
 
 
-    return main_df
+    return finished_df
 
 
 def get_xfl_team_box(game_id:str,save=False):

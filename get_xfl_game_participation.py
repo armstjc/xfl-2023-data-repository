@@ -81,6 +81,8 @@ def get_xfl_game_participation(game_id:str,save=False):
             row_df['Participated'] = None
         main_df = pd.concat([main_df,row_df],ignore_index=True)
 
+    ##main_df = main_df.replace({False:0,True:1},inplace=True)
+    main_df.replace({False:0,True:1},inplace=True)
     if save == True:
         
         main_df.to_csv(f'player_info/participation_data/csv/{game_id}.csv',index=False)

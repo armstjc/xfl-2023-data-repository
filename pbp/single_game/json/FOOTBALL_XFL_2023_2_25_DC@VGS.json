@@ -643,103 +643,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "20",
-    "MarkerUTC": 1677370145.0,
-    "MarkerLTC": 68945,
-    "MajorType": "Event",
-    "MinorType": "EventFootballSack",
-    "Descriptor_": "3-7-DC 15 (12:14) 10 J. Ta'amu sacked at DC 15 for 0 yards Fumbled by 10 J. Ta'amu,  Recovered by 0 P. Taumoepenu (23 M. Roberts)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 12,
-      "ClockSeconds": 14
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleSacker1",
-        "OfficialId": "21960",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 734.0,
-          "TimeRemStr": "12:14",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 15
-          },
-          "Distance": 7,
-          "DriveNum": 2,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 1
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "8",
-          "PlayerFumbled": "22296",
-          "TeamRecovered": "7",
-          "PlayerRecovered": "21968",
-          "PlayerForcedFumble": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 15
-          },
-          "Plays": 3,
-          "Yards": 84,
-          "TOP": "1:23",
-          "Result": "FUMBLE"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "8",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "22",
     "MarkerUTC": 1677370285.0,
     "MarkerLTC": 69085,
@@ -909,264 +812,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "38",
-    "MarkerUTC": 1677370500.0,
-    "MarkerLTC": 69300,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-11-DC 34 (11:26) 10 J. Ta'amu pass to 1 C. Blair to DC 45 for 11 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 11,
-      "ClockSeconds": 26
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20133",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 1,
-          "TimeRemSecTotal": 686.0,
-          "TimeRemStr": "11:26",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 34
-          },
-          "Distance": 11,
-          "DriveNum": 5,
-          "Down": 2,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 11,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Plays": 2,
-          "Yards": 10,
-          "TOP": "2:57",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "13",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "42",
-    "MarkerUTC": 1677370690.0,
-    "MarkerLTC": 69490,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-10-DC 45 (8:58) 10 J. Ta'amu pass incomplete",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 8,
-      "ClockSeconds": 58
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 1,
-          "TimeRemSecTotal": 538.0,
-          "TimeRemStr": "8:58",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Distance": 10,
-          "DriveNum": 5,
-          "Down": 2,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Plays": 4,
-          "Yards": 10,
-          "TOP": "3:12",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "15",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "44",
-    "MarkerUTC": 1677370680.0,
-    "MarkerLTC": 69480,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-DC 45 (9:04) 10 J. Ta'amu rush to DC 46 for 1 yard (90 J. Martin)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 9,
-      "ClockSeconds": 4
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21948",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 1,
-          "TimeRemSecTotal": 544.0,
-          "TimeRemStr": "9:04",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Distance": 10,
-          "DriveNum": 5,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "4",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Plays": 4,
-          "Yards": 10,
-          "TOP": "3:12",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "14",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "46",
     "MarkerUTC": 1677370728.0,
     "MarkerLTC": 69528,
@@ -1250,100 +895,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "16",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "49",
-    "MarkerUTC": 1677370739.0,
-    "MarkerLTC": 69539,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-10-DC 45 (8:58) 19 D. Whelan punts 38 yards from DC 45 to 10 M. Sexton, Fair Catch at VGS 18",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 8,
-      "ClockSeconds": 58
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "21835",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "21882",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 1,
-          "TimeRemSecTotal": 538.0,
-          "TimeRemStr": "8:58",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Distance": 10,
-          "DriveNum": 5,
-          "Down": 4,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickFaircatch",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 38,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 18
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Plays": 5,
-          "Yards": 10,
-          "TOP": "3:12",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "17",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -1809,183 +1360,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "22",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "62",
-    "MarkerUTC": 1677371092.0,
-    "MarkerLTC": 69892,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-10-DC 35 (6:47) 10 J. Ta'amu pass to 82 E. Wolf to DC 40 for 5 yards (22 A. Sparks)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 6,
-      "ClockSeconds": 47
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21711",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21462",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 1,
-          "TimeRemSecTotal": 407.0,
-          "TimeRemStr": "6:47",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Distance": 10,
-          "DriveNum": 7,
-          "Down": 2,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 5,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Plays": 2,
-          "Yards": 5,
-          "TOP": "0:43",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "23",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "65",
-    "MarkerUTC": 1677371121.0,
-    "MarkerLTC": 69921,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "3-5-DC 40 (6:18) 10 J. Ta'amu rush to VGS 38 for 22 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 6,
-      "ClockSeconds": 18
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 1,
-          "TimeRemSecTotal": 378.0,
-          "TimeRemStr": "6:18",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 40
-          },
-          "Distance": 5,
-          "DriveNum": 7,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 22,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 35
-          },
-          "Plays": 3,
-          "Yards": 27,
-          "TOP": "1:09",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "24",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -2740,103 +2114,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "33",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "88",
-    "MarkerUTC": 1677371777.0,
-    "MarkerLTC": 70577,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-6-VGS 12 (1:59) 2 B. Hundley pass to 14 C. Sweeting to VGS 20 for 8 yards (27 F. Gardner)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 1,
-      "ClockSeconds": 59
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21507",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21935",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 1,
-          "TimeRemSecTotal": 119.0,
-          "TimeRemStr": "1:59",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 12
-          },
-          "Distance": 6,
-          "DriveNum": 8,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 8,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 8
-          },
-          "Plays": 3,
-          "Yards": 12,
-          "TOP": "1:50",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "34",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -3761,92 +3038,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "44",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "112",
-    "MarkerUTC": 1677372616.0,
-    "MarkerLTC": 71416,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-VGS 29 (12:21) 15 R. Smith rush to VGS 30 for 1 yard (57 A. Hines)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 12,
-      "ClockSeconds": 21
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21447",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20699",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 741.0,
-          "TimeRemStr": "12:21",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 29
-          },
-          "Distance": 10,
-          "DriveNum": 10,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 29
-          },
-          "Plays": 1,
-          "Yards": 1,
-          "TOP": "0:15",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "45",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -4856,98 +4047,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "142",
-    "MarkerUTC": 1677373091.0,
-    "MarkerLTC": 71891,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-VGS 20 (6:22) 10 J. Ta'amu rush to VGS 10 for 10 yards (25 M. Evans, 0 P. Taumoepenu)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 6,
-      "ClockSeconds": 22
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20461",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "21968",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 382.0,
-          "TimeRemStr": "6:22",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 20
-          },
-          "Distance": 10,
-          "DriveNum": 11,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 10,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 34
-          },
-          "Plays": 9,
-          "Yards": 56,
-          "TOP": "4:26",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "57",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "145",
     "MarkerUTC": 1677373119.0,
     "MarkerLTC": 71919,
@@ -5215,92 +4314,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "153",
-    "MarkerUTC": 1677373468.0,
-    "MarkerLTC": 72268,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-VGS 1 (5:02) 12 L. Perez pass incomplete to 86 B. Dillon",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 5,
-      "ClockSeconds": 2
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21207",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20392",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 302.0,
-          "TimeRemStr": "5:02",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 1
-          },
-          "Distance": 10,
-          "DriveNum": 12,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 1
-          },
-          "Plays": 1,
-          "TOP": "0:39",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "61",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "158",
     "MarkerUTC": 1677373524.0,
     "MarkerLTC": 72324,
@@ -5384,93 +4397,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "63",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "162",
-    "MarkerUTC": 1677373498.0,
-    "MarkerLTC": 72298,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-10-VGS 1 (4:32) 15 R. Smith rush to VGS 28 for 27 yards (39 S. Ramirez)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 4,
-      "ClockSeconds": 32
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21447",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21278",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 272.0,
-          "TimeRemStr": "4:32",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 1
-          },
-          "Distance": 10,
-          "DriveNum": 12,
-          "Down": 2,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 27,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 1
-          },
-          "Plays": 4,
-          "Yards": 25,
-          "TOP": "2:14",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "62",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -5567,101 +4493,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "176",
-    "MarkerUTC": 1677373920.0,
-    "MarkerLTC": 72720,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-VGS 36 (1:12) 12 L. Perez pass to 13 J. Badet to VGS 36 for 0 yards (39 S. Ramirez)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 1,
-      "ClockSeconds": 12
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21207",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20072",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21278",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 72.0,
-          "TimeRemStr": "1:12",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 36
-          },
-          "Distance": 10,
-          "DriveNum": 13,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 36
-          },
-          "Plays": 1,
-          "TOP": "4:23",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "68",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "178",
     "MarkerUTC": 1677373956.0,
     "MarkerLTC": 72756,
@@ -5744,80 +4575,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "69",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "180",
-    "MarkerUTC": 1677373972.0,
-    "MarkerLTC": 72772,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPenalty",
-    "Descriptor_": "3-6-VGS 40 (0:52) PENALTY on Vegas Vipers, 5 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockSeconds": 52
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 52.0,
-          "TimeRemStr": "0:52",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 40
-          },
-          "Distance": 6,
-          "DriveNum": 13,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "7",
-          "PlayerId": "TM",
-          "Yards": 5,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 36
-          },
-          "Plays": 2,
-          "Yards": -1,
-          "TOP": "4:23",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "70",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -6080,92 +4837,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "73",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "194",
-    "MarkerUTC": 1677374190.0,
-    "MarkerLTC": 72990,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-DC 26 (0:34) 10 J. Ta'amu rush to DC 35 for 9 yards (16 T. Koontz)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockSeconds": 34
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20903",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 34.0,
-          "TimeRemStr": "0:34",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 26
-          },
-          "Distance": 10,
-          "DriveNum": 14,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 9,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 26
-          },
-          "Plays": 2,
-          "Yards": 11,
-          "TOP": "0:17",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "74",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -6525,81 +5196,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "209",
-    "MarkerUTC": 1677374359.0,
-    "MarkerLTC": 73159,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPenalty",
-    "Descriptor_": "1-10-VGS 49 (0:11) PENALTY on D.C. Defenders, 5 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockSeconds": 11
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 11.0,
-          "TimeRemStr": "0:11",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 49
-          },
-          "Distance": 10,
-          "DriveNum": 14,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "8",
-          "PlayerId": "TM",
-          "Yards": 5,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 26
-          },
-          "Plays": 5,
-          "Yards": -5,
-          "TOP": "0:43",
-          "Result": "FUMBLE"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "78",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "210",
     "MarkerUTC": 1677374392.0,
     "MarkerLTC": 73192,
@@ -6699,89 +5295,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "212",
-    "MarkerUTC": 1677375490.0,
-    "MarkerLTC": 74290,
-    "MajorType": "Event",
-    "MinorType": "EventFootballKickoff",
-    "Descriptor_": "47 B. Giffen kicks from VGS 30. 12 J. Ezzard to DC 29 for 8 yards (11 P. Dawson)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 15
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20374",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKicker",
-        "OfficialId": "47",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKickreturner",
-        "OfficialId": "21207",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 900.0,
-          "TimeRemStr": "15:00",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 30
-          },
-          "DriveNum": 17,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballKickRetYards": 8,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 29
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "81",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "216",
     "MarkerUTC": 1677375608.0,
     "MarkerLTC": 74408,
@@ -6865,361 +5378,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "83",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "223",
-    "MarkerUTC": 1677375725.0,
-    "MarkerLTC": 74525,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-5-DC 45 (13:12) 10 J. Ta'amu pass to 11 L. Jackson to VGS 47 for 8 yards (22 A. Sparks)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 13,
-      "ClockSeconds": 12
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20766",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21462",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 792.0,
-          "TimeRemStr": "13:12",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Distance": 5,
-          "DriveNum": 17,
-          "Down": 2,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 8,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 29
-          },
-          "Plays": 4,
-          "Yards": 17,
-          "TOP": "5:09",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "84",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "225",
-    "MarkerUTC": 1677375755.0,
-    "MarkerLTC": 74555,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-VGS 44 (12:48) 23 R. Armstead rush to VGS 42 for 2 yards (28 C. Avery)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 12,
-      "ClockSeconds": 48
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20053",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20066",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 768.0,
-          "TimeRemStr": "12:48",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 44
-          },
-          "Distance": 10,
-          "DriveNum": 17,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 2,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 29
-          },
-          "Plays": 4,
-          "Yards": 29,
-          "TOP": "5:13",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "85",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "228",
-    "MarkerUTC": 1677376123.0,
-    "MarkerLTC": 74923,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-8-VGS 42 (9:47) 23 R. Armstead rush to VGS 41 for 1 yard",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 9,
-      "ClockSeconds": 47
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20053",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 587.0,
-          "TimeRemStr": "9:47",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 42
-          },
-          "Distance": 8,
-          "DriveNum": 17,
-          "Down": 2,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 29
-          },
-          "Plays": 5,
-          "Yards": 30,
-          "TOP": "5:19",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "86",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "230",
-    "MarkerUTC": 1677376169.0,
-    "MarkerLTC": 74969,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-7-VGS 41 (9:41) 10 J. Ta'amu pass to 82 E. Wolf to VGS 38 for 3 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 9,
-      "ClockSeconds": 41
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21711",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 581.0,
-          "TimeRemStr": "9:41",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 41
-          },
-          "Distance": 7,
-          "DriveNum": 17,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 3,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 29
-          },
-          "Plays": 6,
-          "Yards": 33,
-          "TOP": "5:19",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "87",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -7890,94 +6048,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "250",
-    "MarkerUTC": 1677376504.0,
-    "MarkerLTC": 75304,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-8-DC 43 (8:39) 2 B. Hundley rush to DC 44 for -1 yards (95 J. Owens)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 8,
-      "ClockSeconds": 39
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21174",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 519.0,
-          "TimeRemStr": "8:39",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 43
-          },
-          "Distance": 8,
-          "DriveNum": 19,
-          "Down": 2,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Plays": 2,
-          "Yards": 1,
-          "TOP": "1:16",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "97",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "252",
     "MarkerUTC": 1677376549.0,
     "MarkerLTC": 75349,
@@ -8046,192 +6116,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "98",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "254",
-    "MarkerUTC": 1677376623.0,
-    "MarkerLTC": 75423,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-9-DC 44 (7:59) 2 B. Hundley pass to 8 J. Lovett to DC 20 for 24 yards (8 P. Williams)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 7,
-      "ClockSeconds": 59
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21872",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21685",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 479.0,
-          "TimeRemStr": "7:59",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 44
-          },
-          "Distance": 9,
-          "DriveNum": 19,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 24,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Plays": 3,
-          "Yards": 25,
-          "TOP": "1:53",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "99",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "256",
-    "MarkerUTC": 1677376651.0,
-    "MarkerLTC": 75451,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-DC 20 (7:31) 8 J. Lovett rush to DC 18 for 2 yards (9 K. Sails)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 7,
-      "ClockSeconds": 31
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21872",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21360",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 451.0,
-          "TimeRemStr": "7:31",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 20
-          },
-          "Distance": 10,
-          "DriveNum": 19,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 2,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Plays": 4,
-          "Yards": 27,
-          "TOP": "2:15",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "100",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -8330,95 +6214,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "101",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "261",
-    "MarkerUTC": 1677376728.0,
-    "MarkerLTC": 75528,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-9-DC 9 (6:14) 8 J. Lovett rush to DC 5 for 4 yards (27 F. Gardner)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 6,
-      "ClockSeconds": 14
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21872",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21935",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 374.0,
-          "TimeRemStr": "6:14",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 9
-          },
-          "Distance": 9,
-          "DriveNum": 19,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 4,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Plays": 6,
-          "Yards": 40,
-          "TOP": "3:47",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "102",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -8586,264 +6381,6 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "104",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "268",
-    "MarkerUTC": 1677376833.0,
-    "MarkerLTC": 75633,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "3-10-DC 10 (4:54) 2 B. Hundley rush to DC 2 for 8 yards (20 J. Brooks)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 4,
-      "ClockSeconds": 54
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20189",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 294.0,
-          "TimeRemStr": "4:54",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 10
-          },
-          "Distance": 10,
-          "DriveNum": 19,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 8,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Plays": 8,
-          "Yards": 43,
-          "TOP": "5:02",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "105",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "270",
-    "MarkerUTC": 1677376861.0,
-    "MarkerLTC": 75661,
-    "MajorType": "Event",
-    "MinorType": "EventFootballFg",
-    "Descriptor_": "4-2-DC 2 (4:26) 47 B. Giffen 18 yard field goal is NO GOOD",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 4,
-      "ClockSeconds": 26
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleKicker",
-        "OfficialId": "20076",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 266.0,
-          "TimeRemStr": "4:26",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 2
-          },
-          "Distance": 2,
-          "DriveNum": 19,
-          "Down": 4,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickMissed",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 18,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 45
-          },
-          "Plays": 9,
-          "Yards": 43,
-          "TOP": "5:15",
-          "Result": "MISSED FG"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "106",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "272",
-    "MarkerUTC": 1677376349.0,
-    "MarkerLTC": 75149,
-    "MajorType": "Event",
-    "MinorType": "EventFootballKickoff",
-    "Descriptor_": "17 M. Carrizosa kicks from DC 30. 0 J. Hammond to DC 45 for 0 yards (0 P. Taumoepenu)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 9,
-      "ClockSeconds": 41
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21968",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKicker",
-        "OfficialId": "22416",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKickreturner",
-        "OfficialId": "21968",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 581.0,
-          "TimeRemStr": "9:41",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 30
-          },
-          "DriveNum": 18,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballKickRetYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 45
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 6,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "94",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -9918,194 +7455,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "307",
-    "MarkerUTC": 1677377848.0,
-    "MarkerLTC": 76648,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-VGS 28 (14:29) 2 B. Hundley pass to 16 T. Koontz to VGS 37 for 9 yards (15 M. Joseph, 5 R. Northrup)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 14,
-      "ClockSeconds": 29
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20903",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "22862",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "21148",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 10,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 869.0,
-          "TimeRemStr": "14:29",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 28
-          },
-          "Distance": 10,
-          "DriveNum": 21,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 9,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 28
-          },
-          "Plays": 1,
-          "Yards": 9,
-          "TOP": "0:51",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 10,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "119",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "309",
-    "MarkerUTC": 1677377889.0,
-    "MarkerLTC": 76689,
-    "MajorType": "Event",
-    "MinorType": "EventFootballSack",
-    "Descriptor_": "2-1-VGS 37 (13:47) 10 M. Sexton sacked at VGS 33 for -4 yards (5 R. Northrup)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 13,
-      "ClockSeconds": 47
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21882",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleSacker1",
-        "OfficialId": "21148",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 10,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 827.0,
-          "TimeRemStr": "13:47",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 37
-          },
-          "Distance": 1,
-          "DriveNum": 21,
-          "Down": 2,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -4,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 28
-          },
-          "Plays": 2,
-          "Yards": 5,
-          "TOP": "1:13",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 10,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "120",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "313",
     "MarkerUTC": 1677377912.0,
     "MarkerLTC": 76712,
@@ -10759,184 +8108,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "331",
-    "MarkerUTC": 1677378374.0,
-    "MarkerLTC": 77174,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-VGS 33 (10:01) 23 R. Armstead rush to VGS 35 for -2 yards (88 R. Windsor)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 10,
-      "ClockSeconds": 1
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20053",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21975",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 10,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 601.0,
-          "TimeRemStr": "10:01",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 33
-          },
-          "Distance": 10,
-          "DriveNum": 22,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "11",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -2,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 44
-          },
-          "Plays": 3,
-          "Yards": 9,
-          "TOP": "1:13",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 10,
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "128",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "335",
-    "MarkerUTC": 1677378416.0,
-    "MarkerLTC": 77216,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-12-VGS 35 (9:19) 4 A. Smith rush to VGS 9 for 26 yards (1 M. Harriel)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 9,
-      "ClockSeconds": 19
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21427",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21753",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 10,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 559.0,
-          "TimeRemStr": "9:19",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 35
-          },
-          "Distance": 12,
-          "DriveNum": 22,
-          "Down": 2,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 26,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 44
-          },
-          "Plays": 4,
-          "Yards": 35,
-          "TOP": "2:00",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 10,
-    "HomeScore": 6,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "129",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "337",
     "MarkerUTC": 1677378563.0,
     "MarkerLTC": 77363,
@@ -11380,105 +8551,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "349",
-    "MarkerUTC": 1677378974.0,
-    "MarkerLTC": 77774,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-10-VGS 21 (7:33) 2 B. Hundley pass to 89 C. Sutton to VGS 36 for 15 yards (9 K. Sails)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 7,
-      "ClockSeconds": 33
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21502",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21360",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 453.0,
-          "TimeRemStr": "7:33",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 21
-          },
-          "Distance": 10,
-          "DriveNum": 23,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 15,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 21
-          },
-          "Plays": 3,
-          "Yards": 15,
-          "TOP": "1:27",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 6,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "135",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "351",
     "MarkerUTC": 1677379010.0,
     "MarkerLTC": 77810,
@@ -11665,182 +8737,6 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "137",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "356",
-    "MarkerUTC": 1677379119.0,
-    "MarkerLTC": 77919,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPenalty",
-    "Descriptor_": "3-12-VGS 34 (5:49) PENALTY on 64 M. Miller, 5 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 5,
-      "ClockSeconds": 49
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 349.0,
-          "TimeRemStr": "5:49",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 34
-          },
-          "Distance": 12,
-          "DriveNum": 23,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "7",
-          "PlayerId": "21075",
-          "Yards": 5,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 21
-          },
-          "Plays": 5,
-          "Yards": 8,
-          "TOP": "2:47",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "138",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "360",
-    "MarkerUTC": 1677379145.0,
-    "MarkerLTC": 77945,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-17-VGS 29 (5:32) 2 B. Hundley pass to 14 C. Sweeting to VGS 35 for 6 yards (96 J. Panasiuk)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 5,
-      "ClockSeconds": 32
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21507",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21182",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 332.0,
-          "TimeRemStr": "5:32",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 29
-          },
-          "Distance": 17,
-          "DriveNum": 23,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 6,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 21
-          },
-          "Plays": 6,
-          "Yards": 14,
-          "TOP": "3:30",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 6,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "139",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -12116,94 +9012,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "369",
-    "MarkerUTC": 1677379314.0,
-    "MarkerLTC": 78114,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "3-2-DC 36 (3:27) 23 R. Armstead rush to DC 44 for 8 yards (9 D. Anderson)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 3,
-      "ClockSeconds": 27
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20053",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20039",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 207.0,
-          "TimeRemStr": "3:27",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 36
-          },
-          "Distance": 2,
-          "DriveNum": 24,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 8,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 28
-          },
-          "Plays": 3,
-          "Yards": 16,
-          "TOP": "1:45",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 6,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "143",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "373",
     "MarkerUTC": 1677379348.0,
     "MarkerLTC": 78148,
@@ -12409,190 +9217,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "393",
-    "MarkerUTC": 1677379419.0,
-    "MarkerLTC": 78219,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-6-DC 48 (2:44) 4 A. Smith rush to VGS 46 for 6 yards (97 L. Stokes, 88 R. Windsor)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 2,
-      "ClockSeconds": 44
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21427",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21966",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "21975",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 164.0,
-          "TimeRemStr": "2:44",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 48
-          },
-          "Distance": 6,
-          "DriveNum": 24,
-          "Down": 2,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 6,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 28
-          },
-          "Plays": 9,
-          "Yards": 39,
-          "TOP": "4:51",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "146",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "394",
-    "MarkerUTC": 1677379500.0,
-    "MarkerLTC": 78300,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "3-2-VGS 46 (2:38) 3 D. King rush to VGS 44 for 2 yards (44 V. Beasley)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 2,
-      "ClockSeconds": 38
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21981",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21739",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 158.0,
-          "TimeRemStr": "2:38",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 46
-          },
-          "Distance": 2,
-          "DriveNum": 24,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 2,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 28
-          },
-          "Plays": 9,
-          "Yards": 39,
-          "TOP": "4:51",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 6,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "147",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "400",
     "MarkerUTC": 1677379773.0,
     "MarkerLTC": 78573,
@@ -12771,164 +9395,6 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "402",
-    "MarkerUTC": 1677379880.0,
-    "MarkerLTC": 78680,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "3-7-VGS 40 (0:10) 4 A. Smith rush to VGS 35 for 5 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockSeconds": 10
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21427",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 10.0,
-          "TimeRemStr": "0:10",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 40
-          },
-          "Distance": 7,
-          "DriveNum": 24,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 5,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 28
-          },
-          "Plays": 9,
-          "Yards": 37,
-          "TOP": "4:51",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "150",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "405",
-    "MarkerUTC": 1677373634.0,
-    "MarkerLTC": 72434,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPenalty",
-    "Descriptor_": "3-2-VGS 24 (2:45) PENALTY on D.C. Defenders, 5 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 2,
-      "ClockSeconds": 45
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 2,
-          "TimeRemSecTotal": 165.0,
-          "TimeRemStr": "2:45",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 24
-          },
-          "Distance": 2,
-          "DriveNum": 12,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "8",
-          "PlayerId": "TM",
-          "Yards": 5,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 1
-          },
-          "Plays": 5,
-          "Yards": 35,
-          "TOP": "3:07",
-          "Result": "DOWNS"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "66",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
     "MarkerId": "406",
     "MarkerUTC": 1677373671.0,
     "MarkerLTC": 72471,
@@ -13013,103 +9479,6 @@
     "RevisionNum": 5,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "67",
-    "OfficialCode": "2302006-DC-at-VGS"
-  },
-  {
-    "MarkerId": "413",
-    "MarkerUTC": 1677375583.0,
-    "MarkerLTC": 74383,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-DC 29 (14:50) 10 J. Ta'amu pass to 82 E. Wolf to DC 40 for 11 yards (1 M. Harriel)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 14,
-      "ClockSeconds": 50
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21711",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21753",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 6,
-          "Period": 3,
-          "TimeRemSecTotal": 890.0,
-          "TimeRemStr": "14:50",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 29
-          },
-          "Distance": 10,
-          "DriveNum": 17,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "1",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 11,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 29
-          },
-          "Plays": 11,
-          "Yards": 42,
-          "TOP": "5:19",
-          "Result": "FG"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
-    "SituationCode": "",
-    "HomeScore": 6,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "82",
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
@@ -13256,8 +9625,3656 @@
     "OfficialCode": "2302006-DC-at-VGS"
   },
   {
-    "MarkerId": "420",
-    "MarkerUTC": 1677862366.844438,
+    "MarkerId": "422",
+    "MarkerUTC": 1677370145.0,
+    "MarkerLTC": 68945,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "3-7-DC 15 (12:14) 10 J. Ta'amu sacked at DC 15 for 0 yards Fumbled by 10 J. Ta'amu,  Recovered by 0 P. Taumoepenu (23 M. Roberts)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 14
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21960",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 734.0,
+          "TimeRemStr": "12:14",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Distance": 7,
+          "DriveNum": 2,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 2
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "8",
+          "PlayerFumbled": "22296",
+          "TeamRecovered": "7",
+          "PlayerRecovered": "21968",
+          "PlayerForcedFumble": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Plays": 3,
+          "Yards": -13,
+          "TOP": "1:23",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "8",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "423",
+    "MarkerUTC": 1677370500.0,
+    "MarkerLTC": 69300,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-11-DC 34 (11:26) 10 J. Ta'amu pass to 1 C. Blair to DC 44 for 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 26
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20133",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 686.0,
+          "TimeRemStr": "11:26",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Distance": 11,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 5,
+          "Yards": 10,
+          "TOP": "3:12",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "13",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "425",
+    "MarkerUTC": 1677370680.0,
+    "MarkerLTC": 69480,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-1-DC 45 (9:04) 4 A. Smith rush to DC 46 for 1 yard (90 J. Martin)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 4
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21948",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 544.0,
+          "TimeRemStr": "9:04",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Distance": 1,
+          "DriveNum": 5,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "4",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 5,
+          "Yards": 10,
+          "TOP": "3:12",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "14",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "426",
+    "MarkerUTC": 1677370690.0,
+    "MarkerLTC": 69490,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-DC 45 (8:58) 10 J. Ta'amu pass incomplete to 0 J. Hammond",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20618",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 538.0,
+          "TimeRemStr": "8:58",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 5,
+          "Yards": 10,
+          "TOP": "3:12",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "15",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "429",
+    "MarkerUTC": 1677370739.0,
+    "MarkerLTC": 69539,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-10-VGS 44 (8:58) 19 D. Whelan punts 26 yards from VGS 44 to 10 M. Sexton, Fair Catch at VGS 18",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21835",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21882",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 538.0,
+          "TimeRemStr": "8:58",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 4,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickFaircatch",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 26,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 18
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 5,
+          "Yards": 21,
+          "TOP": "3:12",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "17",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "430",
+    "MarkerUTC": 1677371092.0,
+    "MarkerLTC": 69892,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-DC 35 (6:47) 10 J. Ta'amu pass to 82 E. Wolf to DC 42 for 7 yards (22 A. Sparks)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 47
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21711",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21462",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 407.0,
+          "TimeRemStr": "6:47",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 7,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 6,
+          "Yards": 26,
+          "TOP": "4:18",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "23",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "431",
+    "MarkerUTC": 1677371121.0,
+    "MarkerLTC": 69921,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-5-DC 40 (6:18) 10 J. Ta'amu rush to VGS 40 for 20 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 18
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 378.0,
+          "TimeRemStr": "6:18",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 5,
+          "DriveNum": 7,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 20,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 6,
+          "Yards": 26,
+          "TOP": "4:18",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "24",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "432",
+    "MarkerUTC": 1677371777.0,
+    "MarkerLTC": 70577,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-6-VGS 12 (1:59) 2 B. Hundley pass to 14 C. Sweeting to VGS 20 for 8 yards (57 A. Hines)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 59
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21507",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20699",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 119.0,
+          "TimeRemStr": "1:59",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 12
+          },
+          "Distance": 6,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 8
+          },
+          "Plays": 8,
+          "Yards": 27,
+          "TOP": "4:22",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "34",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "433",
+    "MarkerUTC": 1677372616.0,
+    "MarkerLTC": 71416,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 29 (12:21) 15 R. Smith rush to VGS 28 for -1 yards (57 A. Hines)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 12,
+      "ClockSeconds": 21
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21447",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20699",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 741.0,
+          "TimeRemStr": "12:21",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 29
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 29
+          },
+          "Plays": 3,
+          "Yards": 5,
+          "TOP": "1:39",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "45",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "434",
+    "MarkerUTC": 1677373091.0,
+    "MarkerLTC": 71891,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 20 (6:22) 10 J. Ta'amu rush to VGS 10 for 10 yards (25 M. Evans, 9 D. Anderson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 6,
+      "ClockSeconds": 22
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20461",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20039",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 382.0,
+          "TimeRemStr": "6:22",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 11,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 11,
+          "Yards": 65,
+          "TOP": "5:47",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "57",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "435",
+    "MarkerUTC": 1677373468.0,
+    "MarkerLTC": 72268,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-VGS 1 (5:02) 12 L. Perez pass incomplete to 16 T. Koontz",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 5,
+      "ClockSeconds": 2
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20903",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 302.0,
+          "TimeRemStr": "5:02",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 1
+          },
+          "Distance": 10,
+          "DriveNum": 12,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 1
+          },
+          "Plays": 4,
+          "Yards": 35,
+          "TOP": "3:07",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "61",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "436",
+    "MarkerUTC": 1677373498.0,
+    "MarkerLTC": 72298,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-10-VGS 1 (4:32) 15 R. Smith rush to VGS 26 for 25 yards (39 S. Ramirez)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 4,
+      "ClockSeconds": 32
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21447",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 272.0,
+          "TimeRemStr": "4:32",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 1
+          },
+          "Distance": 10,
+          "DriveNum": 12,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 25,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 1
+          },
+          "Plays": 4,
+          "Yards": 35,
+          "TOP": "3:07",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "62",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "437",
+    "MarkerUTC": 1677373634.0,
+    "MarkerLTC": 72434,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-2-VGS 24 (2:45) PENALTY on 21 J. Allen, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 2,
+      "ClockSeconds": 45
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 165.0,
+          "TimeRemStr": "2:45",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Distance": 2,
+          "DriveNum": 12,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "8",
+          "PlayerId": "20029",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 1
+          },
+          "Plays": 4,
+          "Yards": 35,
+          "TOP": "3:07",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "66",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "438",
+    "MarkerUTC": 1677373920.0,
+    "MarkerLTC": 72720,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-VGS 36 (1:12) 12 L. Perez pass to 13 J. Badet to VGS 37 for 1 yard (39 S. Ramirez)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 12
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20072",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 72.0,
+          "TimeRemStr": "1:12",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 36
+          },
+          "Distance": 10,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 36
+          },
+          "Plays": 3,
+          "Yards": 3,
+          "TOP": "1:19",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "68",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "439",
+    "MarkerUTC": 1677373972.0,
+    "MarkerLTC": 72772,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-6-VGS 40 (0:52) PENALTY on 14 C. Sweeting, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 52
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 52.0,
+          "TimeRemStr": "0:52",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 6,
+          "DriveNum": 13,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "7",
+          "PlayerId": "21507",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 36
+          },
+          "Plays": 3,
+          "Yards": 3,
+          "TOP": "1:19",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "70",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "440",
+    "MarkerUTC": 1677374190.0,
+    "MarkerLTC": 72990,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-DC 26 (0:34) 10 J. Ta'amu rush to DC 36 for 10 yards (16 T. Koontz)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 34
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20903",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 34.0,
+          "TimeRemStr": "0:34",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Plays": 5,
+          "Yards": -5,
+          "TOP": "0:43",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "74",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "441",
+    "MarkerUTC": 1677374359.0,
+    "MarkerLTC": 73159,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-VGS 49 (0:11) PENALTY on 11 L. Jackson, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 11
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 2,
+          "TimeRemSecTotal": 11.0,
+          "TimeRemStr": "0:11",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "8",
+          "PlayerId": "20766",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Plays": 5,
+          "Yards": -5,
+          "TOP": "0:43",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "78",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "442",
+    "MarkerUTC": 1677375490.0,
+    "MarkerLTC": 74290,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "47 B. Giffen kicks from VGS 30. 12 J. Ezzard to DC 28 for 16 yards (11 P. Dawson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20374",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "47",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 17,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 16,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 28
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "81",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "443",
+    "MarkerUTC": 1677375583.0,
+    "MarkerLTC": 74383,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 29 (14:50) 10 J. Ta'amu pass to 82 E. Wolf to DC 41 for 12 yards (1 M. Harriel)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21711",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21753",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 890.0,
+          "TimeRemStr": "14:50",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 12,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 11,
+          "Yards": 43,
+          "TOP": "5:19",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "82",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "445",
+    "MarkerUTC": 1677375725.0,
+    "MarkerLTC": 74525,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-5-DC 45 (13:12) 10 J. Ta'amu pass to 11 L. Jackson to VGS 46 for 9 yards (6 K. Kennedy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 13,
+      "ClockSeconds": 12
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20766",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21943",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 792.0,
+          "TimeRemStr": "13:12",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Distance": 5,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 11,
+          "Yards": 43,
+          "TOP": "5:19",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 7,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "84",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "446",
+    "MarkerUTC": 1677375755.0,
+    "MarkerLTC": 74555,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 44 (12:48) 10 J. Ta'amu rush to VGS 45 for -1 yards (90 J. Martin)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 12,
+      "ClockSeconds": 48
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21948",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 768.0,
+          "TimeRemStr": "12:48",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 11,
+          "Yards": 43,
+          "TOP": "5:19",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "85",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "447",
+    "MarkerUTC": 1677376123.0,
+    "MarkerLTC": 74923,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-8-VGS 42 (9:47) 23 R. Armstead rush to VGS 38 for 4 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 47
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20053",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 587.0,
+          "TimeRemStr": "9:47",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 42
+          },
+          "Distance": 8,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 11,
+          "Yards": 43,
+          "TOP": "5:19",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "86",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "448",
+    "MarkerUTC": 1677376169.0,
+    "MarkerLTC": 74969,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-7-VGS 41 (9:41) 10 J. Ta'amu pass to 82 E. Wolf to VGS 36 for 5 yards (28 C. Avery)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 41
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21711",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20066",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 581.0,
+          "TimeRemStr": "9:41",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 7,
+          "DriveNum": 17,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 11,
+          "Yards": 43,
+          "TOP": "5:19",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "87",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "449",
+    "MarkerUTC": 1677376349.0,
+    "MarkerLTC": 75149,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "17 M. Carrizosa kicks the kickoff short of 20 yd line",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 41
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22416",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 581.0,
+          "TimeRemStr": "9:41",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 18,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickShortof20",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 45
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 6,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "94",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "450",
+    "MarkerUTC": 1677376504.0,
+    "MarkerLTC": 75304,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "2-8-DC 43 (8:39) 2 B. Hundley sacked at DC 44 for -1 yards (95 J. Owens)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 8,
+      "ClockSeconds": 39
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21174",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 519.0,
+          "TimeRemStr": "8:39",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 43
+          },
+          "Distance": 8,
+          "DriveNum": 19,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Plays": 9,
+          "Yards": 43,
+          "TOP": "5:15",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "97",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "451",
+    "MarkerUTC": 1677376623.0,
+    "MarkerLTC": 75423,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-9-DC 44 (7:59) 2 B. Hundley pass to 8 J. Lovett to DC 20 for 24 yards (21 J. Allen)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 59
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21872",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20029",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 479.0,
+          "TimeRemStr": "7:59",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 44
+          },
+          "Distance": 9,
+          "DriveNum": 19,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 24,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Plays": 9,
+          "Yards": 43,
+          "TOP": "5:15",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "99",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "452",
+    "MarkerUTC": 1677376651.0,
+    "MarkerLTC": 75451,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-DC 20 (7:31) 8 J. Lovett rush to DC 16 for 4 yards (9 K. Sails)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 31
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21872",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21360",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 451.0,
+          "TimeRemStr": "7:31",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 19,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Plays": 9,
+          "Yards": 43,
+          "TOP": "5:15",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "100",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "453",
+    "MarkerUTC": 1677376728.0,
+    "MarkerLTC": 75528,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-9-DC 9 (6:14) 8 J. Lovett rush to DC 7 for 2 yards (27 F. Gardner)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 6,
+      "ClockSeconds": 14
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21872",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21935",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 374.0,
+          "TimeRemStr": "6:14",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 9
+          },
+          "Distance": 9,
+          "DriveNum": 19,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Plays": 9,
+          "Yards": 43,
+          "TOP": "5:15",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "102",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "454",
+    "MarkerUTC": 1677376833.0,
+    "MarkerLTC": 75633,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-10-DC 10 (4:54) 2 B. Hundley rush to DC 3 for 7 yards (20 J. Brooks)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 54
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20189",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 294.0,
+          "TimeRemStr": "4:54",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 10
+          },
+          "Distance": 10,
+          "DriveNum": 19,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Plays": 9,
+          "Yards": 43,
+          "TOP": "5:15",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "105",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "455",
+    "MarkerUTC": 1677376861.0,
+    "MarkerLTC": 75661,
+    "MajorType": "Event",
+    "MinorType": "EventFootballFg",
+    "Descriptor_": "4-2-DC 2 (4:26) 47 B. Giffen 23 yard field goal is NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 26
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20076",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 6,
+          "Period": 3,
+          "TimeRemSecTotal": 266.0,
+          "TimeRemStr": "4:26",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 2
+          },
+          "Distance": 2,
+          "DriveNum": 19,
+          "Down": 4,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickMissed",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 23,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Plays": 9,
+          "Yards": 43,
+          "TOP": "5:15",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "106",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "456",
+    "MarkerUTC": 1677377848.0,
+    "MarkerLTC": 76648,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-VGS 28 (14:29) 2 B. Hundley pass to 16 T. Koontz to VGS 38 for 10 yards (15 M. Joseph, 5 R. Northrup)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 14,
+      "ClockSeconds": 29
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20903",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22862",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21148",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 10,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 869.0,
+          "TimeRemStr": "14:29",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 28
+          },
+          "Distance": 10,
+          "DriveNum": 21,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 28
+          },
+          "Plays": 7,
+          "Yards": 16,
+          "TOP": "3:56",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 10,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "119",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "458",
+    "MarkerUTC": 1677377889.0,
+    "MarkerLTC": 76689,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "2-1-VGS 37 (13:47) 2 B. Hundley sacked at VGS 33 for -4 yards (95 J. Owens)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 13,
+      "ClockSeconds": 47
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21174",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 10,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 827.0,
+          "TimeRemStr": "13:47",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 37
+          },
+          "Distance": 1,
+          "DriveNum": 21,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 28
+          },
+          "Plays": 7,
+          "Yards": 16,
+          "TOP": "3:56",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 10,
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "120",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "459",
+    "MarkerUTC": 1677378374.0,
+    "MarkerLTC": 77174,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 33 (10:01) 23 R. Armstead rush to VGS 37 for -4 yards (88 R. Windsor)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 10,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20053",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21975",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 10,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 601.0,
+          "TimeRemStr": "10:01",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Distance": 10,
+          "DriveNum": 22,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "11",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Plays": 5,
+          "Yards": 44,
+          "TOP": "2:20",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 10,
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "128",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "460",
+    "MarkerUTC": 1677378416.0,
+    "MarkerLTC": 77216,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-12-VGS 35 (9:19) 4 A. Smith rush to VGS 6 for 29 yards (1 M. Harriel)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 9,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21753",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 10,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 559.0,
+          "TimeRemStr": "9:19",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 12,
+          "DriveNum": 22,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 29,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Plays": 5,
+          "Yards": 44,
+          "TOP": "2:20",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 10,
+    "HomeScore": 6,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "129",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "461",
+    "MarkerUTC": 1677378974.0,
+    "MarkerLTC": 77774,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-10-VGS 21 (7:33) 2 B. Hundley pass to 89 C. Sutton to VGS 34 for 13 yards (9 K. Sails)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7,
+      "ClockSeconds": 33
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21502",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21360",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 453.0,
+          "TimeRemStr": "7:33",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 21
+          },
+          "Distance": 10,
+          "DriveNum": 23,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 13,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 21
+          },
+          "Plays": 6,
+          "Yards": 14,
+          "TOP": "3:44",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 6,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "135",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "462",
+    "MarkerUTC": 1677379119.0,
+    "MarkerLTC": 77919,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-12-VGS 34 (5:49) PENALTY on 64 M. Miller, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 5,
+      "ClockSeconds": 49
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 349.0,
+          "TimeRemStr": "5:49",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Distance": 12,
+          "DriveNum": 23,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "7",
+          "PlayerId": "21075",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 21
+          },
+          "Plays": 6,
+          "Yards": 14,
+          "TOP": "3:44",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "138",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "463",
+    "MarkerUTC": 1677379145.0,
+    "MarkerLTC": 77945,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-17-VGS 29 (5:32) 2 B. Hundley pass to 14 C. Sweeting to VGS 40 for 11 yards (96 J. Panasiuk)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 5,
+      "ClockSeconds": 32
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21507",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21182",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 332.0,
+          "TimeRemStr": "5:32",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 29
+          },
+          "Distance": 17,
+          "DriveNum": 23,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 21
+          },
+          "Plays": 6,
+          "Yards": 14,
+          "TOP": "3:44",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 6,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "139",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "464",
+    "MarkerUTC": 1677379314.0,
+    "MarkerLTC": 78114,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-2-DC 36 (3:27) 23 R. Armstead rush to DC 44 for 8 yards (1 M. Harriel)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20053",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21753",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 207.0,
+          "TimeRemStr": "3:27",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 2,
+          "DriveNum": 24,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 9,
+          "Yards": 37,
+          "TOP": "4:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "143",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "465",
+    "MarkerUTC": 1677379419.0,
+    "MarkerLTC": 78219,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-6-DC 48 (2:44) 4 A. Smith rush to VGS 47 for 5 yards (97 L. Stokes, 88 R. Windsor)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21966",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21975",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 164.0,
+          "TimeRemStr": "2:44",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 48
+          },
+          "Distance": 6,
+          "DriveNum": 24,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 9,
+          "Yards": 37,
+          "TOP": "4:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "146",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "466",
+    "MarkerUTC": 1677379500.0,
+    "MarkerLTC": 78300,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-2-VGS 46 (2:38) 3 D. King rush to VGS 43 for 3 yards (44 V. Beasley)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 38
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21981",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21739",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 158.0,
+          "TimeRemStr": "2:38",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 46
+          },
+          "Distance": 2,
+          "DriveNum": 24,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 9,
+          "Yards": 37,
+          "TOP": "4:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 6,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "147",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "467",
+    "MarkerUTC": 1677379880.0,
+    "MarkerLTC": 78680,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-7-VGS 40 (0:10) 4 A. Smith rush to VGS 35 for 5 yards (97 L. Stokes)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21966",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 10.0,
+          "TimeRemStr": "0:10",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 7,
+          "DriveNum": 24,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Plays": 9,
+          "Yards": 37,
+          "TOP": "4:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_2_25_DC@VGS",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 6,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "150",
+    "OfficialCode": "2302006-DC-at-VGS"
+  },
+  {
+    "MarkerId": "468",
+    "MarkerUTC": 1677882771.78098,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

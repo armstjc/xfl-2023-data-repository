@@ -773,72 +773,75 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
     participation_df = pd.read_parquet(f'player_info/participation_data/parquet/{game_id}.parquet')
     participation_df = participation_df.filter(items=['Season','game_id','OfficialID','VisOrHome','JerseyNum','FirstName','LastName','LastNameSuffix','Position','Participated','IsStarting','Scratch'])
 
-    finished_df = pd.merge(participation_df,main_df,left_on=['Season','game_id','OfficialID'],right_on=['Season','game_id','OfficialID'],how='left')
+    if len(participation_df) > 0 and len(main_df) >0:
 
-    del participation_df,main_df
+        finished_df = pd.merge(participation_df,main_df,left_on=['Season','game_id','OfficialID'],right_on=['Season','game_id','OfficialID'],how='left')
 
-    finished_df[['Participated','IsStarting','Scratch']] = finished_df[['Participated','IsStarting','Scratch']].fillna(0)
+        del participation_df,main_df
 
-    finished_df.loc[finished_df['PassAtt']>=1,'CFB_QBR'] = (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt'])
-    ##finished_df.loc[finished_df['PassAtt']>=1,'NFL_QBR'] = ((((finished_df['PassCompPercent'])*5)+()+()+())/6) * 100
-    
-    ## NFL Passer Rating Calculation
-    finished_df['NFL_QBR_A'] = ((finished_df['PassCompPercent']) - 0.3) * 5
-    finished_df['NFL_QBR_B'] = ((finished_df['PassYardsPerAtt']) - 3) * 0.25
-    finished_df['NFL_QBR_C'] = (finished_df['PassTD']/finished_df['PassAtt']) * 20
-    finished_df['NFL_QBR_D'] = 2.375 -(finished_df['PassINT']/finished_df['PassAtt']* 25)
+        finished_df[['Participated','IsStarting','Scratch']] = finished_df[['Participated','IsStarting','Scratch']].fillna(0)
 
-    finished_df.loc[finished_df['NFL_QBR_A'] < 0, 'NFL_QBR_A'] = 0
-    finished_df.loc[finished_df['NFL_QBR_A'] > 2.375, 'NFL_QBR_A'] = 2.375
-    
-    finished_df.loc[finished_df['NFL_QBR_B'] < 0, 'NFL_QBR_B'] = 0
-    finished_df.loc[finished_df['NFL_QBR_B'] > 2.375, 'NFL_QBR_B'] = 2.375
-    
-    finished_df.loc[finished_df['NFL_QBR_C'] < 0, 'NFL_QBR_C'] = 0
-    finished_df.loc[finished_df['NFL_QBR_C'] > 2.375, 'NFL_QBR_C'] = 2.375
-
-    finished_df.loc[finished_df['NFL_QBR_D'] < 0, 'NFL_QBR_D'] = 0
-    finished_df.loc[finished_df['NFL_QBR_D'] > 2.375, 'NFL_QBR_D'] = 2.375
-    
-
-    finished_df['NFL_QBR'] = ((finished_df['NFL_QBR_A'] + finished_df['NFL_QBR_B'] + finished_df['NFL_QBR_C'] + finished_df['NFL_QBR_D'])/6) * 100
-
-    finished_df = finished_df.drop(columns=['NFL_QBR_A','NFL_QBR_B','NFL_QBR_C','NFL_QBR_D'])
-
-    print(finished_df.columns.values.tolist())
-    cols = ['Season', 'game_id', 'OfficialID', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
-    'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong', 'PassYardsLongTD', \
-    'PassYardsPerAtt', 'PassYardsPerComp', 'QBRating', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
-    'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays', \
-    'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'RecYardsLong', 'RecYardsLongTD', \
-    'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 'FirstDownPercent', \
-    'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush', \
-    'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards', \
-    'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards', 'DefSackYardsAvg', \
-    'DefINT', 'DefINTReturnYards', 'DefINTReturnYardsAvg', 'DefINTReturnTD', 'DefINTReturnYardsLong', \
-    'FGAtt', 'FGMade', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
-    'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', \
-    'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', \
-    'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong']
-
-    finished_df = finished_df[cols]
-
-    if replace_col_names == True:
-        print('Replacing column names.')
-        #finished_df = finished_df.rename(columns={})
-    
-    #main_df = pd.DataFrame(data=json_data)
-    if save == True:
+        finished_df.loc[finished_df['PassAtt']>=1,'CFB_QBR'] = (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt'])
+        ##finished_df.loc[finished_df['PassAtt']>=1,'NFL_QBR'] = ((((finished_df['PassCompPercent'])*5)+()+()+())/6) * 100
         
-        finished_df.to_csv(f'game_stats/player/raw/csv/{game_id}.csv',index=False)
-        finished_df.to_parquet(f'game_stats/player/raw/parquet/{game_id}.parquet',index=False)
+        ## NFL Passer Rating Calculation
+        finished_df['NFL_QBR_A'] = ((finished_df['PassCompPercent']) - 0.3) * 5
+        finished_df['NFL_QBR_B'] = ((finished_df['PassYardsPerAtt']) - 3) * 0.25
+        finished_df['NFL_QBR_C'] = (finished_df['PassTD']/finished_df['PassAtt']) * 20
+        finished_df['NFL_QBR_D'] = 2.375 -(finished_df['PassINT']/finished_df['PassAtt']* 25)
 
-        with open(f"game_stats/player/raw/json/{game_id}.json", "w+") as f:
-            f.write(json.dumps(json_data,indent=2))
+        finished_df.loc[finished_df['NFL_QBR_A'] < 0, 'NFL_QBR_A'] = 0
+        finished_df.loc[finished_df['NFL_QBR_A'] > 2.375, 'NFL_QBR_A'] = 2.375
+        
+        finished_df.loc[finished_df['NFL_QBR_B'] < 0, 'NFL_QBR_B'] = 0
+        finished_df.loc[finished_df['NFL_QBR_B'] > 2.375, 'NFL_QBR_B'] = 2.375
+        
+        finished_df.loc[finished_df['NFL_QBR_C'] < 0, 'NFL_QBR_C'] = 0
+        finished_df.loc[finished_df['NFL_QBR_C'] > 2.375, 'NFL_QBR_C'] = 2.375
 
+        finished_df.loc[finished_df['NFL_QBR_D'] < 0, 'NFL_QBR_D'] = 0
+        finished_df.loc[finished_df['NFL_QBR_D'] > 2.375, 'NFL_QBR_D'] = 2.375
+        
 
-    return finished_df
+        finished_df['NFL_QBR'] = ((finished_df['NFL_QBR_A'] + finished_df['NFL_QBR_B'] + finished_df['NFL_QBR_C'] + finished_df['NFL_QBR_D'])/6) * 100
 
+        finished_df = finished_df.drop(columns=['NFL_QBR_A','NFL_QBR_B','NFL_QBR_C','NFL_QBR_D'])
+
+        print(finished_df.columns.values.tolist())
+        cols = ['Season', 'game_id', 'OfficialID', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
+        'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong', 'PassYardsLongTD', \
+        'PassYardsPerAtt', 'PassYardsPerComp', 'QBRating', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
+        'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays', \
+        'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'RecYardsLong', 'RecYardsLongTD', \
+        'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 'FirstDownPercent', \
+        'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush', \
+        'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards', \
+        'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards', 'DefSackYardsAvg', \
+        'DefINT', 'DefINTReturnYards', 'DefINTReturnYardsAvg', 'DefINTReturnTD', 'DefINTReturnYardsLong', \
+        'FGAtt', 'FGMade', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
+        'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', \
+        'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', \
+        'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong']
+
+        finished_df = finished_df[cols]
+
+        if replace_col_names == True:
+            print('Replacing column names.')
+            #finished_df = finished_df.rename(columns={})
+        
+        #main_df = pd.DataFrame(data=json_data)
+        if save == True:
+            
+            finished_df.to_csv(f'game_stats/player/raw/csv/{game_id}.csv',index=False)
+            finished_df.to_parquet(f'game_stats/player/raw/parquet/{game_id}.parquet',index=False)
+
+            with open(f"game_stats/player/raw/json/{game_id}.json", "w+") as f:
+                f.write(json.dumps(json_data,indent=2))
+
+        return finished_df
+
+    else:
+        return pd.DataFrame()
 
 def get_xfl_team_box(game_id:str,save=False):
     xfl_api_token = get_xfl_api_token()

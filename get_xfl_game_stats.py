@@ -11,7 +11,7 @@ from get_xfl_api_token import get_xfl_api_token
 
 warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 
-def get_xfl_player_box(game_id:str,save=False):
+def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
     xfl_api_token = get_xfl_api_token()
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
@@ -50,112 +50,112 @@ def get_xfl_player_box(game_id:str,save=False):
         
         ## COMP
         try:
-            row_df['PassAtt'] = player['PassAtt']
+            row_df['PassComp'] = player['PassComp']
         except:
-            row_df['PassAtt'] = None
+            row_df['PassComp'] = 0
 
         ## ATT
         try:
-            row_df['PassComp'] = player['PassComp']
+            row_df['PassAtt'] = player['PassAtt']
         except:
-            row_df['PassComp'] = None
+            row_df['PassAtt'] = 0
 
         ## COMP%
         try:
             row_df['PassCompPercent'] = player['PassCompPercent']
         except:
-            row_df['PassCompPercent'] = None
+            row_df['PassCompPercent'] = 0
         
         ## PASS_YDS
         try:
             row_df['PassYards'] = player['PassYards']
         except:
-            row_df['PassYards'] = None
+            row_df['PassYards'] = 0
 
 
         ## PASS_TD
         try:
             row_df['PassTD'] = player['PassTD']
         except:
-            row_df['PassTD'] = None
+            row_df['PassTD'] = 0
 
         ## PASS_INT
         try:
             row_df['PassINT'] = player['PassINT']
         except:
-            row_df['PassINT'] = None
+            row_df['PassINT'] = 0
 
         ## 1st Downs Passing
         try:
             row_df['FirstDownsByPass'] = player['FirstDownsByPass']
         except:
-            row_df['FirstDownsByPass'] = None
+            row_df['FirstDownsByPass'] = 0
 
         ## 1st Downs Passing Percent
         try:
             row_df['FirstDownPercentOfPasses'] = player['FirstDownPercentOfPasses']
         except:
-            row_df['FirstDownPercentOfPasses'] = None
+            row_df['FirstDownPercentOfPasses'] = 0
 
         ## PASS_LONG
         try:
             row_df['PassYardsLong'] = player['PassYardsLong']
         except:
-            row_df['PassYardsLong'] = None
+            row_df['PassYardsLong'] = 0
 
         ## PASS_LONG_TD
         try:
             row_df['PassYardsLongTD'] = player['PassYardsLongTD']
         except:
-            row_df['PassYardsLongTD'] = None
+            row_df['PassYardsLongTD'] = 0
 
         ## PASS_YPA
         try:
             row_df['PassYardsPerAtt'] = player['PassYardsPerAtt']
         except:
-            row_df['PassYardsPerAtt'] = None
+            row_df['PassYardsPerAtt'] = 0
 
         ## PASS_YPC
         try:
             row_df['PassYardsPerComp'] = player['PassYardsPerComp']
         except:
-            row_df['PassYardsPerComp'] = None
+            row_df['PassYardsPerComp'] = 0
 
         ## QBRating (Not NFL, Not CFB)
         try:
             row_df['QBRating'] = player['QBRating']
         except:
-            row_df['QBRating'] = None
+            row_df['QBRating'] = 0
         
         ## Sacked
         try:
             row_df['Sacked'] = player['Sacked']
         except:
-            row_df['Sacked'] = None
+            row_df['Sacked'] = 0
 
         ## SackedYards
         try:
             row_df['SackedYards'] = player['SackedYards']
         except:
-            row_df['SackedYards'] = None
+            row_df['SackedYards'] = 0
 
         ## SackedYardsAvg
         try:
             row_df['SackedYardsAvg'] = player['SackedYardsAvg']
         except:
-            row_df['SackedYardsAvg'] = None
+            row_df['SackedYardsAvg'] = 0
 
         ## Pass20YdPlays
         try:
             row_df['Pass20YdPlays'] = player['Pass20YdPlays']
         except:
-            row_df['Pass20YdPlays'] = None
+            row_df['Pass20YdPlays'] = 0
 
         ## Pass40YdPlays
         try:
             row_df['Pass40YdPlays'] = player['Pass40YdPlays']
         except:
-            row_df['Pass40YdPlays'] = None
+            row_df['Pass40YdPlays'] = 0
 
         ##############################################################################################################
         ## Rushing
@@ -165,61 +165,61 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['RushAtt'] = player['RushAtt']
         except:
-            row_df['RushAtt'] = None
+            row_df['RushAtt'] = 0
         
         ## RUSH_YDS
         try:
             row_df['RushYards'] = player['RushYards']
         except:
-            row_df['RushYards'] = None
+            row_df['RushYards'] = 0
         
         ## RUSH_AVG
         try:
             row_df['RushYardsAvg'] = player['RushYardsAvg']
         except:
-            row_df['RushYardsAvg'] = None
+            row_df['RushYardsAvg'] = 0
 
         ## RUSH_TD
         try:
             row_df['RushTD'] = player['RushTD']
         except:
-            row_df['RushTD'] = None
+            row_df['RushTD'] = 0
         
         ## 1st Downs Rushing
         try:
             row_df['FirstDownsByRush'] = player['FirstDownsByRush']
         except:
-            row_df['FirstDownsByRush'] = None
+            row_df['FirstDownsByRush'] = 0
 
         ## 1st Downs Rushing Percent
         try:
             row_df['FirstDownPercentOfRushes'] = player['FirstDownPercentOfRushes']
         except:
-            row_df['FirstDownPercentOfRushes'] = None
+            row_df['FirstDownPercentOfRushes'] = 0
         
         ## RUSH_LONG
         try:
             row_df['RushYardsLong'] = player['RushYardsLong']
         except:
-            row_df['RushYardsLong'] = None
+            row_df['RushYardsLong'] = 0
 
         ## RUSH_LONG_TD
         try:
             row_df['RushYardsLongTD'] = player['RushYardsLongTD']
         except:
-            row_df['RushYardsLongTD'] = None
+            row_df['RushYardsLongTD'] = 0
 
         ## Rush10YdPlays
         try:
             row_df['Rush10YdPlays'] = player['Rush10YdPlays']
         except:
-            row_df['Rush10YdPlays'] = None
+            row_df['Rush10YdPlays'] = 0
 
         ## 1st Downs Rushing Percent
         try:
             row_df['Rush20YdPlays'] = player['Rush20YdPlays']
         except:
-            row_df['Rush20YdPlays'] = None
+            row_df['Rush20YdPlays'] = 0
 
         ##############################################################################################################
         ## Reciving
@@ -229,85 +229,85 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['RecThrownAt'] = player['RecThrownAt']
         except:
-            row_df['RecThrownAt'] = None
+            row_df['RecThrownAt'] = 0
 
         ## REC
         try:
             row_df['Recs'] = player['Recs']
         except:
-            row_df['Recs'] = None
+            row_df['Recs'] = 0
         
         ## REC_YDS
         try:
             row_df['RecYards'] = player['RecYards']
         except:
-            row_df['RecYards'] = None
+            row_df['RecYards'] = 0
         
         ## REC_AVG
         try:
             row_df['RecYardsAvg'] = player['RecYardsAvg']
         except:
-            row_df['RecYardsAvg'] = None
+            row_df['RecYardsAvg'] = 0
 
         ## REC_TD
         try:
             row_df['RecTD'] = player['RecTD']
         except:
-            row_df['RecTD'] = None
+            row_df['RecTD'] = 0
 
         ## 1st Downs Reciving
         try:
             row_df['FirstDownsByRec'] = player['FirstDownsByRec']
         except:
-            row_df['FirstDownsByRec'] = None
+            row_df['FirstDownsByRec'] = 0
 
         ## 1st Downs Reciving Percent
         try:
             row_df['FirstDownPercentOfRecs'] = player['FirstDownPercentOfRecs']
         except:
-            row_df['FirstDownPercentOfRecs'] = None
+            row_df['FirstDownPercentOfRecs'] = 0
 
         ## REC_LONG
         try:
             row_df['RecYardsLong'] = player['RecYardsLong']
         except:
-            row_df['RecYardsLong'] = None
+            row_df['RecYardsLong'] = 0
 
         ## REC_LONG_TD
         try:
             row_df['RecYardsLongTD'] = player['RecYardsLongTD']
         except:
-            row_df['RecYardsLongTD'] = None
+            row_df['RecYardsLongTD'] = 0
         
         ## REC_YAC
         try:
             row_df['RecYardsAfterCatch'] = player['RecYardsAfterCatch']
         except:
-            row_df['RecYardsAfterCatch'] = None
+            row_df['RecYardsAfterCatch'] = 0
 
         ## REC_YAC_AVG
         try:
             row_df['RecYardsAfterCatchAvg'] = player['RecYardsAfterCatchAvg']
         except:
-            row_df['RecYardsAfterCatchAvg'] = None
+            row_df['RecYardsAfterCatchAvg'] = 0
 
         ## REC_DROPS
         try:
             row_df['RecDropped'] = player['RecDropped']
         except:
-            row_df['RecDropped'] = None
+            row_df['RecDropped'] = 0
 
         ## Rec20YdPlays
         try:
             row_df['Rec20YdPlays'] = player['Rec20YdPlays']
         except:
-            row_df['Rec20YdPlays'] = None
+            row_df['Rec20YdPlays'] = 0
 
         ## Rec40YdPlays
         try:
             row_df['Rec40YdPlays'] = player['Rec40YdPlays']
         except:
-            row_df['Rec40YdPlays'] = None
+            row_df['Rec40YdPlays'] = 0
 
 
         ##############################################################################################################
@@ -318,19 +318,19 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['Fumbles'] = player['Fumbles']
         except:
-            row_df['Fumbles'] = None
+            row_df['Fumbles'] = 0
 
         ## FUMBLES_LOST
         try:
-            row_df['Fumbles'] = player['Fumbles']
+            row_df['FumblesLost'] = player['FumblesLost']
         except:
-            row_df['Fumbles'] = None
+            row_df['FumblesLost'] = 0
 
         ## OFF_TD
         try:
             row_df['OffTD'] = player['OffTD']
         except:
-            row_df['OffTD'] = None
+            row_df['OffTD'] = 0
 
         ##############################################################################################################
         ## Misc. Offense
@@ -340,115 +340,115 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['FirstDowns'] = player['FirstDowns']
         except:
-            row_df['FirstDowns'] = None
+            row_df['FirstDowns'] = 0
 
         ## 1st Downs Percent
         try:
             row_df['FirstDownPercent'] = player['FirstDownPercent']
         except:
-            row_df['FirstDownPercent'] = None
+            row_df['FirstDownPercent'] = 0
 
         ## PAT1PtAttPass
         try:
             row_df['PAT1PtAttPass'] = player['PAT1PtAttPass']
         except:
-            row_df['PAT1PtAttPass'] = None
+            row_df['PAT1PtAttPass'] = 0
 
         ## PAT1PtAttRec
         try:
             row_df['PAT1PtAttRec'] = player['PAT1PtAttRec']
         except:
-            row_df['PAT1PtAttRec'] = None
+            row_df['PAT1PtAttRec'] = 0
 
         ## PAT1PtAttRush
         try:
             row_df['PAT1PtAttRush'] = player['PAT1PtAttRush']
         except:
-            row_df['PAT1PtAttRush'] = None
+            row_df['PAT1PtAttRush'] = 0
 
         ## PAT1PtConvRush
         try:
             row_df['PAT1PtConvRush'] = player['PAT1PtConvRush']
         except:
-            row_df['PAT1PtConvRush'] = None
+            row_df['PAT1PtConvRush'] = 0
 
         ## PAT1PtPctRush
         try:
             row_df['PAT1PtPctRush'] = player['PAT1PtPctRush']
         except:
-            row_df['PAT1PtPctRush'] = None
+            row_df['PAT1PtPctRush'] = 0
         
         ## PAT2PtAttPass
         try:
             row_df['PAT2PtAttPass'] = player['PAT2PtAttPass']
         except:
-            row_df['PAT2PtAttPass'] = None
+            row_df['PAT2PtAttPass'] = 0
 
         ## PAT2PtAttRec
         try:
             row_df['PAT2PtAttRec'] = player['PAT2PtAttRec']
         except:
-            row_df['PAT2PtAttRec'] = None
+            row_df['PAT2PtAttRec'] = 0
 
         ## PAT2PtAttRush
         try:
             row_df['PAT2PtAttRush'] = player['PAT2PtAttRush']
         except:
-            row_df['PAT2PtAttRush'] = None
+            row_df['PAT2PtAttRush'] = 0
 
         ## PAT2PtConvRush
         try:
             row_df['PAT2PtConvRush'] = player['PAT2PtConvRush']
         except:
-            row_df['PAT2PtConvRush'] = None
+            row_df['PAT2PtConvRush'] = 0
 
         ## PAT2PtPctRush
         try:
             row_df['PAT2PtPctRush'] = player['PAT2PtPctRush']
         except:
-            row_df['PAT2PtPctRush'] = None
+            row_df['PAT2PtPctRush'] = 0
         
         ## PAT3PtAttPass
         try:
             row_df['PAT3PtAttPass'] = player['PAT3PtAttPass']
         except:
-            row_df['PAT3PtAttPass'] = None
+            row_df['PAT3PtAttPass'] = 0
 
         ## PAT3PtAttRec
         try:
             row_df['PAT3PtAttRec'] = player['PAT3PtAttRec']
         except:
-            row_df['PAT3PtAttRec'] = None
+            row_df['PAT3PtAttRec'] = 0
 
         ## PAT3PtAttRush
         try:
             row_df['PAT3PtAttRush'] = player['PAT3PtAttRush']
         except:
-            row_df['PAT3PtAttRush'] = None
+            row_df['PAT3PtAttRush'] = 0
 
         ## PAT3PtConvRush
         try:
             row_df['PAT3PtConvRush'] = player['PAT3PtConvRush']
         except:
-            row_df['PAT3PtConvRush'] = None
+            row_df['PAT3PtConvRush'] = 0
 
         ## PAT3PtPctRush
         try:
             row_df['PAT3PtPctRush'] = player['PAT3PtPctRush']
         except:
-            row_df['PAT3PtPctRush'] = None
+            row_df['PAT3PtPctRush'] = 0
         
         ## TotalTD
         try:
             row_df['TotalTD'] = player['TotalTD']
         except:
-            row_df['TotalTD'] = None
+            row_df['TotalTD'] = 0
 
         ## TotalYards
         try:
             row_df['TotalYards'] = player['TotalYards']
         except:
-            row_df['TotalYards'] = None
+            row_df['TotalYards'] = 0
 
         ##############################################################################################################
         ## Penalty Stats
@@ -458,13 +458,13 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['Penalties'] = player['Penalties']
         except:
-            row_df['Penalties'] = None
+            row_df['Penalties'] = 0
 
         ## PAT3PtPctRush
         try:
             row_df['PenaltyYards'] = player['PenaltyYards']
         except:
-            row_df['PenaltyYards'] = None
+            row_df['PenaltyYards'] = 0
 
         ##############################################################################################################
         ## Defensive Stats
@@ -474,97 +474,97 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['DefTackles'] = player['DefTackles']
         except:
-            row_df['DefTackles'] = None
+            row_df['DefTackles'] = 0
 
         ## SOLO
         try:
             row_df['DefSoloTackles'] = player['DefSoloTackles']
         except:
-            row_df['DefSoloTackles'] = None
+            row_df['DefSoloTackles'] = 0
 
         ## AST
         try:
             row_df['DefAssistTackles'] = player['DefAssistTackles']
         except:
-            row_df['DefAssistTackles'] = None
+            row_df['DefAssistTackles'] = 0
 
         ## QB_HITS
         try:
             row_df['DefQBHits'] = player['DefQBHits']
         except:
-            row_df['DefQBHits'] = None
+            row_df['DefQBHits'] = 0
 
         ## TFL
         try:
             row_df['DefTacklesForLoss'] = player['DefTacklesForLoss']
         except:
-            row_df['DefTacklesForLoss'] = None
+            row_df['DefTacklesForLoss'] = 0
 
         ## SACKS
         try:
             row_df['DefSacks'] = player['DefSacks']
         except:
-            row_df['DefSacks'] = None
+            row_df['DefSacks'] = 0
                     
         ## SACK_YDS
         try:
             row_df['DefSackYards'] = player['DefSackYards']
         except:
-            row_df['DefSackYards'] = None
+            row_df['DefSackYards'] = 0
 
         ## SACK_YDS_AVG
         try:
             row_df['DefSackYardsAvg'] = player['DefSackYardsAvg']
         except:
-            row_df['DefSackYardsAvg'] = None
+            row_df['DefSackYardsAvg'] = 0
                                     
         ## INT
         try:
             row_df['DefINT'] = player['DefINT']
         except:
-            row_df['DefINT'] = None
+            row_df['DefINT'] = 0
 
         ## INT_YDS
         try:
             row_df['DefINTReturnYards'] = player['DefINTReturnYards']
         except:
-            row_df['DefINTReturnYards'] = None
+            row_df['DefINTReturnYards'] = 0
 
         ## INT_AVG
         try:
             row_df['DefINTReturnYardsAvg'] = player['DefINTReturnYardsAvg']
         except:
-            row_df['DefINTReturnYardsAvg'] = None
+            row_df['DefINTReturnYardsAvg'] = 0
                                         
         ## INT_TD
         try:
             row_df['DefINTReturnTD'] = player['DefINTReturnTD']
         except:
-            row_df['DefINTReturnTD'] = None
+            row_df['DefINTReturnTD'] = 0
         
         ## INT_LONG
         try:
             row_df['DefINTReturnYardsLong'] = player['DefINTReturnYardsLong']
         except:
-            row_df['DefINTReturnYardsLong'] = None
+            row_df['DefINTReturnYardsLong'] = 0
                               
         ## PD
         try:
             row_df['DefINTReturnYardsLong'] = player['DefINTReturnYardsLong']
         except:
-            row_df['DefINTReturnYardsLong'] = None
+            row_df['DefINTReturnYardsLong'] = 0
                               
         ## FF
         try:
             row_df['DefAssistTackles'] = player['DefAssistTackles']
         except:
-            row_df['DefAssistTackles'] = None
+            row_df['DefAssistTackles'] = 0
         
         ## FR
         try:
             row_df['DefAssistTackles'] = player['DefAssistTackles']
         except:
-            row_df['DefAssistTackles'] = None
+            row_df['DefAssistTackles'] = 0
 
         ##############################################################################################################
         ## Field Goal Stats
@@ -574,84 +574,84 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['FGAtt'] = player['FGAtt']
         except:
-            row_df['FGAtt'] = None
+            row_df['FGAtt'] = 0
 
         ## FGM
         try:
             row_df['FGMade'] = player['FGMade']
         except:
-            row_df['FGMade'] = None
+            row_df['FGMade'] = 0
 
         ## FG_LONG
         try:
             row_df['FGLong'] = player['FGLong']
         except:
-            row_df['FGLong'] = None
+            row_df['FGLong'] = 0
 
         ## FGA_0_19
         try:
             row_df['FG0To19Att'] = player['FG0To19Att']
         except:
-            row_df['FG0To19Att'] = None
+            row_df['FG0To19Att'] = 0
 
         ## FGM_0_19
         try:
             row_df['FG0To19Made'] = player['FG0To19Made']
         except:
-            row_df['FG0To19Made'] = None
+            row_df['FG0To19Made'] = 0
 
         ## FGM_0_19
         try:
             row_df['FG0To19Made'] = player['FG0To19Made']
         except:
-            row_df['FG0To19Made'] = None
+            row_df['FG0To19Made'] = 0
 
         ## FGA_20_29
         try:
             row_df['FG20To29Att'] = player['FG20To29Att']
         except:
-            row_df['FG20To29Att'] = None
+            row_df['FG20To29Att'] = 0
 
         ## FGM_20_29
         try:
             row_df['FG20To29Made'] = player['FG20To29Made']
         except:
-            row_df['FG20To29Made'] = None
+            row_df['FG20To29Made'] = 0
         ## FGA_30_39
         try:
             row_df['FG30To39Att'] = player['FG30To39Att']
         except:
-            row_df['FG30To39Att'] = None
+            row_df['FG30To39Att'] = 0
 
         ## FGM_30_39
         try:
             row_df['FG30To39Made'] = player['FG30To39Made']
         except:
-            row_df['FG30To39Made'] = None
+            row_df['FG30To39Made'] = 0
 
         ## FGA_40_49
         try:
             row_df['FG40To49Att'] = player['FG40To49Att']
         except:
-            row_df['FG40To49Att'] = None
+            row_df['FG40To49Att'] = 0
 
         ## FGM_40_49
         try:
             row_df['FG40To49Made'] = player['FG40To49Made']
         except:
-            row_df['FG40To49Made'] = None
+            row_df['FG40To49Made'] = 0
 
         ## FGA_50_59
         try:
             row_df['FG50PlusAtt'] = player['FG50PlusAtt']
         except:
-            row_df['FG50PlusAtt'] = None
+            row_df['FG50PlusAtt'] = 0
 
         ## FGM_50_59
         try:
             row_df['FG50PlusMade'] = player['FG50PlusMade']
         except:
-            row_df['FG50PlusMade'] = None
+            row_df['FG50PlusMade'] = 0
 
         ##############################################################################################################
         ## Punting Stats
@@ -661,37 +661,37 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['Punts'] = player['Punts']
         except:
-            row_df['Punts'] = None
+            row_df['Punts'] = 0
 
         ## GROSS_PUNT_YDS
         try:
             row_df['PuntGrossYards'] = player['PuntGrossYards']
         except:
-            row_df['PuntGrossYards'] = None
+            row_df['PuntGrossYards'] = 0
 
         ## GROSS_PUNT_AVG
         try:
             row_df['PuntGrossYardsAvg'] = player['PuntGrossYardsAvg']
         except:
-            row_df['PuntGrossYardsAvg'] = None
+            row_df['PuntGrossYardsAvg'] = 0
 
         ## GROSS_PUNT_LONG
         try:
             row_df['PuntGrossYardsLong'] = player['PuntGrossYardsLong']
         except:
-            row_df['PuntGrossYardsLong'] = None
+            row_df['PuntGrossYardsLong'] = 0
 
         ## PUNT_TB
         try:
             row_df['PuntTouchbacks'] = player['PuntTouchbacks']
         except:
-            row_df['PuntTouchbacks'] = None
+            row_df['PuntTouchbacks'] = 0
 
         ## PUNT_INSIDE_20
         try:
             row_df['PuntInside20'] = player['PuntInside20']
         except:
-            row_df['PuntInside20'] = None
+            row_df['PuntInside20'] = 0
 
         ##############################################################################################################
         ## Punt Return Stats
@@ -701,37 +701,37 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['PuntRetReturns'] = player['PuntRetReturns']
         except:
-            row_df['PuntRetReturns'] = None
+            row_df['PuntRetReturns'] = 0
 
         ## PR_YDS
         try:
             row_df['PuntRetYards'] = player['PuntRetYards']
         except:
-            row_df['PuntRetYards'] = None
+            row_df['PuntRetYards'] = 0
 
         ## PR_AVG
         try:
             row_df['PuntRetYardsAvg'] = player['PuntRetYardsAvg']
         except:
-            row_df['PuntRetYardsAvg'] = None
+            row_df['PuntRetYardsAvg'] = 0
 
         ## PR_TD
         try:
             row_df['PuntRetTD'] = player['PuntRetTD']
         except:
-            row_df['PuntRetTD'] = None
+            row_df['PuntRetTD'] = 0
 
         ## PR_LONG
         try:
             row_df['PuntRetYardsLong'] = player['PuntRetYardsLong']
         except:
-            row_df['PuntRetYardsLong'] = None
+            row_df['PuntRetYardsLong'] = 0
 
         ## PR_FC
         try:
             row_df['PuntRetFairCatches'] = player['PuntRetFairCatches']
         except:
-            row_df['PuntRetFairCatches'] = None
+            row_df['PuntRetFairCatches'] = 0
 
         ##############################################################################################################
         ## Kick Return Stats
@@ -741,31 +741,31 @@ def get_xfl_player_box(game_id:str,save=False):
         try:
             row_df['KickRetReturns'] = player['KickRetReturns']
         except:
-            row_df['KickRetReturns'] = None
+            row_df['KickRetReturns'] = 0
 
         ## KR_YDS
         try:
             row_df['KickRetYards'] = player['KickRetYards']
         except:
-            row_df['KickRetYards'] = None
+            row_df['KickRetYards'] = 0
 
         ## KR_AVG
         try:
             row_df['KickRetYardsAvg'] = player['KickRetYardsAvg']
         except:
-            row_df['KickRetYardsAvg'] = None
+            row_df['KickRetYardsAvg'] = 0
 
         ## KR_TD
         try:
             row_df['KickRetTD'] = player['KickRetTD']
         except:
-            row_df['KickRetTD'] = None
+            row_df['KickRetTD'] = 0
 
         ## KR_LONG
         try:
             row_df['KickRetYardsLong'] = player['KickRetYardsLong']
         except:
-            row_df['KickRetYardsLong'] = None
+            row_df['KickRetYardsLong'] = 0
 
 
         main_df = pd.concat([main_df,row_df],ignore_index=True)
@@ -777,6 +777,14 @@ def get_xfl_player_box(game_id:str,save=False):
 
     del participation_df,main_df
 
+    finished_df[['Participated','IsStarting','Scratch']] = finished_df[['Participated','IsStarting','Scratch']].fillna(0)
+
+    finished_df.loc[finished_df['PassAtt']>=1,'CFB_QBR'] = (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt'])
+    ##finished_df['CFB_QBR'] = finished_df['PassAtt'].apply(lambda x: (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt']) if (x > 0) else None)
+    if replace_col_names == True:
+        print('Replacing column names.')
+        #finished_df = finished_df.rename(columns={})
+    
     #main_df = pd.DataFrame(data=json_data)
     if save == True:
         
@@ -815,173 +823,173 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['PlaysPerGame'] = team['PlaysPerGame']
         except:
-            row_df['PlaysPerGame'] = None
+            row_df['PlaysPerGame'] = 0
 
         try:
             row_df['Points'] = team['Points']
         except:
-            row_df['Points'] = None
+            row_df['Points'] = 0
 
         try:
             row_df['DefPointsAgainst'] = team['DefPointsAgainst']
         except:
-            row_df['DefPointsAgainst'] = None
+            row_df['DefPointsAgainst'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['YardsPerGame'] = team['YardsPerGame']
         except:
-            row_df['YardsPerGame'] = None
+            row_df['YardsPerGame'] = 0
         
         try:
             row_df['DefYardsAgainst'] = team['DefYardsAgainst']
         except:
-            row_df['DefYardsAgainst'] = None
+            row_df['DefYardsAgainst'] = 0
         
         try:
             row_df['PassYardsPerGame'] = team['PassYardsPerGame']
         except:
-            row_df['PassYardsPerGame'] = None
+            row_df['PassYardsPerGame'] = 0
 
         try:
             row_df['DefPassYardsAgainst'] = team['DefPassYardsAgainst']
         except:
-            row_df['DefPassYardsAgainst'] = None
+            row_df['DefPassYardsAgainst'] = 0
         try:
             row_df['RushYardsPerGame'] = team['RushYardsPerGame']
         except:
-            row_df['RushYardsPerGame'] = None
+            row_df['RushYardsPerGame'] = 0
 
         try:
             row_df['DefRushYardsAgainst'] = team['DefRushYardsAgainst']
         except:
-            row_df['DefRushYardsAgainst'] = None
+            row_df['DefRushYardsAgainst'] = 0
 
         ###############################################################################################################################################################
         ## This exists in the JSON files, but was blank for week 1
         try:
             row_df['DriveStartYardlineAvg'] = team['DriveStartYardlineAvg']
         except:
-            row_df['DriveStartYardlineAvg'] = None
+            row_df['DriveStartYardlineAvg'] = 0
 
         ###############################################################################################################################################################
         
         try:
             row_df['FirstDowns'] = team['FirstDowns']
         except:
-            row_df['FirstDowns'] = None
+            row_df['FirstDowns'] = 0
 
         try:
             row_df['FirstDownsByPass'] = team['FirstDownsByPass']
         except:
-            row_df['FirstDownsByPass'] = None
+            row_df['FirstDownsByPass'] = 0
 
         try:
             row_df['FirstDownsByPenalty'] = team['FirstDownsByPenalty']
         except:
-            row_df['FirstDownsByPenalty'] = None
+            row_df['FirstDownsByPenalty'] = 0
 
         try:
             row_df['FirstDownsByRush'] = team['FirstDownsByRush']
         except:
-            row_df['FirstDownsByRush'] = None
+            row_df['FirstDownsByRush'] = 0
 
         try:
             row_df['FirstDownPercent'] = team['FirstDownPercent']
         except:
-            row_df['FirstDownPercent'] = None
+            row_df['FirstDownPercent'] = 0
 
         try:
             row_df['FirstDownPercentOfPasses'] = team['FirstDownPercentOfPasses']
         except:
-            row_df['FirstDownPercentOfPasses'] = None
+            row_df['FirstDownPercentOfPasses'] = 0
 
         try:
             row_df['FirstDownPercentOfRushes'] = team['FirstDownPercentOfRushes']
         except:
-            row_df['FirstDownPercentOfRushes'] = None
+            row_df['FirstDownPercentOfRushes'] = 0
             
         ###############################################################################################################################################################
         
         try:
             row_df['ThirdDownConv'] = team['ThirdDownConv']
         except:
-            row_df['ThirdDownConv'] = None
+            row_df['ThirdDownConv'] = 0
 
         try:
             row_df['ThirdDownAtt'] = team['ThirdDownAtt']
         except:
-            row_df['ThirdDownAtt'] = None
+            row_df['ThirdDownAtt'] = 0
 
         try:
             row_df['ThirdDownPercent'] = team['ThirdDownPercent']
         except:
-            row_df['ThirdDownPercent'] = None
+            row_df['ThirdDownPercent'] = 0
         
         ###############################################################################################################################################################
         
         try:
             row_df['FourthDownConv'] = team['FourthDownConv']
         except:
-            row_df['FourthDownConv'] = None
+            row_df['FourthDownConv'] = 0
 
         try:
             row_df['FourthDownAtt'] = team['FourthDownAtt']
         except:
-            row_df['FourthDownAtt'] = None
+            row_df['FourthDownAtt'] = 0
 
         try:
             row_df['FourthDownPercent'] = team['FourthDownPercent']
         except:
-            row_df['FourthDownPercent'] = None
+            row_df['FourthDownPercent'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['Penalties'] = team['Penalties']
         except:
-            row_df['Penalties'] = None
+            row_df['Penalties'] = 0
 
         try:
             row_df['PenaltyYards'] = team['PenaltyYards']
         except:
-            row_df['PenaltyYards'] = None
+            row_df['PenaltyYards'] = 0
 
         try:
             row_df['PenaltiesOffensive'] = team['PenaltiesOffensive']
         except:
-            row_df['PenaltiesOffensive'] = None
+            row_df['PenaltiesOffensive'] = 0
 
         try:
             row_df['PenaltyYardsOffensive'] = team['PenaltyYardsOffensive']
         except:
-            row_df['PenaltyYardsOffensive'] = None
+            row_df['PenaltyYardsOffensive'] = 0
 
         try:
             row_df['PenaltiesDefensive'] = team['PenaltiesDefensive']
         except:
-            row_df['PenaltiesDefensive'] = None
+            row_df['PenaltiesDefensive'] = 0
 
         try:
             row_df['PenaltyYardsDefensive'] = team['PenaltyYardsDefensive']
         except:
-            row_df['PenaltyYardsDefensive'] = None
+            row_df['PenaltyYardsDefensive'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['Turnovers'] = team['Turnovers']
         except:
-            row_df['Turnovers'] = None
+            row_df['Turnovers'] = 0
         
         ###############################################################################################################################################################
         try:
             row_df['TotalTD'] = team['TotalTD']
         except:
-            row_df['TotalTD'] = None
+            row_df['TotalTD'] = 0
         
         try:
             row_df['OffTD'] = team['OffTD']
         except:
-            row_df['OffTD'] = None
+            row_df['OffTD'] = 0
 
         try:
             top_seconds = team['TOPSeconds']
@@ -999,92 +1007,92 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['PassComp'] = team['PassComp']
         except:
-            row_df['PassComp'] = None
+            row_df['PassComp'] = 0
 
         try:
             row_df['PassAtt'] = team['PassAtt']
         except:
-            row_df['PassAtt'] = None
+            row_df['PassAtt'] = 0
 
         try:
             row_df['PassCompPercent'] = team['PassCompPercent']
         except:
-            row_df['PassCompPercent'] = None
+            row_df['PassCompPercent'] = 0
 
         try:
             row_df['PassYards'] = team['PassYards']
         except:
-            row_df['PassYards'] = None
+            row_df['PassYards'] = 0
 
         try:
             row_df['PassTD'] = team['PassTD']
         except:
-            row_df['PassTD'] = None
+            row_df['PassTD'] = 0
 
         try:
             row_df['PassINT'] = team['PassINT']
         except:
-            row_df['PassINT'] = None
+            row_df['PassINT'] = 0
         
         try:
             row_df['PassYardsLong'] = team['PassYardsLong']
         except:
-            row_df['PassYardsLong'] = None
+            row_df['PassYardsLong'] = 0
 
         try:
             row_df['PassYardsLongTD'] = team['PassYardsLongTD']
         except:
-            row_df['PassYardsLongTD'] = None
+            row_df['PassYardsLongTD'] = 0
 
         try:
             row_df['PassYardsPerAtt'] = team['PassYardsPerAtt']
         except:
-            row_df['PassYardsPerAtt'] = None
+            row_df['PassYardsPerAtt'] = 0
 
         try:
             row_df['PassYardsPerComp'] = team['PassYardsPerComp']
         except:
-            row_df['PassYardsPerComp'] = None
+            row_df['PassYardsPerComp'] = 0
 
         try:
             row_df['PassYardsAfterCatch'] = team['RecYardsAfterCatch']
         except:
-            row_df['PassYardsAfterCatch'] = None
+            row_df['PassYardsAfterCatch'] = 0
 
         try:
             row_df['PassYardsAfterCatchAvg'] = team['RecYardsAfterCatchAvg']
         except:
-            row_df['PassYardsAfterCatchAvg'] = None
+            row_df['PassYardsAfterCatchAvg'] = 0
 
         try:
             row_df['RecDropped'] = team['RecDropped']
         except:
-            row_df['RecDropped'] = None
+            row_df['RecDropped'] = 0
         
         try:
             row_df['Sacked'] = team['Sacked']
         except:
-            row_df['Sacked'] = None
+            row_df['Sacked'] = 0
         
         try:
             row_df['SackedYards'] = team['SackedYards']
         except:
-            row_df['SackedYards'] = None
+            row_df['SackedYards'] = 0
 
         try:
             row_df['SackedYardsAvg'] = team['SackedYardsAvg']
         except:
-            row_df['SackedYardsAvg'] = None
+            row_df['SackedYardsAvg'] = 0
 
         try:
             row_df['Pass20YdPlays'] = team['Pass20YdPlays']
         except:
-            row_df['Pass20YdPlays'] = None
+            row_df['Pass20YdPlays'] = 0
         
         try:
             row_df['Pass40YdPlays'] = team['Pass40YdPlays']
         except:
-            row_df['Pass40YdPlays'] = None
+            row_df['Pass40YdPlays'] = 0
 
         ###############################################################################################################################################################
         ## Rushing Stats
@@ -1093,42 +1101,42 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['RushAtt'] = team['RushAtt']
         except:
-            row_df['RushAtt'] = None
+            row_df['RushAtt'] = 0
 
         try:
             row_df['RushTD'] = team['RushTD']
         except:
-            row_df['RushTD'] = None
+            row_df['RushTD'] = 0
 
         try:
             row_df['RushYards'] = team['RushYards']
         except:
-            row_df['RushYards'] = None
+            row_df['RushYards'] = 0
 
         try:
             row_df['RushYardsAvg'] = team['RushYardsAvg']
         except:
-            row_df['RushYardsAvg'] = None
+            row_df['RushYardsAvg'] = 0
 
         try:
             row_df['RushYardsLong'] = team['RushYardsLong']
         except:
-            row_df['RushYardsLong'] = None
+            row_df['RushYardsLong'] = 0
 
         try:
             row_df['RushYardsLongTD'] = team['RushYardsLongTD']
         except:
-            row_df['RushYardsLongTD'] = None
+            row_df['RushYardsLongTD'] = 0
         
         try:
             row_df['Rush20YdPlays'] = team['Rush20YdPlays']
         except:
-            row_df['Rush20YdPlays'] = None
+            row_df['Rush20YdPlays'] = 0
         
         try:
             row_df['Rush40YdPlays'] = team['Rush40YdPlays']
         except:
-            row_df['Rush40YdPlays'] = None
+            row_df['Rush40YdPlays'] = 0
 
         ###############################################################################################################################################################
         ## Conversion Stats
@@ -1137,145 +1145,145 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['PAT1PtAtt'] = team['PAT1PtAtt']
         except:
-            row_df['PAT1PtAtt'] = None
+            row_df['PAT1PtAtt'] = 0
         
         try:
             row_df['PAT1PtConv'] = team['PAT1PtConv']
         except:
-            row_df['PAT1PtConv'] = None
+            row_df['PAT1PtConv'] = 0
         
         try:
             row_df['PAT1PtPct'] = team['PAT1PtPct']
         except:
-            row_df['PAT1PtPct'] = None
+            row_df['PAT1PtPct'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT1PtAttPass'] = team['PAT1PtAttPass']
         except:
-            row_df['PAT1PtAttPass'] = None
+            row_df['PAT1PtAttPass'] = 0
         
         try:
             row_df['PAT1PtConvPass'] = team['PAT1PtConvPass']
         except:
-            row_df['PAT1PtConvPass'] = None
+            row_df['PAT1PtConvPass'] = 0
         
         try:
             row_df['PAT1PtPctPass'] = team['PAT1PtPctPass']
         except:
-            row_df['PAT1PtPctPass'] = None
+            row_df['PAT1PtPctPass'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT1PtAttRush'] = team['PAT1PtAttRush']
         except:
-            row_df['PAT1PtAttRush'] = None
+            row_df['PAT1PtAttRush'] = 0
         
         try:
             row_df['PAT1PtConvRush'] = team['PAT1PtConvRush']
         except:
-            row_df['PAT1PtConvRush'] = None
+            row_df['PAT1PtConvRush'] = 0
         
         try:
             row_df['PAT1PtPctRush'] = team['PAT1PtPctRush']
         except:
-            row_df['PAT1PtPctRush'] = None
+            row_df['PAT1PtPctRush'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT2PtAtt'] = team['PAT2PtAtt']
         except:
-            row_df['PAT2PtAtt'] = None
+            row_df['PAT2PtAtt'] = 0
         
         try:
             row_df['PAT2PtConv'] = team['PAT2PtConv']
         except:
-            row_df['PAT2PtConv'] = None
+            row_df['PAT2PtConv'] = 0
 
         try:
             row_df['PAT2PtPct'] = team['PAT2PtPct']
         except:
-            row_df['PAT2PtPct'] = None
+            row_df['PAT2PtPct'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT2PtAttPass'] = team['PAT2PtAttPass']
         except:
-            row_df['PAT2PtAttPass'] = None
+            row_df['PAT2PtAttPass'] = 0
 
         try:
             row_df['PAT2PtConvPass'] = team['PAT2PtConvPass']
         except:
-            row_df['PAT2PtConvPass'] = None
+            row_df['PAT2PtConvPass'] = 0
         
         try:
             row_df['PAT2PtPctPass'] = team['PAT2PtPctPass']
         except:
-            row_df['PAT2PtPctPass'] = None
+            row_df['PAT2PtPctPass'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT2PtAttRush'] = team['PAT2PtAttRush']
         except:
-            row_df['PAT2PtAttRush'] = None
+            row_df['PAT2PtAttRush'] = 0
         
         try:
             row_df['PAT2PtConvRush'] = team['PAT2PtConvRush']
         except:
-            row_df['PAT2PtConvRush'] = None
+            row_df['PAT2PtConvRush'] = 0
 
         try:
             row_df['PAT2PtPctRush'] = team['PAT2PtPctRush']
         except:
-            row_df['PAT2PtPctRush'] = None
+            row_df['PAT2PtPctRush'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT3PtAtt'] = team['PAT3PtAtt']
         except:
-            row_df['PAT3PtAtt'] = None
+            row_df['PAT3PtAtt'] = 0
         
         try:
             row_df['PAT3PtConv'] = team['PAT3PtConv']
         except:
-            row_df['PAT3PtConv'] = None
+            row_df['PAT3PtConv'] = 0
 
         try:
             row_df['PAT3PtPct'] = team['PAT3PtPct']
         except:
-            row_df['PAT3PtPct'] = None
+            row_df['PAT3PtPct'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT3PtConvPass'] = team['PAT3PtConvPass']
         except:
-            row_df['PAT3PtConvPass'] = None
+            row_df['PAT3PtConvPass'] = 0
         
         try:
             row_df['PAT3PtAttPass'] = team['PAT3PtAttPass']
         except:
-            row_df['PAT3PtAttPass'] = None
+            row_df['PAT3PtAttPass'] = 0
 
         try:
             row_df['PAT3PtPctPass'] = team['PAT3PtPctPass']
         except:
-            row_df['PAT3PtPctPass'] = None
+            row_df['PAT3PtPctPass'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['PAT3PtConvRush'] = team['PAT3PtConvRush']
         except:
-            row_df['PAT3PtConvRush'] = None
+            row_df['PAT3PtConvRush'] = 0
         
         try:
             row_df['PAT3PtAttRush'] = team['PAT3PtAttRush']
         except:
-            row_df['PAT3PtAttRush'] = None
+            row_df['PAT3PtAttRush'] = 0
         
         try:
             row_df['PAT3PtPctRush'] = team['PAT3PtPctRush']
         except:
-            row_df['PAT3PtPctRush'] = None
+            row_df['PAT3PtPctRush'] = 0
 
 
         ###############################################################################################################################################################
@@ -1285,12 +1293,12 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['Fumbles'] = team['Fumbles']
         except:
-            row_df['Fumbles'] = None
+            row_df['Fumbles'] = 0
         
         try:
             row_df['FumblesLost'] = team['FumblesLost']
         except:
-            row_df['FumblesLost'] = None
+            row_df['FumblesLost'] = 0
 
         ###############################################################################################################################################################
         ## Defensive Stats
@@ -1299,74 +1307,74 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['DefTackles'] = team['DefTackles']
         except:
-            row_df['DefTackles'] = None
+            row_df['DefTackles'] = 0
 
         try:
             row_df['DefTacklesForLoss'] = team['DefTacklesForLoss']
         except:
-            row_df['DefTacklesForLoss'] = None
+            row_df['DefTacklesForLoss'] = 0
         
         try:
             row_df['DefQBHits'] = team['DefQBHits']
         except:
-            row_df['DefQBHits'] = None
+            row_df['DefQBHits'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['DefSacks'] = team['DefSacks']
         except:
-            row_df['DefSacks'] = None
+            row_df['DefSacks'] = 0
 
         try:
             row_df['DefSackYards'] = team['DefSackYards']
         except:
-            row_df['DefSackYards'] = None
+            row_df['DefSackYards'] = 0
         
         try:
             row_df['DefSackYardsAvg'] = team['DefSackYardsAvg']
         except:
-            row_df['DefSackYardsAvg'] = None
+            row_df['DefSackYardsAvg'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['DefINT'] = team['DefINT']
         except:
-            row_df['DefINT'] = None
+            row_df['DefINT'] = 0
         
         try:
             row_df['DefINTReturnYards'] = team['DefINTReturnYards']
         except:
-            row_df['DefINTReturnYards'] = None
+            row_df['DefINTReturnYards'] = 0
         try:
             row_df['DefINTReturnYardsAvg'] = team['DefINTReturnYardsAvg']
         except:
-            row_df['DefINTReturnYardsAvg'] = None
+            row_df['DefINTReturnYardsAvg'] = 0
         
         try:
             row_df['DefINTReturnTD'] = team['DefINTReturnTD']
         except:
-            row_df['DefINTReturnTD'] = None
+            row_df['DefINTReturnTD'] = 0
         
         try:
             row_df['DefINTReturnYardsLong'] = team['DefINTReturnYardsLong']
         except:
-            row_df['DefINTReturnYardsLong'] = None
+            row_df['DefINTReturnYardsLong'] = 0
         
         try:
             row_df['DefPassesDefended'] = team['DefPassesDefended']
         except:
-            row_df['DefPassesDefended'] = None
+            row_df['DefPassesDefended'] = 0
 
         ###############################################################################################################################################################
         try:
             row_df['DefFumblesForced'] = team['DefFumblesForced']
         except:
-            row_df['DefFumblesForced'] = None
+            row_df['DefFumblesForced'] = 0
 
         try:
             row_df['DefFumblesRecovered'] = team['DefFumblesRecovered']
         except:
-            row_df['DefFumblesRecovered'] = None
+            row_df['DefFumblesRecovered'] = 0
 
         ###############################################################################################################################################################
         ## Field Goal Stats
@@ -1375,32 +1383,32 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['Punts'] = team['Punts']
         except:
-            row_df['Punts'] = None
+            row_df['Punts'] = 0
         
         try:
             row_df['PuntGrossYards'] = team['PuntGrossYards']
         except:
-            row_df['PuntGrossYards'] = None
+            row_df['PuntGrossYards'] = 0
         
         try:
             row_df['PuntGrossYardsAvg'] = team['PuntGrossYardsAvg']
         except:
-            row_df['PuntGrossYardsAvg'] = None
+            row_df['PuntGrossYardsAvg'] = 0
 
         try:
             row_df['PuntGrossYardsLong'] = team['PuntGrossYardsLong']
         except:
-            row_df['PuntGrossYardsLong'] = None
+            row_df['PuntGrossYardsLong'] = 0
         
         try:
             row_df['PuntTouchbacks'] = team['PuntTouchbacks']
         except:
-            row_df['PuntTouchbacks'] = None
+            row_df['PuntTouchbacks'] = 0
 
         try:
             row_df['PuntInside20'] = team['PuntInside20']
         except:
-            row_df['PuntInside20'] = None
+            row_df['PuntInside20'] = 0
 
         ###############################################################################################################################################################
         ## Field Goal Stats
@@ -1408,17 +1416,17 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['FGAtt'] = team['FGAtt']
         except:
-            row_df['FGAtt'] = None
+            row_df['FGAtt'] = 0
 
         try:
             row_df['FGMade'] = team['FGMade']
         except:
-            row_df['FGMade'] = None
+            row_df['FGMade'] = 0
         
         try:
             row_df['FGLong'] = team['FGLong']
         except:
-            row_df['FGLong'] = None
+            row_df['FGLong'] = 0
 
         ###############################################################################################################################################################
         ## Kick Return Stats
@@ -1427,32 +1435,32 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['KickRetReturns'] = team['KickRetReturns']
         except:
-            row_df['KickRetReturns'] = None
+            row_df['KickRetReturns'] = 0
         
         try:
             row_df['KickRetYards'] = team['KickRetYards']
         except:
-            row_df['KickRetYards'] = None
+            row_df['KickRetYards'] = 0
         
         try:
             row_df['KickRetYardsAvg'] = team['KickRetYardsAvg']
         except:
-            row_df['KickRetYardsAvg'] = None
+            row_df['KickRetYardsAvg'] = 0
         
         try:
             row_df['KickRetTD'] = team['KickRetTD']
         except:
-            row_df['KickRetTD'] = None
+            row_df['KickRetTD'] = 0
         
         try:
             row_df['KickRetYardsLong'] = team['KickRetYardsLong']
         except:
-            row_df['KickRetYardsLong'] = None
+            row_df['KickRetYardsLong'] = 0
         
         try:
             row_df['KickRetFairCatches'] = team['KickRetFairCatches']
         except:
-            row_df['KickRetFairCatches'] = None
+            row_df['KickRetFairCatches'] = 0
 
         ###############################################################################################################################################################
         ## Punt Return Stats
@@ -1461,7 +1469,7 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['PuntRetReturns'] = team['PuntRetReturns']
         except:
-            row_df['PuntRetReturns'] = None
+            row_df['PuntRetReturns'] = 0
         
         try:
             row_df['PuntRetYards'] = team['PuntRetYards']
@@ -1471,22 +1479,22 @@ def get_xfl_team_box(game_id:str,save=False):
         try:
             row_df['PuntRetYardsAvg'] = team['PuntRetYardsAvg']
         except:
-            row_df['PuntRetYardsAvg'] = None
+            row_df['PuntRetYardsAvg'] = 0
         
         try:
             row_df['PuntRetTD'] = team['PuntRetTD']
         except:
-            row_df['PuntRetTD'] = None
+            row_df['PuntRetTD'] = 0
 
         try:
             row_df['PuntRetYardsLong'] = team['PuntRetYardsLong']
         except:
-            row_df['PuntRetYardsLong'] = None
+            row_df['PuntRetYardsLong'] = 0
 
         try:
             row_df['PuntRetFairCatches'] = team['PuntRetFairCatches']
         except:
-            row_df['PuntRetFairCatches'] = None
+            row_df['PuntRetFairCatches'] = 0
 
         main_df = pd.concat([main_df,row_df],ignore_index=True)
         
@@ -1546,7 +1554,7 @@ def main():
     event_id_arr = sched_df['EventId'].to_list()
     
     for i in event_id_arr:
-        get_xfl_player_box(i,True)
+        get_xfl_player_box(i,True,True)
         get_xfl_team_box(i,True)
         
     combine_player_box()

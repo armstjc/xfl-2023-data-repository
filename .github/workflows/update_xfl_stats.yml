@@ -5,11 +5,11 @@ name: Update XFL Stats
 
 on:
   schedule:
-    - cron: "0 6 * 2-5 0-2,4-6" 
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    - cron: "0,30 22-23,0-4 * 2-5 0-2,4-6" 
+  #push:
+  #  branches: [ main ]
+  #pull_request:
+  #  branches: [ main ]
     
 jobs:
   build:

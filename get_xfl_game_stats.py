@@ -780,7 +780,49 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
     finished_df[['Participated','IsStarting','Scratch']] = finished_df[['Participated','IsStarting','Scratch']].fillna(0)
 
     finished_df.loc[finished_df['PassAtt']>=1,'CFB_QBR'] = (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt'])
-    ##finished_df['CFB_QBR'] = finished_df['PassAtt'].apply(lambda x: (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt']) if (x > 0) else None)
+    ##finished_df.loc[finished_df['PassAtt']>=1,'NFL_QBR'] = ((((finished_df['PassCompPercent'])*5)+()+()+())/6) * 100
+    
+    ## NFL Passer Rating Calculation
+    finished_df['NFL_QBR_A'] = ((finished_df['PassCompPercent']) - 0.3) * 5
+    finished_df['NFL_QBR_B'] = ((finished_df['PassYardsPerAtt']) - 3) * 0.25
+    finished_df['NFL_QBR_C'] = (finished_df['PassTD']/finished_df['PassAtt']) * 20
+    finished_df['NFL_QBR_D'] = 2.375 -(finished_df['PassINT']/finished_df['PassAtt']* 25)
+
+    finished_df.loc[finished_df['NFL_QBR_A'] < 0, 'NFL_QBR_A'] = 0
+    finished_df.loc[finished_df['NFL_QBR_A'] > 2.375, 'NFL_QBR_A'] = 2.375
+    
+    finished_df.loc[finished_df['NFL_QBR_B'] < 0, 'NFL_QBR_B'] = 0
+    finished_df.loc[finished_df['NFL_QBR_B'] > 2.375, 'NFL_QBR_B'] = 2.375
+    
+    finished_df.loc[finished_df['NFL_QBR_C'] < 0, 'NFL_QBR_C'] = 0
+    finished_df.loc[finished_df['NFL_QBR_C'] > 2.375, 'NFL_QBR_C'] = 2.375
+
+    finished_df.loc[finished_df['NFL_QBR_D'] < 0, 'NFL_QBR_D'] = 0
+    finished_df.loc[finished_df['NFL_QBR_D'] > 2.375, 'NFL_QBR_D'] = 2.375
+    
+
+    finished_df['NFL_QBR'] = ((finished_df['NFL_QBR_A'] + finished_df['NFL_QBR_B'] + finished_df['NFL_QBR_C'] + finished_df['NFL_QBR_D'])/6) * 100
+
+    finished_df = finished_df.drop(columns=['NFL_QBR_A','NFL_QBR_B','NFL_QBR_C','NFL_QBR_D'])
+
+    print(finished_df.columns.values.tolist())
+    cols = ['Season', 'game_id', 'OfficialID', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
+    'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong', 'PassYardsLongTD', \
+    'PassYardsPerAtt', 'PassYardsPerComp', 'QBRating', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
+    'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays', \
+    'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'RecYardsLong', 'RecYardsLongTD', \
+    'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 'FirstDownPercent', \
+    'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush', \
+    'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards', \
+    'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards', 'DefSackYardsAvg', \
+    'DefINT', 'DefINTReturnYards', 'DefINTReturnYardsAvg', 'DefINTReturnTD', 'DefINTReturnYardsLong', \
+    'FGAtt', 'FGMade', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
+    'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', \
+    'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', \
+    'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong']
+
+    finished_df = finished_df[cols]
+
     if replace_col_names == True:
         print('Replacing column names.')
         #finished_df = finished_df.rename(columns={})

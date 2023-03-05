@@ -807,7 +807,7 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
 
         finished_df = finished_df.drop(columns=['NFL_QBR_A','NFL_QBR_B','NFL_QBR_C','NFL_QBR_D'])
 
-        print(finished_df.columns.values.tolist())
+        #print(finished_df.columns.values.tolist())
         cols = ['Season', 'game_id', 'OfficialID', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
         'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong', 'PassYardsLongTD', \
         'PassYardsPerAtt', 'PassYardsPerComp', 'QBRating', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \

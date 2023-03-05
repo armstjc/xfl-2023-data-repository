@@ -1,0 +1,963 @@
+[
+  {
+    "MarkerId": "1",
+    "MarkerUTC": 1678050258.233022,
+    "MajorType": "Event",
+    "MinorType": "EventStart",
+    "Descriptor_": "Game Start Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 15
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10005",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "3",
+    "MarkerUTC": 1678050298.0,
+    "MarkerLTC": 57898,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "1 T. Russolino kicks 65 yards from ARL 35 to end zone, Touchback",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "1",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickTouchback",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickYards": 65,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 35
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "1",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "5",
+    "MarkerUTC": 1678050340.0,
+    "MarkerLTC": 57940,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 35 (14:58) 30 J. Martin rush to ORL 41 for 6 yards (18 D. Payne)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22675",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 898.0,
+          "TimeRemStr": "14:58",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 1,
+          "Yards": 6,
+          "TOP": "0:20",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "2",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "7",
+    "MarkerUTC": 1678050376.0,
+    "MarkerLTC": 57976,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-4-ORL 41 (14:21) 6 P. Lynch pass to 10 D. Thomas to Midfield for 9 yards (36 C. Schooler, 5 W. Hill)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 21
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21891",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21379",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20693",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 861.0,
+          "TimeRemStr": "14:21",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 41
+          },
+          "Distance": 4,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 2,
+          "Yards": 15,
+          "TOP": "0:59",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "3",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "9",
+    "MarkerUTC": 1678050406.0,
+    "MarkerLTC": 58006,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-Midfield (13:53) 30 J. Martin rush to ARL 45 for 5 yards (36 C. Schooler, 45 W. Clarke)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 53
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21379",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20296",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 833.0,
+          "TimeRemStr": "13:53",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 50
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 3,
+          "Yards": 20,
+          "TOP": "1:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "4",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "11",
+    "MarkerUTC": 1678050435.0,
+    "MarkerLTC": 58035,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-5-ARL 45 (13:23) 6 P. Lynch rush to ARL 38 for 7 yards (29 S. Brown)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 23
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20212",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 803.0,
+          "TimeRemStr": "13:23",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 5,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 4,
+          "Yards": 27,
+          "TOP": "1:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "5",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "13",
+    "MarkerUTC": 1678050477.0,
+    "MarkerLTC": 58077,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ARL 38 (12:43) 6 P. Lynch pass to 11 C. Latimer to ARL 34 for 4 yards (18 D. Payne)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 43
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22675",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 763.0,
+          "TimeRemStr": "12:43",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 38
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 5,
+          "Yards": 31,
+          "TOP": "2:27",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "6",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "16",
+    "MarkerUTC": 1678050506.0,
+    "MarkerLTC": 58106,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-6-ARL 34 (12:13) 6 P. Lynch pass to 11 C. Latimer to ARL 34 for 0 yards (5 W. Hill)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20693",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 733.0,
+          "TimeRemStr": "12:13",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Distance": 6,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 6,
+          "Yards": 31,
+          "TOP": "3:19",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "7",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "20",
+    "MarkerUTC": 1678050613.0,
+    "MarkerLTC": 58213,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ARL 33 (11:08) 6 P. Lynch rush to ARL 32 for 1 yard (53 D. Sankey)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22886",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 668.0,
+          "TimeRemStr": "11:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 7,
+          "Yards": 33,
+          "TOP": "4:04",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "9",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "25",
+    "MarkerUTC": 1678050683.0,
+    "MarkerLTC": 58283,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ARL 19 (10:00) 30 J. Martin rush to ARL 24 for -5 yards (53 D. Sankey)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22886",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 600.0,
+          "TimeRemStr": "10:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 19
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 9,
+          "Yards": 41,
+          "TOP": "5:11",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "11",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "27",
+    "MarkerUTC": 1678050652.0,
+    "MarkerLTC": 58252,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-9-ARL 32 (10:30) 6 P. Lynch pass to 87 L. Carter to ARL 19 for 13 yards (5 W. Hill)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10,
+      "ClockSeconds": 30
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20272",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20693",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 630.0,
+          "TimeRemStr": "10:30",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Distance": 9,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 13,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 8,
+          "Yards": 46,
+          "TOP": "4:58",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  },
+  {
+    "MarkerId": "28",
+    "MarkerUTC": 1678050555.0,
+    "MarkerLTC": 58155,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-6-ARL 34 (11:31) PENALTY on 18 D. Payne, 1 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 31
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 691.0,
+          "TimeRemStr": "11:31",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Distance": 6,
+          "DriveNum": 1,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "1",
+          "PlayerId": "22675",
+          "Yards": 1,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 6,
+          "Yards": 32,
+          "TOP": "3:46",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "8",
+    "OfficialCode": "2302011-ORL-at-ARL"
+  }
+]

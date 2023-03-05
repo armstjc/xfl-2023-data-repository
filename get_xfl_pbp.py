@@ -33,7 +33,7 @@ def combine_pbp_files():
     for i in seasons_arr:
         season_df = main_df[main_df['Season'] == i]
         season_df.to_csv(f"pbp/season/csv/{i}_xfl_pbp.csv",index=False)
-        season_df.to_parquet(f"pbp/season/parquet/{i}_xfl_pbp.parquet",index=False)
+        #season_df.to_parquet(f"pbp/season/parquet/{i}_xfl_pbp.parquet",index=False)
 
 def get_xfl_pbp(game_id:str,save=False):
     print(game_id)

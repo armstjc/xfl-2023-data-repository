@@ -21,8 +21,14 @@ def combine_pbp_files():
 
     del game_df
 
+    main_df = main_df.convert_dtypes()
+
     seasons_arr = main_df['Season'].to_list()
     seasons_arr = [*set(seasons_arr)]
+    try:
+        main_df['FootballFumble_PlayerRecovered'] = main_df['FootballFumble_PlayerRecovered'].astype('str')
+    except:
+        print('[FootballFumble_PlayerRecovered] may not exist in this context.')
 
     for i in seasons_arr:
         season_df = main_df[main_df['Season'] == i]

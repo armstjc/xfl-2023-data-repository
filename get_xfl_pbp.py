@@ -372,7 +372,7 @@ def get_xfl_pbp(game_id:str,save=False):
     
     if save == True and len(main_df) >0:
         main_df.to_csv(f'pbp/single_game/csv/{game_id}.csv',index=False)
-        main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
+        #main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
         with open(f"pbp/single_game/json/{game_id}.json", "w+") as f:
             f.write(json.dumps(json_data,indent=2))
 

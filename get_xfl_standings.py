@@ -119,7 +119,7 @@ def get_xfl_standings(season=2023,week=1,save=False):
 
 def main():
     season = 2023
-    week = 3
+    week = 4
     get_xfl_standings(season,week,True)
 
 if __name__ == "__main__":

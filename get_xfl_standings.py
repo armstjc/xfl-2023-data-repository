@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 from urllib.request import urlopen
 
@@ -121,6 +122,17 @@ def main():
     season = 2023
     week = 4
     get_xfl_standings(season,week,True)
+
+    now = datetime.now()
+    current_year = now.year
+    current_month = now.month
+    current_day = now.day
+    current_hour = now.hour
+    current_minute = now.minute
+
+    with open('timestamp.json','w+') as f:
+        f.write(f"{{ \"year\":{current_year},\"month\":{current_month},\"day\":{current_day},\"hour\":{current_hour},\"minute\":{current_minute}}}")
+
 
 if __name__ == "__main__":
     main()

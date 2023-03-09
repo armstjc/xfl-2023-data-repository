@@ -7793,101 +7793,6 @@
     "OfficialCode": "2302011-ORL-at-ARL"
   },
   {
-    "MarkerId": "278",
-    "MarkerUTC": 1678056304.0,
-    "MarkerLTC": 63904,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-ORL 27 (4:52) 6 P. Lynch pass to 25 J. Harvey-Clemons to ARL 45 for 28 yards (5 W. Hill)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 4,
-      "ClockSeconds": 52
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22605",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20649",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20693",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 3,
-          "Period": 3,
-          "TimeRemSecTotal": 292.0,
-          "TimeRemStr": "4:52",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 27
-          },
-          "Distance": 10,
-          "DriveNum": 13,
-          "Down": 1,
-          "PossTeam": "4",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 28,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 27
-          },
-          "Plays": 1,
-          "Yards": 28,
-          "TOP": "0:53",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 3,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "94",
-    "OfficialCode": "2302011-ORL-at-ARL"
-  },
-  {
     "MarkerId": "280",
     "MarkerUTC": 1678056414.0,
     "MarkerLTC": 64014,
@@ -12608,8 +12513,103 @@
     "OfficialCode": "2302011-ORL-at-ARL"
   },
   {
-    "MarkerId": "426",
-    "MarkerUTC": 1678226492.6617591,
+    "MarkerId": "428",
+    "MarkerUTC": 1678056304.0,
+    "MarkerLTC": 63904,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 27 (4:52) 6 P. Lynch pass to 39 J. Smith to ARL 45 for 28 yards (5 W. Hill)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 52
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22605",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21439",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20693",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 3,
+          "Period": 3,
+          "TimeRemSecTotal": 292.0,
+          "TimeRemStr": "4:52",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 27
+          },
+          "Distance": 10,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 28,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 27
+          },
+          "Plays": 11,
+          "Yards": 73,
+          "TOP": "5:09",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 3,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "94",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "429",
+    "MarkerUTC": 1678307474.354431,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",
@@ -12650,6 +12650,6 @@
     "HomeScore": 10,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10025",
-    "OfficialCode": "2302011-ORL-at-ARL"
+    "OfficialCode": " "
   }
 ]

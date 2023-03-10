@@ -24,7 +24,7 @@ def get_xfl_headshots(season:int):
             print(f'Could not retrive the photo for player #{player_ids_arr[i]}.')
 
 
-        time.sleep(1)
+        time.sleep(0.5)
 
 def main():
     get_xfl_headshots(2023)

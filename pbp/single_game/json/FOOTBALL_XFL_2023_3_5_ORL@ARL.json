@@ -9694,98 +9694,6 @@
     "OfficialCode": "2302011-ORL-at-ARL"
   },
   {
-    "MarkerId": "338",
-    "MarkerUTC": 1678057737.0,
-    "MarkerLTC": 65337,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-10-ORL 17 (7:58) 10 K. Sloter pass to 85 T. Vaughns for 17 yards, TOUCHDOWN",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 7,
-      "ClockSeconds": 58
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21884",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "22363",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 9,
-          "HomeScore": 3,
-          "Period": 4,
-          "TimeRemSecTotal": 478.0,
-          "TimeRemStr": "7:58",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 17
-          },
-          "Distance": 10,
-          "DriveNum": 14,
-          "Down": 2,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 17,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballMainScoringPlay": "ScoreTypeTd",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 26
-          },
-          "Plays": 12,
-          "Yards": 74,
-          "TOP": "21:57",
-          "Result": "TD"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
-    "SituationCode": "",
-    "VisitorScore": 9,
-    "HomeScore": 3,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "120",
-    "OfficialCode": "2302011-ORL-at-ARL"
-  },
-  {
     "MarkerId": "340",
     "MarkerUTC": 1678057785.0,
     "MarkerLTC": 65385,
@@ -12608,8 +12516,101 @@
     "OfficialCode": " "
   },
   {
-    "MarkerId": "432",
-    "MarkerUTC": 1678386143.6685677,
+    "MarkerId": "434",
+    "MarkerUTC": 1678057737.0,
+    "MarkerLTC": 65337,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-ORL 17 (7:58) 10 K. Sloter pass to 85 T. Vaughns for 17 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21884",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22363",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 3,
+          "Period": 4,
+          "TimeRemSecTotal": 478.0,
+          "TimeRemStr": "7:58",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 17
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 17,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 12,
+          "Yards": 74,
+          "TOP": "6:57",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_5_ORL@ARL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 3,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "120",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "435",
+    "MarkerUTC": 1678577422.5314653,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

@@ -384,101 +384,6 @@
     "OfficialCode": " "
   },
   {
-    "MarkerId": "11",
-    "MarkerUTC": 1678590393.0,
-    "MarkerLTC": 79593,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-2-SA 38 (13:26) 8 K. Kelly punts 48 yards from SA 38 to SEA 14. 86 K. McKnight to SEA 13 for -1 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 13,
-      "ClockSeconds": 26
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "22884",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "21875",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 806.0,
-          "TimeRemStr": "13:26",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Distance": 2,
-          "DriveNum": 1,
-          "Down": 4,
-          "PossTeam": "3",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 48,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": -1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 13
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 30
-          },
-          "Plays": 3,
-          "Yards": 8,
-          "TOP": "1:34",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
-    "SituationCode": "",
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "5",
-    "OfficialCode": " "
-  },
-  {
     "MarkerId": "13",
     "MarkerUTC": 1678590463.0,
     "MarkerLTC": 79663,
@@ -13712,7 +13617,52 @@
     "OfficialCode": " "
   },
   {
-    "MarkerId": "332",
+    "MarkerId": "333",
+    "MarkerUTC": 1678599614.3590784,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 48
+          },
+          "Distance": 11,
+          "DriveNum": 21,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "335",
     "MarkerUTC": 1678513152.0,
     "MarkerLTC": 2352,
     "MajorType": "Event",
@@ -13788,59 +13738,110 @@
     "SituationCode": "",
     "VisitorScore": 6,
     "HomeScore": 15,
-    "RevisionNum": 3,
+    "RevisionNum": 4,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "154",
     "OfficialCode": " "
   },
   {
-    "MarkerId": "333",
-    "MarkerUTC": 1678599614.3590784,
+    "MarkerId": "337",
+    "MarkerUTC": 1678590393.0,
+    "MarkerLTC": 79593,
     "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-2-SA 38 (13:26) 0 B. Wing punts 0 yards from SA 38 to SA 38. 86 K. McKnight to SEA 13 for -1 yards",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 4
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 26
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21875",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
-          "VisScore": 6,
-          "HomeScore": 15,
-          "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 1,
-          "HomeTimeouts": 1,
+          "Period": 1,
+          "TimeRemSecTotal": 806.0,
+          "TimeRemStr": "13:26",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
           "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 48
+            "VisOrHome": "Visitor",
+            "YardNum": 38
           },
-          "Distance": 11,
-          "DriveNum": 21,
-          "Down": 2,
-          "PossTeam": "6",
+          "Distance": 2,
+          "DriveNum": 1,
+          "Down": 4,
+          "PossTeam": "3",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 13
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Plays": 3,
+          "Yards": 8,
+          "TOP": "1:34",
+          "Result": "PUNT"
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
-    "VisitorScore": 6,
-    "HomeScore": 15,
+    "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
+    "SourceNativeMarkerId": "5",
     "OfficialCode": " "
   },
   {
-    "MarkerId": "334",
-    "MarkerUTC": 1678599660.0589328,
+    "MarkerId": "338",
+    "MarkerUTC": 1678648412.7228184,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

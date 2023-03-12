@@ -10571,5 +10571,2357 @@
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "118",
     "OfficialCode": " "
+  },
+  {
+    "MarkerId": "260",
+    "MarkerUTC": 1678511329.0,
+    "MarkerLTC": 529,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "3-2-SA 28 (9:39) 16 J. Coan sacked at SA 24 for -4 yards (48 S. Miller)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 9,
+      "ClockSeconds": 39
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "22630",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 579.0,
+          "TimeRemStr": "9:39",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Distance": 2,
+          "DriveNum": 16,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Plays": 3,
+          "Yards": 4,
+          "TOP": "1:29",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "119",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "262",
+    "MarkerUTC": 1678511353.0,
+    "MarkerLTC": 553,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-6-SA 24 (9:16) 0 B. Wing punts 48 yards from SA 24 to SEA 28. 86 K. McKnight to SEA 41 for 13 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 9,
+      "ClockSeconds": 16
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21875",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 556.0,
+          "TimeRemStr": "9:16",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Distance": 6,
+          "DriveNum": 16,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 48,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 13,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 41
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Plays": 3,
+          "Yards": 4,
+          "TOP": "2:10",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "120",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "264",
+    "MarkerUTC": 1678511597.0,
+    "MarkerLTC": 797,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 41 (8:46) 6 B. DiNucci pass incomplete to 0 J. Gordon",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 8,
+      "ClockSeconds": 46
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 526.0,
+          "TimeRemStr": "8:46",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 1,
+          "TOP": "0:07",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "121",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "266",
+    "MarkerUTC": 1678511632.0,
+    "MarkerLTC": 832,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-SEA 41 (8:16) 6 B. DiNucci pass to 3 J. Pearson to SEA 47 for 6 yards (2 T. Bonds)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 8,
+      "ClockSeconds": 16
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21203",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20142",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 496.0,
+          "TimeRemStr": "8:16",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 2,
+          "Yards": 6,
+          "TOP": "0:45",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "122",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "268",
+    "MarkerUTC": 1678511666.0,
+    "MarkerLTC": 866,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-4-SEA 47 (7:43) 6 B. DiNucci pass to 0 J. Gordon to SA 47 for 6 yards (15 J. Williams)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7,
+      "ClockSeconds": 43
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21974",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 463.0,
+          "TimeRemStr": "7:43",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 47
+          },
+          "Distance": 4,
+          "DriveNum": 17,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 3,
+          "Yards": 12,
+          "TOP": "1:18",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "123",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "270",
+    "MarkerUTC": 1678511702.0,
+    "MarkerLTC": 902,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 47 (7:07) 25 M. Ellison rush to SA 36 for 11 yards (3 B. Davis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7,
+      "ClockSeconds": 7
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20450",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20362",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 427.0,
+          "TimeRemStr": "7:07",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 4,
+          "Yards": 23,
+          "TOP": "1:54",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "124",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "272",
+    "MarkerUTC": 1678511742.0,
+    "MarkerLTC": 942,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SA 36 (6:27) 6 B. DiNucci pass to 80 B. Jackson to SA 32 for 4 yards (1 L. Barcoo, 22 R. Texada)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 6,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20761",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22376",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 387.0,
+          "TimeRemStr": "6:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 5,
+          "Yards": 27,
+          "TOP": "2:33",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "125",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "274",
+    "MarkerUTC": 1678511782.0,
+    "MarkerLTC": 982,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-6-SA 32 (5:47) 6 B. DiNucci pass incomplete to 88 J. Veasy",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 5,
+      "ClockSeconds": 47
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22306",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 347.0,
+          "TimeRemStr": "5:47",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 32
+          },
+          "Distance": 6,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 6,
+          "Yards": 27,
+          "TOP": "3:07",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "126",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "276",
+    "MarkerUTC": 1678511822.0,
+    "MarkerLTC": 1022,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-6-SA 32 (5:09) 6 B. DiNucci pass to 88 J. Veasy to SA 24 for 8 yards (2 T. Bonds)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 5,
+      "ClockSeconds": 9
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22306",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20142",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 309.0,
+          "TimeRemStr": "5:09",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 32
+          },
+          "Distance": 6,
+          "DriveNum": 17,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 7,
+          "Yards": 35,
+          "TOP": "3:49",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "127",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "278",
+    "MarkerUTC": 1678511935.0,
+    "MarkerLTC": 1135,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 24 (4:32) 25 M. Ellison rush to SA 24 for 0 yards (90 M. Gotel, 15 J. Williams)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 4,
+      "ClockSeconds": 32
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20450",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20567",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21974",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 272.0,
+          "TimeRemStr": "4:32",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 8,
+          "Yards": 35,
+          "TOP": "4:32",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "128",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "280",
+    "MarkerUTC": 1678511975.0,
+    "MarkerLTC": 1175,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-SA 24 (3:53) 6 B. DiNucci pass to 0 J. Gordon to SA 1 for 23 yards (1 L. Barcoo, 42 M. Tverdov)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 53
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21589",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 233.0,
+          "TimeRemStr": "3:53",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 23,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 9,
+          "Yards": 58,
+          "TOP": "5:11",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "129",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "282",
+    "MarkerUTC": 1678512017.0,
+    "MarkerLTC": 1217,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-1-SA 1 (3:10) 25 M. Ellison rush for 1 yard, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20450",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 190.0,
+          "TimeRemStr": "3:10",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 1
+          },
+          "Distance": 1,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Plays": 10,
+          "Yards": 59,
+          "TOP": "5:42",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "130",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "285",
+    "MarkerUTC": 1678512049.0,
+    "MarkerLTC": 1249,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat1PtRush",
+    "Descriptor_": "25 M. Ellison 1-pt conversion rush attempt NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 9
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20450",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 189.0,
+          "TimeRemStr": "3:09",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 2
+          },
+          "DriveNum": 17,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 1,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "131",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "287",
+    "MarkerUTC": 1678512128.0,
+    "MarkerLTC": 1328,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "11 D. Eberle kicks from SEA 30. 6 F. Brown to SA 40 for 31 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 9
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22034",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 189.0,
+          "TimeRemStr": "3:09",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 18,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 31,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 40
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "132",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "289",
+    "MarkerUTC": 1678512204.0,
+    "MarkerLTC": 1404,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-10-SA 40 (2:55) 16 J. Coan sacked at SA 35 for -5 yards Fumbled by 16 J. Coan,  Forced by 51 T. Skipper Recovered by 59 L. Juriga (51 T. Skipper)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21422",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 175.0,
+          "TimeRemStr": "2:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 10,
+          "DriveNum": 18,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 35
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "3",
+          "PlayerFumbled": "20301",
+          "TeamRecovered": "3",
+          "PlayerRecovered": "20864",
+          "PlayerForcedFumble": "21422"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 1,
+          "Yards": -5,
+          "TOP": "0:26",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "133",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "291",
+    "MarkerUTC": 1678512290.0,
+    "MarkerLTC": 1490,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-15-SA 35 (2:31) 16 J. Coan pass to 6 F. Brown to SA 39 for 4 yards (1 B. Thompson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 31
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20203",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22377",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 151.0,
+          "TimeRemStr": "2:31",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 15,
+          "DriveNum": 18,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 2,
+          "Yards": -1,
+          "TOP": "0:47",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "134",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "293",
+    "MarkerUTC": 1678512321.0,
+    "MarkerLTC": 1521,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-11-SA 39 (2:03) 16 J. Coan pass to 80 J. Tolliver to SA 49 for 10 yards (21 L. Stephens)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 3
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21568",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21963",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 123.0,
+          "TimeRemStr": "2:03",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 11,
+          "DriveNum": 18,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 3,
+          "Yards": 9,
+          "TOP": "1:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "135",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "295",
+    "MarkerUTC": 1678512519.0,
+    "MarkerLTC": 1719,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by Seattle Sea Dragons at 2:00",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 120.0,
+          "TimeRemStr": "2:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Distance": 1,
+          "DriveNum": 18,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "6",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 3,
+          "Yards": 9,
+          "TOP": "1:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "136",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "297",
+    "MarkerUTC": 1678512569.0,
+    "MarkerLTC": 1769,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "4-1-SA 49 (1:56) 16 J. Coan pass incomplete to 84 D. Yelder",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 56
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22022",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 116.0,
+          "TimeRemStr": "1:56",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Distance": 1,
+          "DriveNum": 18,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 4,
+          "Yards": 9,
+          "TOP": "1:13",
+          "Result": "DOWNS"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "137",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "299",
+    "MarkerUTC": 1678512610.0,
+    "MarkerLTC": 1810,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SA 49 (1:55) 25 M. Ellison rush to SA 46 for 3 yards (5 T. Adewusi)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20450",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20008",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 115.0,
+          "TimeRemStr": "1:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Distance": 10,
+          "DriveNum": 19,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Plays": 1,
+          "Yards": 3,
+          "TOP": "0:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "138",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "301",
+    "MarkerUTC": 1678512622.0,
+    "MarkerLTC": 1822,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by San Antonio Brahmas at 1:51",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 51
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 111.0,
+          "TimeRemStr": "1:51",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 7,
+          "DriveNum": 19,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "3",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Plays": 1,
+          "Yards": 3,
+          "TOP": "0:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "139",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "303",
+    "MarkerUTC": 1678512678.0,
+    "MarkerLTC": 1878,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-7-SA 46 (1:44) 6 B. DiNucci pass intended for 15 D. Willis INTERCEPTED by 1 L. Barcoo returned 0 yards to SA 20",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21695",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleInterceptor",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 104.0,
+          "TimeRemStr": "1:44",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 7,
+          "DriveNum": 19,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassInterception",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 20
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Plays": 2,
+          "Yards": 3,
+          "TOP": "0:12",
+          "Result": "INT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "140",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "305",
+    "MarkerUTC": 1678512729.0,
+    "MarkerLTC": 1929,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-10-SA 20 (1:40) 16 J. Coan sacked at SA 15 for -5 yards (51 T. Skipper)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 40
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21422",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 100.0,
+          "TimeRemStr": "1:40",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 20,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Plays": 1,
+          "Yards": -5,
+          "TOP": "0:10",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "141",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "307",
+    "MarkerUTC": 1678512751.0,
+    "MarkerLTC": 1951,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-15-SA 15 (1:18) 16 J. Coan pass incomplete to 80 J. Tolliver",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 18
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21568",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 78.0,
+          "TimeRemStr": "1:18",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Distance": 15,
+          "DriveNum": 20,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Plays": 2,
+          "Yards": -5,
+          "TOP": "0:26",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "142",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "309",
+    "MarkerUTC": 1678512788.0,
+    "MarkerLTC": 1988,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-15-SA 15 (1:14) 16 J. Coan pass to 9 J. Patrick to SA 31 for 16 yards (26 J. Evans)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 14
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21196",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20460",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 74.0,
+          "TimeRemStr": "1:14",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Distance": 15,
+          "DriveNum": 20,
+          "Down": 3,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 16,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Plays": 3,
+          "Yards": 11,
+          "TOP": "0:35",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "143",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "311",
+    "MarkerUTC": 1678512811.0,
+    "MarkerLTC": 2011,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SA 31 (1:00) 16 J. Coan pass incomplete to 81 T. Toivonen",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20301",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22891",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemSecTotal": 60.0,
+          "TimeRemStr": "1:00",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 31
+          },
+          "Distance": 10,
+          "DriveNum": 20,
+          "Down": 1,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 20
+          },
+          "Plays": 4,
+          "Yards": 11,
+          "TOP": "0:44",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "144",
+    "OfficialCode": " "
   }
 ]

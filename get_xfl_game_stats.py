@@ -1588,10 +1588,11 @@ def combine_team_box():
     seasons_arr = main_df['Season'].to_list()
     seasons_arr = [*set(seasons_arr)]
 
+    main_df['PassYardsLongTD'] = main_df['PassYardsLongTD'].astype('int')
     for i in seasons_arr:
         season_df = main_df[main_df['Season'] == i]
-        season_df.to_csv(f"game_stats/team/csv/{i}_xfl_player_game_stats.csv",index=False)
-        season_df.to_parquet(f"game_stats/team/parquet/{i}_xfl_player_game_stats.parquet",index=False)
+        season_df.to_csv(f"game_stats/team/csv/{i}_xfl_team_game_stats.csv",index=False)
+        season_df.to_parquet(f"game_stats/team/parquet/{i}_xfl_team_game_stats.parquet",index=False)
 
 
 def main():
@@ -1603,7 +1604,7 @@ def main():
         get_xfl_team_box(i,True)
         
     combine_player_box()
-    #combine_team_box()
+    combine_team_box()
 
 if __name__ == "__main__":
     main()

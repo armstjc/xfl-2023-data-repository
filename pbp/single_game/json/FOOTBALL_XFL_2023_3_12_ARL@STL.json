@@ -7372,110 +7372,6 @@
     "OfficialCode": " "
   },
   {
-    "MarkerId": "194",
-    "MarkerUTC": 1678660802.0,
-    "MarkerLTC": 63602,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 46 (8:06) 10 A. McCarron pass to 23 B. Hill to ARL 34 for 20 yards (18 D. Payne, 53 D. Sankey)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 8,
-      "ClockSeconds": 6
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "22675",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "22886",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 11,
-          "Period": 3,
-          "TimeRemSecTotal": 486.0,
-          "TimeRemStr": "8:06",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 46
-          },
-          "Distance": 10,
-          "DriveNum": 14,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "2",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 20,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 32
-          },
-          "Plays": 4,
-          "Yards": 34,
-          "TOP": "2:21",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 11,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "81",
-    "OfficialCode": " "
-  },
-  {
     "MarkerId": "196",
     "MarkerUTC": 1678660840.0,
     "MarkerLTC": 63640,
@@ -13019,7 +12915,7 @@
     "OfficialCode": " "
   },
   {
-    "MarkerId": "356",
+    "MarkerId": "367",
     "MarkerUTC": 1678664433.0,
     "MarkerLTC": 67233,
     "MajorType": "Event",
@@ -13057,7 +12953,7 @@
           "Distance": 12,
           "DriveNum": 22,
           "Down": 2,
-          "PossTeam": "STL",
+          "PossTeam": "5",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
         },
@@ -13095,14 +12991,119 @@
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
-    "RevisionNum": 5,
+    "RevisionNum": 8,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "141",
     "OfficialCode": " "
   },
   {
-    "MarkerId": "358",
-    "MarkerUTC": 1678664686.9130068,
+    "MarkerId": "369",
+    "MarkerUTC": 1678660802.0,
+    "MarkerLTC": 63602,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-STL 46 (8:06) 10 A. McCarron pass to 22 S. Mitchell to ARL 34 for 20 yards (18 D. Payne, 53 D. Sankey)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 8,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21081",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22675",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22886",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 11,
+          "Period": 3,
+          "TimeRemSecTotal": 486.0,
+          "TimeRemStr": "8:06",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 20,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 4,
+          "Yards": 34,
+          "TOP": "2:21",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 11,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "81",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "370",
+    "MarkerUTC": 1678810936.6955016,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",
@@ -13129,7 +13130,7 @@
           "Distance": 14,
           "DriveNum": 22,
           "Down": 3,
-          "PossTeam": "STL",
+          "PossTeam": "5",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
         },
@@ -13143,51 +13144,6 @@
     "HomeScore": 24,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10025",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "359",
-    "MarkerUTC": 1678664500.0,
-    "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 11,
-          "HomeScore": 24,
-          "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 1,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 45
-          },
-          "Distance": 14,
-          "DriveNum": 22,
-          "Down": 3,
-          "PossTeam": "STL",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "VisitorScore": 11,
-    "HomeScore": 24,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
     "OfficialCode": " "
   }
 ]

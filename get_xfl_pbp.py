@@ -30,10 +30,21 @@ def combine_pbp_files():
     except:
         print('[FootballFumble_PlayerRecovered] may not exist in this context.')
 
+    try:
+        main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].astype('int')
+    except:
+        print('[FootballPenalty_PlayerId] may not exist in this context.')
+
+    #try:
+    #main_df['FootballPenalty_PlayerId'] = pd.to_numeric(main_df['FootballPenalty_PlayerId'],errors='coerce')
+    main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].astype('str')
+    #except:
+    #    print('[FootballPenalty_PlayerId] may not exist in this context.')
+
     for i in seasons_arr:
         season_df = main_df[main_df['Season'] == i]
         season_df.to_csv(f"pbp/season/csv/{i}_xfl_pbp.csv",index=False)
-        #season_df.to_parquet(f"pbp/season/parquet/{i}_xfl_pbp.parquet",index=False)
+        season_df.to_parquet(f"pbp/season/parquet/{i}_xfl_pbp.parquet",index=False)
 
 def get_xfl_pbp(game_id:str,save=False):
     print(game_id)
@@ -372,7 +383,7 @@ def get_xfl_pbp(game_id:str,save=False):
     
     if save == True and len(main_df) >0:
         main_df.to_csv(f'pbp/single_game/csv/{game_id}.csv',index=False)
-        #main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
+        main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
         with open(f"pbp/single_game/json/{game_id}.json", "w+") as f:
             f.write(json.dumps(json_data,indent=2))
 

@@ -11,11 +11,11 @@ xfl-2023-data-repository
 |       ├── csv
 |       |   └── 2023_xfl_player_game_stats.csv
 |       ├── parquet
+|       |   └── 2023_xfl_player_game_stats.parquet
 |       └── raw
 |           ├── csv
 |           ├── json
 |           └── parquet
-|
 ├── team
 |   ├── csv
 |   |   └── 2023_xfl_team_game_stats.csv
@@ -24,7 +24,6 @@ xfl-2023-data-repository
 |       ├── csv
 |       ├── json
 |       └── parquet
-|
 ├── pbp
 |   ├── season
 |   |   ├── csv
@@ -35,14 +34,12 @@ xfl-2023-data-repository
 |       ├── csv
 |       ├── json
 |       └── parquet
-|
 ├── player_info
 |   ├── participation_data
 |   |   ├── csv
 |   |   ├── json
 |   |   └── parquet
 |   └── photos
-|
 ├── rosters
 |   ├── weekly_rosters
 |   |   ├── csv
@@ -52,14 +49,12 @@ xfl-2023-data-repository
 |   |   └── 2023_weekly_xfl_roster.parquet
 |   ├── 2023_xfl_roster.csv
 |   └── 2023_xfl_roster.parquet
-|
 ├── schedule
 |   ├── csv
 |   ├── json
 |   ├── parquet
 |   ├── 2023_xfl_schedule.csv
 |   └── 2023_xfl_schedule.parquet
-|
 ├── standings
 |   ├── weekly_standings
 |   |   ├── csv
@@ -69,5 +64,4 @@ xfl-2023-data-repository
 |   └── 2023_xfl_standings.parquet
 └── teams
     └── xfl_teams.csv
-
 ```

@@ -41,7 +41,52 @@
     "OfficialCode": " "
   },
   {
-    "MarkerId": "3",
+    "MarkerId": "333",
+    "MarkerUTC": 1678599614.3590784,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "HomeScore": 15,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 48
+          },
+          "Distance": 11,
+          "DriveNum": 21,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "HomeScore": 15,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": " "
+  },
+  {
+    "MarkerId": "349",
     "MarkerUTC": 1678590246.0,
     "MarkerLTC": 79446,
     "MajorType": "Event",
@@ -108,15 +153,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "1",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "5",
+    "MarkerId": "350",
     "MarkerUTC": 1678590308.0,
     "MarkerLTC": 79508,
     "MajorType": "Event",
@@ -208,15 +254,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "2",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "7",
+    "MarkerId": "351",
     "MarkerUTC": 1678590338.0,
     "MarkerLTC": 79538,
     "MajorType": "Event",
@@ -292,15 +339,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "3",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "9",
+    "MarkerId": "352",
     "MarkerUTC": 1678590375.0,
     "MarkerLTC": 79575,
     "MajorType": "Event",
@@ -376,15 +424,112 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "4",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "13",
+    "MarkerId": "353",
+    "MarkerUTC": 1678590393.0,
+    "MarkerLTC": 79593,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-2-SA 38 (13:26) 0 B. Wing punts 48 yards from SA 38 to SEA 14. 86 K. McKnight to SEA 13 for -1 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 26
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21875",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 806.0,
+          "TimeRemStr": "13:26",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Distance": 2,
+          "DriveNum": 1,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 48,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 13
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Plays": 3,
+          "Yards": 8,
+          "TOP": "1:34",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
+    "SituationCode": "",
+    "RevisionNum": 13,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "5",
+    "OfficialCode": "2302014-SA-at-SEA"
+  },
+  {
+    "MarkerId": "354",
     "MarkerUTC": 1678590463.0,
     "MarkerLTC": 79663,
     "MajorType": "Event",
@@ -470,15 +615,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "6",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "17",
+    "MarkerId": "355",
     "MarkerUTC": 1678590523.0,
     "MarkerLTC": 79723,
     "MajorType": "Event",
@@ -564,15 +710,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "7",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "19",
+    "MarkerId": "356",
     "MarkerUTC": 1678590535.0,
     "MarkerLTC": 79735,
     "MajorType": "Event",
@@ -648,15 +795,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "8",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "21",
+    "MarkerId": "357",
     "MarkerUTC": 1678590574.0,
     "MarkerLTC": 79774,
     "MajorType": "Event",
@@ -742,15 +890,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "9",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "23",
+    "MarkerId": "358",
     "MarkerUTC": 1678590608.0,
     "MarkerLTC": 79808,
     "MajorType": "Event",
@@ -826,15 +975,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "25",
+    "MarkerId": "359",
     "MarkerUTC": 1678590649.0,
     "MarkerLTC": 79849,
     "MajorType": "Event",
@@ -920,15 +1070,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "11",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "27",
+    "MarkerId": "360",
     "MarkerUTC": 1678590690.0,
     "MarkerLTC": 79890,
     "MajorType": "Event",
@@ -1014,15 +1165,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "12",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "29",
+    "MarkerId": "361",
     "MarkerUTC": 1678590730.0,
     "MarkerLTC": 79930,
     "MajorType": "Event",
@@ -1098,15 +1250,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "13",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "32",
+    "MarkerId": "362",
     "MarkerUTC": 1678590769.0,
     "MarkerLTC": 79969,
     "MajorType": "Event",
@@ -1188,16 +1341,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "14",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "34",
+    "MarkerId": "363",
     "MarkerUTC": 1678590805.0,
     "MarkerLTC": 80005,
     "MajorType": "Event",
@@ -1283,20 +1436,21 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "15",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "37",
+    "MarkerId": "364",
     "MarkerUTC": 1678590844.0,
     "MarkerLTC": 80044,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "4-1-SA 19 (6:40) 6 B. DiNucci pass incomplete to 0 J. Gordon",
+    "Descriptor_": "4-1-SA 19 (6:40) 6 B. DiNucci pass incomplete to 0 J. Gordon QB Hit by 15 J. Williams",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -1373,16 +1527,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "16",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "39",
+    "MarkerId": "365",
     "MarkerUTC": 1678591067.0,
     "MarkerLTC": 80267,
     "MajorType": "Event",
@@ -1468,15 +1622,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "17",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "41",
+    "MarkerId": "366",
     "MarkerUTC": 1678591109.0,
     "MarkerLTC": 80309,
     "MajorType": "Event",
@@ -1562,15 +1717,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "18",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "43",
+    "MarkerId": "367",
     "MarkerUTC": 1678591145.0,
     "MarkerLTC": 80345,
     "MajorType": "Event",
@@ -1646,15 +1802,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "19",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "45",
+    "MarkerId": "368",
     "MarkerUTC": 1678591185.0,
     "MarkerLTC": 80385,
     "MajorType": "Event",
@@ -1736,15 +1893,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "20",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "47",
+    "MarkerId": "369",
     "MarkerUTC": 1678591222.0,
     "MarkerLTC": 80422,
     "MajorType": "Event",
@@ -1830,15 +1988,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "21",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "49",
+    "MarkerId": "370",
     "MarkerUTC": 1678591255.0,
     "MarkerLTC": 80455,
     "MajorType": "Event",
@@ -1924,15 +2083,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "22",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "51",
+    "MarkerId": "371",
     "MarkerUTC": 1678591287.0,
     "MarkerLTC": 80487,
     "MajorType": "Event",
@@ -2018,15 +2178,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "23",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "53",
+    "MarkerId": "372",
     "MarkerUTC": 1678591327.0,
     "MarkerLTC": 80527,
     "MajorType": "Event",
@@ -2102,20 +2263,21 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "24",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "55",
+    "MarkerId": "373",
     "MarkerUTC": 1678591363.0,
     "MarkerLTC": 80563,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "2-13-SEA 22 (1:46) 16 J. Coan pass incomplete to 11 K. Ballage",
+    "Descriptor_": "2-13-SEA 22 (1:46) 16 J. Coan pass incomplete to 11 K. Ballage QB Hit by 44 E. Ponder",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -2192,15 +2354,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "25",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "57",
+    "MarkerId": "374",
     "MarkerUTC": 1678591399.0,
     "MarkerLTC": 80599,
     "MajorType": "Event",
@@ -2265,15 +2428,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "26",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "59",
+    "MarkerId": "375",
     "MarkerUTC": 1678591439.0,
     "MarkerLTC": 80639,
     "MajorType": "Event",
@@ -2359,15 +2523,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "27",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "61",
+    "MarkerId": "376",
     "MarkerUTC": 1678591463.0,
     "MarkerLTC": 80663,
     "MajorType": "Event",
@@ -2440,15 +2605,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "28",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "63",
+    "MarkerId": "377",
     "MarkerUTC": 1678591496.0,
     "MarkerLTC": 80696,
     "MajorType": "Event",
@@ -2516,16 +2682,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "29",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "65",
+    "MarkerId": "378",
     "MarkerUTC": 1678591745.0,
     "MarkerLTC": 80945,
     "MajorType": "Event",
@@ -2600,16 +2767,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "30",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "67",
+    "MarkerId": "379",
     "MarkerUTC": 1678591980.0,
     "MarkerLTC": 81180,
     "MajorType": "Event",
@@ -2696,21 +2864,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "31",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "69",
+    "MarkerId": "380",
     "MarkerUTC": 1678592022.0,
     "MarkerLTC": 81222,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-SEA 31 (14:15) 6 B. DiNucci pass incomplete to 80 B. Jackson",
+    "Descriptor_": "1-10-SEA 31 (14:15) 6 B. DiNucci pass incomplete to 80 B. Jackson Pass Defended by 1 L. Barcoo",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -2788,16 +2957,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "32",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "71",
+    "MarkerId": "381",
     "MarkerUTC": 1678592059.0,
     "MarkerLTC": 81259,
     "MajorType": "Event",
@@ -2884,16 +3054,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "33",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "73",
+    "MarkerId": "382",
     "MarkerUTC": 1678592103.0,
     "MarkerLTC": 81303,
     "MajorType": "Event",
@@ -2970,16 +3141,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "34",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "75",
+    "MarkerId": "383",
     "MarkerUTC": 1678592110.0,
     "MarkerLTC": 81310,
     "MajorType": "Event",
@@ -3067,16 +3239,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "35",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "77",
+    "MarkerId": "384",
     "MarkerUTC": 1678592328.0,
     "MarkerLTC": 81528,
     "MajorType": "Event",
@@ -3163,16 +3336,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "36",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "79",
+    "MarkerId": "385",
     "MarkerUTC": 1678592388.0,
     "MarkerLTC": 81588,
     "MajorType": "Event",
@@ -3249,21 +3423,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "37",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "81",
+    "MarkerId": "386",
     "MarkerUTC": 1678592439.0,
     "MarkerLTC": 81639,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-5-SA 35 (11:18) 16 J. Coan pass incomplete to 8 K. Kelly",
+    "Descriptor_": "3-5-SA 35 (11:18) 16 J. Coan pass incomplete to 8 K. Kelly Pass Defended by 52 A. Jackson",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -3341,16 +3516,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "38",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "83",
+    "MarkerId": "387",
     "MarkerUTC": 1678592460.0,
     "MarkerLTC": 81660,
     "MajorType": "Event",
@@ -3434,16 +3610,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "39",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "85",
+    "MarkerId": "388",
     "MarkerUTC": 1678592531.0,
     "MarkerLTC": 81731,
     "MajorType": "Event",
@@ -3520,16 +3697,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "40",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "87",
+    "MarkerId": "389",
     "MarkerUTC": 1678592569.0,
     "MarkerLTC": 81769,
     "MajorType": "Event",
@@ -3615,16 +3793,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "41",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "90",
+    "MarkerId": "390",
     "MarkerUTC": 1678592609.0,
     "MarkerLTC": 81809,
     "MajorType": "Event",
@@ -3711,17 +3890,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "42",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "95",
+    "MarkerId": "391",
     "MarkerUTC": 1678592761.0,
     "MarkerLTC": 81961,
     "MajorType": "Event",
@@ -3787,16 +3966,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "43",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "97",
+    "MarkerId": "392",
     "MarkerUTC": 1678592822.0,
     "MarkerLTC": 82022,
     "MajorType": "Event",
@@ -3889,16 +4069,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "44",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "99",
+    "MarkerId": "393",
     "MarkerUTC": 1678592864.0,
     "MarkerLTC": 82064,
     "MajorType": "Event",
@@ -3985,16 +4166,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "45",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "101",
+    "MarkerId": "394",
     "MarkerUTC": 1678592911.0,
     "MarkerLTC": 82111,
     "MajorType": "Event",
@@ -4060,16 +4242,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "46",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "103",
+    "MarkerId": "395",
     "MarkerUTC": 1678592948.0,
     "MarkerLTC": 82148,
     "MajorType": "Event",
@@ -4152,16 +4335,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "47",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "106",
+    "MarkerId": "396",
     "MarkerUTC": 1678592967.0,
     "MarkerLTC": 82167,
     "MajorType": "Event",
@@ -4239,17 +4423,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "48",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "108",
+    "MarkerId": "397",
     "MarkerUTC": 1678593224.0,
     "MarkerLTC": 82424,
     "MajorType": "Event",
@@ -4326,16 +4510,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "49",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "110",
+    "MarkerId": "398",
     "MarkerUTC": 1678593265.0,
     "MarkerLTC": 82465,
     "MajorType": "Event",
@@ -4412,16 +4597,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "50",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "112",
+    "MarkerId": "399",
     "MarkerUTC": 1678593301.0,
     "MarkerLTC": 82501,
     "MajorType": "Event",
@@ -4508,16 +4694,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "51",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "114",
+    "MarkerId": "400",
     "MarkerUTC": 1678593341.0,
     "MarkerLTC": 82541,
     "MajorType": "Event",
@@ -4604,16 +4791,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "52",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "116",
+    "MarkerId": "401",
     "MarkerUTC": 1678593385.0,
     "MarkerLTC": 82585,
     "MajorType": "Event",
@@ -4673,21 +4861,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "53",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "119",
+    "MarkerId": "402",
     "MarkerUTC": 1678593443.0,
     "MarkerLTC": 82643,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "2-9-SA 42 (3:19) 16 J. Coan pass incomplete to 88 A. Mack",
+    "Descriptor_": "2-9-SA 42 (3:19) 16 J. Coan pass incomplete to 88 A. Mack Pass Defended by 48 S. Miller",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -4765,17 +4954,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "54",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "121",
+    "MarkerId": "403",
     "MarkerUTC": 1678593489.0,
     "MarkerLTC": 82689,
     "MajorType": "Event",
@@ -4841,16 +5030,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "55",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "123",
+    "MarkerId": "404",
     "MarkerUTC": 1678593524.0,
     "MarkerLTC": 82724,
     "MajorType": "Event",
@@ -4927,16 +5117,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "56",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "126",
+    "MarkerId": "405",
     "MarkerUTC": 1678593531.0,
     "MarkerLTC": 82731,
     "MajorType": "Event",
@@ -5024,17 +5215,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "57",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "132",
+    "MarkerId": "406",
     "MarkerUTC": 1678593753.0,
     "MarkerLTC": 82953,
     "MajorType": "Event",
@@ -5131,17 +5322,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 6,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "58",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "134",
+    "MarkerId": "407",
     "MarkerUTC": 1678593852.0,
     "MarkerLTC": 83052,
     "MajorType": "Event",
@@ -5218,16 +5409,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "59",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "136",
+    "MarkerId": "408",
     "MarkerUTC": 1678593864.0,
     "MarkerLTC": 83064,
     "MajorType": "Event",
@@ -5287,16 +5479,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "60",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "138",
+    "MarkerId": "409",
     "MarkerUTC": 1678593924.0,
     "MarkerLTC": 83124,
     "MajorType": "Event",
@@ -5389,16 +5582,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "61",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "140",
+    "MarkerId": "410",
     "MarkerUTC": 1678593952.0,
     "MarkerLTC": 83152,
     "MajorType": "Event",
@@ -5474,16 +5668,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "62",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "143",
+    "MarkerId": "411",
     "MarkerUTC": 1678593993.0,
     "MarkerLTC": 83193,
     "MajorType": "Event",
@@ -5569,17 +5764,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "63",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "145",
+    "MarkerId": "412",
     "MarkerUTC": 1678594015.0,
     "MarkerLTC": 83215,
     "MajorType": "Event",
@@ -5638,16 +5833,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "64",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "147",
+    "MarkerId": "413",
     "MarkerUTC": 1678594083.0,
     "MarkerLTC": 83283,
     "MajorType": "Event",
@@ -5697,7 +5893,7 @@
         "SourceId": "QBStat"
       },
       {
-        "FootballStatus": "StatusOfficial",
+        "FootballStatus": "StatusUnofficial",
         "SourceId": "QBStat"
       },
       {
@@ -5723,16 +5919,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
-    "RevisionNum": 2,
+    "RevisionNum": 1,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "65",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "149",
+    "MarkerId": "414",
     "MarkerUTC": 1678594096.0,
     "MarkerLTC": 83296,
     "MajorType": "Event",
@@ -5791,16 +5988,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "66",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "151",
+    "MarkerId": "415",
     "MarkerUTC": 1678594153.0,
     "MarkerLTC": 83353,
     "MajorType": "Event",
@@ -5883,16 +6081,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "67",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "153",
+    "MarkerId": "416",
     "MarkerUTC": 1678594188.0,
     "MarkerLTC": 83388,
     "MajorType": "Event",
@@ -5957,6 +6156,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -5964,10 +6164,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "68",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "155",
+    "MarkerId": "417",
     "MarkerUTC": 1678594246.0,
     "MarkerLTC": 83446,
     "MajorType": "Event",
@@ -6035,6 +6235,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -6042,10 +6243,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "69",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "157",
+    "MarkerId": "418",
     "MarkerUTC": 1678594361.0,
     "MarkerLTC": 83561,
     "MajorType": "Event",
@@ -6109,6 +6310,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -6116,10 +6318,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "70",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "159",
+    "MarkerId": "419",
     "MarkerUTC": 1678594387.0,
     "MarkerLTC": 83587,
     "MajorType": "Event",
@@ -6177,6 +6379,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -6184,10 +6387,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "71",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "161",
+    "MarkerId": "420",
     "MarkerUTC": 1678594439.0,
     "MarkerLTC": 83639,
     "MajorType": "Event",
@@ -6263,6 +6466,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -6270,15 +6474,15 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "72",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "163",
+    "MarkerId": "421",
     "MarkerUTC": 1678594477.0,
     "MarkerLTC": 83677,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-SEA 45 (0:08) 16 J. Coan pass incomplete to 11 K. Ballage",
+    "Descriptor_": "1-10-SEA 45 (0:08) 16 J. Coan pass incomplete to 11 K. Ballage QB Hit by 42 C. Smith",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -6355,6 +6559,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -6362,10 +6567,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "73",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "165",
+    "MarkerId": "422",
     "MarkerUTC": 1678594515.0,
     "MarkerLTC": 83715,
     "MajorType": "Event",
@@ -6451,6 +6656,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -6458,10 +6664,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "74",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "168",
+    "MarkerId": "423",
     "MarkerUTC": 1678594544.0,
     "MarkerLTC": 83744,
     "MajorType": "Event",
@@ -6535,7 +6741,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 3,
@@ -6543,10 +6749,10 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "75",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "170",
+    "MarkerId": "424",
     "MarkerUTC": 1678595256.0,
     "MarkerLTC": 84456,
     "MajorType": "Event",
@@ -6615,6 +6821,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -6622,10 +6829,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "76",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "172",
+    "MarkerId": "425",
     "MarkerUTC": 1678595334.0,
     "MarkerLTC": 84534,
     "MajorType": "Event",
@@ -6703,6 +6910,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -6710,15 +6918,15 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "77",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "174",
+    "MarkerId": "426",
     "MarkerUTC": 1678595372.0,
     "MarkerLTC": 84572,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-SEA 38 (14:14) 6 B. DiNucci pass incomplete to 80 B. Jackson",
+    "Descriptor_": "1-10-SEA 38 (14:14) 6 B. DiNucci pass incomplete to 80 B. Jackson Pass Defended by 1 L. Barcoo",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -6797,6 +7005,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -6804,10 +7013,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "78",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "176",
+    "MarkerId": "427",
     "MarkerUTC": 1678595411.0,
     "MarkerLTC": 84611,
     "MajorType": "Event",
@@ -6885,6 +7094,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -6892,10 +7102,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "79",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "178",
+    "MarkerId": "428",
     "MarkerUTC": 1678595444.0,
     "MarkerLTC": 84644,
     "MajorType": "Event",
@@ -6983,6 +7193,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -6990,10 +7201,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "80",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "180",
+    "MarkerId": "429",
     "MarkerUTC": 1678595468.0,
     "MarkerLTC": 84668,
     "MajorType": "Event",
@@ -7092,6 +7303,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7099,10 +7311,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "81",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "182",
+    "MarkerId": "430",
     "MarkerUTC": 1678595541.0,
     "MarkerLTC": 84741,
     "MajorType": "Event",
@@ -7180,6 +7392,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7187,10 +7400,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "82",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "184",
+    "MarkerId": "431",
     "MarkerUTC": 1678595577.0,
     "MarkerLTC": 84777,
     "MajorType": "Event",
@@ -7268,6 +7481,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7275,10 +7489,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "83",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "186",
+    "MarkerId": "432",
     "MarkerUTC": 1678595616.0,
     "MarkerLTC": 84816,
     "MajorType": "Event",
@@ -7366,6 +7580,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7373,10 +7588,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "84",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "188",
+    "MarkerId": "433",
     "MarkerUTC": 1678595643.0,
     "MarkerLTC": 84843,
     "MajorType": "Event",
@@ -7454,6 +7669,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7461,10 +7677,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "85",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "190",
+    "MarkerId": "434",
     "MarkerUTC": 1678595684.0,
     "MarkerLTC": 84884,
     "MajorType": "Event",
@@ -7541,6 +7757,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7548,10 +7765,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "86",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "192",
+    "MarkerId": "435",
     "MarkerUTC": 1678595877.0,
     "MarkerLTC": 85077,
     "MajorType": "Event",
@@ -7625,6 +7842,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7632,10 +7850,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "87",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "194",
+    "MarkerId": "436",
     "MarkerUTC": 1678595897.0,
     "MarkerLTC": 85097,
     "MajorType": "Event",
@@ -7724,6 +7942,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7731,10 +7950,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "88",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "196",
+    "MarkerId": "437",
     "MarkerUTC": 1678595961.0,
     "MarkerLTC": 85161,
     "MajorType": "Event",
@@ -7812,6 +8031,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7819,10 +8039,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "89",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "198",
+    "MarkerId": "438",
     "MarkerUTC": 1678595986.0,
     "MarkerLTC": 85186,
     "MajorType": "Event",
@@ -7900,6 +8120,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -7907,10 +8128,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "90",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "200",
+    "MarkerId": "439",
     "MarkerUTC": 1678596026.0,
     "MarkerLTC": 85226,
     "MajorType": "Event",
@@ -7998,6 +8219,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8005,10 +8227,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "91",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "205",
+    "MarkerId": "440",
     "MarkerUTC": 1678596065.0,
     "MarkerLTC": 85265,
     "MajorType": "Event",
@@ -8102,7 +8324,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8110,10 +8332,10 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "92",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "206",
+    "MarkerId": "441",
     "MarkerUTC": 1678596097.0,
     "MarkerLTC": 85297,
     "MajorType": "Event",
@@ -8191,7 +8413,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8199,10 +8421,10 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "93",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "208",
+    "MarkerId": "442",
     "MarkerUTC": 1678596319.0,
     "MarkerLTC": 85519,
     "MajorType": "Event",
@@ -8280,6 +8502,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8287,15 +8510,15 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "94",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "210",
+    "MarkerId": "443",
     "MarkerUTC": 1678596355.0,
     "MarkerLTC": 85555,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-SA 37 (5:33) 6 B. DiNucci pass incomplete to 15 D. Willis",
+    "Descriptor_": "1-10-SA 37 (5:33) 6 B. DiNucci pass incomplete to 15 D. Willis Pass Defended by 1 L. Barcoo",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -8374,6 +8597,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8381,10 +8605,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "95",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "212",
+    "MarkerId": "444",
     "MarkerUTC": 1678596396.0,
     "MarkerLTC": 85596,
     "MajorType": "Event",
@@ -8456,6 +8680,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8463,10 +8688,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "96",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "214",
+    "MarkerId": "445",
     "MarkerUTC": 1678596435.0,
     "MarkerLTC": 85635,
     "MajorType": "Event",
@@ -8554,6 +8779,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8561,10 +8787,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "97",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "216",
+    "MarkerId": "446",
     "MarkerUTC": 1678596471.0,
     "MarkerLTC": 85671,
     "MajorType": "Event",
@@ -8642,6 +8868,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8649,10 +8876,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "98",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "218",
+    "MarkerId": "447",
     "MarkerUTC": 1678596511.0,
     "MarkerLTC": 85711,
     "MajorType": "Event",
@@ -8730,6 +8957,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8737,10 +8965,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "99",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "220",
+    "MarkerId": "448",
     "MarkerUTC": 1678596549.0,
     "MarkerLTC": 85749,
     "MajorType": "Event",
@@ -8828,6 +9056,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8835,10 +9064,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "100",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "222",
+    "MarkerId": "449",
     "MarkerUTC": 1678596600.0,
     "MarkerLTC": 85800,
     "MajorType": "Event",
@@ -8899,6 +9128,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8906,10 +9136,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "101",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "224",
+    "MarkerId": "450",
     "MarkerUTC": 1678596606.0,
     "MarkerLTC": 85806,
     "MajorType": "Event",
@@ -8985,6 +9215,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -8992,10 +9223,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "102",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "226",
+    "MarkerId": "451",
     "MarkerUTC": 1678596676.0,
     "MarkerLTC": 85876,
     "MajorType": "Event",
@@ -9065,6 +9296,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9072,10 +9304,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "103",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "228",
+    "MarkerId": "452",
     "MarkerUTC": 1678596785.0,
     "MarkerLTC": 85985,
     "MajorType": "Event",
@@ -9158,6 +9390,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9165,10 +9398,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "104",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "230",
+    "MarkerId": "453",
     "MarkerUTC": 1678596819.0,
     "MarkerLTC": 86019,
     "MajorType": "Event",
@@ -9266,6 +9499,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9273,10 +9507,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "105",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "232",
+    "MarkerId": "454",
     "MarkerUTC": 1678596882.0,
     "MarkerLTC": 86082,
     "MajorType": "Event",
@@ -9342,6 +9576,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9349,10 +9584,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "106",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "234",
+    "MarkerId": "455",
     "MarkerUTC": 1678596917.0,
     "MarkerLTC": 86117,
     "MajorType": "Event",
@@ -9445,6 +9680,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9452,10 +9688,10 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "107",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "236",
+    "MarkerId": "456",
     "MarkerUTC": 1678597156.0,
     "MarkerLTC": 86356,
     "MajorType": "Event",
@@ -9533,6 +9769,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9540,15 +9777,15 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "108",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "238",
+    "MarkerId": "457",
     "MarkerUTC": 1678597196.0,
     "MarkerLTC": 86396,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-5-SA 43 (14:17) 16 J. Coan pass incomplete to 80 J. Tolliver",
+    "Descriptor_": "3-5-SA 43 (14:17) 16 J. Coan pass incomplete to 80 J. Tolliver Pass Defended by 5 C. Jones",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -9627,6 +9864,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9634,11 +9872,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "109",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "241",
-    "MarkerUTC": 1678510815.0,
+    "MarkerId": "458",
+    "MarkerUTC": 1678597215.0,
     "MarkerLTC": 15,
     "MajorType": "Event",
     "MinorType": "EventFootballPunt",
@@ -9725,7 +9963,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9733,11 +9971,11 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "110",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "243",
-    "MarkerUTC": 1678510895.0,
+    "MarkerId": "459",
+    "MarkerUTC": 1678597295.0,
     "MarkerLTC": 95,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -9824,6 +10062,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9831,11 +10070,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "111",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "245",
-    "MarkerUTC": 1678510936.0,
+    "MarkerId": "460",
+    "MarkerUTC": 1678597336.0,
     "MarkerLTC": 136,
     "MajorType": "Event",
     "MinorType": "EventFootballSack",
@@ -9908,6 +10147,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -9915,11 +10155,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "112",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "247",
-    "MarkerUTC": 1678510965.0,
+    "MarkerId": "461",
+    "MarkerUTC": 1678597365.0,
     "MarkerLTC": 165,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -10006,6 +10246,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10013,15 +10254,15 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "113",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "249",
-    "MarkerUTC": 1678511014.0,
+    "MarkerId": "462",
+    "MarkerUTC": 1678597414.0,
     "MarkerLTC": 214,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-7-SEA 39 (11:36) 6 B. DiNucci pass incomplete to 3 J. Pearson",
+    "Descriptor_": "3-7-SEA 39 (11:36) 6 B. DiNucci pass incomplete to 3 J. Pearson QB Hit by 15 J. Williams Pass Defended by 22 R. Texada",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -10106,6 +10347,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10113,11 +10355,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "114",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "251",
-    "MarkerUTC": 1678511030.0,
+    "MarkerId": "463",
+    "MarkerUTC": 1678597430.0,
     "MarkerLTC": 230,
     "MajorType": "Event",
     "MinorType": "EventFootballPunt",
@@ -10205,6 +10447,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10212,11 +10455,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "115",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "253",
-    "MarkerUTC": 1678511224.0,
+    "MarkerId": "464",
+    "MarkerUTC": 1678597624.0,
     "MarkerLTC": 424,
     "MajorType": "Event",
     "MinorType": "EventFootballRush",
@@ -10292,6 +10535,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10299,11 +10543,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "116",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "255",
-    "MarkerUTC": 1678511270.0,
+    "MarkerId": "465",
+    "MarkerUTC": 1678597670.0,
     "MarkerLTC": 470,
     "MajorType": "Event",
     "MinorType": "EventFootballPenalty",
@@ -10369,6 +10613,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10376,11 +10621,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "117",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "258",
-    "MarkerUTC": 1678511291.0,
+    "MarkerId": "466",
+    "MarkerUTC": 1678597691.0,
     "MarkerLTC": 491,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -10467,7 +10712,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10475,11 +10720,11 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "118",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "260",
-    "MarkerUTC": 1678511329.0,
+    "MarkerId": "467",
+    "MarkerUTC": 1678597729.0,
     "MarkerLTC": 529,
     "MajorType": "Event",
     "MinorType": "EventFootballSack",
@@ -10552,6 +10797,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10559,11 +10805,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "119",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "262",
-    "MarkerUTC": 1678511353.0,
+    "MarkerId": "468",
+    "MarkerUTC": 1678597753.0,
     "MarkerLTC": 553,
     "MajorType": "Event",
     "MinorType": "EventFootballPunt",
@@ -10651,6 +10897,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10658,11 +10905,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "120",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "264",
-    "MarkerUTC": 1678511597.0,
+    "MarkerId": "469",
+    "MarkerUTC": 1678597997.0,
     "MarkerLTC": 797,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -10738,6 +10985,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10745,11 +10993,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "121",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "266",
-    "MarkerUTC": 1678511632.0,
+    "MarkerId": "470",
+    "MarkerUTC": 1678598032.0,
     "MarkerLTC": 832,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -10836,6 +11084,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10843,11 +11092,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "122",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "268",
-    "MarkerUTC": 1678511666.0,
+    "MarkerId": "471",
+    "MarkerUTC": 1678598066.0,
     "MarkerLTC": 866,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -10934,6 +11183,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -10941,11 +11191,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "123",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "270",
-    "MarkerUTC": 1678511702.0,
+    "MarkerId": "472",
+    "MarkerUTC": 1678598102.0,
     "MarkerLTC": 902,
     "MajorType": "Event",
     "MinorType": "EventFootballRush",
@@ -11022,6 +11272,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11029,11 +11280,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "124",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "272",
-    "MarkerUTC": 1678511742.0,
+    "MarkerId": "473",
+    "MarkerUTC": 1678598142.0,
     "MarkerLTC": 942,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -11126,6 +11377,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11133,11 +11385,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "125",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "274",
-    "MarkerUTC": 1678511782.0,
+    "MarkerId": "474",
+    "MarkerUTC": 1678598182.0,
     "MarkerLTC": 982,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -11214,6 +11466,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11221,11 +11474,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "126",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "276",
-    "MarkerUTC": 1678511822.0,
+    "MarkerId": "475",
+    "MarkerUTC": 1678598222.0,
     "MarkerLTC": 1022,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -11312,6 +11565,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11319,11 +11573,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "127",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "278",
-    "MarkerUTC": 1678511935.0,
+    "MarkerId": "476",
+    "MarkerUTC": 1678598335.0,
     "MarkerLTC": 1135,
     "MajorType": "Event",
     "MinorType": "EventFootballRush",
@@ -11406,6 +11660,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11413,11 +11668,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "128",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "280",
-    "MarkerUTC": 1678511975.0,
+    "MarkerId": "477",
+    "MarkerUTC": 1678598375.0,
     "MarkerLTC": 1175,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -11510,6 +11765,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11517,11 +11773,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "129",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "282",
-    "MarkerUTC": 1678512017.0,
+    "MarkerId": "478",
+    "MarkerUTC": 1678598417.0,
     "MarkerLTC": 1217,
     "MajorType": "Event",
     "MinorType": "EventFootballRush",
@@ -11596,6 +11852,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11603,11 +11860,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "130",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "285",
-    "MarkerUTC": 1678512049.0,
+    "MarkerId": "479",
+    "MarkerUTC": 1678598449.0,
     "MarkerLTC": 1249,
     "MajorType": "Event",
     "MinorType": "EventFootballPat1PtRush",
@@ -11667,7 +11924,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11675,11 +11932,11 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "131",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "287",
-    "MarkerUTC": 1678512128.0,
+    "MarkerId": "480",
+    "MarkerUTC": 1678598528.0,
     "MarkerLTC": 1328,
     "MajorType": "Event",
     "MinorType": "EventFootballKickoff",
@@ -11748,6 +12005,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11755,11 +12013,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "132",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "289",
-    "MarkerUTC": 1678512204.0,
+    "MarkerId": "481",
+    "MarkerUTC": 1678598604.0,
     "MarkerLTC": 1404,
     "MajorType": "Event",
     "MinorType": "EventFootballSack",
@@ -11849,6 +12107,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11856,11 +12115,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "133",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "291",
-    "MarkerUTC": 1678512290.0,
+    "MarkerId": "482",
+    "MarkerUTC": 1678598690.0,
     "MarkerLTC": 1490,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -11947,6 +12206,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -11954,11 +12214,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "134",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "293",
-    "MarkerUTC": 1678512321.0,
+    "MarkerId": "483",
+    "MarkerUTC": 1678598721.0,
     "MarkerLTC": 1521,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -12045,6 +12305,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12052,11 +12313,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "135",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "295",
-    "MarkerUTC": 1678512519.0,
+    "MarkerId": "484",
+    "MarkerUTC": 1678598919.0,
     "MarkerLTC": 1719,
     "MajorType": "Event",
     "MinorType": "EventFootballTimeout",
@@ -12115,6 +12376,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12122,11 +12384,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "136",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "297",
-    "MarkerUTC": 1678512569.0,
+    "MarkerId": "485",
+    "MarkerUTC": 1678598969.0,
     "MarkerLTC": 1769,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -12203,6 +12465,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12210,11 +12473,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "137",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "299",
-    "MarkerUTC": 1678512610.0,
+    "MarkerId": "486",
+    "MarkerUTC": 1678599010.0,
     "MarkerLTC": 1810,
     "MajorType": "Event",
     "MinorType": "EventFootballRush",
@@ -12291,6 +12554,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12298,11 +12562,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "138",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "301",
-    "MarkerUTC": 1678512622.0,
+    "MarkerId": "487",
+    "MarkerUTC": 1678599022.0,
     "MarkerLTC": 1822,
     "MajorType": "Event",
     "MinorType": "EventFootballTimeout",
@@ -12362,6 +12626,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12369,11 +12634,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "139",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "303",
-    "MarkerUTC": 1678512678.0,
+    "MarkerId": "488",
+    "MarkerUTC": 1678599078.0,
     "MarkerLTC": 1878,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -12463,6 +12728,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12470,11 +12736,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "140",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "305",
-    "MarkerUTC": 1678512729.0,
+    "MarkerId": "489",
+    "MarkerUTC": 1678599129.0,
     "MarkerLTC": 1929,
     "MajorType": "Event",
     "MinorType": "EventFootballSack",
@@ -12547,6 +12813,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12554,11 +12821,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "141",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "307",
-    "MarkerUTC": 1678512751.0,
+    "MarkerId": "490",
+    "MarkerUTC": 1678599151.0,
     "MarkerLTC": 1951,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -12635,6 +12902,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12642,11 +12910,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "142",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "309",
-    "MarkerUTC": 1678512788.0,
+    "MarkerId": "491",
+    "MarkerUTC": 1678599188.0,
     "MarkerLTC": 1988,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -12733,6 +13001,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12740,11 +13009,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "143",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "311",
-    "MarkerUTC": 1678512811.0,
+    "MarkerId": "492",
+    "MarkerUTC": 1678599211.0,
     "MarkerLTC": 2011,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -12820,6 +13089,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12827,11 +13097,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "144",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "313",
-    "MarkerUTC": 1678512847.0,
+    "MarkerId": "493",
+    "MarkerUTC": 1678599247.0,
     "MarkerLTC": 2047,
     "MajorType": "Event",
     "MinorType": "EventFootballPenalty",
@@ -12896,6 +13166,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12903,11 +13174,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "145",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "315",
-    "MarkerUTC": 1678512882.0,
+    "MarkerId": "494",
+    "MarkerUTC": 1678599282.0,
     "MarkerLTC": 2082,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -12983,6 +13254,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -12990,15 +13262,15 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "146",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "317",
-    "MarkerUTC": 1678512917.0,
+    "MarkerId": "495",
+    "MarkerUTC": 1678599317.0,
     "MarkerLTC": 2117,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-5-SA 36 (0:46) 16 J. Coan pass incomplete to 81 T. Toivonen",
+    "Descriptor_": "3-5-SA 36 (0:46) 16 J. Coan pass incomplete to 81 T. Toivonen QB Hit by 22 S. Finch",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -13076,6 +13348,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -13083,11 +13356,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "147",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "319",
-    "MarkerUTC": 1678512957.0,
+    "MarkerId": "496",
+    "MarkerUTC": 1678599357.0,
     "MarkerLTC": 2157,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -13173,6 +13446,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -13180,11 +13454,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "148",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "321",
-    "MarkerUTC": 1678512996.0,
+    "MarkerId": "497",
+    "MarkerUTC": 1678599396.0,
     "MarkerLTC": 2196,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -13260,6 +13534,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -13267,11 +13542,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "149",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "323",
-    "MarkerUTC": 1678513028.0,
+    "MarkerId": "498",
+    "MarkerUTC": 1678599428.0,
     "MarkerLTC": 2228,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -13357,6 +13632,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -13364,11 +13640,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "150",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "325",
-    "MarkerUTC": 1678513047.0,
+    "MarkerId": "499",
+    "MarkerUTC": 1678599447.0,
     "MarkerLTC": 2247,
     "MajorType": "Event",
     "MinorType": "EventFootballTimeout",
@@ -13427,6 +13703,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -13434,11 +13711,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "151",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "327",
-    "MarkerUTC": 1678513097.0,
+    "MarkerId": "500",
+    "MarkerUTC": 1678599497.0,
     "MarkerLTC": 2297,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -13514,6 +13791,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -13521,15 +13799,15 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "152",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "329",
-    "MarkerUTC": 1678513135.0,
+    "MarkerId": "501",
+    "MarkerUTC": 1678599535.0,
     "MarkerLTC": 2335,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "4-1-SEA 49 (0:17) 16 J. Coan pass incomplete to 11 K. Ballage",
+    "Descriptor_": "4-1-SEA 49 (0:17) 16 J. Coan pass incomplete to 11 K. Ballage QB Hit by 48 S. Miller",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -13607,6 +13885,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -13614,152 +13893,11 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "153",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "333",
-    "MarkerUTC": 1678599614.3590784,
-    "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 6,
-          "HomeScore": 15,
-          "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 1,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 48
-          },
-          "Distance": 11,
-          "DriveNum": 21,
-          "Down": 2,
-          "PossTeam": "6",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
-    "SituationCode": "",
-    "VisitorScore": 6,
-    "HomeScore": 15,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "342",
-    "MarkerUTC": 1678590393.0,
-    "MarkerLTC": 79593,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-2-SA 38 (13:26) 0 B. Wing punts 48 yards from SA 38 to SEA 14. 86 K. McKnight to SEA 13 for -1 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 13,
-      "ClockSeconds": 26
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "21706",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "21875",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 806.0,
-          "TimeRemStr": "13:26",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Distance": 2,
-          "DriveNum": 1,
-          "Down": 4,
-          "PossTeam": "3",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 48,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": -1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 13
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 30
-          },
-          "Plays": 3,
-          "Yards": 8,
-          "TOP": "1:34",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
-    "SituationCode": "",
-    "RevisionNum": 13,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "5",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "344",
-    "MarkerUTC": 1678513152.0,
+    "MarkerId": "502",
+    "MarkerUTC": 1678599552.0,
     "MarkerLTC": 2352,
     "MajorType": "Event",
     "MinorType": "EventFootballRush",
@@ -13829,19 +13967,19 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_11_SA@SEA",
     "SituationCode": "",
     "VisitorScore": 6,
     "HomeScore": 15,
-    "RevisionNum": 6,
+    "RevisionNum": 7,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "154",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   },
   {
-    "MarkerId": "346",
-    "MarkerUTC": 1678810151.293921,
+    "MarkerId": "503",
+    "MarkerUTC": 1678832226.2240171,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",
@@ -13882,6 +14020,6 @@
     "HomeScore": 15,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10025",
-    "OfficialCode": " "
+    "OfficialCode": "2302014-SA-at-SEA"
   }
 ]

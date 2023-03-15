@@ -43,7 +43,97 @@
     "OfficialCode": " "
   },
   {
-    "MarkerId": "5",
+    "MarkerId": "377",
+    "MarkerUTC": 1678655157.0,
+    "MarkerLTC": 57957,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "2 D. Hageman kicks from STL 35. 20 K. Farrow to ARL 24 for 21 yards (12 G. Jennings, 28 B. DeLuca)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22038",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20381",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22305",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21685",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 21,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 24
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "1",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "378",
     "MarkerUTC": 1678655243.0,
     "MarkerLTC": 58043,
     "MajorType": "Event",
@@ -129,15 +219,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "2",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "7",
+    "MarkerId": "379",
     "MarkerUTC": 1678655276.0,
     "MarkerLTC": 58076,
     "MajorType": "Event",
@@ -219,15 +310,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "3",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "9",
+    "MarkerId": "380",
     "MarkerUTC": 1678655314.0,
     "MarkerLTC": 58114,
     "MajorType": "Event",
@@ -313,15 +405,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "4",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "11",
+    "MarkerId": "381",
     "MarkerUTC": 1678655348.0,
     "MarkerLTC": 58148,
     "MajorType": "Event",
@@ -403,20 +496,21 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "5",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "13",
+    "MarkerId": "382",
     "MarkerUTC": 1678655386.0,
     "MarkerLTC": 58186,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "2-6-STL 49 (12:30) 10 K. Sloter pass incomplete to 80 S. Cannella",
+    "Descriptor_": "2-6-STL 49 (12:30) 10 K. Sloter pass incomplete to 80 S. Cannella QB Hit by 51 W. Harvey",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -493,15 +587,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "6",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "15",
+    "MarkerId": "383",
     "MarkerUTC": 1678655446.0,
     "MarkerLTC": 58246,
     "MajorType": "Event",
@@ -560,15 +655,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "7",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "17",
+    "MarkerId": "384",
     "MarkerUTC": 1678655513.0,
     "MarkerLTC": 58313,
     "MajorType": "Event",
@@ -654,15 +750,107 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "8",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "22",
+    "MarkerId": "385",
+    "MarkerUTC": 1678655534.0,
+    "MarkerLTC": 58334,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "4-2-STL 45 (11:32) 12 A. Killins rush to STL 45 for 0 yards (56 T. Feeney, 27 M. Rose)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 32
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20889",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22503",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21340",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 692.0,
+          "TimeRemStr": "11:32",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 2,
+          "DriveNum": 1,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 7,
+          "Yards": 31,
+          "TOP": "3:28",
+          "Result": "DOWNS"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "9",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "386",
     "MarkerUTC": 1678655588.0,
     "MarkerLTC": 58388,
     "MajorType": "Event",
@@ -744,15 +932,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "24",
+    "MarkerId": "387",
     "MarkerUTC": 1678655626.0,
     "MarkerLTC": 58426,
     "MajorType": "Event",
@@ -838,20 +1027,21 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "11",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "26",
+    "MarkerId": "388",
     "MarkerUTC": 1678655674.0,
     "MarkerLTC": 58474,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-ARL 41 (10:08) 10 A. McCarron pass incomplete to 22 S. Mitchell",
+    "Descriptor_": "1-10-ARL 41 (10:08) 10 A. McCarron pass incomplete to 22 S. Mitchell Pass Defended by 41 D. Bausby",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -928,50 +1118,46 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "12",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "27",
-    "MarkerUTC": 1678655157.0,
-    "MarkerLTC": 57957,
+    "MarkerId": "389",
+    "MarkerUTC": 1678655706.0,
+    "MarkerLTC": 58506,
     "MajorType": "Event",
-    "MinorType": "EventFootballKickoff",
-    "Descriptor_": "2 D. Hageman kicks from STL 35. 20 K. Farrow to ARL 24 for 21 yards (12 G. Jennings, 28 B. DeLuca)",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-10-ARL 41 (9:41) 23 B. Hill rush to ARL 26 for 15 yards (29 S. Brown, 5 W. Hill)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
       "Period": 1,
-      "ClockMinutes": 15
+      "ClockMinutes": 9,
+      "ClockSeconds": 41
     },
     "Participants": [
       {
         "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20688",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
         "Role": "MapRoleTackler1",
-        "OfficialId": "22038",
+        "OfficialId": "20212",
         "SourceId": "QBStat"
       },
       {
         "EntityId": "",
         "Role": "MapRoleTackler2",
-        "OfficialId": "20381",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKicker",
-        "OfficialId": "22305",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKickreturner",
-        "OfficialId": "21685",
+        "OfficialId": "20693",
         "SourceId": "QBStat"
       }
     ],
@@ -979,18 +1165,18 @@
       {
         "FootballEventContext": {
           "Period": 1,
-          "TimeRemSecTotal": 900.0,
-          "TimeRemStr": "15:00",
-          "VisTimeouts": 3,
+          "TimeRemSecTotal": 581.0,
+          "TimeRemStr": "9:41",
+          "VisTimeouts": 2,
           "HomeTimeouts": 3,
           "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 35
+            "VisOrHome": "Visitor",
+            "YardNum": 41
           },
           "Distance": 10,
-          "DriveNum": 1,
-          "Down": 1,
-          "PossTeam": "1",
+          "DriveNum": 2,
+          "Down": 2,
+          "PossTeam": "5",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
         },
@@ -1001,32 +1187,38 @@
         "SourceId": "QBStat"
       },
       {
-        "FootballPlayResult": "ResultKickReturned",
+        "FootballZone": "3",
         "SourceId": "QBStat"
       },
       {
-        "FootballKickRetYards": 21,
+        "FootballYards": 15,
         "SourceId": "QBStat"
       },
       {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 24
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 4,
+          "Yards": 29,
+          "TOP": "2:17",
+          "Result": " "
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
-    "RevisionNum": 3,
+    "RevisionNum": 5,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "1",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "13",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "32",
+    "MarkerId": "390",
     "MarkerUTC": 1678655752.0,
     "MarkerLTC": 58552,
     "MajorType": "Event",
@@ -1102,16 +1294,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "14",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "34",
+    "MarkerId": "391",
     "MarkerUTC": 1678655780.0,
     "MarkerLTC": 58580,
     "MajorType": "Event",
@@ -1193,15 +1385,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "15",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "36",
+    "MarkerId": "392",
     "MarkerUTC": 1678655825.0,
     "MarkerLTC": 58625,
     "MajorType": "Event",
@@ -1277,15 +1470,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "16",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "38",
+    "MarkerId": "393",
     "MarkerUTC": 1678655866.0,
     "MarkerLTC": 58666,
     "MajorType": "Event",
@@ -1361,15 +1555,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "17",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "40",
+    "MarkerId": "394",
     "MarkerUTC": 1678655907.0,
     "MarkerLTC": 58707,
     "MajorType": "Event",
@@ -1455,15 +1650,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "18",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "43",
+    "MarkerId": "395",
     "MarkerUTC": 1678655963.0,
     "MarkerLTC": 58763,
     "MajorType": "Event",
@@ -1537,16 +1733,16 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "19",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "45",
+    "MarkerId": "396",
     "MarkerUTC": 1678656192.0,
     "MarkerLTC": 58992,
     "MajorType": "Event",
@@ -1631,21 +1827,205 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "20",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "53",
+    "MarkerId": "397",
+    "MarkerUTC": 1678656254.0,
+    "MarkerLTC": 59054,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ARL 15 (5:27) 2 D. Smith rush to ARL 19 for 4 yards (95 E. Lumor, 51 W. Harvey) PENALTY on 56 C. Hunt, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22305",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20971",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20647",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 327.0,
+          "TimeRemStr": "5:27",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "1",
+          "PlayerId": "20735",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyLossdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Plays": 1,
+          "TOP": "0:47",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "HomeScore": 3,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "21",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "398",
+    "MarkerUTC": 1678656339.0,
+    "MarkerLTC": 59139,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-16-ARL 9 (4:48) 10 K. Sloter rush to ARL 20 for 11 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 4,
+      "ClockSeconds": 48
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21884",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 288.0,
+          "TimeRemStr": "4:48",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 9
+          },
+          "Distance": 16,
+          "DriveNum": 3,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Plays": 2,
+          "Yards": 10,
+          "TOP": "1:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "HomeScore": 3,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "22",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "399",
     "MarkerUTC": 1678656372.0,
     "MarkerLTC": 59172,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-5-ARL 20 (4:23) 10 K. Sloter pass incomplete to 19 B. Arconado",
+    "Descriptor_": "3-5-ARL 20 (4:23) 10 K. Sloter pass incomplete to 19 B. Arconado Pass Defended by 24 L. Hill",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -1723,16 +2103,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "23",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "55",
+    "MarkerId": "400",
     "MarkerUTC": 1678656412.0,
     "MarkerLTC": 59212,
     "MajorType": "Event",
@@ -1832,107 +2213,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "24",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "57",
-    "MarkerUTC": 1678655534.0,
-    "MarkerLTC": 58334,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "4-2-STL 45 (11:32) 12 A. Killins rush to STL 45 for 0 yards (56 T. Feeney, 27 M. Rose)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 11,
-      "ClockSeconds": 32
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20889",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "22503",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "21340",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 692.0,
-          "TimeRemStr": "11:32",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 45
-          },
-          "Distance": 2,
-          "DriveNum": 1,
-          "Down": 4,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "2",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 24
-          },
-          "Plays": 7,
-          "Yards": 31,
-          "TOP": "3:28",
-          "Result": "DOWNS"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "9",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "59",
+    "MarkerId": "401",
     "MarkerUTC": 1678656619.0,
     "MarkerLTC": 59419,
     "MajorType": "Event",
@@ -2019,16 +2310,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "25",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "61",
+    "MarkerId": "402",
     "MarkerUTC": 1678656655.0,
     "MarkerLTC": 59455,
     "MajorType": "Event",
@@ -2105,16 +2397,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "26",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "64",
+    "MarkerId": "403",
     "MarkerUTC": 1678656687.0,
     "MarkerLTC": 59487,
     "MajorType": "Event",
@@ -2207,17 +2500,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "27",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "67",
+    "MarkerId": "404",
     "MarkerUTC": 1678656730.0,
     "MarkerLTC": 59530,
     "MajorType": "Event",
@@ -2300,16 +2593,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "28",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "69",
+    "MarkerId": "405",
     "MarkerUTC": 1678656762.0,
     "MarkerLTC": 59562,
     "MajorType": "Event",
@@ -2393,21 +2687,97 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "29",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "73",
+    "MarkerId": "406",
+    "MarkerUTC": 1678656832.0,
+    "MarkerLTC": 59632,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-ARL 11 (1:14) PENALTY on 96 L. London, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 14
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 74.0,
+          "TimeRemStr": "1:14",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 11
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "5",
+          "PlayerId": "20965",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 11
+          },
+          "Yards": 5,
+          "TOP": "0:15",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "HomeScore": 3,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "30",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "407",
     "MarkerUTC": 1678656864.0,
     "MarkerLTC": 59664,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-5-ARL 16 (0:52) 10 K. Sloter pass to 2 D. Smith to ARL 23 for 7 yards (17 J. Alexander)",
+    "Descriptor_": "1-5-ARL 16 (0:52) 10 K. Sloter pass to 2 D. Smith to ARL 23 for 7 yards QB Hit by 56 T. Feeney (17 J. Alexander)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -2494,21 +2864,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "31",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "75",
+    "MarkerId": "408",
     "MarkerUTC": 1678656903.0,
     "MarkerLTC": 59703,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-ARL 23 (0:13) 10 K. Sloter pass incomplete to 13 C. Vander Esch",
+    "Descriptor_": "1-10-ARL 23 (0:13) 10 K. Sloter pass incomplete to 13 C. Vander Esch Pass Defended by 17 J. Alexander",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -2585,172 +2956,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "32",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "77",
-    "MarkerUTC": 1678656339.0,
-    "MarkerLTC": 59139,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-16-ARL 9 (4:48) 10 K. Sloter rush to ARL 20 for 11 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 4,
-      "ClockSeconds": 48
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21884",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 3,
-          "Period": 1,
-          "TimeRemSecTotal": 288.0,
-          "TimeRemStr": "4:48",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 9
-          },
-          "Distance": 16,
-          "DriveNum": 3,
-          "Down": 2,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "2",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 11,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 15
-          },
-          "Plays": 2,
-          "Yards": 10,
-          "TOP": "1:05",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "HomeScore": 3,
-    "RevisionNum": 6,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "22",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "78",
-    "MarkerUTC": 1678656832.0,
-    "MarkerLTC": 59632,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPenalty",
-    "Descriptor_": "1-10-ARL 11 (1:14) PENALTY on 96 L. London, 5 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 1,
-      "ClockSeconds": 14
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 3,
-          "Period": 1,
-          "TimeRemSecTotal": 74.0,
-          "TimeRemStr": "1:14",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 11
-          },
-          "Distance": 10,
-          "DriveNum": 5,
-          "Down": 1,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "5",
-          "PlayerId": "20965",
-          "Yards": 5,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 11
-          },
-          "Yards": 5,
-          "TOP": "0:15",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "HomeScore": 3,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "30",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "80",
+    "MarkerId": "409",
     "MarkerUTC": 1678657167.0,
     "MarkerLTC": 59967,
     "MajorType": "Event",
@@ -2827,16 +3043,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "33",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "82",
+    "MarkerId": "410",
     "MarkerUTC": 1678657207.0,
     "MarkerLTC": 60007,
     "MajorType": "Event",
@@ -2929,16 +3146,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "34",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "84",
+    "MarkerId": "411",
     "MarkerUTC": 1678657238.0,
     "MarkerLTC": 60038,
     "MajorType": "Event",
@@ -3021,16 +3239,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "35",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "86",
+    "MarkerId": "412",
     "MarkerUTC": 1678657275.0,
     "MarkerLTC": 60075,
     "MajorType": "Event",
@@ -3117,21 +3336,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "36",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "88",
+    "MarkerId": "413",
     "MarkerUTC": 1678657321.0,
     "MarkerLTC": 60121,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-2-ARL 47 (12:32) 10 K. Sloter pass incomplete to 13 C. Vander Esch",
+    "Descriptor_": "3-2-ARL 47 (12:32) 10 K. Sloter pass incomplete to 13 C. Vander Esch QB Hit by 29 S. Kelly",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -3209,46 +3429,41 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "37",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "91",
-    "MarkerUTC": 1678656254.0,
-    "MarkerLTC": 59054,
+    "MarkerId": "414",
+    "MarkerUTC": 1678657358.0,
+    "MarkerLTC": 60158,
     "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-ARL 15 (5:27) 2 D. Smith rush to ARL 19 for 4 yards (95 E. Lumor, 51 W. Harvey) PENALTY on 56 C. Hunt, 10 yards",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-2-ARL 47 (11:57) 0 M. King punts 39 yards from ARL 47 to 13 A. Proehl, Fair Catch at STL 14",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 1,
-      "ClockMinutes": 5,
-      "ClockSeconds": 27
+      "Period": 2,
+      "ClockMinutes": 11,
+      "ClockSeconds": 57
     },
     "Participants": [
       {
         "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22305",
+        "Role": "MapRolePunter",
+        "OfficialId": "20891",
         "SourceId": "QBStat"
       },
       {
         "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20971",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20647",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21263",
         "SourceId": "QBStat"
       }
     ],
@@ -3256,18 +3471,18 @@
       {
         "FootballEventContext": {
           "HomeScore": 3,
-          "Period": 1,
-          "TimeRemSecTotal": 327.0,
-          "TimeRemStr": "5:27",
+          "Period": 2,
+          "TimeRemSecTotal": 717.0,
+          "TimeRemStr": "11:57",
           "VisTimeouts": 2,
           "HomeTimeouts": 3,
           "BallOn": {
             "VisOrHome": "Visitor",
-            "YardNum": 15
+            "YardNum": 47
           },
-          "Distance": 10,
-          "DriveNum": 3,
-          "Down": 1,
+          "Distance": 2,
+          "DriveNum": 5,
+          "Down": 4,
           "PossTeam": "1",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
@@ -3279,20 +3494,17 @@
         "SourceId": "QBStat"
       },
       {
-        "FootballZone": "2",
+        "FootballPlayResult": "ResultKickFaircatch",
         "SourceId": "QBStat"
       },
       {
-        "FootballYards": 4,
+        "FootballPuntYards": 39,
         "SourceId": "QBStat"
       },
       {
-        "FootballPenalty": {
-          "TeamId": "1",
-          "PlayerId": "20735",
-          "Yards": 10,
-          "PenaltyResult": "ResultPenaltyLossdown",
-          "Description": "NA"
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 14
         },
         "SourceId": "QBStat"
       },
@@ -3300,27 +3512,28 @@
         "FootballDriveSummary": {
           "DriveStart": {
             "VisOrHome": "Visitor",
-            "YardNum": 15
+            "YardNum": 11
           },
-          "Plays": 1,
-          "TOP": "0:47",
-          "Result": " "
+          "Plays": 7,
+          "Yards": 36,
+          "TOP": "4:24",
+          "Result": "PUNT"
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
-    "RevisionNum": 5,
+    "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "21",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "38",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "94",
+    "MarkerId": "415",
     "MarkerUTC": 1678657601.0,
     "MarkerLTC": 60401,
     "MajorType": "Event",
@@ -3403,16 +3616,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "38",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "39",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "96",
+    "MarkerId": "416",
     "MarkerUTC": 1678657639.0,
     "MarkerLTC": 60439,
     "MajorType": "Event",
@@ -3489,21 +3703,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "39",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "40",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "98",
+    "MarkerId": "417",
     "MarkerUTC": 1678657682.0,
     "MarkerLTC": 60482,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-8-STL 16 (10:40) 10 A. McCarron pass incomplete to 88 H. Butler",
+    "Descriptor_": "3-8-STL 16 (10:40) 10 A. McCarron pass incomplete to 88 H. Butler Pass Defended by 5 W. Hill",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -3581,16 +3796,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "40",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "41",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "102",
+    "MarkerId": "418",
     "MarkerUTC": 1678657723.0,
     "MarkerLTC": 60523,
     "MajorType": "Event",
@@ -3700,22 +3916,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "41",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "42",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "104",
+    "MarkerId": "419",
     "MarkerUTC": 1678657812.0,
     "MarkerLTC": 60612,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 40 (9:57) 10 K. Sloter pass incomplete to 81 N. Becker",
+    "Descriptor_": "1-10-STL 40 (9:57) 10 K. Sloter pass incomplete to 81 N. Becker QB Hit by 95 E. Lumor",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -3792,16 +4008,104 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "42",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "43",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "108",
+    "MarkerId": "420",
+    "MarkerUTC": 1678657852.0,
+    "MarkerLTC": 60652,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-10-STL 40 (9:27) 2 D. Smith rush to STL 36 for 4 yards (95 E. Lumor)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 9,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22305",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20971",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 3,
+          "Period": 2,
+          "TimeRemSecTotal": 567.0,
+          "TimeRemStr": "9:27",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 10,
+          "DriveNum": 7,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Plays": 2,
+          "Yards": 4,
+          "TOP": "0:58",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "HomeScore": 3,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "44",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "421",
     "MarkerUTC": 1678657895.0,
     "MarkerLTC": 60695,
     "MajorType": "Event",
@@ -3894,108 +4198,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "44",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "45",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "112",
-    "MarkerUTC": 1678657852.0,
-    "MarkerLTC": 60652,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-10-STL 40 (9:27) 2 D. Smith rush to STL 36 for 4 yards (95 E. Lumor)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 9,
-      "ClockSeconds": 27
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22305",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20971",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "HomeScore": 3,
-          "Period": 2,
-          "TimeRemSecTotal": 567.0,
-          "TimeRemStr": "9:27",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 40
-          },
-          "Distance": 10,
-          "DriveNum": 7,
-          "Down": 2,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "2",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 4,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 40
-          },
-          "Plays": 2,
-          "Yards": 4,
-          "TOP": "0:58",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "HomeScore": 3,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "43",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "113",
+    "MarkerId": "422",
     "MarkerUTC": 1678657939.0,
     "MarkerLTC": 60739,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "4-3-STL 33 (8:03) 10 K. Sloter pass intended for 11 L. Winningham INTERCEPTED by 33 T. Watson returned 0 yards to STL 26",
+    "Descriptor_": "4-3-STL 33 (8:03) 10 K. Sloter pass intended for 11 L. Winningham INTERCEPTED by 33 T. Watson returned 0 yards to STL 26 Pass Defended by 8 M. Hampton",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -4086,17 +4304,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "45",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "46",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "115",
+    "MarkerId": "423",
     "MarkerUTC": 1678658200.0,
     "MarkerLTC": 61000,
     "MajorType": "Event",
@@ -4189,16 +4407,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "46",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "47",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "117",
+    "MarkerId": "424",
     "MarkerUTC": 1678658239.0,
     "MarkerLTC": 61039,
     "MajorType": "Event",
@@ -4285,16 +4504,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "47",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "48",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "119",
+    "MarkerId": "425",
     "MarkerUTC": 1678658285.0,
     "MarkerLTC": 61085,
     "MajorType": "Event",
@@ -4360,16 +4580,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "48",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "49",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "123",
+    "MarkerId": "426",
     "MarkerUTC": 1678658333.0,
     "MarkerLTC": 61133,
     "MajorType": "Event",
@@ -4459,22 +4680,22 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "49",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "50",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "125",
+    "MarkerId": "427",
     "MarkerUTC": 1678658397.0,
     "MarkerLTC": 61197,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 23 (6:06) 10 K. Sloter pass incomplete to 85 T. Vaughns",
+    "Descriptor_": "1-10-STL 23 (6:06) 10 K. Sloter pass incomplete to 85 T. Vaughns QB Hit by 91 T. Tupou Pass Defended by 24 L. Hill",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -4557,16 +4778,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "50",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "51",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "128",
+    "MarkerId": "428",
     "MarkerUTC": 1678658434.0,
     "MarkerLTC": 61234,
     "MajorType": "Event",
@@ -4653,17 +4875,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "51",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "52",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "130",
+    "MarkerId": "429",
     "MarkerUTC": 1678658472.0,
     "MarkerLTC": 61272,
     "MajorType": "Event",
@@ -4740,16 +4962,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "52",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "53",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "133",
+    "MarkerId": "430",
     "MarkerUTC": 1678658503.0,
     "MarkerLTC": 61303,
     "MajorType": "Event",
@@ -4824,17 +5047,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "HomeScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "53",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "54",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "135",
+    "MarkerId": "431",
     "MarkerUTC": 1678658580.0,
     "MarkerLTC": 61380,
     "MajorType": "Event",
@@ -4910,17 +5133,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "54",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "55",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "137",
+    "MarkerId": "432",
     "MarkerUTC": 1678658646.0,
     "MarkerLTC": 61446,
     "MajorType": "Event",
@@ -5004,17 +5228,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "55",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "56",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "139",
+    "MarkerId": "433",
     "MarkerUTC": 1678658676.0,
     "MarkerLTC": 61476,
     "MajorType": "Event",
@@ -5092,17 +5317,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "56",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "57",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "141",
+    "MarkerId": "434",
     "MarkerUTC": 1678658722.0,
     "MarkerLTC": 61522,
     "MajorType": "Event",
@@ -5196,17 +5422,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "57",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "58",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "143",
+    "MarkerId": "435",
     "MarkerUTC": 1678658758.0,
     "MarkerLTC": 61558,
     "MajorType": "Event",
@@ -5290,17 +5517,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "58",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "59",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "145",
+    "MarkerId": "436",
     "MarkerUTC": 1678658986.0,
     "MarkerLTC": 61786,
     "MajorType": "Event",
@@ -5394,17 +5622,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "59",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "60",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "147",
+    "MarkerId": "437",
     "MarkerUTC": 1678659014.0,
     "MarkerLTC": 61814,
     "MajorType": "Event",
@@ -5492,17 +5721,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "60",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "61",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "149",
+    "MarkerId": "438",
     "MarkerUTC": 1678659079.0,
     "MarkerLTC": 61879,
     "MajorType": "Event",
@@ -5568,17 +5798,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "61",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "62",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "151",
+    "MarkerId": "439",
     "MarkerUTC": 1678659113.0,
     "MarkerLTC": 61913,
     "MajorType": "Event",
@@ -5655,102 +5886,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "62",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "63",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "156",
-    "MarkerUTC": 1678659190.0,
-    "MarkerLTC": 61990,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPat2PtPass",
-    "Descriptor_": "10 A. McCarron 2-pt conversion pass to 23 B. Hill GOOD",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockSeconds": 11
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 9,
-          "Period": 2,
-          "TimeRemSecTotal": 11.0,
-          "TimeRemStr": "0:11",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 5
-          },
-          "DriveNum": 10,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "2",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballMainScoringPlay": "ScoreTypeConv",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballConvAttPts": 2,
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 9,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "64",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "157",
+    "MarkerId": "440",
     "MarkerUTC": 1678659159.0,
     "MarkerLTC": 61959,
     "MajorType": "Event",
@@ -5835,18 +5982,103 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 3,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "63",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "64",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "159",
+    "MarkerId": "441",
+    "MarkerUTC": 1678659190.0,
+    "MarkerLTC": 61990,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat2PtPass",
+    "Descriptor_": "10 A. McCarron 2-pt conversion pass to 23 B. Hill GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 11
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20688",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 11.0,
+          "TimeRemStr": "0:11",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 5
+          },
+          "DriveNum": 10,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeConv",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 2,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 9,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "65",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "442",
     "MarkerUTC": 1678659268.0,
     "MarkerLTC": 62068,
     "MajorType": "Event",
@@ -5921,17 +6153,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "65",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "66",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "162",
+    "MarkerId": "443",
     "MarkerUTC": 1678659348.0,
     "MarkerLTC": 62148,
     "MajorType": "Event",
@@ -6008,18 +6241,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "66",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "67",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "165",
+    "MarkerId": "444",
     "MarkerUTC": 1678660090.0,
     "MarkerLTC": 62890,
     "MajorType": "Event",
@@ -6096,18 +6329,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "67",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "68",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "167",
+    "MarkerId": "445",
     "MarkerUTC": 1678660137.0,
     "MarkerLTC": 62937,
     "MajorType": "Event",
@@ -6195,17 +6428,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "68",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "69",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "169",
+    "MarkerId": "446",
     "MarkerUTC": 1678660169.0,
     "MarkerLTC": 62969,
     "MajorType": "Event",
@@ -6283,17 +6517,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "69",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "70",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "171",
+    "MarkerId": "447",
     "MarkerUTC": 1678660199.0,
     "MarkerLTC": 62999,
     "MajorType": "Event",
@@ -6371,22 +6606,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "70",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "71",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "173",
+    "MarkerId": "448",
     "MarkerUTC": 1678660239.0,
     "MarkerLTC": 63039,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "2-1-STL 43 (13:08) 10 A. McCarron pass incomplete to 21 M. Durant",
+    "Descriptor_": "2-1-STL 43 (13:08) 10 A. McCarron pass incomplete to 21 M. Durant Pass Defended by 6 D. Lambert",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -6465,17 +6701,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "71",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "72",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "175",
+    "MarkerId": "449",
     "MarkerUTC": 1678660278.0,
     "MarkerLTC": 63078,
     "MajorType": "Event",
@@ -6553,17 +6790,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "72",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "73",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "178",
+    "MarkerId": "450",
     "MarkerUTC": 1678660313.0,
     "MarkerLTC": 63113,
     "MajorType": "Event",
@@ -6663,18 +6901,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "73",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "74",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "180",
+    "MarkerId": "451",
     "MarkerUTC": 1678660363.0,
     "MarkerLTC": 63163,
     "MajorType": "Event",
@@ -6762,17 +7000,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "74",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "75",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "182",
+    "MarkerId": "452",
     "MarkerUTC": 1678660399.0,
     "MarkerLTC": 63199,
     "MajorType": "Event",
@@ -6856,22 +7095,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "75",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "76",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "184",
+    "MarkerId": "453",
     "MarkerUTC": 1678660443.0,
     "MarkerLTC": 63243,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-4-ARL 33 (10:39) 10 K. Sloter pass incomplete to 17 J. Smallwood",
+    "Descriptor_": "3-4-ARL 33 (10:39) 10 K. Sloter pass incomplete to 17 J. Smallwood QB Hit by 95 E. Lumor Pass Defended by 8 M. Hampton",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -6956,17 +7196,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "76",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "77",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "186",
+    "MarkerId": "454",
     "MarkerUTC": 1678660484.0,
     "MarkerLTC": 63284,
     "MajorType": "Event",
@@ -7061,22 +7302,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "77",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "78",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "188",
+    "MarkerId": "455",
     "MarkerUTC": 1678660693.0,
     "MarkerLTC": 63493,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 32 (9:55) 10 A. McCarron pass to 11 D. Shepherd to STL 32 for 0 yards (4 J. Powell, 18 D. Payne)",
+    "Descriptor_": "1-10-STL 32 (9:55) 10 A. McCarron pass to 11 D. Shepherd to STL 32 for 0 yards QB Hit by 53 D. Sankey (4 J. Powell, 18 D. Payne)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -7170,17 +7412,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "78",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "79",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "190",
+    "MarkerId": "456",
     "MarkerUTC": 1678660726.0,
     "MarkerLTC": 63526,
     "MajorType": "Event",
@@ -7258,17 +7501,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "79",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "80",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "192",
+    "MarkerId": "457",
     "MarkerUTC": 1678660762.0,
     "MarkerLTC": 63562,
     "MajorType": "Event",
@@ -7362,17 +7606,123 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "80",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "81",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "196",
+    "MarkerId": "458",
+    "MarkerUTC": 1678660802.0,
+    "MarkerLTC": 63602,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-STL 46 (8:06) 10 A. McCarron pass to 22 S. Mitchell to ARL 34 for 20 yards (18 D. Payne, 53 D. Sankey)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 8,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21081",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22675",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22886",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 11,
+          "Period": 3,
+          "TimeRemSecTotal": 486.0,
+          "TimeRemStr": "8:06",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 20,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 4,
+          "Yards": 34,
+          "TOP": "2:21",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 11,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "82",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "459",
     "MarkerUTC": 1678660840.0,
     "MarkerLTC": 63640,
     "MajorType": "Event",
@@ -7460,17 +7810,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "82",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "83",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "211",
+    "MarkerId": "460",
     "MarkerUTC": 1678660980.0,
     "MarkerLTC": 63780,
     "MajorType": "Event",
@@ -7546,18 +7897,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 11,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "83",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "84",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "212",
+    "MarkerId": "461",
     "MarkerUTC": 1678660989.0,
     "MarkerLTC": 63789,
     "MajorType": "Event",
@@ -7624,18 +7975,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "84",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "85",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "214",
+    "MarkerId": "462",
     "MarkerUTC": 1678661134.0,
     "MarkerLTC": 63934,
     "MajorType": "Event",
@@ -7711,17 +8062,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "85",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "86",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "216",
+    "MarkerId": "463",
     "MarkerUTC": 1678661228.0,
     "MarkerLTC": 64028,
     "MajorType": "Event",
@@ -7787,17 +8139,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "86",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "87",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "218",
+    "MarkerId": "464",
     "MarkerUTC": 1678661267.0,
     "MarkerLTC": 64067,
     "MajorType": "Event",
@@ -7885,17 +8238,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "87",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "88",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "220",
+    "MarkerId": "465",
     "MarkerUTC": 1678661301.0,
     "MarkerLTC": 64101,
     "MajorType": "Event",
@@ -7979,17 +8333,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "88",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "89",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "222",
+    "MarkerId": "466",
     "MarkerUTC": 1678661346.0,
     "MarkerLTC": 64146,
     "MajorType": "Event",
@@ -8077,111 +8432,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "89",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "90",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "227",
-    "MarkerUTC": 1678661457.0,
-    "MarkerLTC": 64257,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-ARL 42 (4:11) 23 B. Hill rush to ARL 46 for -4 yards (71 J. Coatney, 72 T. Barnes)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 4,
-      "ClockSeconds": 11
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21922",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20089",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 17,
-          "Period": 3,
-          "TimeRemSecTotal": 251.0,
-          "TimeRemStr": "4:11",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 42
-          },
-          "Distance": 10,
-          "DriveNum": 16,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "2",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -4,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 42
-          },
-          "Plays": 1,
-          "Yards": -4,
-          "TOP": "0:29",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 17,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "91",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "228",
+    "MarkerId": "467",
     "MarkerUTC": 1678661389.0,
     "MarkerLTC": 64189,
     "MajorType": "Event",
@@ -8272,18 +8534,113 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "90",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "91",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "230",
+    "MarkerId": "468",
+    "MarkerUTC": 1678661457.0,
+    "MarkerLTC": 64257,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ARL 42 (4:11) 23 B. Hill rush to ARL 46 for -4 yards (71 J. Coatney, 72 T. Barnes)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 11
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20688",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21922",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20089",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 17,
+          "Period": 3,
+          "TimeRemSecTotal": 251.0,
+          "TimeRemStr": "4:11",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 42
+          },
+          "Distance": 10,
+          "DriveNum": 16,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballZone": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 42
+          },
+          "Plays": 1,
+          "Yards": -4,
+          "TOP": "0:29",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 17,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "92",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "469",
     "MarkerUTC": 1678661500.0,
     "MarkerLTC": 64300,
     "MajorType": "Event",
@@ -8371,17 +8728,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "92",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "93",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "232",
+    "MarkerId": "470",
     "MarkerUTC": 1678661541.0,
     "MarkerLTC": 64341,
     "MajorType": "Event",
@@ -8442,22 +8800,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "93",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "94",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "234",
+    "MarkerId": "471",
     "MarkerUTC": 1678661637.0,
     "MarkerLTC": 64437,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-11-ARL 43 (2:49) 10 A. McCarron pass incomplete to 22 S. Mitchell",
+    "Descriptor_": "3-11-ARL 43 (2:49) 10 A. McCarron pass incomplete to 22 S. Mitchell Pass Defended by 29 S. Brown",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -8536,17 +8895,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "94",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "95",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "236",
+    "MarkerId": "472",
     "MarkerUTC": 1678661674.0,
     "MarkerLTC": 64474,
     "MajorType": "Event",
@@ -8631,17 +8991,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "95",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "96",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "238",
+    "MarkerId": "473",
     "MarkerUTC": 1678661716.0,
     "MarkerLTC": 64516,
     "MajorType": "Event",
@@ -8719,17 +9080,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "96",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "97",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "240",
+    "MarkerId": "474",
     "MarkerUTC": 1678661753.0,
     "MarkerLTC": 64553,
     "MajorType": "Event",
@@ -8817,17 +9179,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "97",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "98",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "242",
+    "MarkerId": "475",
     "MarkerUTC": 1678661788.0,
     "MarkerLTC": 64588,
     "MajorType": "Event",
@@ -8915,22 +9278,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "98",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "99",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "245",
+    "MarkerId": "476",
     "MarkerUTC": 1678661831.0,
     "MarkerLTC": 64631,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-ARL 39 (0:28) 10 K. Sloter pass to 13 C. Vander Esch to STL 20 for 41 yards (17 J. Alexander)",
+    "Descriptor_": "1-10-ARL 39 (0:28) 10 K. Sloter pass to 13 C. Vander Esch to STL 20 for 41 yards QB Hit by 96 L. London (17 J. Alexander)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -9018,114 +9382,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "99",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "100",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "248",
-    "MarkerUTC": 1678655706.0,
-    "MarkerLTC": 58506,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-10-ARL 41 (9:41) 23 B. Hill rush to ARL 26 for 15 yards (29 S. Brown, 5 W. Hill)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 9,
-      "ClockSeconds": 41
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20212",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20693",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 581.0,
-          "TimeRemStr": "9:41",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 41
-          },
-          "Distance": 10,
-          "DriveNum": 2,
-          "Down": 2,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "3",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 15,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 45
-          },
-          "Plays": 4,
-          "Yards": 29,
-          "TOP": "2:17",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "13",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "250",
+    "MarkerId": "477",
     "MarkerUTC": 1678662088.0,
     "MarkerLTC": 64888,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 20 (14:56) 10 K. Sloter pass incomplete to 80 S. Cannella",
+    "Descriptor_": "1-10-STL 20 (14:56) 10 K. Sloter pass incomplete to 80 S. Cannella QB Hit by 53 C. Wells",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -9204,17 +9477,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "100",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "101",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "252",
+    "MarkerId": "478",
     "MarkerUTC": 1678662125.0,
     "MarkerLTC": 64925,
     "MajorType": "Event",
@@ -9281,17 +9555,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "101",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "102",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "254",
+    "MarkerId": "479",
     "MarkerUTC": 1678662157.0,
     "MarkerLTC": 64957,
     "MajorType": "Event",
@@ -9375,17 +9650,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "102",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "103",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "256",
+    "MarkerId": "480",
     "MarkerUTC": 1678662194.0,
     "MarkerLTC": 64994,
     "MajorType": "Event",
@@ -9473,17 +9749,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "103",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "104",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "258",
+    "MarkerId": "481",
     "MarkerUTC": 1678662233.0,
     "MarkerLTC": 65033,
     "MajorType": "Event",
@@ -9577,17 +9854,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "104",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "105",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "263",
+    "MarkerId": "482",
     "MarkerUTC": 1678662275.0,
     "MarkerLTC": 65075,
     "MajorType": "Event",
@@ -9663,18 +9941,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 3,
     "HomeScore": 17,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "105",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "106",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "264",
+    "MarkerId": "483",
     "MarkerUTC": 1678662342.0,
     "MarkerLTC": 65142,
     "MajorType": "Event",
@@ -9749,18 +10027,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 9,
     "HomeScore": 17,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "106",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "107",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "266",
+    "MarkerId": "484",
     "MarkerUTC": 1678662561.0,
     "MarkerLTC": 65361,
     "MajorType": "Event",
@@ -9836,17 +10114,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "107",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "108",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "268",
+    "MarkerId": "485",
     "MarkerUTC": 1678662608.0,
     "MarkerLTC": 65408,
     "MajorType": "Event",
@@ -9934,17 +10213,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "108",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "109",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "270",
+    "MarkerId": "486",
     "MarkerUTC": 1678662636.0,
     "MarkerLTC": 65436,
     "MajorType": "Event",
@@ -10022,17 +10302,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "109",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "110",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "272",
+    "MarkerId": "487",
     "MarkerUTC": 1678662675.0,
     "MarkerLTC": 65475,
     "MajorType": "Event",
@@ -10120,17 +10401,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "110",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "111",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "274",
+    "MarkerId": "488",
     "MarkerUTC": 1678662706.0,
     "MarkerLTC": 65506,
     "MajorType": "Event",
@@ -10214,17 +10496,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "111",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "112",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "276",
+    "MarkerId": "489",
     "MarkerUTC": 1678662730.0,
     "MarkerLTC": 65530,
     "MajorType": "Event",
@@ -10308,17 +10591,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "112",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "113",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "279",
+    "MarkerId": "490",
     "MarkerUTC": 1678662768.0,
     "MarkerLTC": 65568,
     "MajorType": "Event",
@@ -10404,18 +10688,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 17,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "113",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "114",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "282",
+    "MarkerId": "491",
     "MarkerUTC": 1678662803.0,
     "MarkerLTC": 65603,
     "MajorType": "Event",
@@ -10490,18 +10774,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "114",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "115",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "284",
+    "MarkerId": "492",
     "MarkerUTC": 1678662894.0,
     "MarkerLTC": 65694,
     "MajorType": "Event",
@@ -10577,17 +10861,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "115",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "116",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "286",
+    "MarkerId": "493",
     "MarkerUTC": 1678662950.0,
     "MarkerLTC": 65750,
     "MajorType": "Event",
@@ -10675,17 +10960,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "116",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "117",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "288",
+    "MarkerId": "494",
     "MarkerUTC": 1678662980.0,
     "MarkerLTC": 65780,
     "MajorType": "Event",
@@ -10769,22 +11055,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "117",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "118",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "291",
+    "MarkerId": "495",
     "MarkerUTC": 1678663023.0,
     "MarkerLTC": 65823,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-2-ARL 31 (8:42) 10 K. Sloter pass to 11 L. Winningham to ARL 37 for 6 yards (26 N. Meadors) PENALTY on 56 T. Feeney, 15 yards",
+    "Descriptor_": "3-2-ARL 31 (8:42) 10 K. Sloter pass to 11 L. Winningham to ARL 37 for 6 yards QB Hit by 56 T. Feeney (26 N. Meadors) PENALTY on 56 T. Feeney, 15 yards",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -10883,18 +11170,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "118",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "119",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "293",
+    "MarkerId": "496",
     "MarkerUTC": 1678663103.0,
     "MarkerLTC": 65903,
     "MajorType": "Event",
@@ -10961,17 +11248,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "119",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "120",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "295",
+    "MarkerId": "497",
     "MarkerUTC": 1678663134.0,
     "MarkerLTC": 65934,
     "MajorType": "Event",
@@ -11065,17 +11353,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "120",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "121",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "297",
+    "MarkerId": "498",
     "MarkerUTC": 1678663174.0,
     "MarkerLTC": 65974,
     "MajorType": "Event",
@@ -11163,17 +11452,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "121",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "122",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "299",
+    "MarkerId": "499",
     "MarkerUTC": 1678663210.0,
     "MarkerLTC": 66010,
     "MajorType": "Event",
@@ -11267,17 +11557,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "122",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "123",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "301",
+    "MarkerId": "500",
     "MarkerUTC": 1678663246.0,
     "MarkerLTC": 66046,
     "MajorType": "Event",
@@ -11355,17 +11646,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "123",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "124",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "303",
+    "MarkerId": "501",
     "MarkerUTC": 1678663280.0,
     "MarkerLTC": 66080,
     "MajorType": "Event",
@@ -11449,22 +11741,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "124",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "125",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "306",
+    "MarkerId": "502",
     "MarkerUTC": 1678663319.0,
     "MarkerLTC": 66119,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "3-9-STL 26 (5:03) 10 K. Sloter pass incomplete to 85 T. Vaughns",
+    "Descriptor_": "3-9-STL 26 (5:03) 10 K. Sloter pass incomplete to 85 T. Vaughns Pass Defended by 8 M. Hampton",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -11543,18 +11836,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "125",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "126",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "312",
+    "MarkerId": "503",
     "MarkerUTC": 1678663361.0,
     "MarkerLTC": 66161,
     "MajorType": "Event",
@@ -11651,18 +11944,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "126",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "127",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "313",
+    "MarkerId": "504",
     "MarkerUTC": 1678663619.0,
     "MarkerLTC": 66419,
     "MajorType": "Event",
@@ -11750,18 +12043,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "127",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "128",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "317",
+    "MarkerId": "505",
     "MarkerUTC": 1678663661.0,
     "MarkerLTC": 66461,
     "MajorType": "Event",
@@ -11845,17 +12138,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "128",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "129",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "319",
+    "MarkerId": "506",
     "MarkerUTC": 1678663702.0,
     "MarkerLTC": 66502,
     "MajorType": "Event",
@@ -11939,17 +12233,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "129",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "130",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "321",
+    "MarkerId": "507",
     "MarkerUTC": 1678663739.0,
     "MarkerLTC": 66539,
     "MajorType": "Event",
@@ -12033,17 +12328,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "130",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "131",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "323",
+    "MarkerId": "508",
     "MarkerUTC": 1678663977.0,
     "MarkerLTC": 66777,
     "MajorType": "Event",
@@ -12121,17 +12417,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "131",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "132",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "325",
+    "MarkerId": "509",
     "MarkerUTC": 1678664023.0,
     "MarkerLTC": 66823,
     "MajorType": "Event",
@@ -12192,17 +12489,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "132",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "133",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "327",
+    "MarkerId": "510",
     "MarkerUTC": 1678664106.0,
     "MarkerLTC": 66906,
     "MajorType": "Event",
@@ -12286,17 +12584,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "133",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "134",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "332",
+    "MarkerId": "511",
     "MarkerUTC": 1678664151.0,
     "MarkerLTC": 66951,
     "MajorType": "Event",
@@ -12390,18 +12689,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "134",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "135",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "333",
+    "MarkerId": "512",
     "MarkerUTC": 1678664178.0,
     "MarkerLTC": 66978,
     "MajorType": "Event",
@@ -12462,18 +12761,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "135",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "136",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "341",
+    "MarkerId": "513",
     "MarkerUTC": 1678664237.0,
     "MarkerLTC": 67037,
     "MajorType": "Event",
@@ -12560,94 +12859,23 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "136",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "137",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "342",
-    "MarkerUTC": 1678664312.0,
-    "MarkerLTC": 67112,
-    "MajorType": "Event",
-    "MinorType": "EventFootballTimeout",
-    "Descriptor_": "Timeout by St. Louis Battlehawks at 0:48",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockSeconds": 48
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 11,
-          "HomeScore": 24,
-          "Period": 4,
-          "TimeRemSecTotal": 48.0,
-          "TimeRemStr": "0:48",
-          "VisTimeouts": 1,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 49
-          },
-          "Distance": 10,
-          "DriveNum": 21,
-          "Down": 2,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballTimeoutTeamId": "5",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 39
-          },
-          "Plays": 3,
-          "Yards": 12,
-          "TOP": "0:33",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "VisitorScore": 11,
-    "HomeScore": 24,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "138",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "345",
+    "MarkerId": "514",
     "MarkerUTC": 1678664253.0,
     "MarkerLTC": 67053,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 49 (0:48) 10 K. Sloter pass incomplete to 80 S. Cannella",
+    "Descriptor_": "1-10-STL 49 (0:48) 10 K. Sloter pass incomplete to 80 S. Cannella Pass Defended by 25 L. Denis",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -12721,18 +12949,89 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "137",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "138",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "348",
+    "MarkerId": "515",
+    "MarkerUTC": 1678664312.0,
+    "MarkerLTC": 67112,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "Timeout by St. Louis Battlehawks at 0:48",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 48
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 11,
+          "HomeScore": 24,
+          "Period": 4,
+          "TimeRemSecTotal": 48.0,
+          "TimeRemStr": "0:48",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 10,
+          "DriveNum": 21,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "5",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 3,
+          "Yards": 12,
+          "TOP": "0:33",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
+    "SituationCode": "",
+    "VisitorScore": 11,
+    "HomeScore": 24,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "139",
+    "OfficialCode": "2302015-ARL-at-STL"
+  },
+  {
+    "MarkerId": "516",
     "MarkerUTC": 1678664354.0,
     "MarkerLTC": 67154,
     "MajorType": "Event",
@@ -12822,18 +13121,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "139",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "140",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "349",
+    "MarkerId": "517",
     "MarkerUTC": 1678664395.0,
     "MarkerLTC": 67195,
     "MajorType": "Event",
@@ -12904,18 +13203,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "140",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "141",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "367",
+    "MarkerId": "518",
     "MarkerUTC": 1678664433.0,
     "MarkerLTC": 67233,
     "MajorType": "Event",
@@ -12986,124 +13285,19 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
     "SituationCode": "",
     "VisitorScore": 11,
     "HomeScore": 24,
-    "RevisionNum": 8,
+    "RevisionNum": 10,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "141",
-    "OfficialCode": " "
+    "SourceNativeMarkerId": "142",
+    "OfficialCode": "2302015-ARL-at-STL"
   },
   {
-    "MarkerId": "369",
-    "MarkerUTC": 1678660802.0,
-    "MarkerLTC": 63602,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 46 (8:06) 10 A. McCarron pass to 22 S. Mitchell to ARL 34 for 20 yards (18 D. Payne, 53 D. Sankey)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 8,
-      "ClockSeconds": 6
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21081",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "22675",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "22886",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "HomeScore": 11,
-          "Period": 3,
-          "TimeRemSecTotal": 486.0,
-          "TimeRemStr": "8:06",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 46
-          },
-          "Distance": 10,
-          "DriveNum": 14,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballZone": "2",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 20,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 32
-          },
-          "Plays": 4,
-          "Yards": 34,
-          "TOP": "2:21",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_12_ARL@STL",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "HomeScore": 11,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "81",
-    "OfficialCode": " "
-  },
-  {
-    "MarkerId": "370",
-    "MarkerUTC": 1678810936.6955016,
+    "MarkerId": "519",
+    "MarkerUTC": 1678831692.3749604,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",
@@ -13144,6 +13338,6 @@
     "HomeScore": 24,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10025",
-    "OfficialCode": " "
+    "OfficialCode": "2302015-ARL-at-STL"
   }
 ]

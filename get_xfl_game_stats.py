@@ -831,9 +831,9 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
         
         #main_df = pd.DataFrame(data=json_data)
         if save == True:
-            
-            finished_df.to_csv(f'game_stats/player/raw/csv/{game_id}.csv',index=False)
-            finished_df.to_parquet(f'game_stats/player/raw/parquet/{game_id}.parquet',index=False)
+            if len(finished_df) >0:
+                finished_df.to_csv(f'game_stats/player/raw/csv/{game_id}.csv',index=False)
+                finished_df.to_parquet(f'game_stats/player/raw/parquet/{game_id}.parquet',index=False)
 
             with open(f"game_stats/player/raw/json/{game_id}.json", "w+") as f:
                 f.write(json.dumps(json_data,indent=2))
@@ -1545,8 +1545,9 @@ def get_xfl_team_box(game_id:str,save=False):
         
     if save == True:
         
-        main_df.to_csv(f'game_stats/team/raw/csv/{game_id}.csv',index=False)
-        main_df.to_parquet(f'game_stats/team/raw/parquet/{game_id}.parquet',index=False)
+        if len(main_df) >0:
+            main_df.to_csv(f'game_stats/team/raw/csv/{game_id}.csv',index=False)
+            main_df.to_parquet(f'game_stats/team/raw/parquet/{game_id}.parquet',index=False)
 
         with open(f"game_stats/team/raw/json/{game_id}.json", "w+") as f:
             f.write(json.dumps(json_data,indent=2))

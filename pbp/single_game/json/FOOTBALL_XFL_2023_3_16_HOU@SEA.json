@@ -6023,5 +6023,1684 @@
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10010",
     "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "154",
+    "MarkerUTC": 1679025324.0,
+    "MarkerLTC": 86124,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "8 H. Duplessis kicks from HOU 30. 86 K. McKnight to SEA 20 for 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "21620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "86",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 10,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 20
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "69",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "157",
+    "MarkerUTC": 1679025396.0,
+    "MarkerLTC": 86196,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SEA 20 (14:52) 19 T. Hammonds rush to SEA 34 for 14 yards (29 A. Hendy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 52
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20675",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 892.0,
+          "TimeRemStr": "14:52",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 14,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 1,
+          "Yards": 14,
+          "TOP": "0:37",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "70",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "159",
+    "MarkerUTC": 1679025434.0,
+    "MarkerLTC": 86234,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 34 (14:14) 6 B. DiNucci pass to 80 B. Jackson to SEA 35 for 1 yard (18 J. Mosley)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 14
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20761",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21108",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 854.0,
+          "TimeRemStr": "14:14",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 2,
+          "Yards": 15,
+          "TOP": "0:56",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "71",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "161",
+    "MarkerUTC": 1679025473.0,
+    "MarkerLTC": 86273,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-9-SEA 35 (13:35) 6 B. DiNucci pass incomplete to 3 J. Pearson",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 13,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21203",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 815.0,
+          "TimeRemStr": "13:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 9,
+          "DriveNum": 10,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 3,
+          "Yards": 15,
+          "TOP": "1:25",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "72",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "163",
+    "MarkerUTC": 1679025544.0,
+    "MarkerLTC": 86344,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-9-SEA 35 (13:00) 6 B. DiNucci pass incomplete to 0 J. Gordon",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 780.0,
+          "TimeRemStr": "13:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 9,
+          "DriveNum": 10,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 4,
+          "Yards": 15,
+          "TOP": "2:00",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "73",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "165",
+    "MarkerUTC": 1679025551.0,
+    "MarkerLTC": 86351,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-9-SEA 35 (13:00) 10 C. Nizialek punts 36 yards from SEA 35 to 6 T. Harris, Fair Catch at HOU 34",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "20642",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 780.0,
+          "TimeRemStr": "13:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Distance": 9,
+          "DriveNum": 10,
+          "Down": 4,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickFaircatch",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 36,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 34
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "6",
+          "PlayerId": "20878",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyOnkickoffpat",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 4,
+          "Yards": 15,
+          "TOP": "2:00",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "74",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "167",
+    "MarkerUTC": 1679025668.0,
+    "MarkerLTC": 68,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-HOU 34 (12:37) 12 B. Silvers pass to 2 C. Byrd to HOU 39 for 5 yards (32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 12,
+      "ClockSeconds": 37
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 757.0,
+          "TimeRemStr": "12:37",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 11,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 1,
+          "Yards": 5,
+          "TOP": "0:17",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "75",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "172",
+    "MarkerUTC": 1679025695.0,
+    "MarkerLTC": 95,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-5-HOU 39 (12:10) 22 M. Borghi rush to HOU 40 for 1 yard (9 C. Hicks)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 12,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22344",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 730.0,
+          "TimeRemStr": "12:10",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 5,
+          "DriveNum": 11,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 2,
+          "Yards": 7,
+          "TOP": "0:56",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "76",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "179",
+    "MarkerUTC": 1679025731.0,
+    "MarkerLTC": 131,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-3-HOU 40 (11:34) 12 B. Silvers pass to 2 C. Byrd to HOU 47 for 7 yards (36 Z. Kelly, 32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 11,
+      "ClockSeconds": 34
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20878",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 694.0,
+          "TimeRemStr": "11:34",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 3,
+          "DriveNum": 11,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 3,
+          "Yards": 14,
+          "TOP": "1:38",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "77",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "186",
+    "MarkerUTC": 1679025898.0,
+    "MarkerLTC": 298,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-22-HOU 36 (10:03) 12 B. Silvers pass incomplete to 10 J. Smith Pass Defended by 0 J. Gordon",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 10,
+      "ClockSeconds": 3
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21441",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 603.0,
+          "TimeRemStr": "10:03",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 22,
+          "DriveNum": 11,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 5,
+          "Yards": 2,
+          "TOP": "2:45",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "80",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "189",
+    "MarkerUTC": 1679025938.0,
+    "MarkerLTC": 338,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-21-HOU 36 (9:34) 12 B. Silvers pass incomplete to 2 C. Byrd QB Hit by 8 T. Walker Pass Defended by 36 Z. Kelly",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 34
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "20878",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleQbHitter",
+        "OfficialId": "21620",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 574.0,
+          "TimeRemStr": "9:34",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 21,
+          "DriveNum": 11,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 6,
+          "Yards": 2,
+          "TOP": "3:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "81",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "191",
+    "MarkerUTC": 1679025966.0,
+    "MarkerLTC": 366,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-21-HOU 36 (9:16) 46 R. Porter punts 35 yards from HOU 36 to SEA 29. 86 K. McKnight to SEA 31 for 2 yards (80 B. Putman)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 16
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20761",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21248",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21875",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 556.0,
+          "TimeRemStr": "9:16",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 21,
+          "DriveNum": 11,
+          "Down": 4,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 35,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 31
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 6,
+          "Yards": 2,
+          "TOP": "3:44",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "82",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "192",
+    "MarkerUTC": 1679025764.0,
+    "MarkerLTC": 164,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-HOU 47 (11:01) 12 B. Silvers pass to 10 J. Smith to SEA 49 for 4 yards (32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 11,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21441",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 661.0,
+          "TimeRemStr": "11:01",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 11,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 4,
+          "Yards": 17,
+          "TOP": "2:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "78",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "193",
+    "MarkerUTC": 1679025845.0,
+    "MarkerLTC": 245,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "2-7-SEA 49 (10:23) PENALTY on 56 D. Parker, 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 10,
+      "ClockSeconds": 23
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 623.0,
+          "TimeRemStr": "10:23",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 7,
+          "DriveNum": 11,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "2",
+          "PlayerId": "21189",
+          "Yards": 15,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 4,
+          "TOP": "2:28",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "79",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "195",
+    "MarkerUTC": 1679026198.0,
+    "MarkerLTC": 598,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 31 (9:00) 6 B. DiNucci pass incomplete to 15 D. Willis",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21695",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 540.0,
+          "TimeRemStr": "9:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Distance": 10,
+          "DriveNum": 12,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 1,
+          "TOP": "0:12",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "83",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "197",
+    "MarkerUTC": 1679026238.0,
+    "MarkerLTC": 638,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-SEA 31 (8:27) 6 B. DiNucci pass incomplete to 3 J. Pearson Pass Defended by 4 W. Likely",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 8,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21203",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "22601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 507.0,
+          "TimeRemStr": "8:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Distance": 10,
+          "DriveNum": 12,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 2,
+          "TOP": "0:41",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "84",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "200",
+    "MarkerUTC": 1679026277.0,
+    "MarkerLTC": 677,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-10-SEA 31 (7:53) 6 B. DiNucci rush to SEA 36 for 5 yards (98 C. Brewer)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 53
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21989",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 473.0,
+          "TimeRemStr": "7:53",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Distance": 10,
+          "DriveNum": 12,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 3,
+          "Yards": 5,
+          "TOP": "1:42",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "85",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "202",
+    "MarkerUTC": 1679026309.0,
+    "MarkerLTC": 709,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-5-SEA 36 (7:21) 10 C. Nizialek punts 40 yards from SEA 36 to HOU 24. 6 T. Harris to HOU 29 for 5 yards (36 Z. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 21
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21918",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "20642",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 441.0,
+          "TimeRemStr": "7:21",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 36
+          },
+          "Distance": 5,
+          "DriveNum": 12,
+          "Down": 4,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 40,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 29
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 31
+          },
+          "Plays": 3,
+          "Yards": 5,
+          "TOP": "1:55",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "86",
+    "OfficialCode": "2302017-HOU-at-SEA"
+  },
+  {
+    "MarkerId": "204",
+    "MarkerUTC": 1679026375.0,
+    "MarkerLTC": 775,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-HOU 29 (6:58) 12 B. Silvers pass incomplete to 26 B. Alleyne",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 6,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20033",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "HomeScore": 15,
+          "Period": 3,
+          "TimeRemSecTotal": 418.0,
+          "TimeRemStr": "6:58",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Distance": 10,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Plays": 1,
+          "TOP": "0:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_16_HOU@SEA",
+    "SituationCode": "",
+    "HomeScore": 15,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "87",
+    "OfficialCode": "2302017-HOU-at-SEA"
   }
 ]

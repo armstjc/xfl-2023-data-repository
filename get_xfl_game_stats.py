@@ -1618,14 +1618,14 @@ def generate_xfl_season_stats(save=False):
         ['Participated', 'IsStarting', 'Scratch',
          'PassComp', 'PassAtt',  'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass','Sacked', 'SackedYards','Pass20YdPlays', 'Pass40YdPlays',
          'RushAtt', 'RushYards', 'RushTD', 'FirstDownsByRush', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays',
-         'RecThrownAt', 'Recs', 'RecYards', 'RecTD', 'FirstDownsByRec', 'RecYardsLong','RecYardsAfterCatch', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 
+         'RecThrownAt', 'Recs', 'RecYards', 'RecTD', 'FirstDownsByRec', 'RecYardsAfterCatch', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 
          'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 
          'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 
          'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush',
          'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 
          'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards',
          'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards',
-         'DefINT', 'DefINTReturnYards', 'DefINTReturnTD', 'DefINTReturnYardsLong',
+         'DefINT', 'DefINTReturnYards', 'DefINTReturnTD', 
          'FGAtt', 'FGMade', 
          'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade',
          'Punts', 'PuntGrossYards', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20',
@@ -1634,15 +1634,18 @@ def generate_xfl_season_stats(save=False):
 
     finished_df.loc[finished_df['PassAtt']>=1, 'PassCompPercent'] = finished_df['PassComp'] / finished_df['PassAtt']
     finished_df.loc[finished_df['PassAtt']>=1, 'FirstDownPercentOfPasses'] = finished_df['FirstDownsByPass'] / finished_df['PassAtt']
-    finished_df.loc[finished_df['PassAtt']>=1, 'PassYardsPerAtt'] = finished_df['PassYards'] / finished_df['PassAtt']
-    finished_df.loc[finished_df['PassComp']>=1, 'PassYardsPerComp'] = finished_df['PassYards'] / finished_df['PassComp']
+    finished_df.loc[finished_df['PassAtt']>=1, 'PASS_YPA'] = finished_df['PassYards'] / finished_df['PassAtt']
+    finished_df.loc[finished_df['PassComp']>=1, 'PASS_YPC'] = finished_df['PassYards'] / finished_df['PassComp']
+
+    #PASS_YDS_GM
+    finished_df.loc[finished_df['Participated']>=1, 'PASS_YDS_GM'] = finished_df['PassYards'] / finished_df['Participated']
 
     finished_df.loc[finished_df['PassAtt']>=1,'CFB_QBR'] = (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt'])
     ##finished_df.loc[finished_df['PassAtt']>=1,'NFL_QBR'] = ((((finished_df['PassCompPercent'])*5)+()+()+())/6) * 100
     
     ## NFL Passer Rating Calculation
     finished_df['NFL_QBR_A'] = ((finished_df['PassCompPercent']) - 0.3) * 5
-    finished_df['NFL_QBR_B'] = ((finished_df['PassYardsPerAtt']) - 3) * 0.25
+    finished_df['NFL_QBR_B'] = ((finished_df['PASS_YPA']) - 3) * 0.25
     finished_df['NFL_QBR_C'] = (finished_df['PassTD']/finished_df['PassAtt']) * 20
     finished_df['NFL_QBR_D'] = 2.375 -(finished_df['PassINT']/finished_df['PassAtt']* 25)
 
@@ -1691,17 +1694,30 @@ def generate_xfl_season_stats(save=False):
 
     finished_df.loc[finished_df['KickRetReturns']>=1, 'KickRetYardsAvg'] = finished_df['KickRetYards'] / finished_df['KickRetReturns']
 
+    #finished_df = pd.merge(participation_df,main_df,left_on=['Season','game_id','OfficialID'],right_on=['Season','game_id','OfficialID'],how='left')
+
+    max_df =  pd.DataFrame(games_df.groupby(['Season', 'OfficialID','TeamId', 'FirstName', 'LastName'],as_index=False)\
+        ['PassYardsLong','RushYardsLong','RecYardsLong','DefINTReturnYardsLong','FGLong','PuntGrossYardsLong','KickRetYardsLong','PuntRetYardsLong'].max())
+
+    finished_df = pd.merge(
+        finished_df,
+        max_df,
+        left_on=['Season', 'OfficialID','TeamId', 'FirstName', 'LastName'],
+        right_on=['Season', 'OfficialID','TeamId', 'FirstName', 'LastName'],
+        how='left'
+    )
+
     cols = ['Season', 'OfficialID','TeamId', 'FirstName', 'LastName','Participated', 'IsStarting', 'Scratch',\
-        'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses',\
-        'PassYardsPerAtt', 'PassYardsPerComp', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'SACKED%','Pass20YdPlays', 'Pass40YdPlays', \
-        'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes','Rush10YdPlays', 'Rush20YdPlays', \
-        'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'CATCH%', \
-        'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 'FirstDownPercent', \
+        'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong',\
+        'PASS_YPA', 'PASS_YPC', 'PASS_YDS_GM', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
+        'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong',  'Rush10YdPlays', 'Rush20YdPlays', \
+        'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'RecYardsLong', \
+        'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', \
         'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush', \
         'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards', \
         'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards', 'DefSackYardsAvg', \
         'DefINT', 'DefINTReturnYards', 'DefINTReturnYardsAvg', 'DefINTReturnTD', 'DefINTReturnYardsLong', \
-        'FGAtt', 'FGMade', 'FG%', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
+        'FGAtt', 'FGMade', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
         'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', \
         'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', \
         'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong','KickRetFairCatches']
@@ -1709,21 +1725,21 @@ def generate_xfl_season_stats(save=False):
     finished_df = finished_df.reindex(columns=cols)
 
     if save == True:
-        finished_df.to_csv('game_stats/player/csv/2023_xfl_player_season_stats.csv')
-        finished_df.to_parquet('game_stats/player/parquet/2023_xfl_player_season_stats.parquet')
+        finished_df.to_csv('game_stats/player/csv/2023_xfl_player_season_stats.csv',index=False)
+        finished_df.to_parquet('game_stats/player/parquet/2023_xfl_player_season_stats.parquet',index=False)
 
     return finished_df
 
 def main():
-    sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
-    event_id_arr = sched_df['EventId'].to_list()
+    # sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
+    # event_id_arr = sched_df['EventId'].to_list()
     
-    for i in event_id_arr:
-        get_xfl_player_box(i,True)
-        get_xfl_team_box(i,True)
+    # for i in event_id_arr:
+    #     get_xfl_player_box(i,True)
+    #     get_xfl_team_box(i,True)
         
-    combine_player_box()
-    combine_team_box()
+    # combine_player_box()
+    # combine_team_box()
 
     generate_xfl_season_stats(True)
 

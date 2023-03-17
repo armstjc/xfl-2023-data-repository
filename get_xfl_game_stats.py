@@ -1715,15 +1715,15 @@ def generate_xfl_season_stats(save=False):
     return finished_df
 
 def main():
-    # sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
-    # event_id_arr = sched_df['EventId'].to_list()
+    sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
+    event_id_arr = sched_df['EventId'].to_list()
     
-    # for i in event_id_arr:
-    #     get_xfl_player_box(i,True)
-    #     get_xfl_team_box(i,True)
+    for i in event_id_arr:
+        get_xfl_player_box(i,True)
+        get_xfl_team_box(i,True)
         
-    # combine_player_box()
-    # combine_team_box()
+    combine_player_box()
+    combine_team_box()
 
     generate_xfl_season_stats(True)
 

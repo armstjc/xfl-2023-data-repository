@@ -767,12 +767,19 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
         except:
             row_df['KickRetYardsLong'] = 0
 
+        ## 'KickRetFairCatches'
+        try:
+            row_df['KickRetFairCatches'] = player['KickRetFairCatches']
+        except:
+            row_df['KickRetFairCatches'] = 0
 
         main_df = pd.concat([main_df,row_df],ignore_index=True)
 
-    participation_df = pd.read_parquet(f'player_info/participation_data/parquet/{game_id}.parquet')
-    participation_df = participation_df.filter(items=['Season','game_id','OfficialID','VisOrHome','JerseyNum','FirstName','LastName','LastNameSuffix','Position','Participated','IsStarting','Scratch'])
-
+    try:
+        participation_df = pd.read_parquet(f'player_info/participation_data/parquet/{game_id}.parquet')
+        participation_df = participation_df.filter(items=['Season','game_id','OfficialID','TeamId','VisOrHome','JerseyNum','FirstName','LastName','LastNameSuffix','Position','Participated','IsStarting','Scratch'])
+    except:
+        return pd.DataFrame()
     if len(participation_df) > 0 and len(main_df) >0:
 
         finished_df = pd.merge(participation_df,main_df,left_on=['Season','game_id','OfficialID'],right_on=['Season','game_id','OfficialID'],how='left')
@@ -808,7 +815,7 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
         finished_df = finished_df.drop(columns=['NFL_QBR_A','NFL_QBR_B','NFL_QBR_C','NFL_QBR_D'])
 
         #print(finished_df.columns.values.tolist())
-        cols = ['Season', 'game_id', 'OfficialID', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
+        cols = ['Season', 'game_id', 'OfficialID','TeamId', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
         'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong', 'PassYardsLongTD', \
         'PassYardsPerAtt', 'PassYardsPerComp', 'QBRating', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
         'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays', \
@@ -821,13 +828,20 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
         'FGAtt', 'FGMade', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
         'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', \
         'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', \
-        'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong']
+        'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong','KickRetFairCatches']
 
         finished_df = finished_df[cols]
 
         if replace_col_names == True:
             print('Replacing column names.')
-            #finished_df = finished_df.rename(columns={})
+            finished_df = finished_df.rename(columns={'PassAtt':'ATT','PassComp':'COMP','PassCompPercent':'COMP_PCT','PassYards':'PASS_YDS','PassTD':'PASS_TD','PassINT':'PASS_INT',
+                'FirstDownsByPass':'PASS_FIRST_DOWNS','PassYardsLong':'PASS_LONG','PassYardsPerAtt':'PASS_YPA','PassYardsPerComp':'PASS_YPC','Sacked':'SACKED','SackedYards':'SACKED_YDS',
+                'Pass20YdPlays':'PASS_20_YDS','Pass40YdPlays':'PASS_40_YDS','RushAtt':'RUSH','RushYards':'RUSH_YDS','RushYardsAvg':'RUSH_AVG','RushTD':'RUSH_TD','FirstDownsByRush':'RUSH_FIRST_DOWNS',
+                'RushYardsLong':'RUSH_LONG','Rush10YdPlays':'RUSH_10_YDS','Rush20YdPlays':'RUSH_20_YDS','RecThrownAt':'TARGETS','Recs':'REC','RecYards':'REC_YDS','RecYardsAvg':'REC_AVG',
+                'RecTD':'REC_TD','FirstDownsByRec':'REC_FIRST_DOWNS','RecYardsLong':'REC_LONG','RecYardsAfterCatch':'REC_YAC','RecYardsAfterCatchAvg':'REC_YAC_AVG','Rec20YdPlays':'REC_20_YDS',
+                'Rec40YdPlays':'REC_40_YDS','Fumbles':'FUMBLES','FumblesLost':'FUMBLES_LOST','FirstDowns':'FIRST_DOWNS','TotalTD':'TOTAL_TD','TotalYards':'TOTAL_YDS','DefTackles':'COMB',
+                'DefSoloTackles':'SOLO','DefAssistTackles':'AST'
+            })
         
         #main_df = pd.DataFrame(data=json_data)
         if save == True:
@@ -1596,16 +1610,122 @@ def combine_team_box():
         season_df.to_parquet(f"game_stats/team/parquet/{i}_xfl_team_game_stats.parquet",index=False)
 
 
-def main():
-    sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
-    event_id_arr = sched_df['EventId'].to_list()
+def generate_xfl_season_stats(save=False):
+    games_df = pd.read_csv('game_stats/player/csv/2023_xfl_player_game_stats.csv')
+    games_df = games_df.fillna(0)
+
+    finished_df = pd.DataFrame(games_df.groupby(['Season', 'OfficialID','TeamId', 'FirstName', 'LastName'],as_index=False)\
+        ['Participated', 'IsStarting', 'Scratch',
+         'PassComp', 'PassAtt',  'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass','Sacked', 'SackedYards','Pass20YdPlays', 'Pass40YdPlays',
+         'RushAtt', 'RushYards', 'RushTD', 'FirstDownsByRush', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays',
+         'RecThrownAt', 'Recs', 'RecYards', 'RecTD', 'FirstDownsByRec', 'RecYardsLong','RecYardsAfterCatch', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 
+         'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 
+         'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 
+         'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush',
+         'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 
+         'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards',
+         'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards',
+         'DefINT', 'DefINTReturnYards', 'DefINTReturnTD', 'DefINTReturnYardsLong',
+         'FGAtt', 'FGMade', 
+         'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade',
+         'Punts', 'PuntGrossYards', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20',
+         'PuntRetReturns', 'PuntRetYards', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches','KickRetReturns', 
+         'KickRetYards', 'KickRetTD', 'KickRetYardsLong','KickRetFairCatches'].sum())
+
+    finished_df.loc[finished_df['PassAtt']>=1, 'PassCompPercent'] = finished_df['PassComp'] / finished_df['PassAtt']
+    finished_df.loc[finished_df['PassAtt']>=1, 'FirstDownPercentOfPasses'] = finished_df['FirstDownsByPass'] / finished_df['PassAtt']
+    finished_df.loc[finished_df['PassAtt']>=1, 'PassYardsPerAtt'] = finished_df['PassYards'] / finished_df['PassAtt']
+    finished_df.loc[finished_df['PassComp']>=1, 'PassYardsPerComp'] = finished_df['PassYards'] / finished_df['PassComp']
+
+    finished_df.loc[finished_df['PassAtt']>=1,'CFB_QBR'] = (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt'])
+    ##finished_df.loc[finished_df['PassAtt']>=1,'NFL_QBR'] = ((((finished_df['PassCompPercent'])*5)+()+()+())/6) * 100
     
-    for i in event_id_arr:
-        get_xfl_player_box(i,True,True)
-        get_xfl_team_box(i,True)
+    ## NFL Passer Rating Calculation
+    finished_df['NFL_QBR_A'] = ((finished_df['PassCompPercent']) - 0.3) * 5
+    finished_df['NFL_QBR_B'] = ((finished_df['PassYardsPerAtt']) - 3) * 0.25
+    finished_df['NFL_QBR_C'] = (finished_df['PassTD']/finished_df['PassAtt']) * 20
+    finished_df['NFL_QBR_D'] = 2.375 -(finished_df['PassINT']/finished_df['PassAtt']* 25)
+
+    finished_df.loc[finished_df['NFL_QBR_A'] < 0, 'NFL_QBR_A'] = 0
+    finished_df.loc[finished_df['NFL_QBR_A'] > 2.375, 'NFL_QBR_A'] = 2.375
+    
+    finished_df.loc[finished_df['NFL_QBR_B'] < 0, 'NFL_QBR_B'] = 0
+    finished_df.loc[finished_df['NFL_QBR_B'] > 2.375, 'NFL_QBR_B'] = 2.375
+    
+    finished_df.loc[finished_df['NFL_QBR_C'] < 0, 'NFL_QBR_C'] = 0
+    finished_df.loc[finished_df['NFL_QBR_C'] > 2.375, 'NFL_QBR_C'] = 2.375
+
+    finished_df.loc[finished_df['NFL_QBR_D'] < 0, 'NFL_QBR_D'] = 0
+    finished_df.loc[finished_df['NFL_QBR_D'] > 2.375, 'NFL_QBR_D'] = 2.375
+    
+
+    finished_df['NFL_QBR'] = ((finished_df['NFL_QBR_A'] + finished_df['NFL_QBR_B'] + finished_df['NFL_QBR_C'] + finished_df['NFL_QBR_D'])/6) * 100
+
+    finished_df = finished_df.drop(columns=['NFL_QBR_A','NFL_QBR_B','NFL_QBR_C','NFL_QBR_D'])
+
+    finished_df.loc[finished_df['Sacked']>=1, 'SackedYardsAvg'] = finished_df['SackedYards'] / finished_df['Sacked']
+
+    finished_df.loc[finished_df['PassAtt']>=1, 'SACKED%'] = finished_df['Sacked'] / (finished_df['PassAtt'] + finished_df['Sacked'])
+
+    finished_df.loc[finished_df['RushAtt']>=1, 'RushYardsAvg'] = finished_df['RushYards'] / finished_df['RushAtt']
+
+    finished_df.loc[finished_df['RushAtt']>=1, 'FirstDownPercentOfRushes'] = finished_df['FirstDownsByRush'] / finished_df['RushAtt']
+
+    finished_df.loc[finished_df['Recs']>=1, 'RecYardsAvg'] = finished_df['RecYards'] / finished_df['Recs']
+
+    finished_df.loc[finished_df['Recs']>=1, 'FirstDownPercentOfRecs'] = finished_df['FirstDownsByRec'] / finished_df['Recs']
+
+    finished_df.loc[finished_df['RecThrownAt']>=1, 'CATCH%'] = finished_df['Recs'] / finished_df['RecThrownAt']
+
+    finished_df.loc[finished_df['Recs']>=1, 'RecYardsAfterCatchAvg'] = finished_df['RecYardsAfterCatch'] / finished_df['Recs']
+
+    finished_df.loc[finished_df['DefSacks']>=1, 'DefSackYardsAvg'] = finished_df['DefSackYards'] / finished_df['DefSacks']
+
+    finished_df.loc[finished_df['DefINT']>=1, 'DefINTReturnYardsAvg'] = finished_df['DefINTReturnYards'] / finished_df['DefINT']
+
+    finished_df.loc[finished_df['FGAtt']>=1, 'FG%'] = finished_df['FGMade'] / finished_df['FGAtt']
+
+    finished_df.loc[finished_df['Punts']>=1, 'PuntGrossYardsAvg'] = finished_df['PuntGrossYards'] / finished_df['Punts']
+
+    finished_df.loc[finished_df['PuntRetReturns']>=1, 'PuntRetYardsAvg'] = finished_df['PuntRetYards'] / finished_df['PuntRetReturns']
+
+    finished_df.loc[finished_df['KickRetReturns']>=1, 'KickRetYardsAvg'] = finished_df['KickRetYards'] / finished_df['KickRetReturns']
+
+    cols = ['Season', 'OfficialID','TeamId', 'FirstName', 'LastName','Participated', 'IsStarting', 'Scratch',\
+        'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses',\
+        'PassYardsPerAtt', 'PassYardsPerComp', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'SACKED%','Pass20YdPlays', 'Pass40YdPlays', \
+        'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes','Rush10YdPlays', 'Rush20YdPlays', \
+        'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'CATCH%', \
+        'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 'FirstDownPercent', \
+        'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush', \
+        'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards', \
+        'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards', 'DefSackYardsAvg', \
+        'DefINT', 'DefINTReturnYards', 'DefINTReturnYardsAvg', 'DefINTReturnTD', 'DefINTReturnYardsLong', \
+        'FGAtt', 'FGMade', 'FG%', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
+        'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', \
+        'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', \
+        'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong','KickRetFairCatches']
+
+    finished_df = finished_df.reindex(columns=cols)
+
+    if save == True:
+        finished_df.to_csv('game_stats/player/csv/2023_xfl_player_season_stats.csv')
+        finished_df.to_parquet('game_stats/player/parquet/2023_xfl_player_season_stats.parquet')
+
+    return finished_df
+
+def main():
+    # sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
+    # event_id_arr = sched_df['EventId'].to_list()
+    
+    # for i in event_id_arr:
+    #     get_xfl_player_box(i,True)
+    #     get_xfl_team_box(i,True)
         
-    combine_player_box()
-    combine_team_box()
+    # combine_player_box()
+    # combine_team_box()
+
+    generate_xfl_season_stats(True)
 
 if __name__ == "__main__":
     main()

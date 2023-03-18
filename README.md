@@ -6,11 +6,21 @@ Houses data related to the 2023 relaunch of the XFL Football League.
 
 ```
 xfl-2023-data-repository
+├── draft
+|   ├── csv
+|   |   └── 2023_xfl_draft.csv
+|   ├── json
+|   |   └── 2023_xfl_draft.json
+|   └── parquet
+|       └── 2023_xfl_draft.parquet
+|
 ├── game_stats
 |   └── player
 |       ├── csv
+|       |   ├── 2023_xfl_player_game_stats.csv
 |       |   └── 2023_xfl_player_game_stats.csv
 |       ├── parquet
+|       |   ├── 2023_xfl_player_game_stats.parquet
 |       |   └── 2023_xfl_player_game_stats.parquet
 |       └── raw
 |           ├── csv
@@ -34,12 +44,14 @@ xfl-2023-data-repository
 |       ├── csv
 |       ├── json
 |       └── parquet
+|
 ├── player_info
 |   ├── participation_data
 |   |   ├── csv
 |   |   ├── json
 |   |   └── parquet
 |   └── photos
+|
 ├── rosters
 |   ├── weekly_rosters
 |   |   ├── csv
@@ -49,12 +61,14 @@ xfl-2023-data-repository
 |   |   └── 2023_weekly_xfl_roster.parquet
 |   ├── 2023_xfl_roster.csv
 |   └── 2023_xfl_roster.parquet
+|
 ├── schedule
 |   ├── csv
 |   ├── json
 |   ├── parquet
 |   ├── 2023_xfl_schedule.csv
 |   └── 2023_xfl_schedule.parquet
+|
 ├── standings
 |   ├── weekly_standings
 |   |   ├── csv

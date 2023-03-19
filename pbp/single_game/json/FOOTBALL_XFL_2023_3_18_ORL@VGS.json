@@ -7181,5 +7181,217 @@
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "84",
     "OfficialCode": "2302019-ORL-at-VGS"
+  },
+  {
+    "MarkerId": "200",
+    "MarkerUTC": 1679195886.0,
+    "MarkerLTC": 83886,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 42 (0:06) 12 L. Perez pass to 13 J. Badet to ORL 38 for 4 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20072",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 17,
+          "Period": 2,
+          "TimeRemSecTotal": 6.0,
+          "TimeRemStr": "0:06",
+          "VisTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 42
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 5,
+          "Yards": 35,
+          "TOP": "0:47",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_18_ORL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 17,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "85",
+    "OfficialCode": "2302019-ORL-at-VGS"
+  },
+  {
+    "MarkerId": "203",
+    "MarkerUTC": 1679195913.0,
+    "MarkerLTC": 83913,
+    "MajorType": "Event",
+    "MinorType": "EventFootballFg",
+    "Descriptor_": "2-6-ORL 38 (0:03) 47 B. Giffen 56 yard field goal is NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 3
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20076",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 17,
+          "Period": 2,
+          "TimeRemSecTotal": 3.0,
+          "TimeRemStr": "0:03",
+          "VisTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Distance": 6,
+          "DriveNum": 10,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickMissed",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 56,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 6,
+          "Yards": 35,
+          "TOP": "0:47",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_18_ORL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 17,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "86",
+    "OfficialCode": "2302019-ORL-at-VGS"
+  },
+  {
+    "MarkerId": "204",
+    "MarkerUTC": 1679195940.337134,
+    "MajorType": "Event",
+    "MinorType": "EventPeriodEnd",
+    "Descriptor_": "Halftime Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 13,
+          "HomeScore": 17,
+          "Period": 2,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 11,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_18_ORL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 13,
+    "HomeScore": 17,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10010",
+    "OfficialCode": "2302019-ORL-at-VGS"
   }
 ]

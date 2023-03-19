@@ -38,6 +38,8 @@ def combine_pbp_files():
     #try:
     #main_df['FootballPenalty_PlayerId'] = pd.to_numeric(main_df['FootballPenalty_PlayerId'],errors='coerce')
     main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].astype('str')
+    main_df['FootballZone'] = main_df['FootballZone'].astype('str')
+
     #except:
     #    print('[FootballPenalty_PlayerId] may not exist in this context.')
 

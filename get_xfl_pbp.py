@@ -2,11 +2,13 @@ import glob
 import json
 from datetime import datetime
 from urllib.request import urlopen
+import warnings
 
 import pandas as pd
 from tqdm import tqdm
 
 from get_xfl_api_token import get_xfl_api_token
+warnings.simplefilter(action='ignore', category=DeprecationWarning)
 
 
 def combine_pbp_files():
@@ -144,7 +146,7 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
         row_df['BallOn_Side'] = play['Properties'][0]['FootballEventContext']['BallOn']['VisOrHome']
         row_df['BallOn_YardNum'] = play['Properties'][0]['FootballEventContext']['BallOn']['YardNum']
 
-        row_df['yardline_100'] = 0
+
         row_df['DriveNum'] = play['Properties'][0]['FootballEventContext']['DriveNum']
         row_df['pos_team_ID'] = int(play['Properties'][0]['FootballEventContext']['PossTeam'])
         row_df['PossTeamAbv'] = row_df['pos_team_ID'].map(team_id_dict)
@@ -154,6 +156,11 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
         # row_df['is_home_team_pos'] = row_df.apply(lambda x: 1 if x['pos_team_ID'] == x['home_team_id'] else 0)
         row_df.loc[row_df['pos_team_ID'] == row_df['home_team_id'],'home_team_has_pos'] = 1
         row_df.loc[row_df['pos_team_ID'] != row_df['home_team_id'],'home_team_has_pos'] = 0
+
+        row_df.loc[(row_df['BallOn_Side']=='Home')&(row_df['home_team_has_pos']==0),'yardline_100'] =  row_df['BallOn_YardNum']
+        row_df.loc[(row_df['BallOn_Side']=='Home')&(row_df['home_team_has_pos']==1),'yardline_100'] =  100 - row_df['BallOn_YardNum'] 
+        row_df.loc[(row_df['BallOn_Side']=='Visitor')&(row_df['home_team_has_pos']==0),'yardline_100'] = 100 - row_df['BallOn_YardNum']
+        row_df.loc[(row_df['BallOn_Side']=='Visitor')&(row_df['home_team_has_pos']==1),'yardline_100'] = row_df['BallOn_YardNum']
 
         try:
             for i in play['Participants']:

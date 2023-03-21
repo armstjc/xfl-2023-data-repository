@@ -3,6 +3,7 @@ import json
 from datetime import datetime
 from urllib.request import urlopen
 import warnings
+import numpy as np
 
 import pandas as pd
 from tqdm import tqdm
@@ -418,6 +419,14 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
     except:
         print('Could not sort dataframe. This may be because [MarkerUTC] does not exist in this JSON, or the dataframe is empty.')
     
+    main_df['MapRolePunter'] = main_df['MapRolePunter'].fillna(0)
+    main_df['MapRolePunter'] = main_df['MapRolePunter'].astype('int')
+    main_df['punt_attempt'] = main_df['MapRolePunter'].apply(lambda x: 1 if x > 0 else 0)
+    main_df['MapRolePunter'] = main_df['MapRolePunter'].replace(0,None)
+
+
+    ## Being perfectly real, I have literally no idea how this league determines 
+    ## when a safety is scored in this API.
 
 
     if save == True and len(main_df) >0:

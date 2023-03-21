@@ -5470,108 +5470,6 @@
     "OfficialCode": "2302018-DC-at-STL"
   },
   {
-    "MarkerId": "173",
-    "MarkerUTC": 1679184725.0,
-    "MarkerLTC": 72725,
-    "MajorType": "Event",
-    "MinorType": "EventFootballSack",
-    "Descriptor_": "3-9-STL 17 (2:06) 23 B. Hill sacked at STL 17 for 0 yards Fumbled by 10 A. McCarron,  Forced by 48 A. Mintze Recovered by 21 M. Nicholson (10 J. Ta'amu)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 2,
-      "ClockSeconds": 6
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleSacker1",
-        "OfficialId": "22296",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 8,
-          "HomeScore": 3,
-          "Period": 2,
-          "TimeRemSecTotal": 126.0,
-          "TimeRemStr": "2:06",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 17
-          },
-          "Distance": 9,
-          "DriveNum": 8,
-          "Down": 3,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 14
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "5",
-          "PlayerFumbled": "22026",
-          "TeamRecovered": "8",
-          "PlayerRecovered": "22892",
-          "PlayerForcedFumble": "21080"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 4
-          },
-          "Plays": 4,
-          "Yards": 10,
-          "TOP": "2:39",
-          "Result": "FUMBLE"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_18_DC@STL",
-    "SituationCode": "",
-    "VisitorScore": 8,
-    "HomeScore": 3,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "64",
-    "OfficialCode": "2302018-DC-at-STL"
-  },
-  {
     "MarkerId": "177",
     "MarkerUTC": 1679185008.0,
     "MarkerLTC": 73008,
@@ -13675,7 +13573,51 @@
     "OfficialCode": "2302018-DC-at-STL"
   },
   {
-    "MarkerId": "395",
+    "MarkerId": "396",
+    "MarkerUTC": 1679191001.5665765,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 28,
+          "HomeScore": 20,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 12,
+          "DriveNum": 23,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_18_DC@STL",
+    "SituationCode": "",
+    "VisitorScore": 28,
+    "HomeScore": 20,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302018-DC-at-STL"
+  },
+  {
+    "MarkerId": "409",
     "MarkerUTC": 1679190981.0,
     "MarkerLTC": 78981,
     "MajorType": "Event",
@@ -13746,58 +13688,116 @@
     "SituationCode": "",
     "VisitorScore": 28,
     "HomeScore": 20,
-    "RevisionNum": 3,
+    "RevisionNum": 6,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "157",
     "OfficialCode": "2302018-DC-at-STL"
   },
   {
-    "MarkerId": "396",
-    "MarkerUTC": 1679191001.5665765,
+    "MarkerId": "411",
+    "MarkerUTC": 1679184725.0,
+    "MarkerLTC": 72725,
     "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "3-9-STL 17 (2:06) 10 A. McCarron sacked at STL 17 for 0 yards Fumbled by 10 A. McCarron,  Forced by 48 A. Mintze Recovered by 21 M. Nicholson (48 A. Mintze)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 4
+      "Period": 2,
+      "ClockMinutes": 2,
+      "ClockSeconds": 6
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21080",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
-          "VisScore": 28,
-          "HomeScore": 20,
-          "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 2,
+          "VisScore": 8,
+          "HomeScore": 3,
+          "Period": 2,
+          "TimeRemSecTotal": 126.0,
+          "TimeRemStr": "2:06",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
           "BallOn": {
             "VisOrHome": "Home",
-            "YardNum": 49
+            "YardNum": 17
           },
-          "Distance": 12,
-          "DriveNum": 23,
+          "Distance": 9,
+          "DriveNum": 8,
           "Down": 3,
-          "PossTeam": "8",
+          "PossTeam": "5",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 14
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "5",
+          "PlayerFumbled": "22026",
+          "TeamRecovered": "8",
+          "PlayerRecovered": "22892",
+          "PlayerForcedFumble": "21080"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 4
+          },
+          "Plays": 4,
+          "Yards": 10,
+          "TOP": "2:39",
+          "Result": "FUMBLE"
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_18_DC@STL",
     "SituationCode": "",
-    "VisitorScore": 28,
-    "HomeScore": 20,
+    "VisitorScore": 8,
+    "HomeScore": 3,
+    "RevisionNum": 9,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
+    "SourceNativeMarkerId": "64",
     "OfficialCode": "2302018-DC-at-STL"
   },
   {
-    "MarkerId": "397",
-    "MarkerUTC": 1679191481.895038,
+    "MarkerId": "412",
+    "MarkerUTC": 1679334201.4159076,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

@@ -23,50 +23,63 @@ def combine_pbp_files():
 
     main_df = main_df.convert_dtypes()
 
-    seasons_arr = main_df['Season'].to_list()
+    seasons_arr = main_df['season'].to_list()
     seasons_arr = [*set(seasons_arr)]
-    try:
-        main_df['FootballFumble_PlayerRecovered'] = main_df['FootballFumble_PlayerRecovered'].astype('str')
-    except:
-        print('[FootballFumble_PlayerRecovered] may not exist in this context.')
 
-    try:
-        main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].astype('int')
-    except:
-        print('[FootballPenalty_PlayerId] may not exist in this context.')
+    main_df['FootballFumble_PlayerRecovered'] = main_df['FootballFumble_PlayerRecovered'].replace('TM',-1)
+    main_df['FootballFumble_PlayerRecovered'] = main_df['FootballFumble_PlayerRecovered'].fillna(0)
+    main_df['FootballFumble_PlayerRecovered'] = main_df['FootballFumble_PlayerRecovered'].astype('int')
+    main_df['FootballFumble_PlayerRecovered'] = main_df['FootballFumble_PlayerRecovered'].replace(0,None)
 
-    #try:
-    #main_df['FootballPenalty_PlayerId'] = pd.to_numeric(main_df['FootballPenalty_PlayerId'],errors='coerce')
-    main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].astype('str')
-    main_df['FootballZone'] = main_df['FootballZone'].astype('str')
+    main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].replace('TM',-1)
+    main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].fillna(0)
+    main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].astype('int')
+    main_df['FootballPenalty_PlayerId'] = main_df['FootballPenalty_PlayerId'].replace(0,None)
 
-    #except:
-    #    print('[FootballPenalty_PlayerId] may not exist in this context.')
+    main_df['FootballZone'] = main_df['FootballZone'].replace('-',None)
+
 
     for i in seasons_arr:
-        season_df = main_df[main_df['Season'] == i]
+        season_df = main_df[main_df['season'] == i]
         season_df.to_csv(f"pbp/season/csv/{i}_xfl_pbp.csv",index=False)
         season_df.to_parquet(f"pbp/season/parquet/{i}_xfl_pbp.parquet",index=False)
 
-def get_xfl_pbp(game_id:str,save=False):
-    print(game_id)
+def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
+    team_id_dict= {
+        'ARL':1,
+        'HOU':2,
+        'SA':3,
+        'ORL':4,
+        'STL':5,
+        'SEA':6,
+        'VGS':7,
+        'DC':8
+    }
+    
     xfl_api_token = get_xfl_api_token()
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
     #timezone = pytz.timezone('US/Eastern')
     #headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
+    # print(i.split('_')[-1])
+    # tms = i.split('_')[-1]
+    # a,h =  tms.split('@')
+    # print(f'{a}\t{h}')
+
+    away_team_abv,home_team_abv = game_id.split('_')[-1].split('@')
     
-    xfl_season = 2023
-    #game_id = "FOOTBALL_XFL_2023_2_18_VGS@ARL"
+    away_team_id = int(team_id_dict[away_team_abv])
+    home_team_id = int(team_id_dict[home_team_abv])
+    print(f'gameID:\t{game_id}')
+    
+    
     url = f"https://api.xfl.com/scoring/v3.30/markeractivity?game={game_id}&access_token={xfl_api_token}"
     response = urlopen(url)
     json_data = json.loads(response.read())
     
     for play in tqdm(json_data):
-        
-        #official_id = player['OfficialId']
-        
-        row_df = pd.DataFrame({'Season':xfl_season,'game_id':game_id},index=[0])
+              
+        row_df = pd.DataFrame({'season':xfl_season,'game_id':game_id,'away_team_abv':away_team_abv,'away_team_id':away_team_id,'home_team_abv':home_team_abv,'home_team_id':home_team_id},index=[0])
         row_df['MarkerId'] = play['MarkerId']
         row_df['MarkerUTC'] = play['MarkerUTC']
         
@@ -77,24 +90,28 @@ def get_xfl_pbp(game_id:str,save=False):
 
         # dt = datetime.fromtimestamp(play['MarkerUTC'])
         # row_df['MarkerDateTime'] = dt
-        row_df['MarkerDateTime'] = datetime.fromtimestamp(play['MarkerUTC'])
-        row_df['MajorType'] = play['MajorType']
-        row_df['MinorType'] = play['MinorType']
-        row_df['PlayDescriptor'] = play['Descriptor_']
-        row_df['PlayComments'] = play['Comments']
+        row_df['play_date_time'] = datetime.fromtimestamp(play['MarkerUTC'])
+        #row_df['MajorType'] = play['MajorType']
+        row_df['play_type'] = play['MinorType']
+        row_df['desc'] = play['Descriptor_']
+        row_df['comments'] = play['Comments']
         row_df['IsOfficial'] = play['IsOfficial']
-        row_df['Quarter'] = play['ETime']['Period']
-
+        row_df['qtr'] = int(play['ETime']['Period'])
+        row_df['qtr'].astype('int')
         try:
             row_df['ClockMinutes'] = play['ETime']['ClockMinutes']
         except:
             ## if it doesn't exist, it means that it is 0
             row_df['ClockMinutes'] = 0
+
         try:
             row_df['ClockSeconds'] = play['ETime']['ClockSeconds']
         except:
             ## if it doesn't exist, it means that it is 0
             row_df['ClockSeconds'] = 0
+        
+        row_df['game_half'] = row_df['qtr'].map({1:'Half1',2:'Half1',3:'Half2',4:'Half2'})
+
         row_df['SourceType'] = play['SourceType']
         row_df['EventId'] = play['EventId']
         row_df['SituationCode'] = play['SituationCode']
@@ -103,11 +120,14 @@ def get_xfl_pbp(game_id:str,save=False):
         row_df['OfficialCode'] = play['OfficialCode']
         
         try:
-            row_df['TimeRemSecTotal'] = play['Properties'][0]['FootballEventContext']['TimeRemSecTotal']
+            row_df['quarter_seconds_remaining'] = int(play['Properties'][0]['FootballEventContext']['TimeRemSecTotal'])
         except:
-            row_df['TimeRemSecTotal'] = None
+            row_df['quarter_seconds_remaining'] = 0
 
-        row_df['TimeRemStr'] = play['Properties'][0]['FootballEventContext']['TimeRemStr']
+        row_df['half_seconds_remaining'] = row_df['game_half'].apply(lambda x: (((5-int(row_df['qtr']))*900) + (row_df['quarter_seconds_remaining']-900) - 1800) if x == 'Half1' else (((5-int(row_df['qtr']))*900) + (row_df['quarter_seconds_remaining']-900)))
+        row_df['game_seconds_remaining'] = ((5-int(row_df['qtr']))*900) + (row_df['quarter_seconds_remaining']-900)
+
+        row_df['time'] = play['Properties'][0]['FootballEventContext']['TimeRemStr']
         
         try:
             ## if it doesn't exist, it means that it is 0
@@ -121,18 +141,35 @@ def get_xfl_pbp(game_id:str,save=False):
         except:
             row_df['HomeTimeouts'] = 0
         
-            row_df['BallOn_Side'] = play['Properties'][0]['FootballEventContext']['BallOn']['VisOrHome']
+        row_df['BallOn_Side'] = play['Properties'][0]['FootballEventContext']['BallOn']['VisOrHome']
         row_df['BallOn_YardNum'] = play['Properties'][0]['FootballEventContext']['BallOn']['YardNum']
+
+        row_df['yardline_100'] = 0
         row_df['DriveNum'] = play['Properties'][0]['FootballEventContext']['DriveNum']
-        row_df['PossTeam'] = play['Properties'][0]['FootballEventContext']['PossTeam']
+        row_df['pos_team_ID'] = int(play['Properties'][0]['FootballEventContext']['PossTeam'])
+        row_df['PossTeamAbv'] = row_df['pos_team_ID'].map(team_id_dict)
         row_df['LastPlaySummary'] = play['Properties'][0]['FootballEventContext']['LastPlaySummary']
         row_df['LastPlayStatus'] = play['Properties'][0]['FootballEventContext']['LastPlayStatus']
+
+        # row_df['is_home_team_pos'] = row_df.apply(lambda x: 1 if x['pos_team_ID'] == x['home_team_id'] else 0)
+        row_df.loc[row_df['pos_team_ID'] == row_df['home_team_id'],'home_team_has_pos'] = 1
+        row_df.loc[row_df['pos_team_ID'] != row_df['home_team_id'],'home_team_has_pos'] = 0
 
         try:
             for i in play['Participants']:
                 row_df[i['Role']] = i['OfficialId']
         except:
             pass
+
+        try:
+            row_df['VisScore'] = play['VisitorScore']
+        except:
+            row_df['VisScore'] = 0
+
+        try:
+            row_df['HomeScore'] = play['HomeScore']
+        except:
+            row_df['HomeScore'] = 0
 
         for i in play['Properties']:
             ########################################################################################################################################################################################
@@ -163,15 +200,7 @@ def get_xfl_pbp(game_id:str,save=False):
             except:
                 pass
             
-            try:
-                row_df['VisScore'] = i['FootballEventContext']['VisScore']
-            except:
-                pass
-
-            try:
-                row_df['HomeScore'] = i['HomeScore']
-            except:
-                pass
+            
 
             ########################################################################################################################################################################################
             ## Play Result, Zone, and Yards gained/lost
@@ -308,7 +337,6 @@ def get_xfl_pbp(game_id:str,save=False):
             except:
                 pass
 
-
             ########################################################################################################################################################################################
             ## Fumble Info
             ########################################################################################################################################################################################
@@ -383,13 +411,15 @@ def get_xfl_pbp(game_id:str,save=False):
     except:
         print('Could not sort dataframe. This may be because [MarkerUTC] does not exist in this JSON, or the dataframe is empty.')
     
+
+
     if save == True and len(main_df) >0:
         main_df.to_csv(f'pbp/single_game/csv/{game_id}.csv',index=False)
         main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
         with open(f"pbp/single_game/json/{game_id}.json", "w+") as f:
             f.write(json.dumps(json_data,indent=2))
 
-    print(main_df)
+    #print(main_df)
     return main_df
 
 def main():

@@ -7332,111 +7332,6 @@
     "OfficialCode": "2302020-ARL-at-SA"
   },
   {
-    "MarkerId": "198",
-    "MarkerUTC": 1679279416.0,
-    "MarkerLTC": 77416,
-    "MajorType": "Event",
-    "MinorType": "EventFootballKickoff",
-    "Descriptor_": "1 T. Russolino kicks from SA 30. 11 K. Ballage to SA 31 for 18 yards (5 W. Hill, 44 B. Rotimi) PENALTY on 81 N. Becker, 5 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 14,
-      "ClockSeconds": 54
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20693",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "21348",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKicker",
-        "OfficialId": "20087",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKickreturner",
-        "OfficialId": "21707",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 6,
-          "HomeScore": 10,
-          "Period": 3,
-          "TimeRemSecTotal": 894.0,
-          "TimeRemStr": "14:54",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 30
-          },
-          "Distance": 10,
-          "DriveNum": 12,
-          "Down": 1,
-          "PossTeam": "3",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballKickRetYards": 18,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 31
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "1",
-          "PlayerId": "22326",
-          "Yards": 5,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_19_ARL@SA",
-    "SituationCode": "",
-    "VisitorScore": 6,
-    "HomeScore": 10,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "79",
-    "OfficialCode": "2302020-ARL-at-SA"
-  },
-  {
     "MarkerId": "200",
     "MarkerUTC": 1679279492.0,
     "MarkerLTC": 77492,
@@ -13880,8 +13775,51 @@
     "OfficialCode": "2302020-ARL-at-SA"
   },
   {
-    "MarkerId": "360",
-    "MarkerUTC": 1679284226.0,
+    "MarkerId": "361",
+    "MarkerUTC": 1679284367.8056111,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 12,
+          "HomeScore": 10,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 21,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_19_ARL@SA",
+    "SituationCode": "",
+    "VisitorScore": 12,
+    "HomeScore": 10,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302020-ARL-at-SA"
+  },
+  {
+    "MarkerId": "372",
+    "MarkerUTC": 1679280626.0,
     "MarkerLTC": 82226,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
@@ -13978,57 +13916,119 @@
     "SituationCode": "",
     "VisitorScore": 12,
     "HomeScore": 10,
-    "RevisionNum": 5,
+    "RevisionNum": 9,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "152",
     "OfficialCode": "2302020-ARL-at-SA"
   },
   {
-    "MarkerId": "361",
-    "MarkerUTC": 1679284367.8056111,
+    "MarkerId": "374",
+    "MarkerUTC": 1679275816.0,
+    "MarkerLTC": 77416,
     "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "1 T. Russolino kicks from ARL 30. 11 K. Ballage to SA 31 for 18 yards (5 W. Hill, 44 B. Rotimi) PENALTY on 81 N. Becker, 5 yards",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 4
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 54
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20693",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21348",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20087",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21707",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
-          "VisScore": 12,
+          "VisScore": 6,
           "HomeScore": 10,
-          "Period": 4,
-          "TimeRemStr": "0:00",
+          "Period": 3,
+          "TimeRemSecTotal": 894.0,
+          "TimeRemStr": "14:54",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
           "BallOn": {
             "VisOrHome": "Visitor",
-            "YardNum": 46
+            "YardNum": 30
           },
           "Distance": 10,
-          "DriveNum": 21,
+          "DriveNum": 12,
           "Down": 1,
-          "PossTeam": "1",
+          "PossTeam": "3",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 18,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 31
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "1",
+          "PlayerId": "22326",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_19_ARL@SA",
     "SituationCode": "",
-    "VisitorScore": 12,
+    "VisitorScore": 6,
     "HomeScore": 10,
+    "RevisionNum": 7,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
+    "SourceNativeMarkerId": "79",
     "OfficialCode": "2302020-ARL-at-SA"
   },
   {
-    "MarkerId": "362",
-    "MarkerUTC": 1679284380.8615167,
+    "MarkerId": "375",
+    "MarkerUTC": 1679515601.7229316,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

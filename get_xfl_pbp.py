@@ -424,7 +424,13 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
     main_df['punt_attempt'] = main_df['MapRolePunter'].apply(lambda x: 1 if x > 0 else 0)
     main_df['MapRolePunter'] = main_df['MapRolePunter'].replace(0,None)
 
+    main_df.loc[(main_df['play_type'] != 'EventFootballPass') | (main_df['Result'] != 'TD'),'pass_touchdown'] = 0
+    main_df.loc[(main_df['play_type'] == 'EventFootballPass') & (main_df['Result'] == 'TD'),'pass_touchdown'] = 1
 
+    main_df.loc[(main_df['play_type'] != 'EventFootballRush') | (main_df['Result'] != 'TD'),'rush_touchdown'] = 0
+    main_df.loc[(main_df['play_type'] == 'EventFootballRush') & (main_df['Result'] == 'TD'),'rush_touchdown'] = 1
+
+    main_df['touchdown'] = main_df['pass_touchdown'] + main_df['rush_touchdown']
     ## Being perfectly real, I have literally no idea how this league determines 
     ## when a safety is scored in this API.
 

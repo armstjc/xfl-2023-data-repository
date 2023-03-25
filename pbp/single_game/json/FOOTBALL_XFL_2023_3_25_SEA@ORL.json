@@ -7891,5 +7891,2790 @@
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10010",
     "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "207",
+    "MarkerUTC": 1679769694.0,
+    "MarkerLTC": 52894,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM SEA 30 (15:00) 11 D. Eberle kicks from SEA 30. 32 J. Rogers to ORL 26 for 16 yards (22 S. Finch, 44 E. Ponder)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20478",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22017",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 13,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 16,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 26
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "91",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "209",
+    "MarkerUTC": 1679769761.0,
+    "MarkerLTC": 52961,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 26 (14:41) 30 J. Martin rush to ORL 25 for -1 yards (32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 41
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 881.0,
+          "TimeRemStr": "14:41",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 10,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 1,
+          "Yards": -1,
+          "TOP": "0:30",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "92",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "211",
+    "MarkerUTC": 1679769790.0,
+    "MarkerLTC": 52990,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-11-ORL 25 (14:12) 12 Q. Dormady pass to 14 C. Rambo to ORL 27 for 2 yards (5 C. Payton-Jones)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 12
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22018",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20836",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 852.0,
+          "TimeRemStr": "14:12",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Distance": 11,
+          "DriveNum": 13,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 2,
+          "Yards": 1,
+          "TOP": "0:57",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "93",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "213",
+    "MarkerUTC": 1679769828.0,
+    "MarkerLTC": 53028,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-9-ORL 27 (13:34) 12 Q. Dormady rush to ORL 42 for 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 13,
+      "ClockSeconds": 34
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 814.0,
+          "TimeRemStr": "13:34",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Distance": 9,
+          "DriveNum": 13,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 15,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 3,
+          "Yards": 16,
+          "TOP": "1:33",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "94",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "219",
+    "MarkerUTC": 1679769939.0,
+    "MarkerLTC": 53139,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-10-SEA 41 (11:50) 12 Q. Dormady sacked at SEA 49 for -8 yards (36 Z. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 11,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "20878",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 710.0,
+          "TimeRemStr": "11:50",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 6,
+          "Yards": 25,
+          "TOP": "3:18",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "97",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "221",
+    "MarkerUTC": 1679769974.0,
+    "MarkerLTC": 53174,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-18-SEA 49 (11:15) 26 D. Darrington rush to ORL 48 for -3 yards (97 N. Lalos, 36 Z. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 11,
+      "ClockSeconds": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20357",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20918",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20878",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 675.0,
+          "TimeRemStr": "11:15",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Distance": 18,
+          "DriveNum": 13,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 7,
+          "Yards": 22,
+          "TOP": "4:03",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "98",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "222",
+    "MarkerUTC": 1679769906.0,
+    "MarkerLTC": 53106,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-4-ORL 48 (12:19) 12 Q. Dormady pass to 30 J. Martin to SEA 41 for 11 yards (17 R. Farris)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 12,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20468",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 739.0,
+          "TimeRemStr": "12:19",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 48
+          },
+          "Distance": 4,
+          "DriveNum": 13,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 5,
+          "Yards": 33,
+          "TOP": "2:53",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "96",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "226",
+    "MarkerUTC": 1679770058.0,
+    "MarkerLTC": 53258,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-9-SEA 40 (9:56) 19 M. Brown punts 40 yards from SEA 40 to end zone, Touchback",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 56
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "20208",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 596.0,
+          "TimeRemStr": "9:56",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 9,
+          "DriveNum": 13,
+          "Down": 4,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickTouchback",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 40,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 35
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 8,
+          "Yards": 34,
+          "TOP": "5:04",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "100",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "227",
+    "MarkerUTC": 1679770018.0,
+    "MarkerLTC": 53218,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-21-ORL 48 (10:31) 12 Q. Dormady pass to 17 E. Rogers to SEA 40 for 12 yards (16 M. Wright, 36 Z. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 10,
+      "ClockSeconds": 31
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22708",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21721",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20878",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 631.0,
+          "TimeRemStr": "10:31",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 48
+          },
+          "Distance": 21,
+          "DriveNum": 13,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 12,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 8,
+          "Yards": 34,
+          "TOP": "4:39",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "99",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "228",
+    "MarkerUTC": 1679769865.0,
+    "MarkerLTC": 53065,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 42 (12:56) 30 J. Martin rush to ORL 48 for 6 yards (36 Z. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 12,
+      "ClockSeconds": 56
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20878",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 776.0,
+          "TimeRemStr": "12:56",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 42
+          },
+          "Distance": 10,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Plays": 4,
+          "Yards": 22,
+          "TOP": "2:14",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "95",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "230",
+    "MarkerUTC": 1679770261.0,
+    "MarkerLTC": 53461,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 35 (9:50) 6 B. DiNucci pass incomplete to 23 D. Bradwell",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21917",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 590.0,
+          "TimeRemStr": "9:50",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 1,
+          "TOP": "0:11",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "101",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "232",
+    "MarkerUTC": 1679770290.0,
+    "MarkerLTC": 53490,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-10-SEA 35 (9:21) 23 D. Bradwell rush to ORL 47 for 18 yards (23 N. Hosein)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 9,
+      "ClockSeconds": 21
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21917",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20723",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 561.0,
+          "TimeRemStr": "9:21",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 18,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 2,
+          "Yards": 18,
+          "TOP": "0:47",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "102",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "234",
+    "MarkerUTC": 1679770321.0,
+    "MarkerLTC": 53521,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 47 (8:50) 23 D. Bradwell rush to ORL 37 for 10 yards (36 J. Jones)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 8,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21917",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20841",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 530.0,
+          "TimeRemStr": "8:50",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 3,
+          "Yards": 28,
+          "TOP": "1:21",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "103",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "237",
+    "MarkerUTC": 1679770377.0,
+    "MarkerLTC": 53577,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-ORL 37 (8:15) PENALTY on (ORL) 21 S. Wiggins, 17 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 8,
+      "ClockSeconds": 15
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 495.0,
+          "TimeRemStr": "8:15",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 37
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "21664",
+          "Yards": 17,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 3,
+          "Yards": 45,
+          "TOP": "1:41",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "104",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "239",
+    "MarkerUTC": 1679770405.0,
+    "MarkerLTC": 53605,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 20 (8:06) 23 D. Bradwell rush to ORL 20 for 0 yards (99 T. Sanders, 34 N. Coe)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 8,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21917",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21365",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20308",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 486.0,
+          "TimeRemStr": "8:06",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 4,
+          "Yards": 45,
+          "TOP": "1:57",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "105",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "241",
+    "MarkerUTC": 1679770440.0,
+    "MarkerLTC": 53640,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-ORL 20 (7:35) 6 B. DiNucci pass incomplete to 88 J. Veasy Pass Defended by 21 S. Wiggins",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22306",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21664",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 455.0,
+          "TimeRemStr": "7:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 5,
+          "Yards": 45,
+          "TOP": "2:23",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "106",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "243",
+    "MarkerUTC": 1679770482.0,
+    "MarkerLTC": 53682,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-10-ORL 20 (7:01) 6 B. DiNucci pass to 80 B. Jackson for 20 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20761",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 421.0,
+          "TimeRemStr": "7:01",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 20,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Plays": 6,
+          "Yards": 65,
+          "TOP": "2:55",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "107",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "245",
+    "MarkerUTC": 1679770507.0,
+    "MarkerLTC": 53707,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat2PtPass",
+    "Descriptor_": "FROM ORL 5 (7:01) 6 B. DiNucci 2-pt conversion pass to 3 J. Pearson GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21203",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 15,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 421.0,
+          "TimeRemStr": "7:01",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 5
+          },
+          "DriveNum": 14,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeConv",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 2,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 15,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "108",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "247",
+    "MarkerUTC": 1679770609.0,
+    "MarkerLTC": 53809,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM SEA 30 (7:01) 11 D. Eberle kicks from SEA 30. 32 J. Rogers to ORL 27 for 22 yards (32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 7,
+      "ClockSeconds": 1
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 421.0,
+          "TimeRemStr": "7:01",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 15,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 22,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 27
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "109",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "249",
+    "MarkerUTC": 1679770672.0,
+    "MarkerLTC": 53872,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ORL 27 (6:50) 12 Q. Dormady rush to ORL 41 for 14 yards (33 A. Holder)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 6,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22552",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 410.0,
+          "TimeRemStr": "6:50",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Distance": 10,
+          "DriveNum": 15,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 14,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 1,
+          "Yards": 14,
+          "TOP": "0:20",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "110",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "251",
+    "MarkerUTC": 1679770697.0,
+    "MarkerLTC": 53897,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 41 (6:32) 12 Q. Dormady pass to 11 C. Latimer to Midfield for 9 yards (32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 6,
+      "ClockSeconds": 32
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20929",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 392.0,
+          "TimeRemStr": "6:32",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 10,
+          "DriveNum": 15,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 2,
+          "Yards": 23,
+          "TOP": "0:35",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "111",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "253",
+    "MarkerUTC": 1679770718.0,
+    "MarkerLTC": 53918,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-1-Midfield (6:15) 30 J. Martin rush to SEA 47 for 3 yards (2 A. Brooks, 32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 6,
+      "ClockSeconds": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20997",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21919",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 375.0,
+          "TimeRemStr": "6:15",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 50
+          },
+          "Distance": 1,
+          "DriveNum": 15,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 3,
+          "Yards": 26,
+          "TOP": "0:59",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "112",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "255",
+    "MarkerUTC": 1679770750.0,
+    "MarkerLTC": 53950,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 47 (5:45) 12 Q. Dormady pass incomplete to 17 E. Rogers QB Hit by 9 C. Hicks",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 5,
+      "ClockSeconds": 45
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22708",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleQbHitter",
+        "OfficialId": "22344",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 345.0,
+          "TimeRemStr": "5:45",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 15,
+          "Down": 1,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 4,
+          "Yards": 26,
+          "TOP": "1:19",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "113",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "257",
+    "MarkerUTC": 1679770782.0,
+    "MarkerLTC": 53982,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-SEA 47 (5:20) 12 Q. Dormady pass to 83 D. Williams to SEA 43 for 4 yards (5 C. Payton-Jones)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 5,
+      "ClockSeconds": 20
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21672",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20836",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 320.0,
+          "TimeRemStr": "5:20",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 15,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 5,
+          "Yards": 30,
+          "TOP": "1:50",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "114",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "259",
+    "MarkerUTC": 1679770824.0,
+    "MarkerLTC": 54024,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-6-SEA 43 (4:44) 26 D. Darrington rush for 43 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20357",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 10,
+          "Period": 3,
+          "TimeRemSecTotal": 284.0,
+          "TimeRemStr": "4:44",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 43
+          },
+          "Distance": 6,
+          "DriveNum": 15,
+          "Down": 3,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 43,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 27
+          },
+          "Plays": 6,
+          "Yards": 73,
+          "TOP": "2:17",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 10,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "115",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "261",
+    "MarkerUTC": 1679770868.0,
+    "MarkerLTC": 54068,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat2PtPass",
+    "Descriptor_": "FROM SEA 5 (4:44) 12 Q. Dormady 2-pt conversion pass to 26 D. Darrington NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20357",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleInterceptor",
+        "OfficialId": "20918",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 16,
+          "Period": 3,
+          "TimeRemSecTotal": 284.0,
+          "TimeRemStr": "4:44",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 5
+          },
+          "DriveNum": 15,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassInterception",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 2,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 16,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "116",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "267",
+    "MarkerUTC": 1679771201.0,
+    "MarkerLTC": 54401,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "FROM ORL 30 (4:40) PENALTY on (ORL) 48 J. Blakely, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 40
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 16,
+          "Period": 3,
+          "TimeRemSecTotal": 280.0,
+          "TimeRemStr": "4:40",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 16,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "4",
+          "PlayerId": "20134",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home"
+          },
+          "TOP": "0:04",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 16,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "117",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "269",
+    "MarkerUTC": 1679771239.0,
+    "MarkerLTC": 54439,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM ORL 25 (4:40) 0 J. Borregales kicks from ORL 25. 86 K. McKnight to SEA 30 for 20 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 40
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "86",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 16,
+          "Period": 3,
+          "TimeRemSecTotal": 280.0,
+          "TimeRemStr": "4:40",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "DriveNum": 16,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 20,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 30
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 16,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "118",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "271",
+    "MarkerUTC": 1679771347.0,
+    "MarkerLTC": 54547,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 30 (4:30) 6 B. DiNucci pass incomplete to 80 B. Jackson Pass Defended by 27 T. Smith",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 4,
+      "ClockSeconds": 30
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20761",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21825",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 16,
+          "Period": 3,
+          "TimeRemSecTotal": 270.0,
+          "TimeRemStr": "4:30",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Distance": 10,
+          "DriveNum": 16,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Plays": 1,
+          "TOP": "0:15",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 16,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "119",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "273",
+    "MarkerUTC": 1679771388.0,
+    "MarkerLTC": 54588,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-SEA 30 (3:55) 6 B. DiNucci pass to 4 J. Green to ORL 46 for 24 yards (27 T. Smith)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 3,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22035",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21825",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 16,
+          "Period": 3,
+          "TimeRemSecTotal": 235.0,
+          "TimeRemStr": "3:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Distance": 10,
+          "DriveNum": 16,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 24,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Plays": 2,
+          "Yards": 24,
+          "TOP": "1:02",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 16,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "120",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "275",
+    "MarkerUTC": 1679771454.0,
+    "MarkerLTC": 54654,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ORL 46 (3:27) 6 B. DiNucci pass dropped by 4 J. Green",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 3,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22035",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 16,
+          "Period": 3,
+          "TimeRemSecTotal": 207.0,
+          "TimeRemStr": "3:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 16,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Plays": 3,
+          "Yards": 24,
+          "TOP": "1:40",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 16,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "121",
+    "OfficialCode": "2302021-SEA-at-ORL"
+  },
+  {
+    "MarkerId": "277",
+    "MarkerUTC": 1679771493.0,
+    "MarkerLTC": 54693,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-ORL 46 (2:52) 6 B. DiNucci pass to 80 B. Jackson to ORL 28 for 18 yards (32 J. Rogers)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 2,
+      "ClockSeconds": 52
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20761",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21333",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "HomeScore": 16,
+          "Period": 3,
+          "TimeRemSecTotal": 172.0,
+          "TimeRemStr": "2:52",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 16,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 18,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "Plays": 4,
+          "Yards": 42,
+          "TOP": "2:04",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_SEA@ORL",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "HomeScore": 16,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "122",
+    "OfficialCode": "2302021-SEA-at-ORL"
   }
 ]

@@ -5,7 +5,7 @@ name: Update XFL Stats
 
 on:
   schedule:
-    #- cron: "0,30 21-23,0-7 * 2-5 0,4-6"
+    - cron: "0,30 17-23,0-4 * 2-5 6,0-1"
     - cron: "0 10 * 2-5 *"
   #push:
   #  branches: [ main ]

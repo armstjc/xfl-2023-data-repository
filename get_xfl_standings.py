@@ -120,7 +120,7 @@ def get_xfl_standings(season=2023,week=1,save=False):
 
 def main():
     season = 2023
-    week = 5
+    week = 6
     get_xfl_standings(season,week,True)
 
     now = datetime.now()

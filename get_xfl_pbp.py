@@ -418,28 +418,28 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
         main_df = main_df.sort_values(by=['MarkerUTC'])
     except:
         print('Could not sort dataframe. This may be because [MarkerUTC] does not exist in this JSON, or the dataframe is empty.')
-    
-    main_df['MapRolePunter'] = main_df['MapRolePunter'].fillna(0)
-    main_df['MapRolePunter'] = main_df['MapRolePunter'].astype('int')
-    main_df['punt_attempt'] = main_df['MapRolePunter'].apply(lambda x: 1 if x > 0 else 0)
-    main_df['MapRolePunter'] = main_df['MapRolePunter'].replace(0,None)
+    if len(main_df)>0:
+        main_df['MapRolePunter'] = main_df['MapRolePunter'].fillna(0)
+        main_df['MapRolePunter'] = main_df['MapRolePunter'].astype('int')
+        main_df['punt_attempt'] = main_df['MapRolePunter'].apply(lambda x: 1 if x > 0 else 0)
+        main_df['MapRolePunter'] = main_df['MapRolePunter'].replace(0,None)
 
-    main_df.loc[(main_df['play_type'] != 'EventFootballPass') | (main_df['Result'] != 'TD'),'pass_touchdown'] = 0
-    main_df.loc[(main_df['play_type'] == 'EventFootballPass') & (main_df['Result'] == 'TD'),'pass_touchdown'] = 1
+        main_df.loc[(main_df['play_type'] != 'EventFootballPass') | (main_df['Result'] != 'TD'),'pass_touchdown'] = 0
+        main_df.loc[(main_df['play_type'] == 'EventFootballPass') & (main_df['Result'] == 'TD'),'pass_touchdown'] = 1
 
-    main_df.loc[(main_df['play_type'] != 'EventFootballRush') | (main_df['Result'] != 'TD'),'rush_touchdown'] = 0
-    main_df.loc[(main_df['play_type'] == 'EventFootballRush') & (main_df['Result'] == 'TD'),'rush_touchdown'] = 1
+        main_df.loc[(main_df['play_type'] != 'EventFootballRush') | (main_df['Result'] != 'TD'),'rush_touchdown'] = 0
+        main_df.loc[(main_df['play_type'] == 'EventFootballRush') & (main_df['Result'] == 'TD'),'rush_touchdown'] = 1
 
-    main_df['touchdown'] = main_df['pass_touchdown'] + main_df['rush_touchdown']
-    ## Being perfectly real, I have literally no idea how this league determines 
-    ## when a safety is scored in this API.
+        main_df['touchdown'] = main_df['pass_touchdown'] + main_df['rush_touchdown']
+        ## Being perfectly real, I have literally no idea how this league determines 
+        ## when a safety is scored in this API.
 
 
-    if save == True and len(main_df) >0:
-        main_df.to_csv(f'pbp/single_game/csv/{game_id}.csv',index=False)
-        main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
-        with open(f"pbp/single_game/json/{game_id}.json", "w+") as f:
-            f.write(json.dumps(json_data,indent=2))
+        if save == True and len(main_df) >0:
+            main_df.to_csv(f'pbp/single_game/csv/{game_id}.csv',index=False)
+            main_df.to_parquet(f'pbp/single_game/parquet/{game_id}.parquet',index=False)
+            with open(f"pbp/single_game/json/{game_id}.json", "w+") as f:
+                f.write(json.dumps(json_data,indent=2))
 
     #print(main_df)
     return main_df

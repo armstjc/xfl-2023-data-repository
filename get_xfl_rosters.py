@@ -62,7 +62,7 @@ def get_xfl_rosters(season=2023,week=1,save=False):
         main_df.to_parquet(f'rosters/{xfl_season}_xfl_roster.parquet',index=False)
 
         main_df['Week'] = xfl_week
-        main_df.to_csv(f'rosters/weekly_rosters/csv/{xfl_season}_{xfl_week}_xfl_roster.csv',index=False)
+        main_df.to_csv(f'rosters/weekly_rosters/csv/{int(xfl_season)}_{xfl_week}_xfl_roster.csv',index=False)
         main_df.to_parquet(f'rosters/weekly_rosters/parquet/{xfl_season}_{xfl_week}_xfl_roster.parquet',index=False)
         #urlretrieve(url, filename=f"rosters/weekly_rosters/json/{xfl_season}_{xfl_week}_xfl_roster.json")
         with open(f"rosters/weekly_rosters/json/{xfl_season}_{xfl_week}_xfl_roster.json", "w+") as f:

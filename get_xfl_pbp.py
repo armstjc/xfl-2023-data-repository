@@ -147,8 +147,11 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
         row_df['BallOn_Side'] = play['Properties'][0]['FootballEventContext']['BallOn']['VisOrHome']
         row_df['BallOn_YardNum'] = play['Properties'][0]['FootballEventContext']['BallOn']['YardNum']
 
+        try:
+            row_df['DriveNum'] = play['Properties'][0]['FootballEventContext']['DriveNum']
+        except:
+            row_df['DriveNum'] = None
 
-        row_df['DriveNum'] = play['Properties'][0]['FootballEventContext']['DriveNum']
         row_df['pos_team_ID'] = int(play['Properties'][0]['FootballEventContext']['PossTeam'])
         row_df['PossTeamAbv'] = row_df['pos_team_ID'].map(team_id_dict)
         row_df['LastPlaySummary'] = play['Properties'][0]['FootballEventContext']['LastPlaySummary']
@@ -447,7 +450,7 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
 def main():
     sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
     event_id_arr = sched_df['EventId'].to_list()
-    
+ 
     for i in event_id_arr:
         get_xfl_pbp(i,True)
         

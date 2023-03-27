@@ -9359,109 +9359,6 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "285",
-    "MarkerUTC": 1679864294.0,
-    "MarkerLTC": 61094,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-4-SA 46 (0:00) 1 L. Barcoo punts 46 yards from SA 46 to ARL 8. 4 J. Powell to ARL 16 for 8 yards (31 J. Hilliman)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "31",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "20087",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "21251",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 9,
-          "HomeScore": 9,
-          "Period": 3,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 46
-          },
-          "Distance": 4,
-          "DriveNum": 20,
-          "Down": 4,
-          "PossTeam": "3",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 46,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": 8,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 16
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 40
-          },
-          "Plays": 3,
-          "Yards": 6,
-          "TOP": "2:16",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
-    "SituationCode": "",
-    "VisitorScore": 9,
-    "HomeScore": 9,
-    "RevisionNum": 7,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "108",
-    "OfficialCode": "2302023-SA-at-ARL"
-  },
-  {
     "MarkerId": "287",
     "MarkerUTC": 1679864550.0,
     "MarkerLTC": 61350,
@@ -12283,91 +12180,6 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "357",
-    "MarkerUTC": 1679866530.0,
-    "MarkerLTC": 63330,
-    "MajorType": "Event",
-    "MinorType": "EventFootballFg",
-    "Descriptor_": "4-7-ARL 28 (1:46) 23 P. Romo 56 yard field goal is GOOD",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 1,
-      "ClockSeconds": 46
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleKicker",
-        "OfficialId": "21775",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 12,
-          "HomeScore": 9,
-          "Period": 4,
-          "TimeRemSecTotal": 106.0,
-          "TimeRemStr": "1:46",
-          "VisTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 28
-          },
-          "Distance": 7,
-          "DriveNum": 24,
-          "Down": 4,
-          "PossTeam": "3",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickMade",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 56,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballMainScoringPlay": "ScoreTypeFg",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 26
-          },
-          "Plays": 7,
-          "Yards": 46,
-          "TOP": "2:19",
-          "Result": "FG"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
-    "SituationCode": "",
-    "VisitorScore": 12,
-    "HomeScore": 9,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "142",
-    "OfficialCode": "2302023-SA-at-ARL"
-  },
-  {
     "MarkerId": "359",
     "MarkerUTC": 1679866590.0,
     "MarkerLTC": 63390,
@@ -13260,7 +13072,51 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "384",
+    "MarkerId": "385",
+    "MarkerUTC": 1679867009.8867593,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 15,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 36
+          },
+          "Distance": 11,
+          "DriveNum": 26,
+          "Down": 2,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
+    "SituationCode": "",
+    "VisitorScore": 15,
+    "HomeScore": 9,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302023-SA-at-ARL"
+  },
+  {
+    "MarkerId": "387",
     "MarkerUTC": 1679866986.0,
     "MarkerLTC": 63786,
     "MajorType": "Event",
@@ -13331,58 +13187,203 @@
     "SituationCode": "",
     "VisitorScore": 15,
     "HomeScore": 9,
-    "RevisionNum": 3,
+    "RevisionNum": 4,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "153",
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "385",
-    "MarkerUTC": 1679867009.8867593,
+    "MarkerId": "389",
+    "MarkerUTC": 1679866530.0,
+    "MarkerLTC": 63330,
     "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
+    "MinorType": "EventFootballFg",
+    "Descriptor_": "4-7-ARL 28 (1:46) 23 P. Romo 46 yard field goal is GOOD",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 4
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 46
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "21775",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
-          "VisScore": 15,
+          "VisScore": 12,
           "HomeScore": 9,
           "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 1,
+          "TimeRemSecTotal": 106.0,
+          "TimeRemStr": "1:46",
+          "VisTimeouts": 2,
           "BallOn": {
             "VisOrHome": "Home",
-            "YardNum": 36
+            "YardNum": 28
           },
-          "Distance": 11,
-          "DriveNum": 26,
-          "Down": 2,
+          "Distance": 7,
+          "DriveNum": 24,
+          "Down": 4,
           "PossTeam": "3",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
         },
         "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickMade",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 46,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeFg",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Plays": 7,
+          "Yards": 46,
+          "TOP": "2:19",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
     "SituationCode": "",
-    "VisitorScore": 15,
+    "VisitorScore": 12,
     "HomeScore": 9,
+    "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
+    "SourceNativeMarkerId": "142",
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "386",
-    "MarkerUTC": 1679867047.5636177,
+    "MarkerId": "390",
+    "MarkerUTC": 1679864294.0,
+    "MarkerLTC": 61094,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-4-SA 46 (0:00) 0 B. Wing punts 46 yards from SA 46 to ARL 8. 4 J. Powell to ARL 16 for 8 yards (31 J. Hilliman)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "31",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21251",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 3,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 4,
+          "DriveNum": 20,
+          "Down": 4,
+          "PossTeam": "3",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 46,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 16
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 3,
+          "Yards": 6,
+          "TOP": "2:16",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 8,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "108",
+    "OfficialCode": "2302023-SA-at-ARL"
+  },
+  {
+    "MarkerId": "391",
+    "MarkerUTC": 1679926956.6849203,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

@@ -1,0 +1,3230 @@
+[
+  {
+    "MarkerId": "1",
+    "MarkerUTC": 1679958260.619936,
+    "MajorType": "Event",
+    "MinorType": "EventStart",
+    "Descriptor_": "Game Start Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 15
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10005",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "4",
+    "MarkerUTC": 1679958283.0,
+    "MarkerLTC": 68683,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM DC 30 (14:58) 34 M. McCrane kicks from DC 30. 20 D. Lee to HOU 13 for 13 yards (92 M. Fisher, 21 M. Nicholson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20480",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22892",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "34",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "20189",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 898.0,
+          "TimeRemStr": "14:58",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 13,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 13
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "1",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "6",
+    "MarkerUTC": 1679958334.0,
+    "MarkerLTC": 68734,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-HOU 13 (14:44) 12 B. Silvers pass to 6 T. Harris to HOU 28 for 15 yards (29 K. Brice)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20642",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20180",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 884.0,
+          "TimeRemStr": "14:44",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 15,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 1,
+          "Yards": 15,
+          "TOP": "0:31",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "2",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "8",
+    "MarkerUTC": 1679958355.0,
+    "MarkerLTC": 68755,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-HOU 28 (14:23) 22 M. Borghi rush to HOU 25 for -3 yards (43 F. Bernard)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 23
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22329",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 863.0,
+          "TimeRemStr": "14:23",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 2,
+          "Yards": 12,
+          "TOP": "0:53",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "3",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "10",
+    "MarkerUTC": 1679958382.0,
+    "MarkerLTC": 68782,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-13-HOU 25 (13:55) 22 M. Borghi rush to HOU 28 for 3 yards (57 A. Hines)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20699",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 835.0,
+          "TimeRemStr": "13:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Distance": 13,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 3,
+          "Yards": 15,
+          "TOP": "1:20",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "4",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "12",
+    "MarkerUTC": 1679958413.0,
+    "MarkerLTC": 68813,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-10-HOU 28 (13:24) 12 B. Silvers pass to 10 J. Smith to HOU 47 for 19 yards (20 J. Brooks)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 24
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21441",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20189",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 804.0,
+          "TimeRemStr": "13:24",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 19,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 4,
+          "Yards": 34,
+          "TOP": "2:01",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "5",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "14",
+    "MarkerUTC": 1679958448.0,
+    "MarkerLTC": 68848,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-HOU 47 (12:49) 22 M. Borghi rush to HOU 48 for 1 yard (15 M. Joseph)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 49
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22862",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 769.0,
+          "TimeRemStr": "12:49",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 5,
+          "Yards": 35,
+          "TOP": "2:39",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "6",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "19",
+    "MarkerUTC": 1679958521.0,
+    "MarkerLTC": 68921,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-9-HOU 48 (11:43) 12 B. Silvers pass incomplete to 1 D. Burnett",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 43
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20229",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 703.0,
+          "TimeRemStr": "11:43",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 48
+          },
+          "Distance": 9,
+          "DriveNum": 1,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 7,
+          "Yards": 35,
+          "TOP": "3:18",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "8",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "20",
+    "MarkerUTC": 1679958483.0,
+    "MarkerLTC": 68883,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-9-HOU 48 (12:17) 12 B. Silvers pass incomplete to 2 C. Byrd",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 17
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 737.0,
+          "TimeRemStr": "12:17",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 48
+          },
+          "Distance": 9,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 6,
+          "Yards": 35,
+          "TOP": "2:52",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "7",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "22",
+    "MarkerUTC": 1679958554.0,
+    "MarkerLTC": 68954,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-9-HOU 48 (11:16) 46 R. Porter punts 37 yards from HOU 48 to DC 15. 12 J. Ezzard to DC 14 for -1 yards (29 A. Hendy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 16
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20180",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21248",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21933",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 676.0,
+          "TimeRemStr": "11:16",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 48
+          },
+          "Distance": 9,
+          "DriveNum": 1,
+          "Down": 4,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 37,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 14
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Plays": 7,
+          "Yards": 35,
+          "TOP": "3:44",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "9",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "25",
+    "MarkerUTC": 1679958598.0,
+    "MarkerLTC": 68998,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 14 (11:08) 10 J. Ta'amu pass to 0 J. Hammond to DC 19 for 5 yards (4 W. Likely)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20618",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 668.0,
+          "TimeRemStr": "11:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Plays": 1,
+          "Yards": 5,
+          "TOP": "0:28",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "27",
+    "MarkerUTC": 1679958626.0,
+    "MarkerLTC": 69026,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-5-DC 19 (10:40) 4 A. Smith rush to DC 22 for 3 yards (52 E. Ellerbee)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10,
+      "ClockSeconds": 40
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21857",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 640.0,
+          "TimeRemStr": "10:40",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 19
+          },
+          "Distance": 5,
+          "DriveNum": 2,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Plays": 2,
+          "Yards": 8,
+          "TOP": "0:46",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "11",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "29",
+    "MarkerUTC": 1679958659.0,
+    "MarkerLTC": 69059,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-2-DC 22 (10:08) 10 J. Ta'amu pass incomplete to 1 C. Blair Pass Defended by 11 T. Beckett",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20133",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "20107",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 608.0,
+          "TimeRemStr": "10:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 22
+          },
+          "Distance": 2,
+          "DriveNum": 2,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Plays": 3,
+          "Yards": 8,
+          "TOP": "1:03",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "12",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "31",
+    "MarkerUTC": 1679958690.0,
+    "MarkerLTC": 69090,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-2-DC 22 (9:44) 19 D. Whelan punts 63 yards from DC 22 to HOU 15. 4 W. Likely to HOU 34 for 19 yards (57 A. Hines)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22364",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21835",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "22601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 584.0,
+          "TimeRemStr": "9:44",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 22
+          },
+          "Distance": 2,
+          "DriveNum": 2,
+          "Down": 4,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 63,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 19,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 34
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Plays": 3,
+          "Yards": 8,
+          "TOP": "1:32",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "13",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "33",
+    "MarkerUTC": 1679958886.0,
+    "MarkerLTC": 69286,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-HOU 34 (9:36) 12 B. Silvers pass to 2 C. Byrd to HOU 36 for 2 yards (24 A. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 36
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20873",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 576.0,
+          "TimeRemStr": "9:36",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 1,
+          "Yards": 2,
+          "TOP": "0:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "14",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "35",
+    "MarkerUTC": 1679958922.0,
+    "MarkerLTC": 69322,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-8-HOU 36 (9:00) 12 B. Silvers pass to 3 A. Harris to DC 45 for 19 yards (26 D. Neal)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20633",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21133",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 540.0,
+          "TimeRemStr": "9:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 8,
+          "DriveNum": 3,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 19,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 2,
+          "Yards": 21,
+          "TOP": "0:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "15",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "37",
+    "MarkerUTC": 1679958962.0,
+    "MarkerLTC": 69362,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 45 (8:27) 12 B. Silvers pass to 6 T. Harris to DC 45 for 0 yards (43 F. Bernard)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20642",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22329",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 507.0,
+          "TimeRemStr": "8:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 3,
+          "Yards": 21,
+          "TOP": "1:26",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "16",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "39",
+    "MarkerUTC": 1679959000.0,
+    "MarkerLTC": 69400,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-DC 45 (7:50) 12 B. Silvers pass to 2 C. Byrd to DC 37 for 8 yards (20 J. Brooks)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 7,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20189",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 470.0,
+          "TimeRemStr": "7:50",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 4,
+          "Yards": 29,
+          "TOP": "2:19",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "17",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "41",
+    "MarkerUTC": 1679959040.0,
+    "MarkerLTC": 69440,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-2-DC 37 (7:10) 22 M. Borghi rush to DC 28 for 9 yards (24 A. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 7,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20873",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 430.0,
+          "TimeRemStr": "7:10",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 37
+          },
+          "Distance": 2,
+          "DriveNum": 3,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 5,
+          "Yards": 38,
+          "TOP": "2:46",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "18",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "43",
+    "MarkerUTC": 1679959074.0,
+    "MarkerLTC": 69474,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 28 (6:39) 14 C. McDonald pass incomplete to 10 J. Smith",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 39
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21982",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21441",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 399.0,
+          "TimeRemStr": "6:39",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 28
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 6,
+          "Yards": 38,
+          "TOP": "3:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "19",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "45",
+    "MarkerUTC": 1679959107.0,
+    "MarkerLTC": 69507,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-DC 28 (6:08) 12 B. Silvers pass to 1 D. Burnett to DC 14 for 14 yards (39 S. Ramirez)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20229",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 368.0,
+          "TimeRemStr": "6:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 28
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 14,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 7,
+          "Yards": 52,
+          "TOP": "3:50",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "20",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "52",
+    "MarkerUTC": 1679959220.0,
+    "MarkerLTC": 69620,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-4-DC 4 (5:08) 22 M. Borghi rush for 4 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 308.0,
+          "TimeRemStr": "5:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 4
+          },
+          "Distance": 4,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 8,
+          "Yards": 66,
+          "TOP": "4:32",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "22",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "54",
+    "MarkerUTC": 1679959236.0,
+    "MarkerLTC": 69636,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat2PtPass",
+    "Descriptor_": "FROM DC 5 (5:08) 12 B. Silvers 2-pt conversion pass to 2 C. Byrd GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 6,
+          "Period": 1,
+          "TimeRemSecTotal": 308.0,
+          "TimeRemStr": "5:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 5
+          },
+          "DriveNum": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeConv",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 2,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 6,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "23",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "55",
+    "MarkerUTC": 1679959194.0,
+    "MarkerLTC": 69594,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-DC 14 (5:20) PENALTY on (DC) 99 J. Wallace, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 20
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 320.0,
+          "TimeRemStr": "5:20",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Distance": 10,
+          "DriveNum": 3,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "8",
+          "PlayerId": "21623",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 7,
+          "Yards": 62,
+          "TOP": "4:32",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "21",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "57",
+    "MarkerUTC": 1679959483.0,
+    "MarkerLTC": 69883,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM HOU 30 (5:07) 8 H. Duplessis kicks from HOU 30. 12 J. Ezzard to DC 32 for 20 yards (36 C. Brice)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 7
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21918",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "20474",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 307.0,
+          "TimeRemStr": "5:07",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 4,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 20,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 32
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "24",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "59",
+    "MarkerUTC": 1679959535.0,
+    "MarkerLTC": 69935,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-DC 32 (4:58) 4 A. Smith rush to DC 36 for 4 yards (52 E. Ellerbee) PENALTY on (HOU) 52 E. Ellerbee, 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 4,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21857",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 298.0,
+          "TimeRemStr": "4:58",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Distance": 10,
+          "DriveNum": 4,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "2",
+          "PlayerId": "21857",
+          "Yards": 15,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 1,
+          "Yards": 19,
+          "TOP": "0:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "25",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "61",
+    "MarkerUTC": 1679959605.0,
+    "MarkerLTC": 70005,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-HOU 49 (4:34) 10 J. Ta'amu pass to 11 L. Jackson to HOU 13 for 36 yards (11 T. Beckett)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 4,
+      "ClockSeconds": 34
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20766",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20107",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 274.0,
+          "TimeRemStr": "4:34",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Distance": 10,
+          "DriveNum": 4,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 36,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 2,
+          "Yards": 55,
+          "TOP": "0:48",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "26",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "63",
+    "MarkerUTC": 1679959633.0,
+    "MarkerLTC": 70033,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-HOU 13 (4:14) 10 J. Ta'amu pass to 4 A. Smith to HOU 6 for 7 yards (52 E. Ellerbee, 29 A. Hendy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 4,
+      "ClockSeconds": 14
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21857",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20675",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 254.0,
+          "TimeRemStr": "4:14",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 13
+          },
+          "Distance": 10,
+          "DriveNum": 4,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 3,
+          "Yards": 62,
+          "TOP": "1:01",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "27",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "65",
+    "MarkerUTC": 1679959732.0,
+    "MarkerLTC": 70132,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-3-HOU 6 (3:55) 10 J. Ta'amu pass incomplete to 0 J. Hammond Pass Defended by 29 A. Hendy",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 3,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20618",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "20675",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 235.0,
+          "TimeRemStr": "3:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 6
+          },
+          "Distance": 3,
+          "DriveNum": 4,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 4,
+          "Yards": 62,
+          "TOP": "1:19",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "28",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "67",
+    "MarkerUTC": 1679959767.0,
+    "MarkerLTC": 70167,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-3-HOU 6 (3:28) PENALTY on (HOU) 3 A. Harris, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 3,
+      "ClockSeconds": 28
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 208.0,
+          "TimeRemStr": "3:28",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 6
+          },
+          "Distance": 3,
+          "DriveNum": 4,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "2",
+          "PlayerId": "20633",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 4,
+          "Yards": 67,
+          "TOP": "1:40",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "29",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "71",
+    "MarkerUTC": 1679959882.0,
+    "MarkerLTC": 70282,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "2-1-HOU 1 (2:28) PENALTY on (DC) 88 B. Moore-Mckinney, 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 2,
+      "ClockSeconds": 28
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 148.0,
+          "TimeRemStr": "2:28",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 1
+          },
+          "Distance": 1,
+          "DriveNum": 4,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "8",
+          "PlayerId": "21983",
+          "Yards": 15,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 5,
+          "Yards": 52,
+          "TOP": "2:40",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "31",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "72",
+    "MarkerUTC": 1679959813.0,
+    "MarkerLTC": 70213,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-1-HOU 1 (3:09) 4 A. Smith rush to HOU 1 for 0 yards (18 J. Mosley, 45 J. Daka)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 3,
+      "ClockSeconds": 9
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21108",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20350",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 189.0,
+          "TimeRemStr": "3:09",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 1
+          },
+          "Distance": 1,
+          "DriveNum": 4,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 5,
+          "Yards": 67,
+          "TOP": "2:14",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "30",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "74",
+    "MarkerUTC": 1679959932.0,
+    "MarkerLTC": 70332,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-16-HOU 16 (2:10) 10 J. Ta'amu pass incomplete to 11 L. Jackson",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 2,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20766",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 130.0,
+          "TimeRemStr": "2:10",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 16
+          },
+          "Distance": 16,
+          "DriveNum": 4,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 6,
+          "Yards": 52,
+          "TOP": "2:58",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "32",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "77",
+    "MarkerUTC": 1679959975.0,
+    "MarkerLTC": 70375,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-16-HOU 16 (1:40) 10 J. Ta'amu pass incomplete to 8 J. Ferguson Pass Defended by 0 K. Vincent",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 40
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20474",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21609",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 100.0,
+          "TimeRemStr": "1:40",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 16
+          },
+          "Distance": 16,
+          "DriveNum": 4,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 7,
+          "Yards": 52,
+          "TOP": "3:30",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "33",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "79",
+    "MarkerUTC": 1679960013.0,
+    "MarkerLTC": 70413,
+    "MajorType": "Event",
+    "MinorType": "EventFootballFg",
+    "Descriptor_": "4-16-HOU 16 (1:18) 34 M. McCrane 34 yard field goal is GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 18
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "21028",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 1,
+          "TimeRemSecTotal": 78.0,
+          "TimeRemStr": "1:18",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 16
+          },
+          "Distance": 16,
+          "DriveNum": 4,
+          "Down": 4,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickMade",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 34,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeFg",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 8,
+          "Yards": 52,
+          "TOP": "3:50",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "34",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "81",
+    "MarkerUTC": 1679960086.0,
+    "MarkerLTC": 70486,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM DC 30 (1:16) 34 M. McCrane kicks from DC 30. 20 D. Lee to HOU 26 for 25 yards (38 N. Rouse)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 16
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21350",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "34",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "20189",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "HomeScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 76.0,
+          "TimeRemStr": "1:16",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 5,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 25,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 26
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "HomeScore": 3,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "35",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "85",
+    "MarkerUTC": 1679960171.0,
+    "MarkerLTC": 70571,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-8-HOU 28 (0:27) 12 B. Silvers pass to 22 M. Borghi to HOU 29 for 1 yard (43 F. Bernard)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22329",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "HomeScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 27.0,
+          "TimeRemStr": "0:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Distance": 8,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Plays": 2,
+          "Yards": 3,
+          "TOP": "1:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "HomeScore": 3,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "37",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "86",
+    "MarkerUTC": 1679960134.0,
+    "MarkerLTC": 70534,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-HOU 26 (1:05) 22 M. Borghi rush to HOU 28 for 2 yards (20 J. Brooks, 43 F. Bernard)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 5
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20149",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20189",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22329",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "HomeScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 65.0,
+          "TimeRemStr": "1:05",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 26
+          },
+          "Plays": 1,
+          "Yards": 2,
+          "TOP": "0:28",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "HomeScore": 3,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "36",
+    "OfficialCode": "2302024-HOU-at-DC"
+  }
+]

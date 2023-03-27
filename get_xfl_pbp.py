@@ -1,14 +1,15 @@
 import glob
 import json
+import warnings
 from datetime import datetime
 from urllib.request import urlopen
-import warnings
-import numpy as np
 
+import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
 from get_xfl_api_token import get_xfl_api_token
+
 warnings.simplefilter(action='ignore', category=DeprecationWarning)
 
 
@@ -432,6 +433,15 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
 
         main_df.loc[(main_df['play_type'] != 'EventFootballRush') | (main_df['Result'] != 'TD'),'rush_touchdown'] = 0
         main_df.loc[(main_df['play_type'] == 'EventFootballRush') & (main_df['Result'] == 'TD'),'rush_touchdown'] = 1
+
+        main_df.loc[(main_df['FootballPlayResult'] == 'ResultKickMade') | (main_df['FootballPlayResult'] == 'ResultKickMade'),'field_goal_attempt'] = 1
+        main_df.loc[(main_df['FootballPlayResult'] != 'ResultKickMade') & (main_df['FootballPlayResult'] != 'ResultKickMade'),'field_goal_attempt'] = 0
+
+        main_df.loc[(main_df['FootballPlayResult'] == 'ResultKickMade'),'field_goal_made'] = 1
+        main_df.loc[(main_df['FootballPlayResult'] != 'ResultKickMade'),'field_goal_made'] = 0
+
+        main_df.loc[(main_df['FootballPlayResult'] == 'ResultKickMade'),'field_goal_made'] = 1
+        main_df.loc[(main_df['FootballPlayResult'] != 'ResultKickMade'),'field_goal_made'] = 0
 
         main_df['touchdown'] = main_df['pass_touchdown'] + main_df['rush_touchdown']
         ## Being perfectly real, I have literally no idea how this league determines 

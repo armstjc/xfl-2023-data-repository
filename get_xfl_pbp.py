@@ -422,6 +422,7 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
         main_df = main_df.sort_values(by=['MarkerUTC'])
     except:
         print('Could not sort dataframe. This may be because [MarkerUTC] does not exist in this JSON, or the dataframe is empty.')
+    
     if len(main_df)>0:
         main_df['MapRolePunter'] = main_df['MapRolePunter'].fillna(0)
         main_df['MapRolePunter'] = main_df['MapRolePunter'].astype('int')

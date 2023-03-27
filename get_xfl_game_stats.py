@@ -16,6 +16,10 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
 
+    teams_df = pd.read_csv('teams/xfl_teams.csv')
+    teams_df = teams_df[['official_id','team_abv','team_name']]
+    teams_df['official_id'] = teams_df['official_id'].astype('int')
+
     #headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
     
     xfl_season = 2023
@@ -30,19 +34,6 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
         print(f"\nPlayer #{official_id}")
         row_df = pd.DataFrame({'Season':xfl_season,'game_id':game_id,'OfficialID':official_id},index=[0])
 
-        ##############################################################################################################
-        ## Game Participation
-        ##############################################################################################################
-        ## No longer needed.
-
-        ## G        
-        # row_df['G'] = 1
-
-        # ## GS
-        # try:
-        #     row_df['GamesStarted'] = player['GamesStarted']
-        # except:
-        #     row_df['GamesStarted'] = 0
 
         ##############################################################################################################
         ## Passing
@@ -780,12 +771,14 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
         participation_df = participation_df.filter(items=['Season','game_id','OfficialID','TeamId','VisOrHome','JerseyNum','FirstName','LastName','LastNameSuffix','Position','Participated','IsStarting','Scratch'])
     except:
         return pd.DataFrame()
+
     if len(participation_df) > 0 and len(main_df) >0:
 
         finished_df = pd.merge(participation_df,main_df,left_on=['Season','game_id','OfficialID'],right_on=['Season','game_id','OfficialID'],how='left')
-
+        finished_df['TeamId'] = finished_df['TeamId'].astype('int')
         del participation_df,main_df
 
+        finished_df = pd.merge(finished_df,teams_df,left_on=['TeamId'],right_on=['official_id'],how='left')
         finished_df[['Participated','IsStarting','Scratch']] = finished_df[['Participated','IsStarting','Scratch']].fillna(0)
 
         finished_df.loc[finished_df['PassAtt']>=1,'CFB_QBR'] = (((8.4 * finished_df['PassYards']) + (330 * finished_df['PassTD']) + (100 * finished_df['PassComp']) - (200 * finished_df['PassINT'])) / finished_df['PassAtt'])
@@ -815,7 +808,7 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
         finished_df = finished_df.drop(columns=['NFL_QBR_A','NFL_QBR_B','NFL_QBR_C','NFL_QBR_D'])
 
         #print(finished_df.columns.values.tolist())
-        cols = ['Season', 'game_id', 'OfficialID','TeamId', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
+        cols = ['Season', 'game_id', 'OfficialID','TeamId','team_abv','team_name', 'VisOrHome', 'JerseyNum', 'FirstName', 'LastName', 'LastNameSuffix', 'Position', 'Participated', 'IsStarting', 'Scratch',\
         'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong', 'PassYardsLongTD', \
         'PassYardsPerAtt', 'PassYardsPerComp', 'QBRating', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
         'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays', \

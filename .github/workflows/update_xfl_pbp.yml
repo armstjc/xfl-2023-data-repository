@@ -10,7 +10,7 @@ name: update_xfl_epa
 jobs:
   update:
     name: update data
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/setup-r@v2

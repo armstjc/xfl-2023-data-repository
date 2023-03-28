@@ -1607,7 +1607,7 @@ def generate_xfl_season_stats(save=False):
     games_df = pd.read_csv('game_stats/player/csv/2023_xfl_player_game_stats.csv')
     games_df = games_df.fillna(0)
 
-    finished_df = pd.DataFrame(games_df.groupby(['Season', 'OfficialID','TeamId', 'FirstName', 'LastName'],as_index=False)\
+    finished_df = pd.DataFrame(games_df.groupby(['Season', 'OfficialID','TeamId','team_abv','team_name', 'FirstName', 'LastName'],as_index=False)\
         ['Participated', 'IsStarting', 'Scratch',
          'PassComp', 'PassAtt',  'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass','Sacked', 'SackedYards','Pass20YdPlays', 'Pass40YdPlays',
          'RushAtt', 'RushYards', 'RushTD', 'FirstDownsByRush', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays',
@@ -1700,7 +1700,7 @@ def generate_xfl_season_stats(save=False):
         how='left'
     )
 
-    cols = ['Season', 'OfficialID','TeamId', 'FirstName', 'LastName','Participated', 'IsStarting', 'Scratch',\
+    cols = ['Season', 'OfficialID','TeamId','team_abv','team_name', 'FirstName', 'LastName','Participated', 'IsStarting', 'Scratch',\
         'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong',\
         'PASS_YPA', 'PASS_YPC', 'PASS_YDS_GM', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
         'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong',  'Rush10YdPlays', 'Rush20YdPlays', \
@@ -1727,12 +1727,12 @@ def main():
     sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
     event_id_arr = sched_df['EventId'].to_list()
     
-    for i in event_id_arr:
-        get_xfl_player_box(i,True)
-        get_xfl_team_box(i,True)
+    # for i in event_id_arr:
+    #     get_xfl_player_box(i,True)
+    #     get_xfl_team_box(i,True)
         
-    combine_player_box()
-    combine_team_box()
+    # combine_player_box()
+    # combine_team_box()
 
     generate_xfl_season_stats(True)
 

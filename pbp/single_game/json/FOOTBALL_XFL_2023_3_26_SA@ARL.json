@@ -2531,119 +2531,6 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "78",
-    "MarkerUTC": 1679859035.0,
-    "MarkerLTC": 55835,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-8-ARL 26 (0:05) 0 M. King punts 0 yards from ARL 26 to ARL 26. 2 T. Bonds to SA 28 for 7 yards (0 M. King) PENALTY on (SA) 1 L. Barcoo, 10 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockSeconds": 5
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21706",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "20891",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "20142",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 3,
-          "Period": 1,
-          "TimeRemSecTotal": 5.0,
-          "TimeRemStr": "0:05",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 26
-          },
-          "Distance": 8,
-          "DriveNum": 4,
-          "Down": 4,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": 7,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 28
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "3",
-          "PlayerId": "20087",
-          "Yards": 10,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 24
-          },
-          "Plays": 3,
-          "Yards": 2,
-          "TOP": "1:43",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
-    "SituationCode": "",
-    "VisitorScore": 3,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "30",
-    "OfficialCode": "2302023-SA-at-ARL"
-  },
-  {
     "MarkerId": "79",
     "MarkerUTC": 1679859289.0,
     "MarkerLTC": 56089,
@@ -13116,83 +13003,6 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "387",
-    "MarkerUTC": 1679866986.0,
-    "MarkerLTC": 63786,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-ARL 35 (0:07) 4 J. Pass rush to ARL 36 for -1 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockSeconds": 7
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21194",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 15,
-          "HomeScore": 9,
-          "Period": 4,
-          "TimeRemSecTotal": 7.0,
-          "TimeRemStr": "0:07",
-          "VisTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 35
-          },
-          "Distance": 10,
-          "DriveNum": 26,
-          "Down": 1,
-          "PossTeam": "3",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 35
-          },
-          "Plays": 1,
-          "Yards": -1,
-          "TOP": "0:07",
-          "Result": "HALF"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
-    "SituationCode": "",
-    "VisitorScore": 15,
-    "HomeScore": 9,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "153",
-    "OfficialCode": "2302023-SA-at-ARL"
-  },
-  {
     "MarkerId": "389",
     "MarkerUTC": 1679866530.0,
     "MarkerLTC": 63330,
@@ -13382,47 +13192,193 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "391",
-    "MarkerUTC": 1679926956.6849203,
+    "MarkerId": "392",
+    "MarkerUTC": 1679866986.0,
+    "MarkerLTC": 63786,
     "MajorType": "Event",
-    "MinorType": "EventOfficial",
-    "Descriptor_": "Game Official Marker",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ARL 35 (0:07) 4 J. Pass rush to ARL 36 for -1 yards",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 4
+      "Period": 4,
+      "ClockSeconds": 7
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21194",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
           "VisScore": 15,
           "HomeScore": 9,
           "Period": 4,
-          "TimeRemStr": "0:00",
+          "TimeRemSecTotal": 7.0,
+          "TimeRemStr": "0:07",
           "VisTimeouts": 1,
           "BallOn": {
             "VisOrHome": "Home",
-            "YardNum": 36
+            "YardNum": 35
           },
-          "Distance": 11,
+          "Distance": 10,
           "DriveNum": 26,
-          "Down": 2,
+          "Down": 1,
           "PossTeam": "3",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
         },
         "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 35
+          },
+          "Plays": 1,
+          "Yards": -1,
+          "TOP": "0:07",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
     "SituationCode": "",
     "VisitorScore": 15,
     "HomeScore": 9,
+    "RevisionNum": 6,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10025",
+    "SourceNativeMarkerId": "153",
+    "OfficialCode": "2302023-SA-at-ARL"
+  },
+  {
+    "MarkerId": "394",
+    "MarkerUTC": 1679859035.0,
+    "MarkerLTC": 55835,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-8-ARL 26 (0:05) 0 M. King punts 42 yards from ARL 26 to SA 32. 2 T. Bonds to SA 28 for 7 yards (0 M. King) PENALTY on (SA) 1 L. Barcoo, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockSeconds": 5
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "20891",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "20142",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 5.0,
+          "TimeRemStr": "0:05",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 8,
+          "DriveNum": 4,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 42,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 28
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "3",
+          "PlayerId": "20087",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 3,
+          "Yards": 2,
+          "TOP": "1:43",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "30",
     "OfficialCode": "2302023-SA-at-ARL"
   }
 ]

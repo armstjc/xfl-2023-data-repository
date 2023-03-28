@@ -1723,93 +1723,6 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "54",
-    "MarkerUTC": 1679786641.0,
-    "MarkerLTC": 69841,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-8-STL 40 (6:15) 23 B. Hill rush to STL 49 for 9 yards (44 V. Beasley, 9 D. Anderson)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 6,
-      "ClockSeconds": 15
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21739",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20039",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 375.0,
-          "TimeRemStr": "6:15",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 40
-          },
-          "Distance": 8,
-          "DriveNum": 5,
-          "Down": 2,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 9,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 2,
-          "Yards": 11,
-          "TOP": "1:08",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "20",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
     "MarkerId": "57",
     "MarkerUTC": 1679786684.0,
     "MarkerLTC": 69884,
@@ -12474,7 +12387,51 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "374",
+    "MarkerId": "375",
+    "MarkerUTC": 1679795156.3210511,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 29,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 12,
+          "DriveNum": 21,
+          "Down": 3,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 29,
+    "HomeScore": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "377",
     "MarkerUTC": 1679795136.0,
     "MarkerLTC": 78336,
     "MajorType": "Event",
@@ -12545,58 +12502,101 @@
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
-    "RevisionNum": 3,
+    "RevisionNum": 4,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "144",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "375",
-    "MarkerUTC": 1679795156.3210511,
+    "MarkerId": "379",
+    "MarkerUTC": 1679786641.0,
+    "MarkerLTC": 69841,
     "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-8-STL 40 (6:15) 21 M. Durant rush to STL 49 for 9 yards (44 V. Beasley, 9 D. Anderson)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 4
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 15
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21856",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21739",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20039",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
-          "VisScore": 29,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemStr": "0:00",
+          "Period": 1,
+          "TimeRemSecTotal": 375.0,
+          "TimeRemStr": "6:15",
           "VisTimeouts": 3,
+          "HomeTimeouts": 3,
           "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 49
+            "VisOrHome": "Visitor",
+            "YardNum": 40
           },
-          "Distance": 12,
-          "DriveNum": 21,
-          "Down": 3,
+          "Distance": 8,
+          "DriveNum": 5,
+          "Down": 2,
           "PossTeam": "5",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
         },
         "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 2,
+          "Yards": 11,
+          "TOP": "1:08",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
-    "VisitorScore": 29,
-    "HomeScore": 6,
+    "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
+    "SourceNativeMarkerId": "20",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "376",
-    "MarkerUTC": 1679795179.2803571,
+    "MarkerId": "380",
+    "MarkerUTC": 1680010995.597435,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

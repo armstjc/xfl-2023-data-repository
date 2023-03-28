@@ -12,14 +12,12 @@ jobs:
     name: Update Combine Data
     runs-on: ${{ matrix.config.os }}
 
-    strategy:
+    build:
       fail-fast: false
-      matrix:
-        config:
-          - {os: ubuntu-latest,   r: 'release'}
-
+      runs-on: ubuntu-latest
+        matrix:
+          r-verson: ["3.3"]
     env:
-    
       R_KEEP_PKG_SOURCE: yes
 
     steps:

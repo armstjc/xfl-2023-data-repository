@@ -12,7 +12,6 @@ from get_xfl_api_token import get_xfl_api_token
 
 warnings.simplefilter(action='ignore', category=DeprecationWarning)
 
-
 def combine_pbp_files():
     main_df = pd.DataFrame()
     game_df = pd.DataFrame()

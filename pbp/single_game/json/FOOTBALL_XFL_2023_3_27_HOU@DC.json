@@ -1260,95 +1260,6 @@
     "OfficialCode": "2302024-HOU-at-DC"
   },
   {
-    "MarkerId": "35",
-    "MarkerUTC": 1679958922.0,
-    "MarkerLTC": 69322,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-8-HOU 36 (9:00) 12 B. Silvers pass to 3 A. Harris to DC 45 for 19 yards (26 D. Neal)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 9
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21984",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20633",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21133",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 540.0,
-          "TimeRemStr": "9:00",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 36
-          },
-          "Distance": 8,
-          "DriveNum": 3,
-          "Down": 2,
-          "PossTeam": "2",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 19,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 34
-          },
-          "Plays": 2,
-          "Yards": 21,
-          "TOP": "0:51",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
-    "SituationCode": "",
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "15",
-    "OfficialCode": "2302024-HOU-at-DC"
-  },
-  {
     "MarkerId": "37",
     "MarkerUTC": 1679958962.0,
     "MarkerLTC": 69362,
@@ -6268,118 +6179,6 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "72",
-    "OfficialCode": "2302024-HOU-at-DC"
-  },
-  {
-    "MarkerId": "167",
-    "MarkerUTC": 1679962482.0,
-    "MarkerLTC": 72882,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-22-HOU 28 (1:15) 12 B. Silvers pass intended for 3 A. Harris INTERCEPTED by 39 S. Ramirez returned 40 yards Pass Defended by 39 S. Ramirez , INT RET TD scored by 39 S. Ramirez",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 1,
-      "ClockSeconds": 15
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21984",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20633",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleInterceptor",
-        "OfficialId": "21278",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePassDefender",
-        "OfficialId": "21278",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 8,
-          "HomeScore": 9,
-          "Period": 2,
-          "TimeRemSecTotal": 75.0,
-          "TimeRemStr": "1:15",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 28
-          },
-          "Distance": 22,
-          "DriveNum": 9,
-          "Down": 2,
-          "PossTeam": "2",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassInterception",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 1
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballMiscScore": {
-          "MiscScoreType": "ScoreTypeIntrettd",
-          "TeamId": "8",
-          "PlayerId": "21278"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 40
-          },
-          "Plays": 1,
-          "Yards": -12,
-          "TOP": "0:42",
-          "Result": "INT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
-    "SituationCode": "",
-    "VisitorScore": 8,
-    "HomeScore": 9,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "73",
     "OfficialCode": "2302024-HOU-at-DC"
   },
   {
@@ -13876,7 +13675,51 @@
     "OfficialCode": "2302024-HOU-at-DC"
   },
   {
-    "MarkerId": "366",
+    "MarkerId": "367",
+    "MarkerUTC": 1679968440.1806812,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 26,
+          "HomeScore": 37,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 17
+          },
+          "Distance": 11,
+          "DriveNum": 21,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 26,
+    "HomeScore": 37,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "378",
     "MarkerUTC": 1679968406.0,
     "MarkerLTC": 78806,
     "MajorType": "Event",
@@ -13947,58 +13790,216 @@
     "SituationCode": "",
     "VisitorScore": 26,
     "HomeScore": 37,
-    "RevisionNum": 3,
+    "RevisionNum": 7,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "161",
     "OfficialCode": "2302024-HOU-at-DC"
   },
   {
-    "MarkerId": "367",
-    "MarkerUTC": 1679968440.1806812,
+    "MarkerId": "380",
+    "MarkerUTC": 1679958922.0,
+    "MarkerLTC": 69322,
     "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-8-HOU 36 (9:00) 12 B. Silvers pass to 2 C. Byrd to DC 45 for 19 yards (26 D. Neal)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 4
+      "Period": 1,
+      "ClockMinutes": 9
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21133",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
-          "VisScore": 26,
-          "HomeScore": 37,
-          "Period": 4,
-          "TimeRemStr": "0:00",
+          "Period": 1,
+          "TimeRemSecTotal": 540.0,
+          "TimeRemStr": "9:00",
+          "VisTimeouts": 3,
           "HomeTimeouts": 3,
           "BallOn": {
             "VisOrHome": "Visitor",
-            "YardNum": 17
+            "YardNum": 36
           },
-          "Distance": 11,
-          "DriveNum": 21,
+          "Distance": 8,
+          "DriveNum": 3,
           "Down": 2,
-          "PossTeam": "8",
+          "PossTeam": "2",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 19,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 2,
+          "Yards": 21,
+          "TOP": "0:51",
+          "Result": " "
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
     "SituationCode": "",
-    "VisitorScore": 26,
-    "HomeScore": 37,
+    "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
+    "SourceNativeMarkerId": "15",
     "OfficialCode": "2302024-HOU-at-DC"
   },
   {
-    "MarkerId": "368",
-    "MarkerUTC": 1679968455.5672863,
+    "MarkerId": "381",
+    "MarkerUTC": 1679962482.0,
+    "MarkerLTC": 72882,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-22-HOU 28 (1:15) 12 B. Silvers pass intended for 2 C. Byrd INTERCEPTED by 39 S. Ramirez returned 40 yards Pass Defended by 39 S. Ramirez , INT RET TD scored by 39 S. Ramirez",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21984",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20241",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleInterceptor",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 75.0,
+          "TimeRemStr": "1:15",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 28
+          },
+          "Distance": 22,
+          "DriveNum": 9,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassInterception",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 1
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMiscScore": {
+          "MiscScoreType": "ScoreTypeIntrettd",
+          "TeamId": "8",
+          "PlayerId": "21278"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 1,
+          "Yards": -12,
+          "TOP": "0:42",
+          "Result": "INT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_27_HOU@DC",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "HomeScore": 9,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "73",
+    "OfficialCode": "2302024-HOU-at-DC"
+  },
+  {
+    "MarkerId": "382",
+    "MarkerUTC": 1680055032.9256048,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

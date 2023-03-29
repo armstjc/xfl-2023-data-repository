@@ -13192,7 +13192,120 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "392",
+    "MarkerId": "406",
+    "MarkerUTC": 1679859035.0,
+    "MarkerLTC": 55835,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-8-ARL 26 (0:05) 0 M. King punts 42 yards from ARL 26 to SA 32. 2 T. Bonds to SA 28 for 33 yards (0 M. King) PENALTY on (SA) 1 L. Barcoo, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockSeconds": 5
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21706",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "20891",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "20142",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "Period": 1,
+          "TimeRemSecTotal": 5.0,
+          "TimeRemStr": "0:05",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 8,
+          "DriveNum": 4,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 42,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 33,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 28
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "3",
+          "PlayerId": "20087",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Plays": 3,
+          "Yards": 2,
+          "TOP": "1:43",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "RevisionNum": 15,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "30",
+    "OfficialCode": "2302023-SA-at-ARL"
+  },
+  {
+    "MarkerId": "408",
     "MarkerUTC": 1679866986.0,
     "MarkerLTC": 63786,
     "MajorType": "Event",
@@ -13263,122 +13376,53 @@
     "SituationCode": "",
     "VisitorScore": 15,
     "HomeScore": 9,
-    "RevisionNum": 6,
+    "RevisionNum": 10,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "153",
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "394",
-    "MarkerUTC": 1679859035.0,
-    "MarkerLTC": 55835,
+    "MarkerId": "410",
+    "MarkerUTC": 1680030822.7261293,
     "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-8-ARL 26 (0:05) 0 M. King punts 42 yards from ARL 26 to SA 32. 2 T. Bonds to SA 28 for 7 yards (0 M. King) PENALTY on (SA) 1 L. Barcoo, 10 yards",
+    "MinorType": "EventOfficial",
+    "Descriptor_": "Game Official Marker",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 1,
-      "ClockSeconds": 5
+      "Period": 4
     },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21706",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "20891",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "20142",
-        "SourceId": "QBStat"
-      }
-    ],
+    "Participants": [],
     "Properties": [
       {
         "FootballEventContext": {
-          "VisScore": 3,
-          "Period": 1,
-          "TimeRemSecTotal": 5.0,
-          "TimeRemStr": "0:05",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
+          "VisScore": 15,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
           "BallOn": {
             "VisOrHome": "Home",
-            "YardNum": 26
+            "YardNum": 36
           },
-          "Distance": 8,
-          "DriveNum": 4,
-          "Down": 4,
-          "PossTeam": "1",
+          "Distance": 11,
+          "DriveNum": 26,
+          "Down": 2,
+          "PossTeam": "3",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 42,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": 7,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 28
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "3",
-          "PlayerId": "20087",
-          "Yards": 10,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 24
-          },
-          "Plays": 3,
-          "Yards": 2,
-          "TOP": "1:43",
-          "Result": "PUNT"
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
     "SituationCode": "",
-    "VisitorScore": 3,
-    "RevisionNum": 6,
+    "VisitorScore": 15,
+    "HomeScore": 9,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "30",
+    "SourceNativeMarkerId": "10025",
     "OfficialCode": "2302023-SA-at-ARL"
   }
 ]

@@ -7,31 +7,24 @@ on:
   #  branches: [ main ]
 name: update_xfl_epa
 
+
 jobs:
   update:
-    name: Update Combine Data
-    runs-on: ${{ matrix.config.os }}
-
-    build:
-      fail-fast: false
-      runs-on: ubuntu-latest
-        matrix:
-          r-verson: ["3.3"]
-    env:
-      R_KEEP_PKG_SOURCE: yes
-
+    name: rebuild_pbp
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
       - uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: ${{ matrix.config.r }}
-          http-user-agent: ${{ matrix.config.http-user-agent }}
-          use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          cache-version: 1
+           cache-version: 1
+           extra-packages: |
+            nflverse/nflfastR
+            nflverse/nflreadr
+            nflverse/nflverse-data
+            nflverse/fastrmodels
+            ropensci/piggyback
           
       - name: Update XFL PBP
         run: Rscript -e 'source("pbp.r")'

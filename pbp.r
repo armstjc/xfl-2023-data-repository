@@ -9,4 +9,4 @@ pbp_data <- read.csv("pbp/season/csv/2023_xfl_pbp.csv")
 df <- calculate_expected_points(pbp_data)
 
 ## Save off the data.
-write.csv(df, "pbp/season/csv/2023_xfl_pbp.csv", row.names = FALSE)
+write.csv(df, "pbp/season/csv/2023_xfl_pbp_EP.csv", row.names = FALSE)

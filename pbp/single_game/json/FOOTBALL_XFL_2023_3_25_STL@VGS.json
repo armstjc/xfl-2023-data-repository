@@ -42,72 +42,36 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "6",
-    "MarkerUTC": 1679785519.0,
-    "MarkerLTC": 68719,
+    "MarkerId": "198",
+    "MarkerUTC": 1679789841.1711042,
     "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 18 (14:51) 10 A. McCarron pass incomplete to 88 H. Butler",
+    "MinorType": "EventPeriodEnd",
+    "Descriptor_": "Halftime Marker",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 1,
-      "ClockMinutes": 14,
-      "ClockSeconds": 51
+      "Period": 2
     },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "22333",
-        "SourceId": "QBStat"
-      }
-    ],
+    "Participants": [],
     "Properties": [
       {
         "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 891.0,
-          "TimeRemStr": "14:51",
+          "VisScore": 17,
+          "Period": 2,
+          "TimeRemStr": "0:00",
           "VisTimeouts": 3,
           "HomeTimeouts": 3,
           "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 18
+            "VisOrHome": "Home",
+            "YardNum": 33
           },
-          "Distance": 10,
-          "DriveNum": 1,
-          "Down": 1,
-          "PossTeam": "5",
+          "Distance": 4,
+          "DriveNum": 11,
+          "Down": 3,
+          "PossTeam": "7",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 18
-          },
-          "Plays": 1,
-          "TOP": "0:09",
-          "Result": " "
         },
         "SourceId": "QBStat"
       }
@@ -115,13 +79,57 @@
     "SourceType": "MaSourceTypeOfficialScoring",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
-    "RevisionNum": 2,
+    "VisitorScore": 17,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "2",
+    "SourceNativeMarkerId": "10010",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "7",
+    "MarkerId": "375",
+    "MarkerUTC": 1679795156.3210511,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 29,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 12,
+          "DriveNum": 21,
+          "Down": 3,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 29,
+    "HomeScore": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "386",
     "MarkerUTC": 1679785470.0,
     "MarkerLTC": 68670,
     "MajorType": "Event",
@@ -194,7 +202,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 4,
@@ -203,7 +211,87 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "9",
+    "MarkerId": "387",
+    "MarkerUTC": 1679785519.0,
+    "MarkerLTC": 68719,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-STL 18 (14:51) 10 A. McCarron pass incomplete to 88 H. Butler",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 51
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22333",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 891.0,
+          "TimeRemStr": "14:51",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 18
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 18
+          },
+          "Plays": 1,
+          "TOP": "0:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "2",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "388",
     "MarkerUTC": 1679785552.0,
     "MarkerLTC": 68752,
     "MajorType": "Event",
@@ -274,6 +362,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -282,7 +371,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "13",
+    "MarkerId": "389",
     "MarkerUTC": 1679785616.0,
     "MarkerLTC": 68816,
     "MajorType": "Event",
@@ -347,6 +436,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -355,7 +445,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "15",
+    "MarkerId": "390",
     "MarkerUTC": 1679785653.0,
     "MarkerLTC": 68853,
     "MajorType": "Event",
@@ -427,6 +517,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -435,7 +526,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "18",
+    "MarkerId": "391",
     "MarkerUTC": 1679785689.0,
     "MarkerLTC": 68889,
     "MajorType": "Event",
@@ -512,7 +603,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 3,
@@ -521,7 +612,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "20",
+    "MarkerId": "392",
     "MarkerUTC": 1679785736.0,
     "MarkerLTC": 68936,
     "MajorType": "Event",
@@ -603,6 +694,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -611,7 +703,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "22",
+    "MarkerId": "393",
     "MarkerUTC": 1679785766.0,
     "MarkerLTC": 68966,
     "MajorType": "Event",
@@ -693,6 +785,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -701,7 +794,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "26",
+    "MarkerId": "394",
     "MarkerUTC": 1679785803.0,
     "MarkerLTC": 69003,
     "MajorType": "Event",
@@ -783,7 +876,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 4,
@@ -792,7 +885,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "30",
+    "MarkerId": "395",
     "MarkerUTC": 1679785835.0,
     "MarkerLTC": 69035,
     "MajorType": "Event",
@@ -895,7 +988,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 4,
@@ -904,7 +997,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "32",
+    "MarkerId": "396",
     "MarkerUTC": 1679786093.0,
     "MarkerLTC": 69293,
     "MajorType": "Event",
@@ -976,6 +1069,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -984,7 +1078,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "34",
+    "MarkerId": "397",
     "MarkerUTC": 1679786134.0,
     "MarkerLTC": 69334,
     "MajorType": "Event",
@@ -1062,6 +1156,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -1070,7 +1165,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "36",
+    "MarkerId": "398",
     "MarkerUTC": 1679786172.0,
     "MarkerLTC": 69372,
     "MajorType": "Event",
@@ -1158,6 +1253,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -1166,7 +1262,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "38",
+    "MarkerId": "399",
     "MarkerUTC": 1679786201.0,
     "MarkerLTC": 69401,
     "MajorType": "Event",
@@ -1259,6 +1355,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -1267,87 +1364,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "42",
-    "MarkerUTC": 1679786304.0,
-    "MarkerLTC": 69504,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-6-VGS 36 (8:15) 15 R. Smith rush to VGS 37 for 1 yard (27 M. Rose)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 8,
-      "ClockSeconds": 15
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21447",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21340",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 495.0,
-          "TimeRemStr": "8:15",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 36
-          },
-          "Distance": 6,
-          "DriveNum": 4,
-          "Down": 2,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 32
-          },
-          "Plays": 2,
-          "Yards": 5,
-          "TOP": "0:43",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "16",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "43",
+    "MarkerId": "400",
     "MarkerUTC": 1679786271.0,
     "MarkerLTC": 69471,
     "MajorType": "Event",
@@ -1425,7 +1442,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 3,
@@ -1434,7 +1451,88 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "46",
+    "MarkerId": "401",
+    "MarkerUTC": 1679786304.0,
+    "MarkerLTC": 69504,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-6-VGS 36 (8:15) 15 R. Smith rush to VGS 37 for 1 yard (27 M. Rose)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21447",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21340",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 495.0,
+          "TimeRemStr": "8:15",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 36
+          },
+          "Distance": 6,
+          "DriveNum": 4,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 2,
+          "Yards": 5,
+          "TOP": "0:43",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "16",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "402",
     "MarkerUTC": 1679786342.0,
     "MarkerLTC": 69542,
     "MajorType": "Event",
@@ -1506,7 +1604,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 3,
@@ -1515,7 +1613,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "49",
+    "MarkerId": "403",
     "MarkerUTC": 1679786374.0,
     "MarkerLTC": 69574,
     "MajorType": "Event",
@@ -1624,7 +1722,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 3,
@@ -1633,7 +1731,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "51",
+    "MarkerId": "404",
     "MarkerUTC": 1679786604.0,
     "MarkerLTC": 69804,
     "MajorType": "Event",
@@ -1715,6 +1813,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 2,
@@ -1723,7 +1822,94 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "57",
+    "MarkerId": "405",
+    "MarkerUTC": 1679786641.0,
+    "MarkerLTC": 69841,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-8-STL 40 (6:15) 21 M. Durant rush to STL 49 for 9 yards (44 V. Beasley, 9 D. Anderson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21856",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21739",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20039",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 375.0,
+          "TimeRemStr": "6:15",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 8,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 2,
+          "Yards": 11,
+          "TOP": "1:08",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "20",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "406",
     "MarkerUTC": 1679786684.0,
     "MarkerLTC": 69884,
     "MajorType": "Event",
@@ -1795,7 +1981,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 3,
@@ -1804,7 +1990,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "60",
+    "MarkerId": "407",
     "MarkerUTC": 1679786717.0,
     "MarkerLTC": 69917,
     "MajorType": "Event",
@@ -1876,7 +2062,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 3,
@@ -1885,373 +2071,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "67",
-    "MarkerUTC": 1679786856.0,
-    "MarkerLTC": 70056,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-15-VGS 25 (3:23) 10 A. McCarron pass to 88 H. Butler to VGS 10 for 15 yards (25 M. Evans)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 3,
-      "ClockSeconds": 23
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "22333",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20461",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 203.0,
-          "TimeRemStr": "3:23",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 25
-          },
-          "Distance": 15,
-          "DriveNum": 5,
-          "Down": 3,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 15,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 6,
-          "Yards": 52,
-          "TOP": "3:50",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "24",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "73",
-    "MarkerUTC": 1679786915.0,
-    "MarkerLTC": 70115,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-9-VGS 24 (2:25) 10 A. McCarron pass to 15 G. Campbell to VGS 16 for 8 yards (25 M. Evans)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 2,
-      "ClockSeconds": 25
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20249",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20461",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 145.0,
-          "TimeRemStr": "2:25",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 24
-          },
-          "Distance": 9,
-          "DriveNum": 5,
-          "Down": 2,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 8,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 8,
-          "Yards": 46,
-          "TOP": "4:55",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "26",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "76",
-    "MarkerUTC": 1679786951.0,
-    "MarkerLTC": 70151,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "3-1-VGS 16 (1:48) 0 K. Walker rush to VGS 17 for -1 yards (29 C. Avery, 9 D. Anderson)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 1,
-      "ClockSeconds": 48
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22033",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20066",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20039",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 108.0,
-          "TimeRemStr": "1:48",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 16
-          },
-          "Distance": 1,
-          "DriveNum": 5,
-          "Down": 3,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 9,
-          "Yards": 45,
-          "TOP": "5:26",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "27",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "82",
-    "MarkerUTC": 1679786990.0,
-    "MarkerLTC": 70190,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "4-2-VGS 17 (1:10) 10 A. McCarron pass to 15 G. Campbell to VGS 3 for 14 yards (6 K. Kennedy, 9 D. Anderson)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 1,
-      "ClockSeconds": 10
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20249",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21943",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20039",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 70.0,
-          "TimeRemStr": "1:10",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 17
-          },
-          "Distance": 2,
-          "DriveNum": 5,
-          "Down": 4,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 14,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 10,
-          "Yards": 58,
-          "TOP": "6:04",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "28",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "85",
+    "MarkerId": "408",
     "MarkerUTC": 1679786758.0,
     "MarkerLTC": 69958,
     "MajorType": "Event",
@@ -2343,7 +2163,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 6,
@@ -2352,30 +2172,37 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "87",
-    "MarkerUTC": 1679787033.0,
-    "MarkerLTC": 70233,
+    "MarkerId": "409",
+    "MarkerUTC": 1679786856.0,
+    "MarkerLTC": 70056,
     "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-4-VGS 3 (0:27) 0 K. Walker rush to VGS 4 for -1 yards (29 C. Avery)",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-15-VGS 25 (3:23) 10 A. McCarron pass to 88 H. Butler to VGS 10 for 15 yards (25 M. Evans)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
       "Period": 1,
-      "ClockSeconds": 27
+      "ClockMinutes": 3,
+      "ClockSeconds": 23
     },
     "Participants": [
       {
         "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22033",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22333",
         "SourceId": "QBStat"
       },
       {
         "EntityId": "",
         "Role": "MapRoleTackler1",
-        "OfficialId": "20066",
+        "OfficialId": "20461",
         "SourceId": "QBStat"
       }
     ],
@@ -2383,17 +2210,17 @@
       {
         "FootballEventContext": {
           "Period": 1,
-          "TimeRemSecTotal": 27.0,
-          "TimeRemStr": "0:27",
+          "TimeRemSecTotal": 203.0,
+          "TimeRemStr": "3:23",
           "VisTimeouts": 3,
           "HomeTimeouts": 3,
           "BallOn": {
             "VisOrHome": "Home",
-            "YardNum": 3
+            "YardNum": 25
           },
-          "Distance": 4,
+          "Distance": 15,
           "DriveNum": 5,
-          "Down": 1,
+          "Down": 3,
           "PossTeam": "5",
           "LastPlaySummary": "",
           "LastPlayStatus": ""
@@ -2405,7 +2232,11 @@
         "SourceId": "QBStat"
       },
       {
-        "FootballYards": -1,
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 15,
         "SourceId": "QBStat"
       },
       {
@@ -2414,25 +2245,25 @@
             "VisOrHome": "Visitor",
             "YardNum": 38
           },
-          "Plays": 11,
-          "Yards": 58,
-          "TOP": "6:54",
+          "Plays": 6,
+          "Yards": 52,
+          "TOP": "3:50",
           "Result": " "
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
-    "RevisionNum": 5,
+    "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "29",
+    "SourceNativeMarkerId": "24",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "88",
+    "MarkerId": "410",
     "MarkerUTC": 1679786881.0,
     "MarkerLTC": 70081,
     "MajorType": "Event",
@@ -2514,7 +2345,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "RevisionNum": 5,
@@ -2523,7 +2354,451 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "92",
+    "MarkerId": "411",
+    "MarkerUTC": 1679786915.0,
+    "MarkerLTC": 70115,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-9-VGS 24 (2:25) 10 A. McCarron pass to 15 G. Campbell to VGS 16 for 8 yards (25 M. Evans)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 2,
+      "ClockSeconds": 25
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20249",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20461",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 145.0,
+          "TimeRemStr": "2:25",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Distance": 9,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 8,
+          "Yards": 46,
+          "TOP": "4:55",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "26",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "412",
+    "MarkerUTC": 1679786951.0,
+    "MarkerLTC": 70151,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-1-VGS 16 (1:48) 0 K. Walker rush to VGS 17 for -1 yards (29 C. Avery, 9 D. Anderson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 48
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22033",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20066",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20039",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 108.0,
+          "TimeRemStr": "1:48",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 16
+          },
+          "Distance": 1,
+          "DriveNum": 5,
+          "Down": 3,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 9,
+          "Yards": 45,
+          "TOP": "5:26",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "27",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "413",
+    "MarkerUTC": 1679786990.0,
+    "MarkerLTC": 70190,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "4-2-VGS 17 (1:10) 10 A. McCarron pass to 15 G. Campbell to VGS 3 for 14 yards (6 K. Kennedy, 9 D. Anderson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 1,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20249",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21943",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20039",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 70.0,
+          "TimeRemStr": "1:10",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 17
+          },
+          "Distance": 2,
+          "DriveNum": 5,
+          "Down": 4,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 14,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 10,
+          "Yards": 58,
+          "TOP": "6:04",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "28",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "414",
+    "MarkerUTC": 1679787033.0,
+    "MarkerLTC": 70233,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-4-VGS 3 (0:27) 0 K. Walker rush to VGS 4 for -1 yards (29 C. Avery)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22033",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20066",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 27.0,
+          "TimeRemStr": "0:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 3
+          },
+          "Distance": 4,
+          "DriveNum": 5,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 11,
+          "Yards": 58,
+          "TOP": "6:54",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "29",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "415",
+    "MarkerUTC": 1679787270.0,
+    "MarkerLTC": 70470,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-5-VGS 4 (14:57) 10 A. McCarron pass to 12 G. Jennings for 4 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 14,
+      "ClockSeconds": 57
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22026",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22038",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 2,
+          "TimeRemSecTotal": 897.0,
+          "TimeRemStr": "14:57",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 4
+          },
+          "Distance": 5,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 12,
+          "Yards": 62,
+          "TOP": "7:11",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "30",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "416",
     "MarkerUTC": 1679787299.0,
     "MarkerLTC": 70499,
     "MajorType": "Event",
@@ -2593,6 +2868,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 6,
@@ -2602,7 +2878,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "94",
+    "MarkerId": "417",
     "MarkerUTC": 1679787371.0,
     "MarkerLTC": 70571,
     "MajorType": "Event",
@@ -2677,6 +2953,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -2686,7 +2963,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "96",
+    "MarkerId": "418",
     "MarkerUTC": 1679787448.0,
     "MarkerLTC": 70648,
     "MajorType": "Event",
@@ -2759,6 +3036,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -2768,7 +3046,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "98",
+    "MarkerId": "419",
     "MarkerUTC": 1679787486.0,
     "MarkerLTC": 70686,
     "MajorType": "Event",
@@ -2847,6 +3125,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -2856,7 +3135,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "100",
+    "MarkerId": "420",
     "MarkerUTC": 1679787519.0,
     "MarkerLTC": 70719,
     "MajorType": "Event",
@@ -2929,6 +3208,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -2938,7 +3218,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "105",
+    "MarkerId": "421",
     "MarkerUTC": 1679787629.0,
     "MarkerLTC": 70829,
     "MajorType": "Event",
@@ -3021,7 +3301,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3031,7 +3311,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "109",
+    "MarkerId": "422",
     "MarkerUTC": 1679787701.0,
     "MarkerLTC": 70901,
     "MajorType": "Event",
@@ -3097,6 +3377,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3106,7 +3387,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "112",
+    "MarkerId": "423",
     "MarkerUTC": 1679787747.0,
     "MarkerLTC": 70947,
     "MajorType": "Event",
@@ -3183,7 +3464,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3193,7 +3474,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "114",
+    "MarkerId": "424",
     "MarkerUTC": 1679787841.0,
     "MarkerLTC": 71041,
     "MajorType": "Event",
@@ -3276,6 +3557,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3285,7 +3567,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "117",
+    "MarkerId": "425",
     "MarkerUTC": 1679787880.0,
     "MarkerLTC": 71080,
     "MajorType": "Event",
@@ -3358,7 +3640,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3368,7 +3650,90 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "121",
+    "MarkerId": "426",
+    "MarkerUTC": 1679787921.0,
+    "MarkerLTC": 71121,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-8-STL 40 (9:28) 12 L. Perez pass dropped by 8 J. Lovett",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 9,
+      "ClockSeconds": 28
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21872",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 2,
+          "TimeRemSecTotal": 568.0,
+          "TimeRemStr": "9:28",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 8,
+          "DriveNum": 7,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Plays": 8,
+          "Yards": 35,
+          "TOP": "5:26",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "41",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "427",
     "MarkerUTC": 1679787949.0,
     "MarkerLTC": 71149,
     "MajorType": "Event",
@@ -3446,6 +3811,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3455,90 +3821,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "122",
-    "MarkerUTC": 1679787921.0,
-    "MarkerLTC": 71121,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "3-8-STL 40 (9:28) 12 L. Perez pass dropped by 8 J. Lovett",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 9,
-      "ClockSeconds": 28
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21207",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21872",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 8,
-          "Period": 2,
-          "TimeRemSecTotal": 568.0,
-          "TimeRemStr": "9:28",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 40
-          },
-          "Distance": 8,
-          "DriveNum": 7,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassDropped",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 25
-          },
-          "Plays": 8,
-          "Yards": 35,
-          "TOP": "5:26",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 8,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "41",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "125",
+    "MarkerId": "428",
     "MarkerUTC": 1679788160.0,
     "MarkerLTC": 71360,
     "MajorType": "Event",
@@ -3603,7 +3886,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3613,7 +3896,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "128",
+    "MarkerId": "429",
     "MarkerUTC": 1679788224.0,
     "MarkerLTC": 71424,
     "MajorType": "Event",
@@ -3696,7 +3979,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3706,7 +3989,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "130",
+    "MarkerId": "430",
     "MarkerUTC": 1679788259.0,
     "MarkerLTC": 71459,
     "MajorType": "Event",
@@ -3779,6 +4062,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3788,7 +4072,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "132",
+    "MarkerId": "431",
     "MarkerUTC": 1679788297.0,
     "MarkerLTC": 71497,
     "MajorType": "Event",
@@ -3861,6 +4145,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3870,7 +4155,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "134",
+    "MarkerId": "432",
     "MarkerUTC": 1679788335.0,
     "MarkerLTC": 71535,
     "MajorType": "Event",
@@ -3959,6 +4244,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -3968,7 +4254,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "138",
+    "MarkerId": "433",
     "MarkerUTC": 1679788374.0,
     "MarkerLTC": 71574,
     "MajorType": "Event",
@@ -4051,7 +4337,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -4061,7 +4347,83 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "143",
+    "MarkerId": "434",
+    "MarkerUTC": 1679788430.0,
+    "MarkerLTC": 71630,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-STL 47 (5:43) PENALTY on (STL) 73 J. Bushell-Beatty, 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 5,
+      "ClockSeconds": 43
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 8,
+          "Period": 2,
+          "TimeRemSecTotal": 343.0,
+          "TimeRemStr": "5:43",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 47
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "5",
+          "PlayerId": "22443",
+          "Yards": 15,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 3
+          },
+          "Plays": 5,
+          "Yards": 29,
+          "TOP": "3:28",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 8,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "49",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "435",
     "MarkerUTC": 1679788476.0,
     "MarkerLTC": 71676,
     "MajorType": "Event",
@@ -4144,6 +4506,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -4153,83 +4516,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "144",
-    "MarkerUTC": 1679788430.0,
-    "MarkerLTC": 71630,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPenalty",
-    "Descriptor_": "1-10-STL 47 (5:43) PENALTY on (STL) 73 J. Bushell-Beatty, 15 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 5,
-      "ClockSeconds": 43
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 8,
-          "Period": 2,
-          "TimeRemSecTotal": 343.0,
-          "TimeRemStr": "5:43",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 47
-          },
-          "Distance": 10,
-          "DriveNum": 8,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "5",
-          "PlayerId": "22443",
-          "Yards": 15,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 3
-          },
-          "Plays": 5,
-          "Yards": 29,
-          "TOP": "3:28",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 8,
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "49",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "147",
+    "MarkerId": "436",
     "MarkerUTC": 1679788513.0,
     "MarkerLTC": 71713,
     "MajorType": "Event",
@@ -4312,7 +4599,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -4322,7 +4609,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "149",
+    "MarkerId": "437",
     "MarkerUTC": 1679788568.0,
     "MarkerLTC": 71768,
     "MajorType": "Event",
@@ -4405,6 +4692,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -4414,7 +4702,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "152",
+    "MarkerId": "438",
     "MarkerUTC": 1679788610.0,
     "MarkerLTC": 71810,
     "MajorType": "Event",
@@ -4487,7 +4775,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -4497,7 +4785,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "154",
+    "MarkerId": "439",
     "MarkerUTC": 1679788648.0,
     "MarkerLTC": 71848,
     "MajorType": "Event",
@@ -4580,6 +4868,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -4589,7 +4878,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "156",
+    "MarkerId": "440",
     "MarkerUTC": 1679788676.0,
     "MarkerLTC": 71876,
     "MajorType": "Event",
@@ -4664,6 +4953,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 8,
@@ -4673,96 +4963,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "157",
-    "MarkerUTC": 1679787270.0,
-    "MarkerLTC": 70470,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-5-VGS 4 (14:57) 10 A. McCarron pass to 12 G. Jennings for 4 yards, TOUCHDOWN",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 14,
-      "ClockSeconds": 57
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22026",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "22038",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 2,
-          "TimeRemSecTotal": 897.0,
-          "TimeRemStr": "14:57",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 4
-          },
-          "Distance": 5,
-          "DriveNum": 5,
-          "Down": 2,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 4,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballMainScoringPlay": "ScoreTypeTd",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 12,
-          "Yards": 62,
-          "TOP": "7:11",
-          "Result": "TD"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "30",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "159",
+    "MarkerId": "441",
     "MarkerUTC": 1679788878.0,
     "MarkerLTC": 72078,
     "MajorType": "Event",
@@ -4837,6 +5038,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -4846,7 +5048,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "162",
+    "MarkerId": "442",
     "MarkerUTC": 1679788947.0,
     "MarkerLTC": 72147,
     "MajorType": "Event",
@@ -4929,7 +5131,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -4939,7 +5141,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "164",
+    "MarkerId": "443",
     "MarkerUTC": 1679789139.0,
     "MarkerLTC": 72339,
     "MajorType": "Event",
@@ -5003,6 +5205,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5012,7 +5215,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "166",
+    "MarkerId": "444",
     "MarkerUTC": 1679789179.0,
     "MarkerLTC": 72379,
     "MajorType": "Event",
@@ -5095,6 +5298,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5104,7 +5308,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "168",
+    "MarkerId": "445",
     "MarkerUTC": 1679789212.0,
     "MarkerLTC": 72412,
     "MajorType": "Event",
@@ -5177,6 +5381,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5186,7 +5391,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "170",
+    "MarkerId": "446",
     "MarkerUTC": 1679789231.0,
     "MarkerLTC": 72431,
     "MajorType": "Event",
@@ -5246,6 +5451,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5255,7 +5461,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "172",
+    "MarkerId": "447",
     "MarkerUTC": 1679789296.0,
     "MarkerLTC": 72496,
     "MajorType": "Event",
@@ -5338,6 +5544,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5347,7 +5554,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "174",
+    "MarkerId": "448",
     "MarkerUTC": 1679789333.0,
     "MarkerLTC": 72533,
     "MajorType": "Event",
@@ -5425,6 +5632,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5434,7 +5642,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "176",
+    "MarkerId": "449",
     "MarkerUTC": 1679789351.0,
     "MarkerLTC": 72551,
     "MajorType": "Event",
@@ -5493,6 +5701,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5502,7 +5711,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "179",
+    "MarkerId": "450",
     "MarkerUTC": 1679789392.0,
     "MarkerLTC": 72592,
     "MajorType": "Event",
@@ -5601,7 +5810,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5611,89 +5820,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "183",
-    "MarkerUTC": 1679789555.0,
-    "MarkerLTC": 72755,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-VGS 33 (1:11) 23 B. Hill rush to VGS 30 for 3 yards (97 L. Stokes)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 1,
-      "ClockSeconds": 11
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21966",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 11,
-          "Period": 2,
-          "TimeRemSecTotal": 71.0,
-          "TimeRemStr": "1:11",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 33
-          },
-          "Distance": 10,
-          "DriveNum": 10,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 3,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 43
-          },
-          "Plays": 2,
-          "Yards": 27,
-          "TOP": "0:18",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 11,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "67",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "184",
+    "MarkerId": "451",
     "MarkerUTC": 1679789472.0,
     "MarkerLTC": 72672,
     "MajorType": "Event",
@@ -5786,7 +5913,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5796,7 +5923,90 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "186",
+    "MarkerId": "452",
+    "MarkerUTC": 1679789555.0,
+    "MarkerLTC": 72755,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 33 (1:11) 23 B. Hill rush to VGS 30 for 3 yards (97 L. Stokes)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 11
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20688",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21966",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 11,
+          "Period": 2,
+          "TimeRemSecTotal": 71.0,
+          "TimeRemStr": "1:11",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Distance": 10,
+          "DriveNum": 10,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 43
+          },
+          "Plays": 2,
+          "Yards": 27,
+          "TOP": "0:18",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 11,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "67",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "453",
     "MarkerUTC": 1679789592.0,
     "MarkerLTC": 72792,
     "MajorType": "Event",
@@ -5876,6 +6086,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 11,
@@ -5885,7 +6096,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "188",
+    "MarkerId": "454",
     "MarkerUTC": 1679789626.0,
     "MarkerLTC": 72826,
     "MajorType": "Event",
@@ -5946,6 +6157,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
@@ -5955,7 +6167,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "190",
+    "MarkerId": "455",
     "MarkerUTC": 1679789719.0,
     "MarkerLTC": 72919,
     "MajorType": "Event",
@@ -6029,6 +6241,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
@@ -6038,7 +6251,7 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "196",
+    "MarkerId": "456",
     "MarkerUTC": 1679789781.0,
     "MarkerLTC": 72981,
     "MajorType": "Event",
@@ -6120,7 +6333,7 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
@@ -6130,174 +6343,54 @@
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "198",
-    "MarkerUTC": 1679789841.1711042,
+    "MarkerId": "457",
+    "MarkerUTC": 1679789781.0,
+    "MarkerLTC": 72981,
     "MajorType": "Event",
-    "MinorType": "EventPeriodEnd",
-    "Descriptor_": "Halftime Marker",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-9-VGS 28 (0:10) 12 L. Perez pass to 5 D. Torrey to VGS 33 for 5 yards (26 N. Meadors)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
-      "Period": 2
+      "Period": 2,
+      "ClockSeconds": 10
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21570",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22352",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
           "VisScore": 17,
           "Period": 2,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
+          "TimeRemSecTotal": 10.0,
+          "TimeRemStr": "0:10",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
           "BallOn": {
             "VisOrHome": "Home",
-            "YardNum": 33
+            "YardNum": 28
           },
-          "Distance": 4,
+          "Distance": 9,
           "DriveNum": 11,
-          "Down": 3,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 17,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10010",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "202",
-    "MarkerUTC": 1679790831.0,
-    "MarkerLTC": 74031,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-VGS 39 (14:53) 15 R. Smith rush to VGS 42 for 3 yards (90 K. Atkins)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 14,
-      "ClockSeconds": 53
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21447",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20061",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 17,
-          "Period": 3,
-          "TimeRemSecTotal": 893.0,
-          "TimeRemStr": "14:53",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 39
-          },
-          "Distance": 10,
-          "DriveNum": 12,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 3,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 39
-          },
-          "Plays": 1,
-          "Yards": 3,
-          "TOP": "0:19",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 17,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "73",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "204",
-    "MarkerUTC": 1679790867.0,
-    "MarkerLTC": 74067,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-7-VGS 42 (14:17) 15 R. Smith rush to VGS 42 for 0 yards (96 L. London)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 14,
-      "ClockSeconds": 17
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21447",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20965",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 17,
-          "Period": 3,
-          "TimeRemSecTotal": 857.0,
-          "TimeRemStr": "14:17",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 42
-          },
-          "Distance": 7,
-          "DriveNum": 12,
           "Down": 2,
           "PossTeam": "7",
           "LastPlaySummary": "",
@@ -6310,34 +6403,39 @@
         "SourceId": "QBStat"
       },
       {
-        "FootballYards": 0,
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
         "SourceId": "QBStat"
       },
       {
         "FootballDriveSummary": {
           "DriveStart": {
             "VisOrHome": "Home",
-            "YardNum": 39
+            "YardNum": 27
           },
           "Plays": 2,
-          "Yards": 3,
-          "TOP": "0:51",
-          "Result": " "
+          "Yards": 6,
+          "TOP": "0:30",
+          "Result": "HALF"
         },
         "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
-    "RevisionNum": 2,
+    "RevisionNum": 5,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "74",
+    "SourceNativeMarkerId": "72",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "206",
+    "MarkerId": "458",
     "MarkerUTC": 1679790789.0,
     "MarkerLTC": 73989,
     "MajorType": "Event",
@@ -6417,17 +6515,183 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "72",
+    "SourceNativeMarkerId": "73",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "209",
+    "MarkerId": "459",
+    "MarkerUTC": 1679790831.0,
+    "MarkerLTC": 74031,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 39 (14:53) 15 R. Smith rush to VGS 42 for 3 yards (90 K. Atkins)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 53
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21447",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20061",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "Period": 3,
+          "TimeRemSecTotal": 893.0,
+          "TimeRemStr": "14:53",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 39
+          },
+          "Distance": 10,
+          "DriveNum": 12,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 39
+          },
+          "Plays": 1,
+          "Yards": 3,
+          "TOP": "0:19",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "74",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "460",
+    "MarkerUTC": 1679790867.0,
+    "MarkerLTC": 74067,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-7-VGS 42 (14:17) 15 R. Smith rush to VGS 42 for 0 yards (96 L. London)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 14,
+      "ClockSeconds": 17
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21447",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20965",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "Period": 3,
+          "TimeRemSecTotal": 857.0,
+          "TimeRemStr": "14:17",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 42
+          },
+          "Distance": 7,
+          "DriveNum": 12,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 39
+          },
+          "Plays": 2,
+          "Yards": 3,
+          "TOP": "0:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "75",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "461",
     "MarkerUTC": 1679790906.0,
     "MarkerLTC": 74106,
     "MajorType": "Event",
@@ -6513,17 +6777,92 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "75",
+    "SourceNativeMarkerId": "76",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "218",
+    "MarkerId": "462",
+    "MarkerUTC": 1679791173.0,
+    "MarkerLTC": 74373,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-VGS 49 (13:28) PENALTY on St. Louis Battlehawks, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 13,
+      "ClockSeconds": 28
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "Period": 3,
+          "TimeRemSecTotal": 808.0,
+          "TimeRemStr": "13:28",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 10,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "5",
+          "PlayerId": "TM",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Yards": 8,
+          "TOP": "0:29",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "77",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "463",
     "MarkerUTC": 1679791213.0,
     "MarkerLTC": 74413,
     "MajorType": "Event",
@@ -6602,17 +6941,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "77",
+    "SourceNativeMarkerId": "78",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "220",
+    "MarkerId": "464",
     "MarkerUTC": 1679791257.0,
     "MarkerLTC": 74457,
     "MajorType": "Event",
@@ -6695,16 +7034,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "78",
+    "SourceNativeMarkerId": "79",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "222",
+    "MarkerId": "465",
     "MarkerUTC": 1679791291.0,
     "MarkerLTC": 74491,
     "MajorType": "Event",
@@ -6787,174 +7127,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "79",
+    "SourceNativeMarkerId": "80",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "224",
-    "MarkerUTC": 1679791173.0,
-    "MarkerLTC": 74373,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPenalty",
-    "Descriptor_": "1-10-VGS 49 (13:28) PENALTY on St. Louis Battlehawks, 10 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 13,
-      "ClockSeconds": 28
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 17,
-          "Period": 3,
-          "TimeRemSecTotal": 808.0,
-          "TimeRemStr": "13:28",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 49
-          },
-          "Distance": 10,
-          "DriveNum": 13,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPenalty": {
-          "TeamId": "5",
-          "PlayerId": "TM",
-          "Yards": 10,
-          "PenaltyResult": "ResultPenaltyRepeatdown",
-          "Description": "NA"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 49
-          },
-          "Yards": 8,
-          "TOP": "0:29",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 17,
-    "RevisionNum": 5,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "76",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "229",
-    "MarkerUTC": 1679791511.0,
-    "MarkerLTC": 74711,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-1-VGS 1 (10:50) 23 B. Hill rush to VGS 1 for 0 yards (96 K. Pinkney)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 10,
-      "ClockSeconds": 50
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21238",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 17,
-          "Period": 3,
-          "TimeRemSecTotal": 650.0,
-          "TimeRemStr": "10:50",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 1
-          },
-          "Distance": 1,
-          "DriveNum": 13,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 49
-          },
-          "Plays": 5,
-          "Yards": 48,
-          "TOP": "3:01",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 17,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "81",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "230",
+    "MarkerId": "466",
     "MarkerUTC": 1679791471.0,
     "MarkerLTC": 74671,
     "MajorType": "Event",
@@ -7033,17 +7216,100 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "80",
+    "SourceNativeMarkerId": "81",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "232",
+    "MarkerId": "467",
+    "MarkerUTC": 1679791511.0,
+    "MarkerLTC": 74711,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-1-VGS 1 (10:50) 23 B. Hill rush to VGS 1 for 0 yards (96 K. Pinkney)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 10,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20688",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21238",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 17,
+          "Period": 3,
+          "TimeRemSecTotal": 650.0,
+          "TimeRemStr": "10:50",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 1
+          },
+          "Distance": 1,
+          "DriveNum": 13,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Plays": 5,
+          "Yards": 48,
+          "TOP": "3:01",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 17,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "82",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "468",
     "MarkerUTC": 1679791557.0,
     "MarkerLTC": 74757,
     "MajorType": "Event",
@@ -7122,16 +7388,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "82",
+    "SourceNativeMarkerId": "83",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "234",
+    "MarkerId": "469",
     "MarkerUTC": 1679791596.0,
     "MarkerLTC": 74796,
     "MajorType": "Event",
@@ -7202,16 +7469,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 17,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "83",
+    "SourceNativeMarkerId": "84",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "236",
+    "MarkerId": "470",
     "MarkerUTC": 1679791634.0,
     "MarkerLTC": 74834,
     "MajorType": "Event",
@@ -7267,16 +7535,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "84",
+    "SourceNativeMarkerId": "85",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "238",
+    "MarkerId": "471",
     "MarkerUTC": 1679791709.0,
     "MarkerLTC": 74909,
     "MajorType": "Event",
@@ -7351,16 +7620,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "85",
+    "SourceNativeMarkerId": "86",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "240",
+    "MarkerId": "472",
     "MarkerUTC": 1679791771.0,
     "MarkerLTC": 74971,
     "MajorType": "Event",
@@ -7438,16 +7708,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "86",
+    "SourceNativeMarkerId": "87",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "243",
+    "MarkerId": "473",
     "MarkerUTC": 1679791807.0,
     "MarkerLTC": 75007,
     "MajorType": "Event",
@@ -7520,17 +7791,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "87",
+    "SourceNativeMarkerId": "88",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "246",
+    "MarkerId": "474",
     "MarkerUTC": 1679791845.0,
     "MarkerLTC": 75045,
     "MajorType": "Event",
@@ -7619,17 +7890,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "88",
+    "SourceNativeMarkerId": "89",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "248",
+    "MarkerId": "475",
     "MarkerUTC": 1679791881.0,
     "MarkerLTC": 75081,
     "MajorType": "Event",
@@ -7724,104 +7995,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "89",
+    "SourceNativeMarkerId": "90",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "252",
-    "MarkerUTC": 1679791962.0,
-    "MarkerLTC": 75162,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-STL 33 (6:22) 12 L. Perez pass incomplete to 4 M. Bryant Pass Defended by 38 B. Sebastian",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 6,
-      "ClockSeconds": 22
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21207",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20218",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePassDefender",
-        "OfficialId": "21389",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 23,
-          "Period": 3,
-          "TimeRemSecTotal": 382.0,
-          "TimeRemStr": "6:22",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 33
-          },
-          "Distance": 10,
-          "DriveNum": 14,
-          "Down": 1,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 21
-          },
-          "Plays": 6,
-          "Yards": 46,
-          "TOP": "3:09",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 23,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "91",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "253",
+    "MarkerId": "476",
     "MarkerUTC": 1679791918.0,
     "MarkerLTC": 75118,
     "MajorType": "Event",
@@ -7910,17 +8094,106 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "90",
+    "SourceNativeMarkerId": "91",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "255",
+    "MarkerId": "477",
+    "MarkerUTC": 1679791962.0,
+    "MarkerLTC": 75162,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-STL 33 (6:22) 12 L. Perez pass incomplete to 4 M. Bryant Pass Defended by 38 B. Sebastian",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 6,
+      "ClockSeconds": 22
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20218",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21389",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 23,
+          "Period": 3,
+          "TimeRemSecTotal": 382.0,
+          "TimeRemStr": "6:22",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 33
+          },
+          "Distance": 10,
+          "DriveNum": 14,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 21
+          },
+          "Plays": 6,
+          "Yards": 46,
+          "TOP": "3:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 23,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "92",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "478",
     "MarkerUTC": 1679792004.0,
     "MarkerLTC": 75204,
     "MajorType": "Event",
@@ -8005,16 +8278,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "92",
+    "SourceNativeMarkerId": "93",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "258",
+    "MarkerId": "479",
     "MarkerUTC": 1679792048.0,
     "MarkerLTC": 75248,
     "MajorType": "Event",
@@ -8100,17 +8374,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "93",
+    "SourceNativeMarkerId": "94",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "260",
+    "MarkerId": "480",
     "MarkerUTC": 1679792284.0,
     "MarkerLTC": 75484,
     "MajorType": "Event",
@@ -8188,16 +8462,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "94",
+    "SourceNativeMarkerId": "95",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "262",
+    "MarkerId": "481",
     "MarkerUTC": 1679792326.0,
     "MarkerLTC": 75526,
     "MajorType": "Event",
@@ -8269,16 +8544,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "95",
+    "SourceNativeMarkerId": "96",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "264",
+    "MarkerId": "482",
     "MarkerUTC": 1679792365.0,
     "MarkerLTC": 75565,
     "MajorType": "Event",
@@ -8351,16 +8627,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "96",
+    "SourceNativeMarkerId": "97",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "266",
+    "MarkerId": "483",
     "MarkerUTC": 1679792397.0,
     "MarkerLTC": 75597,
     "MajorType": "Event",
@@ -8454,16 +8731,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "97",
+    "SourceNativeMarkerId": "98",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "268",
+    "MarkerId": "484",
     "MarkerUTC": 1679792443.0,
     "MarkerLTC": 75643,
     "MajorType": "Event",
@@ -8536,16 +8814,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "98",
+    "SourceNativeMarkerId": "99",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "270",
+    "MarkerId": "485",
     "MarkerUTC": 1679792478.0,
     "MarkerLTC": 75678,
     "MajorType": "Event",
@@ -8618,16 +8897,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "99",
+    "SourceNativeMarkerId": "100",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "272",
+    "MarkerId": "486",
     "MarkerUTC": 1679792512.0,
     "MarkerLTC": 75712,
     "MajorType": "Event",
@@ -8693,98 +8973,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "100",
+    "SourceNativeMarkerId": "101",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "276",
-    "MarkerUTC": 1679792578.0,
-    "MarkerLTC": 75778,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-15-STL 49 (1:13) 2 B. Hundley pass incomplete to 8 J. Lovett",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 3,
-      "ClockMinutes": 1,
-      "ClockSeconds": 13
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21872",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 23,
-          "Period": 3,
-          "TimeRemSecTotal": 73.0,
-          "TimeRemStr": "1:13",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 49
-          },
-          "Distance": 15,
-          "DriveNum": 16,
-          "Down": 2,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 43
-          },
-          "Plays": 4,
-          "Yards": 8,
-          "TOP": "2:00",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 23,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "102",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "277",
+    "MarkerId": "487",
     "MarkerUTC": 1679792544.0,
     "MarkerLTC": 75744,
     "MajorType": "Event",
@@ -8857,17 +9056,100 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "101",
+    "SourceNativeMarkerId": "102",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "279",
+    "MarkerId": "488",
+    "MarkerUTC": 1679792578.0,
+    "MarkerLTC": 75778,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-15-STL 49 (1:13) 2 B. Hundley pass incomplete to 8 J. Lovett",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 3,
+      "ClockMinutes": 1,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21872",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 23,
+          "Period": 3,
+          "TimeRemSecTotal": 73.0,
+          "TimeRemStr": "1:13",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 49
+          },
+          "Distance": 15,
+          "DriveNum": 16,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 43
+          },
+          "Plays": 4,
+          "Yards": 8,
+          "TOP": "2:00",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 23,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "103",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "489",
     "MarkerUTC": 1679792619.0,
     "MarkerLTC": 75819,
     "MajorType": "Event",
@@ -8949,16 +9231,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "103",
+    "SourceNativeMarkerId": "104",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "281",
+    "MarkerId": "490",
     "MarkerUTC": 1679792658.0,
     "MarkerLTC": 75858,
     "MajorType": "Event",
@@ -9028,16 +9311,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "104",
+    "SourceNativeMarkerId": "105",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "285",
+    "MarkerId": "491",
     "MarkerUTC": 1679792904.0,
     "MarkerLTC": 76104,
     "MajorType": "Event",
@@ -9103,98 +9387,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "105",
+    "SourceNativeMarkerId": "106",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "289",
-    "MarkerUTC": 1679792983.0,
-    "MarkerLTC": 76183,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-12-STL 36 (13:43) 2 B. Hundley pass incomplete to 19 G. Allison",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 13,
-      "ClockSeconds": 43
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "22325",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 23,
-          "Period": 4,
-          "TimeRemSecTotal": 823.0,
-          "TimeRemStr": "13:43",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 36
-          },
-          "Distance": 12,
-          "DriveNum": 16,
-          "Down": 2,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 43
-          },
-          "Plays": 8,
-          "Yards": 21,
-          "TOP": "4:29",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 23,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "107",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "290",
+    "MarkerId": "492",
     "MarkerUTC": 1679792940.0,
     "MarkerLTC": 76140,
     "MajorType": "Event",
@@ -9277,17 +9480,100 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "106",
+    "SourceNativeMarkerId": "107",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "292",
+    "MarkerId": "493",
+    "MarkerUTC": 1679792983.0,
+    "MarkerLTC": 76183,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-12-STL 36 (13:43) 2 B. Hundley pass incomplete to 19 G. Allison",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 13,
+      "ClockSeconds": 43
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22325",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 23,
+          "Period": 4,
+          "TimeRemSecTotal": 823.0,
+          "TimeRemStr": "13:43",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 12,
+          "DriveNum": 16,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 43
+          },
+          "Plays": 8,
+          "Yards": 21,
+          "TOP": "4:29",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 23,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "108",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "494",
     "MarkerUTC": 1679793017.0,
     "MarkerLTC": 76217,
     "MajorType": "Event",
@@ -9347,16 +9633,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "108",
+    "SourceNativeMarkerId": "109",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "294",
+    "MarkerId": "495",
     "MarkerUTC": 1679793177.0,
     "MarkerLTC": 76377,
     "MajorType": "Event",
@@ -9435,16 +9722,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "109",
+    "SourceNativeMarkerId": "110",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "296",
+    "MarkerId": "496",
     "MarkerUTC": 1679793219.0,
     "MarkerLTC": 76419,
     "MajorType": "Event",
@@ -9523,16 +9811,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "110",
+    "SourceNativeMarkerId": "111",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "298",
+    "MarkerId": "497",
     "MarkerUTC": 1679793269.0,
     "MarkerLTC": 76469,
     "MajorType": "Event",
@@ -9611,16 +9900,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "111",
+    "SourceNativeMarkerId": "112",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "300",
+    "MarkerId": "498",
     "MarkerUTC": 1679793301.0,
     "MarkerLTC": 76501,
     "MajorType": "Event",
@@ -9703,16 +9993,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "112",
+    "SourceNativeMarkerId": "113",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "303",
+    "MarkerId": "499",
     "MarkerUTC": 1679793340.0,
     "MarkerLTC": 76540,
     "MajorType": "Event",
@@ -9785,17 +10076,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "113",
+    "SourceNativeMarkerId": "114",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "305",
+    "MarkerId": "500",
     "MarkerUTC": 1679793455.0,
     "MarkerLTC": 76655,
     "MajorType": "Event",
@@ -9868,16 +10159,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "114",
+    "SourceNativeMarkerId": "115",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "309",
+    "MarkerId": "501",
     "MarkerUTC": 1679793493.0,
     "MarkerLTC": 76693,
     "MajorType": "Event",
@@ -9966,17 +10258,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 4,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "115",
+    "SourceNativeMarkerId": "116",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "312",
+    "MarkerId": "502",
     "MarkerUTC": 1679793536.0,
     "MarkerLTC": 76736,
     "MajorType": "Event",
@@ -10049,109 +10341,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "116",
+    "SourceNativeMarkerId": "117",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "316",
-    "MarkerUTC": 1679793609.0,
-    "MarkerLTC": 76809,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-3-STL 44 (8:33) 2 B. Hundley pass to 13 J. Badet to STL 37 for 7 yards (26 N. Meadors)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 8,
-      "ClockSeconds": 33
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "22876",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "20072",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "22352",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 23,
-          "Period": 4,
-          "TimeRemSecTotal": 513.0,
-          "TimeRemStr": "8:33",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 44
-          },
-          "Distance": 3,
-          "DriveNum": 18,
-          "Down": 2,
-          "PossTeam": "7",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassComplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 7,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 49
-          },
-          "Plays": 2,
-          "Yards": 14,
-          "TOP": "0:57",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 23,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "118",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "319",
+    "MarkerId": "503",
     "MarkerUTC": 1679793578.0,
     "MarkerLTC": 76778,
     "MajorType": "Event",
@@ -10240,17 +10440,110 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "117",
+    "SourceNativeMarkerId": "118",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "320",
+    "MarkerId": "504",
+    "MarkerUTC": 1679793609.0,
+    "MarkerLTC": 76809,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-3-STL 44 (8:33) 2 B. Hundley pass to 13 J. Badet to STL 37 for 7 yards (26 N. Meadors)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 8,
+      "ClockSeconds": 33
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22876",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20072",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22352",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 23,
+          "Period": 4,
+          "TimeRemSecTotal": 513.0,
+          "TimeRemStr": "8:33",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 44
+          },
+          "Distance": 3,
+          "DriveNum": 18,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Plays": 2,
+          "Yards": 14,
+          "TOP": "0:57",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 23,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "119",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "505",
     "MarkerUTC": 1679793640.0,
     "MarkerLTC": 76840,
     "MajorType": "Event",
@@ -10333,17 +10626,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "119",
+    "SourceNativeMarkerId": "120",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "322",
+    "MarkerId": "506",
     "MarkerUTC": 1679793676.0,
     "MarkerLTC": 76876,
     "MajorType": "Event",
@@ -10416,16 +10709,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "120",
+    "SourceNativeMarkerId": "121",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "324",
+    "MarkerId": "507",
     "MarkerUTC": 1679793703.0,
     "MarkerLTC": 76903,
     "MajorType": "Event",
@@ -10506,16 +10800,17 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "121",
+    "SourceNativeMarkerId": "122",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "326",
+    "MarkerId": "508",
     "MarkerUTC": 1679793744.0,
     "MarkerLTC": 76944,
     "MajorType": "Event",
@@ -10577,17 +10872,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "122",
+    "SourceNativeMarkerId": "123",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "328",
+    "MarkerId": "509",
     "MarkerUTC": 1679793993.0,
     "MarkerLTC": 77193,
     "MajorType": "Event",
@@ -10647,17 +10943,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "123",
+    "SourceNativeMarkerId": "124",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "331",
+    "MarkerId": "510",
     "MarkerUTC": 1679794045.0,
     "MarkerLTC": 77245,
     "MajorType": "Event",
@@ -10737,18 +11034,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "124",
+    "SourceNativeMarkerId": "125",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "333",
+    "MarkerId": "511",
     "MarkerUTC": 1679794108.0,
     "MarkerLTC": 77308,
     "MajorType": "Event",
@@ -10815,17 +11112,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "125",
+    "SourceNativeMarkerId": "126",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "335",
+    "MarkerId": "512",
     "MarkerUTC": 1679794138.0,
     "MarkerLTC": 77338,
     "MajorType": "Event",
@@ -10905,17 +11203,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "126",
+    "SourceNativeMarkerId": "127",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "337",
+    "MarkerId": "513",
     "MarkerUTC": 1679794182.0,
     "MarkerLTC": 77382,
     "MajorType": "Event",
@@ -10999,17 +11298,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "127",
+    "SourceNativeMarkerId": "128",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "339",
+    "MarkerId": "514",
     "MarkerUTC": 1679794222.0,
     "MarkerLTC": 77422,
     "MajorType": "Event",
@@ -11083,17 +11383,109 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "128",
+    "SourceNativeMarkerId": "129",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "343",
+    "MarkerId": "515",
+    "MarkerUTC": 1679794267.0,
+    "MarkerLTC": 77467,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-6-VGS 6 (3:48) 23 B. Hill rush to VGS 6 for 0 yards (26 M. Smith, 45 M. Spaight)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 48
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20688",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21444",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22885",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 23,
+          "HomeScore": 6,
+          "Period": 4,
+          "TimeRemSecTotal": 228.0,
+          "TimeRemStr": "3:48",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Distance": 6,
+          "DriveNum": 19,
+          "Down": 1,
+          "PossTeam": "5",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Plays": 5,
+          "Yards": 39,
+          "TOP": "3:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
+    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
+    "SituationCode": "",
+    "VisitorScore": 23,
+    "HomeScore": 6,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "130",
+    "OfficialCode": "2302022-STL-at-VGS"
+  },
+  {
+    "MarkerId": "516",
     "MarkerUTC": 1679794338.0,
     "MarkerLTC": 77538,
     "MajorType": "Event",
@@ -11181,108 +11573,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 23,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "130",
+    "SourceNativeMarkerId": "131",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "344",
-    "MarkerUTC": 1679794267.0,
-    "MarkerLTC": 77467,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-6-VGS 6 (3:48) 23 B. Hill rush to VGS 6 for 0 yards (26 M. Smith, 45 M. Spaight)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 3,
-      "ClockSeconds": 48
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "20688",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21444",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "22885",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 23,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemSecTotal": 228.0,
-          "TimeRemStr": "3:48",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 6
-          },
-          "Distance": 6,
-          "DriveNum": 19,
-          "Down": 1,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 45
-          },
-          "Plays": 5,
-          "Yards": 39,
-          "TOP": "3:24",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 23,
-    "HomeScore": 6,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "129",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "346",
+    "MarkerId": "517",
     "MarkerUTC": 1679794366.0,
     "MarkerLTC": 77566,
     "MajorType": "Event",
@@ -11339,17 +11641,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "131",
+    "SourceNativeMarkerId": "132",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "348",
+    "MarkerId": "518",
     "MarkerUTC": 1679794442.0,
     "MarkerLTC": 77642,
     "MajorType": "Event",
@@ -11413,17 +11716,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "132",
+    "SourceNativeMarkerId": "133",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "350",
+    "MarkerId": "519",
     "MarkerUTC": 1679794539.0,
     "MarkerLTC": 77739,
     "MajorType": "Event",
@@ -11506,17 +11810,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "133",
+    "SourceNativeMarkerId": "134",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "352",
+    "MarkerId": "520",
     "MarkerUTC": 1679794576.0,
     "MarkerLTC": 77776,
     "MajorType": "Event",
@@ -11602,17 +11907,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "134",
+    "SourceNativeMarkerId": "135",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "354",
+    "MarkerId": "521",
     "MarkerUTC": 1679794613.0,
     "MarkerLTC": 77813,
     "MajorType": "Event",
@@ -11686,17 +11992,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "135",
+    "SourceNativeMarkerId": "136",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "356",
+    "MarkerId": "522",
     "MarkerUTC": 1679794781.0,
     "MarkerLTC": 77981,
     "MajorType": "Event",
@@ -11786,17 +12093,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "136",
+    "SourceNativeMarkerId": "137",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "358",
+    "MarkerId": "523",
     "MarkerUTC": 1679794825.0,
     "MarkerLTC": 78025,
     "MajorType": "Event",
@@ -11880,17 +12188,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "137",
+    "SourceNativeMarkerId": "138",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "360",
+    "MarkerId": "524",
     "MarkerUTC": 1679794854.0,
     "MarkerLTC": 78054,
     "MajorType": "Event",
@@ -11970,17 +12279,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "138",
+    "SourceNativeMarkerId": "139",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "362",
+    "MarkerId": "525",
     "MarkerUTC": 1679794897.0,
     "MarkerLTC": 78097,
     "MajorType": "Event",
@@ -12041,17 +12351,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "139",
+    "SourceNativeMarkerId": "140",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "364",
+    "MarkerId": "526",
     "MarkerUTC": 1679794950.0,
     "MarkerLTC": 78150,
     "MajorType": "Event",
@@ -12130,17 +12441,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "140",
+    "SourceNativeMarkerId": "141",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "366",
+    "MarkerId": "527",
     "MarkerUTC": 1679795018.0,
     "MarkerLTC": 78218,
     "MajorType": "Event",
@@ -12218,17 +12530,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "141",
+    "SourceNativeMarkerId": "142",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "369",
+    "MarkerId": "528",
     "MarkerUTC": 1679795058.0,
     "MarkerLTC": 78258,
     "MajorType": "Event",
@@ -12300,18 +12613,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 3,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "142",
+    "SourceNativeMarkerId": "143",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "371",
+    "MarkerId": "529",
     "MarkerUTC": 1679795104.0,
     "MarkerLTC": 78304,
     "MajorType": "Event",
@@ -12377,148 +12690,18 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
     "RevisionNum": 2,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "143",
+    "SourceNativeMarkerId": "144",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "375",
-    "MarkerUTC": 1679795156.3210511,
-    "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4
-    },
-    "Participants": [],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 29,
-          "HomeScore": 6,
-          "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 49
-          },
-          "Distance": 12,
-          "DriveNum": 21,
-          "Down": 3,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "VisitorScore": 29,
-    "HomeScore": 6,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "379",
-    "MarkerUTC": 1679786641.0,
-    "MarkerLTC": 69841,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-8-STL 40 (6:15) 21 M. Durant rush to STL 49 for 9 yards (44 V. Beasley, 9 D. Anderson)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 6,
-      "ClockSeconds": 15
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21856",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21739",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20039",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 375.0,
-          "TimeRemStr": "6:15",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 40
-          },
-          "Distance": 8,
-          "DriveNum": 5,
-          "Down": 2,
-          "PossTeam": "5",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 9,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 2,
-          "Yards": 11,
-          "TOP": "1:08",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
-    "SituationCode": "",
-    "RevisionNum": 4,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "20",
-    "OfficialCode": "2302022-STL-at-VGS"
-  },
-  {
-    "MarkerId": "381",
+    "MarkerId": "530",
     "MarkerUTC": 1679795136.0,
     "MarkerLTC": 78336,
     "MajorType": "Event",
@@ -12584,19 +12767,19 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
+    "UpdateType": "MaUpdateTypeResend",
     "EventId": "FOOTBALL_XFL_2023_3_25_STL@VGS",
     "SituationCode": "",
     "VisitorScore": 29,
     "HomeScore": 6,
-    "RevisionNum": 5,
+    "RevisionNum": 6,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "144",
+    "SourceNativeMarkerId": "145",
     "OfficialCode": "2302022-STL-at-VGS"
   },
   {
-    "MarkerId": "383",
-    "MarkerUTC": 1680035969.4626422,
+    "MarkerId": "531",
+    "MarkerUTC": 1680107133.5409312,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

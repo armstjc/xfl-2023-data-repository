@@ -1,5 +1,5 @@
 ## Ensure that nflfastR exists in this context.
-install.packages("nflfastR")
+#install.packages("nflfastR")
 
 ## Load nflfastR in this context
 library(nflfastR)

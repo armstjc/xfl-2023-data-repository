@@ -1,13 +1,12 @@
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron: "0 * * * *"
   push:
-    branches: [ main ]
+    branches: [main]
   #pull_request:
   #  branches: [ main ]
   #
 name: update_xfl_epa
-
 
 jobs:
   update:
@@ -21,20 +20,23 @@ jobs:
         with:
           cache-version: 1
           extra-packages: |
-           nflverse/nflfastR
-           nflverse/nflreadr
-           nflverse/nflverse-data
-           nflverse/fastrmodels
-           ropensci/piggyback
-          
+            nflverse/nflfastR
+            nflverse/nflreadr
+            nflverse/nflverse-data
+            nflverse/fastrmodels
+            ropensci/piggyback
+
       - name: Update XFL PBP
         run: Rscript -e 'source("pbp.r")'
 
-      - name: Commit and push updated data
+      - name: commit files
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git pull
-          git add data
-          git commit -m "XFL EPA PBP Update `date`" || echo "No changes to commit"
-          git push || echo "No changes to commit"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update XFL PBP" -a
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

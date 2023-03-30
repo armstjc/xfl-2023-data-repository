@@ -13305,7 +13305,7 @@
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "408",
+    "MarkerId": "411",
     "MarkerUTC": 1679866986.0,
     "MarkerLTC": 63786,
     "MajorType": "Event",
@@ -13376,14 +13376,96 @@
     "SituationCode": "",
     "VisitorScore": 15,
     "HomeScore": 9,
-    "RevisionNum": 10,
+    "RevisionNum": 11,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "153",
     "OfficialCode": "2302023-SA-at-ARL"
   },
   {
-    "MarkerId": "410",
-    "MarkerUTC": 1680030822.7261293,
+    "MarkerId": "413",
+    "MarkerUTC": 1679859528.0,
+    "MarkerLTC": 56328,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ARL 44 (12:35) 9 D. Plitt pass incomplete to 13 C. Vander Esch",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 12,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21243",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "Period": 2,
+          "TimeRemSecTotal": 755.0,
+          "TimeRemStr": "12:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 10,
+          "DriveNum": 6,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Plays": 1,
+          "TOP": "0:04",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_3_26_SA@ARL",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "36",
+    "OfficialCode": "2302023-SA-at-ARL"
+  },
+  {
+    "MarkerId": "414",
+    "MarkerUTC": 1680200075.941594,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

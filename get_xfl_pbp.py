@@ -85,8 +85,10 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
     response = urlopen(url)
     json_data = json.loads(response.read())
     
+    count = 0
+    receive_2h_ko_team = 0
     for play in tqdm(json_data):
-              
+        count += 1
         row_df = pd.DataFrame({'season':xfl_season,'game_id':game_id,'away_team_abv':away_team_abv,'away_team':away_team,'home_team_abv':home_team_abv,'home_team':home_team,'roof':roof},index=[0])
         row_df['MarkerId'] = play['MarkerId']
         row_df['MarkerUTC'] = play['MarkerUTC']
@@ -137,14 +139,31 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
 
         row_df['time'] = play['Properties'][0]['FootballEventContext']['TimeRemStr']
         row_df['posteam'] = int(play['Properties'][0]['FootballEventContext']['PossTeam'])
-        row_df['PossTeamAbv'] = row_df['posteam'].map(team_id_dict)
+        #row_df['PossTeamAbv'] = row_df['posteam'].map(team_id_dict)
         row_df['LastPlaySummary'] = play['Properties'][0]['FootballEventContext']['LastPlaySummary']
         row_df['LastPlayStatus'] = play['Properties'][0]['FootballEventContext']['LastPlayStatus']
 
         # row_df['is_home_team_pos'] = row_df.apply(lambda x: 1 if x['posteam'] == x['home_team'] else 0)
         row_df.loc[row_df['posteam'] == row_df['home_team'],'home_team_has_pos'] = 1
         row_df.loc[row_df['posteam'] != row_df['home_team'],'home_team_has_pos'] = 0
+
+        row_df.loc[row_df['posteam'] == row_df['home_team'],'posteam_abv'] = home_team_abv
+        row_df.loc[row_df['posteam'] != row_df['home_team'],'posteam_abv'] = away_team_abv
+        row_df.loc[row_df['posteam'] == row_df['home_team'],'defteam_abv'] = away_team_abv
+        row_df.loc[row_df['posteam'] != row_df['home_team'],'defteam_abv'] = home_team_abv
         
+
+        if count == 1:
+            receive_1h_ko_team = int(play['Properties'][0]['FootballEventContext']['PossTeam'])
+            if receive_1h_ko_team == away_team:
+                receive_2h_ko_team == away_team
+            else:
+                receive_2h_ko_team == home_team
+
+        row_df.loc[(row_df['game_half']=='Half1') & (row_df['posteam']==receive_2h_ko_team),'receive_2h_ko_team'] = 1
+        row_df.loc[(row_df['game_half']!='Half1') | (row_df['posteam']!=receive_2h_ko_team),'receive_2h_ko_team'] = 0
+        
+
         try:
             ## if it doesn't exist, it means that it is 0
             row_df['VisTimeouts'] = play['Properties'][0]['FootballEventContext']['VisTimeouts']
@@ -175,6 +194,10 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
         row_df.loc[(row_df['BallOn_Side']=='Home')&(row_df['home_team_has_pos']==1),'yardline_100'] =  100 - row_df['BallOn_YardNum'] 
         row_df.loc[(row_df['BallOn_Side']=='Visitor')&(row_df['home_team_has_pos']==0),'yardline_100'] = 100 - row_df['BallOn_YardNum']
         row_df.loc[(row_df['BallOn_Side']=='Visitor')&(row_df['home_team_has_pos']==1),'yardline_100'] = row_df['BallOn_YardNum']
+
+        row_df['spread_line'] = 0
+
+
 
         try:
             for i in play['Participants']:

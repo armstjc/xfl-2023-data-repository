@@ -4,7 +4,7 @@ import warnings
 from datetime import datetime
 from urllib.request import urlopen
 
-import numpy as np
+#import numpy as np
 import pandas as pd
 from tqdm import tqdm
 

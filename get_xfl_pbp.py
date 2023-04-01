@@ -453,10 +453,13 @@ def get_xfl_pbp(game_id:str,save=False,xfl_season = 2023):
         print('Could not sort dataframe. This may be because [MarkerUTC] does not exist in this JSON, or the dataframe is empty.')
     
     if len(main_df)>0:
-        main_df['MapRolePunter'] = main_df['MapRolePunter'].fillna(0)
-        main_df['MapRolePunter'] = main_df['MapRolePunter'].astype('int')
-        main_df['punt_attempt'] = main_df['MapRolePunter'].apply(lambda x: 1 if x > 0 else 0)
-        main_df['MapRolePunter'] = main_df['MapRolePunter'].replace(0,None)
+        try:
+            main_df['MapRolePunter'] = main_df['MapRolePunter'].fillna(0)
+            main_df['MapRolePunter'] = main_df['MapRolePunter'].astype('int')
+            main_df['punt_attempt'] = main_df['MapRolePunter'].apply(lambda x: 1 if x > 0 else 0)
+            main_df['MapRolePunter'] = main_df['MapRolePunter'].replace(0,None)
+        except:
+            print('Could not find a punter in this game')
 
         main_df.loc[(main_df['play_type'] != 'EventFootballPass') | (main_df['Result'] != 'TD'),'pass_touchdown'] = 0
         main_df.loc[(main_df['play_type'] == 'EventFootballPass') & (main_df['Result'] == 'TD'),'pass_touchdown'] = 1

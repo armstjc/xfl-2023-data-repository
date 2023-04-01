@@ -32,6 +32,10 @@
   },
   {
     "OfficialId": "20039",
+    "DefINT": 1,
+    "DefINTReturnYards": 22,
+    "DefINTReturnYardsLong": 22,
+    "DefINTReturnYardsAvg": 22.0,
     "DefTackles": 1.0,
     "GamesPlayed": 1,
     "DefSoloTackles": 1
@@ -73,7 +77,12 @@
     "OfficialId": "20080"
   },
   {
-    "OfficialId": "20087"
+    "OfficialId": "20087",
+    "DefTackles": 2.0,
+    "DefTacklesForLoss": 1.0,
+    "GamesPlayed": 1,
+    "DefSoloTackles": 1,
+    "DefAssistTackles": 1
   },
   {
     "OfficialId": "20131"
@@ -81,31 +90,37 @@
   {
     "OfficialId": "20142",
     "DefPassesDefended": 1,
-    "GamesPlayed": 1
+    "DefTackles": 1.0,
+    "GamesPlayed": 1,
+    "PuntRetReturns": 2,
+    "PuntRetYards": 17,
+    "PuntRetYardsAvg": 8.5,
+    "PuntRetYardsLong": 12,
+    "DefAssistTackles": 1
   },
   {
     "OfficialId": "20203",
     "FirstDowns": 1,
     "FirstDownsByRec": 1,
-    "FirstDownPercent": 0.5,
+    "FirstDownPercent": 0.25,
     "GamesPlayed": 1,
-    "KickRetReturns": 3,
+    "KickRetReturns": 4,
     "KickRetTD": 1,
     "KickRetYards": 123,
-    "KickRetYardsAvg": 41.0,
+    "KickRetYardsAvg": 30.75,
     "KickRetYardsLong": 96,
     "KickRetYardsLongTD": true,
     "OffTD": 1,
     "Recs": 1,
     "RecTD": 1,
-    "RecThrownAt": 2,
+    "RecThrownAt": 4,
     "RecYards": 1,
     "RecYardsAvg": 1.0,
     "RecYardsLong": 1,
     "RecYardsLongTD": true,
     "TotalTD": 2,
     "TotalYards": 1,
-    "FirstDownPercentOfRecs": 0.5,
+    "FirstDownPercentOfRecs": 0.25,
     "YardsPerGame": 1.0,
     "RecYardsPerGame": 1.0
   },
@@ -115,16 +130,20 @@
     "KickRetReturns": 1,
     "KickRetYards": 24,
     "KickRetYardsAvg": 24.0,
-    "KickRetYardsLong": 24
+    "KickRetYardsLong": 24,
+    "RecThrownAt": 1
   },
   {
     "OfficialId": "20222"
   },
   {
-    "OfficialId": "20224"
+    "OfficialId": "20224",
+    "GamesPlayed": 1
   },
   {
-    "OfficialId": "20232"
+    "OfficialId": "20232",
+    "GamesPlayed": 1,
+    "RushAtt": 1
   },
   {
     "OfficialId": "20238"
@@ -136,6 +155,8 @@
     "OfficialId": "20362",
     "DefTackles": 1.0,
     "GamesPlayed": 1,
+    "Penalties": 1,
+    "PenaltyYards": 3,
     "DefSoloTackles": 1
   },
   {
@@ -165,13 +186,17 @@
     "PenaltyYards": 5
   },
   {
-    "OfficialId": "20440"
+    "OfficialId": "20440",
+    "DefTackles": 2.0,
+    "GamesPlayed": 1,
+    "DefSoloTackles": 1,
+    "DefAssistTackles": 1
   },
   {
     "OfficialId": "20461",
-    "DefTackles": 2.0,
+    "DefTackles": 3.0,
     "GamesPlayed": 1,
-    "DefSoloTackles": 2
+    "DefSoloTackles": 3
   },
   {
     "OfficialId": "20567",
@@ -183,28 +208,37 @@
   {
     "OfficialId": "20697",
     "GamesPlayed": 1,
-    "RushAtt": 1,
-    "RushYards": 1,
-    "RushYardsAvg": 1.0,
-    "RushYardsLong": 1,
-    "TotalYards": 1,
-    "YardsPerGame": 1.0,
-    "RushYardsPerGame": 1.0
+    "Recs": 2,
+    "RecThrownAt": 2,
+    "RecYards": 5,
+    "RecYardsAvg": 2.5,
+    "RecYardsLong": 3,
+    "RushAtt": 2,
+    "RushYards": 3,
+    "RushYardsAvg": 1.5,
+    "RushYardsLong": 2,
+    "TotalYards": 8,
+    "YardsPerGame": 8.0,
+    "RushYardsPerGame": 3.0,
+    "RecYardsPerGame": 5.0
   },
   {
     "OfficialId": "20811"
   },
   {
-    "OfficialId": "20832"
+    "OfficialId": "20832",
+    "GamesPlayed": 1
   },
   {
     "OfficialId": "20856"
   },
   {
-    "OfficialId": "20862"
+    "OfficialId": "20862",
+    "GamesPlayed": 1
   },
   {
-    "OfficialId": "20864"
+    "OfficialId": "20864",
+    "GamesPlayed": 1
   },
   {
     "OfficialId": "20901"
@@ -223,45 +257,46 @@
   },
   {
     "OfficialId": "21022",
-    "FirstDowns": 6,
-    "FirstDownsByPass": 5,
+    "FirstDowns": 9,
+    "FirstDownsByPass": 8,
     "FirstDownsByRush": 1,
-    "FirstDownPercent": 0.46153846153846156,
+    "FirstDownPercent": 0.375,
     "Fumbles": 1,
     "GamesPlayed": 1,
-    "OffTD": 1,
-    "PassAtt": 11,
-    "PassComp": 6,
-    "PassTD": 1,
-    "PassYards": 96,
+    "OffTD": 2,
+    "PassAtt": 20,
+    "PassComp": 13,
+    "PassTD": 2,
+    "PassYards": 174,
     "PassYardsLong": 33,
     "PassYardsLongTD": true,
-    "PassYardsPerAtt": 8.727272727272727,
-    "PassYardsPerComp": 16.0,
+    "PassYardsPerAtt": 8.7,
+    "PassYardsPerComp": 13.384615384615385,
     "QBRating": 60.416666666666664,
-    "RushAtt": 2,
-    "RushYards": 16,
-    "RushYardsAvg": 8.0,
+    "RushAtt": 4,
+    "RushYards": 17,
+    "RushYardsAvg": 4.25,
     "RushYardsLong": 10,
     "Sacked": 1,
     "SackedYards": 2,
     "SackedYardsAvg": 2.0,
-    "TotalTD": 1,
-    "TotalYards": 112,
-    "PAT2PtAttPass": 1,
-    "PAT2PtConvPass": 1,
+    "TotalTD": 2,
+    "TotalYards": 191,
+    "PAT2PtAttPass": 2,
+    "PAT2PtConvPass": 2,
     "PAT2PtPctPass": 1.0,
-    "PassCompPercent": 0.5454545454545454,
-    "Pass20YdPlays": 2,
+    "PassCompPercent": 0.65,
+    "Pass20YdPlays": 4,
     "Rush10YdPlays": 1,
-    "FirstDownPercentOfPasses": 0.45454545454545453,
-    "FirstDownPercentOfRushes": 0.5,
-    "YardsPerGame": 112.0,
-    "PassYardsPerGame": 96.0,
-    "RushYardsPerGame": 16.0
+    "FirstDownPercentOfPasses": 0.4,
+    "FirstDownPercentOfRushes": 0.25,
+    "YardsPerGame": 191.0,
+    "PassYardsPerGame": 174.0,
+    "RushYardsPerGame": 17.0
   },
   {
-    "OfficialId": "21075"
+    "OfficialId": "21075",
+    "GamesPlayed": 1
   },
   {
     "OfficialId": "21116"
@@ -275,13 +310,13 @@
   {
     "OfficialId": "21196",
     "GamesPlayed": 1,
-    "RushAtt": 4,
-    "RushYards": 6,
-    "RushYardsAvg": 1.5,
-    "RushYardsLong": 3,
-    "TotalYards": 6,
-    "YardsPerGame": 6.0,
-    "RushYardsPerGame": 6.0
+    "RushAtt": 6,
+    "RushYards": 12,
+    "RushYardsAvg": 2.0,
+    "RushYardsLong": 4,
+    "TotalYards": 12,
+    "YardsPerGame": 12.0,
+    "RushYardsPerGame": 12.0
   },
   {
     "OfficialId": "21223"
@@ -296,49 +331,68 @@
     "OfficialId": "21259",
     "FirstDowns": 1,
     "FirstDownsByRec": 1,
-    "FirstDownPercent": 1.0,
+    "FirstDownPercent": 0.5,
     "GamesPlayed": 1,
     "OffTD": 1,
-    "Recs": 1,
+    "Recs": 2,
     "RecTD": 1,
-    "RecThrownAt": 1,
-    "RecYards": 33,
-    "RecYardsAvg": 33.0,
+    "RecThrownAt": 2,
+    "RecYards": 45,
+    "RecYardsAvg": 22.5,
     "RecYardsLong": 33,
     "RecYardsLongTD": true,
     "TotalTD": 1,
-    "TotalYards": 33,
+    "TotalYards": 45,
+    "PAT2PtAttRec": 1,
+    "PAT2PtConvRec": 1,
+    "PAT2PtPctRec": 1.0,
     "Rec20YdPlays": 1,
-    "FirstDownPercentOfRecs": 1.0,
-    "YardsPerGame": 33.0,
-    "RecYardsPerGame": 33.0
+    "FirstDownPercentOfRecs": 0.5,
+    "YardsPerGame": 45.0,
+    "RecYardsPerGame": 45.0
   },
   {
-    "OfficialId": "21312"
+    "OfficialId": "21312",
+    "DefTackles": 1.0,
+    "GamesPlayed": 1,
+    "DefAssistTackles": 1
   },
   {
     "OfficialId": "21419"
   },
   {
     "OfficialId": "21444",
-    "DefTackles": 1.0,
+    "DefTackles": 3.0,
     "GamesPlayed": 1,
-    "DefAssistTackles": 1
+    "DefSoloTackles": 1,
+    "DefAssistTackles": 2
   },
   {
     "OfficialId": "21447",
-    "FirstDowns": 1,
+    "FirstDowns": 2,
+    "FirstDownsByRec": 1,
     "FirstDownsByRush": 1,
-    "FirstDownPercent": 0.3333333333333333,
+    "FirstDownPercent": 0.4,
     "GamesPlayed": 1,
+    "OffTD": 1,
+    "Recs": 2,
+    "RecTD": 1,
+    "RecThrownAt": 2,
+    "RecYards": 13,
+    "RecYardsAvg": 6.5,
+    "RecYardsLong": 17,
+    "RecYardsLongTD": true,
     "RushAtt": 3,
     "RushYards": 13,
     "RushYardsAvg": 4.333333333333333,
     "RushYardsLong": 9,
-    "TotalYards": 13,
+    "TotalTD": 1,
+    "TotalYards": 26,
     "FirstDownPercentOfRushes": 0.3333333333333333,
-    "YardsPerGame": 13.0,
-    "RushYardsPerGame": 13.0
+    "FirstDownPercentOfRecs": 0.5,
+    "YardsPerGame": 26.0,
+    "RushYardsPerGame": 13.0,
+    "RecYardsPerGame": 13.0
   },
   {
     "OfficialId": "21462"
@@ -349,27 +403,47 @@
   {
     "OfficialId": "21502",
     "GamesPlayed": 1,
-    "RecThrownAt": 1,
+    "Recs": 1,
+    "RecThrownAt": 3,
+    "RecYards": -1,
+    "RecYardsAvg": -1.0,
+    "RecYardsLong": -1,
+    "TotalYards": -1,
     "PAT2PtAttRec": 1,
     "PAT2PtConvRec": 1,
-    "PAT2PtPctRec": 1.0
+    "PAT2PtPctRec": 1.0,
+    "YardsPerGame": -1.0,
+    "RecYardsPerGame": -1.0
   },
   {
     "OfficialId": "21507",
     "GamesPlayed": 1,
-    "RecThrownAt": 1
+    "KickRetReturns": 1,
+    "KickRetYards": 27,
+    "KickRetYardsAvg": 27.0,
+    "KickRetYardsLong": 27,
+    "RecThrownAt": 1,
+    "RushAtt": 1,
+    "RushYards": 3,
+    "RushYardsAvg": 3.0,
+    "RushYardsLong": 3,
+    "TotalYards": 3,
+    "YardsPerGame": 3.0,
+    "RushYardsPerGame": 3.0
   },
   {
     "OfficialId": "21568"
   },
   {
-    "OfficialId": "21589"
+    "OfficialId": "21589",
+    "GamesPlayed": 1
   },
   {
     "OfficialId": "21621"
   },
   {
-    "OfficialId": "21651"
+    "OfficialId": "21651",
+    "GamesPlayed": 1
   },
   {
     "OfficialId": "21674",
@@ -380,10 +454,11 @@
   {
     "OfficialId": "21706",
     "GamesPlayed": 1,
-    "Punts": 1,
-    "PuntGrossYards": 36,
-    "PuntGrossYardsAvg": 36.0,
-    "PuntGrossYardsLong": 36
+    "Punts": 3,
+    "PuntGrossYards": 142,
+    "PuntGrossYardsAvg": 47.333333333333336,
+    "PuntGrossYardsLong": 56,
+    "PuntTouchbacks": 1
   },
   {
     "OfficialId": "21739"
@@ -392,20 +467,43 @@
     "OfficialId": "21740"
   },
   {
-    "OfficialId": "21744"
+    "OfficialId": "21744",
+    "DefTackles": 1.0,
+    "GamesPlayed": 1,
+    "Penalties": 1,
+    "PenaltyYards": 10,
+    "DefSoloTackles": 1
   },
   {
     "OfficialId": "21761"
   },
   {
-    "OfficialId": "21765"
+    "OfficialId": "21765",
+    "FirstDowns": 1,
+    "FirstDownsByRec": 1,
+    "FirstDownPercent": 0.5,
+    "GamesPlayed": 1,
+    "Recs": 2,
+    "RecThrownAt": 2,
+    "RecYards": 24,
+    "RecYardsAvg": 12.0,
+    "RecYardsLong": 18,
+    "TotalYards": 24,
+    "FirstDownPercentOfRecs": 0.5,
+    "YardsPerGame": 24.0,
+    "RecYardsPerGame": 24.0
   },
   {
     "OfficialId": "21775",
     "GamesPlayed": 1
   },
   {
-    "OfficialId": "21784"
+    "OfficialId": "21784",
+    "GamesPlayed": 1,
+    "Punts": 2,
+    "PuntGrossYards": 77,
+    "PuntGrossYardsAvg": 38.5,
+    "PuntGrossYardsLong": 42
   },
   {
     "OfficialId": "21794"
@@ -413,29 +511,34 @@
   {
     "OfficialId": "21872",
     "GamesPlayed": 1,
-    "RushAtt": 3,
-    "RushYards": 8,
-    "RushYardsAvg": 2.6666666666666665,
+    "RushAtt": 4,
+    "RushYards": 11,
+    "RushYardsAvg": 2.75,
     "RushYardsLong": 4,
-    "TotalYards": 8,
-    "YardsPerGame": 8.0,
-    "RushYardsPerGame": 8.0
+    "TotalYards": 11,
+    "YardsPerGame": 11.0,
+    "RushYardsPerGame": 11.0
   },
   {
     "OfficialId": "21882",
-    "FirstDowns": 1,
-    "FirstDownsByRec": 1,
-    "FirstDownPercent": 0.5,
+    "FirstDowns": 2,
+    "FirstDownsByRec": 2,
+    "FirstDownPercent": 0.6666666666666666,
     "GamesPlayed": 1,
-    "Recs": 2,
-    "RecThrownAt": 2,
-    "RecYards": 26,
-    "RecYardsAvg": 13.0,
-    "RecYardsLong": 17,
-    "TotalYards": 26,
-    "FirstDownPercentOfRecs": 0.5,
-    "YardsPerGame": 26.0,
-    "RecYardsPerGame": 26.0
+    "PuntRetReturns": 1,
+    "PuntRetYards": 12,
+    "PuntRetYardsAvg": 12.0,
+    "PuntRetYardsLong": 12,
+    "Recs": 3,
+    "RecThrownAt": 3,
+    "RecYards": 51,
+    "RecYardsAvg": 17.0,
+    "RecYardsLong": 25,
+    "TotalYards": 51,
+    "Rec20YdPlays": 1,
+    "FirstDownPercentOfRecs": 0.6666666666666666,
+    "YardsPerGame": 51.0,
+    "RecYardsPerGame": 51.0
   },
   {
     "OfficialId": "21888"
@@ -443,10 +546,12 @@
   {
     "OfficialId": "21898",
     "GamesPlayed": 1,
-    "PAT2PtAttRec": 1
+    "RecThrownAt": 1,
+    "PAT2PtAttRec": 2
   },
   {
-    "OfficialId": "21911"
+    "OfficialId": "21911",
+    "GamesPlayed": 1
   },
   {
     "OfficialId": "21943",
@@ -455,10 +560,12 @@
     "PenaltyYards": 43
   },
   {
-    "OfficialId": "21948"
+    "OfficialId": "21948",
+    "GamesPlayed": 1
   },
   {
-    "OfficialId": "21954"
+    "OfficialId": "21954",
+    "GamesPlayed": 1
   },
   {
     "OfficialId": "21960",
@@ -475,55 +582,83 @@
   {
     "OfficialId": "21968",
     "DefPassesDefended": 1,
-    "DefTackles": 1.0,
-    "GamesPlayed": 1,
-    "DefAssistTackles": 1
-  },
-  {
-    "OfficialId": "21974",
     "DefTackles": 2.0,
     "GamesPlayed": 1,
     "DefSoloTackles": 1,
     "DefAssistTackles": 1
   },
   {
-    "OfficialId": "21975"
+    "OfficialId": "21974",
+    "DefTackles": 5.0,
+    "GamesPlayed": 1,
+    "DefSoloTackles": 3,
+    "DefAssistTackles": 2
+  },
+  {
+    "OfficialId": "21975",
+    "DefTackles": 1.0,
+    "GamesPlayed": 1,
+    "DefSoloTackles": 1
   },
   {
     "OfficialId": "22022"
   },
   {
     "OfficialId": "22290",
-    "FirstDowns": 3,
-    "FirstDownsByPass": 3,
-    "FirstDownPercent": 0.75,
+    "FirstDowns": 5,
+    "FirstDownsByPass": 4,
+    "FirstDownsByRush": 1,
+    "FirstDownPercent": 0.4166666666666667,
     "GamesPlayed": 1,
     "OffTD": 1,
-    "PassAtt": 4,
-    "PassComp": 4,
+    "PassAtt": 11,
+    "PassComp": 8,
+    "PassINT": 1,
     "PassTD": 1,
-    "PassYards": 34,
+    "PassYards": 63,
     "PassYardsLong": 18,
-    "PassYardsPerAtt": 8.5,
-    "PassYardsPerComp": 8.5,
-    "QBRating": 100.0,
+    "PassYardsPerAtt": 5.7272727272727275,
+    "PassYardsPerComp": 7.875,
+    "QBRating": 47.91666666666667,
+    "RushAtt": 1,
+    "RushYards": 5,
+    "RushYardsAvg": 5.0,
+    "RushYardsLong": 5,
     "TotalTD": 1,
-    "TotalYards": 34,
-    "PAT2PtAttPass": 1,
-    "PassCompPercent": 1.0,
-    "FirstDownPercentOfPasses": 0.75,
-    "YardsPerGame": 34.0,
-    "PassYardsPerGame": 34.0
+    "TotalYards": 68,
+    "PAT2PtAttPass": 2,
+    "PassCompPercent": 0.7272727272727273,
+    "FirstDownPercentOfPasses": 0.36363636363636365,
+    "FirstDownPercentOfRushes": 1.0,
+    "YardsPerGame": 68.0,
+    "PassYardsPerGame": 63.0,
+    "RushYardsPerGame": 5.0
   },
   {
-    "OfficialId": "22325"
+    "OfficialId": "22325",
+    "FirstDowns": 1,
+    "FirstDownsByRec": 1,
+    "FirstDownPercent": 0.5,
+    "GamesPlayed": 1,
+    "Penalties": 1,
+    "PenaltyYards": 15,
+    "Recs": 2,
+    "RecThrownAt": 2,
+    "RecYards": 29,
+    "RecYardsAvg": 14.5,
+    "RecYardsLong": 24,
+    "TotalYards": 29,
+    "Rec20YdPlays": 1,
+    "FirstDownPercentOfRecs": 0.5,
+    "YardsPerGame": 29.0,
+    "RecYardsPerGame": 29.0
   },
   {
     "OfficialId": "22376",
-    "DefTackles": 2.0,
+    "DefTackles": 3.0,
     "GamesPlayed": 1,
     "DefSoloTackles": 1,
-    "DefAssistTackles": 1
+    "DefAssistTackles": 2
   },
   {
     "OfficialId": "22432"
@@ -538,10 +673,16 @@
     "DefSoloTackles": 1
   },
   {
-    "OfficialId": "22744"
+    "OfficialId": "22744",
+    "DefTackles": 1.0,
+    "GamesPlayed": 1,
+    "DefAssistTackles": 1
   },
   {
-    "OfficialId": "22754"
+    "OfficialId": "22754",
+    "DefTackles": 1.0,
+    "GamesPlayed": 1,
+    "DefSoloTackles": 1
   },
   {
     "OfficialId": "22763"
@@ -549,21 +690,23 @@
   {
     "OfficialId": "22778",
     "DefPassesDefended": 2,
-    "DefTackles": 1.0,
+    "DefTackles": 2.0,
     "GamesPlayed": 1,
-    "DefSoloTackles": 1
+    "DefSoloTackles": 2
   },
   {
     "OfficialId": "22794",
-    "DefTackles": 1.0,
+    "DefTackles": 2.0,
     "GamesPlayed": 1,
+    "DefSoloTackles": 1,
     "DefAssistTackles": 1
   },
   {
     "OfficialId": "22819",
-    "DefTackles": 1.0,
+    "DefTackles": 2.0,
     "GamesPlayed": 1,
-    "DefSoloTackles": 1
+    "DefSoloTackles": 1,
+    "DefAssistTackles": 1
   },
   {
     "OfficialId": "22844",
@@ -571,10 +714,11 @@
     "DefSacks": 1.0,
     "DefSackYards": 2.0,
     "DefSackYardsAvg": 2.0,
-    "DefTackles": 3.0,
-    "DefTacklesForLoss": 1.0,
+    "DefTackles": 5.0,
+    "DefTacklesForLoss": 2.0,
     "GamesPlayed": 1,
-    "DefSoloTackles": 3
+    "DefSoloTackles": 4,
+    "DefAssistTackles": 1
   },
   {
     "OfficialId": "22847"

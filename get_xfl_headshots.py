@@ -21,7 +21,7 @@ def get_xfl_headshots(season:int):
             urllib.request.urlretrieve(urls_arr[i],filename=f"player_info/photos/{player_ids_arr[i]}.png")
         except:
             
-            print(f'Could not retrive the photo for player #{player_ids_arr[i]}.')
+            print(f'\nCould not retrive the photo for player #{player_ids_arr[i]}.')
 
         time.sleep(1)
 

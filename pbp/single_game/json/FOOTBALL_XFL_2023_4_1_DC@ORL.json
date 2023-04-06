@@ -3156,92 +3156,6 @@
     "OfficialCode": "2302028-DC-at-ORL"
   },
   {
-    "MarkerId": "113",
-    "MarkerUTC": 1680388663.0,
-    "MarkerLTC": 67063,
-    "MajorType": "Event",
-    "MinorType": "EventFootballKickoff",
-    "Descriptor_": "FROM DC 30 (3:14) 34 M. McCrane kicks from DC 30. 17 E. Rogers to ORL 26 for 17 yards (31 C. Lewis)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 3,
-      "ClockSeconds": 14
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20951",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKicker",
-        "OfficialId": "21028",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleKickreturner",
-        "OfficialId": "22708",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 14,
-          "HomeScore": 12,
-          "Period": 1,
-          "TimeRemSecTotal": 194.0,
-          "TimeRemStr": "3:14",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 30
-          },
-          "DriveNum": 6,
-          "PossTeam": "4",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballKickRetYards": 17,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 26
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_4_1_DC@ORL",
-    "SituationCode": "",
-    "VisitorScore": 14,
-    "HomeScore": 12,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "40",
-    "OfficialCode": "2302028-DC-at-ORL"
-  },
-  {
     "MarkerId": "115",
     "MarkerUTC": 1680388696.0,
     "MarkerLTC": 67096,
@@ -6207,127 +6121,6 @@
     "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "74",
-    "OfficialCode": "2302028-DC-at-ORL"
-  },
-  {
-    "MarkerId": "194",
-    "MarkerUTC": 1680390497.0,
-    "MarkerLTC": 68897,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPunt",
-    "Descriptor_": "4-4-DC 34 (4:39) 19 D. Whelan punts 37 yards from DC 34 to ORL 29. 17 E. Rogers to ORL 45 for 0 yards 14 C. Rambo Gained 24 Extra Yards (57 A. Hines, 23 R. Armstead)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 2,
-      "ClockMinutes": 4,
-      "ClockSeconds": 39
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20699",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20053",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePunter",
-        "OfficialId": "21835",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePuntreturner",
-        "OfficialId": "22708",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 22,
-          "HomeScore": 12,
-          "Period": 2,
-          "TimeRemSecTotal": 279.0,
-          "TimeRemStr": "4:39",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 34
-          },
-          "Distance": 4,
-          "DriveNum": 9,
-          "Down": 4,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultKickReturned",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntYards": 37,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPuntRetYards": 0,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 45
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballExtraYards": {
-          "IndivOrTeam": "Indiv",
-          "TeamId": "8",
-          "PlayerId": "14",
-          "Yards": 24
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 12
-          },
-          "Plays": 4,
-          "Yards": 22,
-          "TOP": "1:53",
-          "Result": "PUNT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_4_1_DC@ORL",
-    "SituationCode": "",
-    "VisitorScore": 22,
-    "HomeScore": 12,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "75",
     "OfficialCode": "2302028-DC-at-ORL"
   },
   {
@@ -14641,108 +14434,6 @@
     "OfficialCode": "2302028-DC-at-ORL"
   },
   {
-    "MarkerId": "419",
-    "MarkerUTC": 1680396515.0,
-    "MarkerLTC": 74915,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "3-1-ORL 33 (4:13) 4 A. Smith rush to ORL 23 for 10 yards Fumbled by 4 A. Smith,  Forced by 56 S. Maponga Recovered by 9 G. Willis (9 G. Willis)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 4,
-      "ClockSeconds": 13
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21427",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21696",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 36,
-          "HomeScore": 37,
-          "Period": 4,
-          "TimeRemSecTotal": 253.0,
-          "TimeRemStr": "4:13",
-          "VisTimeouts": 1,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 33
-          },
-          "Distance": 1,
-          "DriveNum": 21,
-          "Down": 3,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 10,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 23
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "8",
-          "PlayerFumbled": "21427",
-          "TeamRecovered": "4",
-          "PlayerRecovered": "21696",
-          "PlayerForcedFumble": "20992"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 38
-          },
-          "Plays": 5,
-          "Yards": 39,
-          "TOP": "1:50",
-          "Result": "FUMBLE"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_4_1_DC@ORL",
-    "SituationCode": "",
-    "VisitorScore": 36,
-    "HomeScore": 37,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "168",
-    "OfficialCode": "2302028-DC-at-ORL"
-  },
-  {
     "MarkerId": "421",
     "MarkerUTC": 1680396648.0,
     "MarkerLTC": 75048,
@@ -15788,7 +15479,206 @@
     "OfficialCode": "2302028-DC-at-ORL"
   },
   {
-    "MarkerId": "508",
+    "MarkerId": "516",
+    "MarkerUTC": 1680388663.0,
+    "MarkerLTC": 67063,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM DC 30 (3:14) 34 M. McCrane kicks from DC 30. 81 J. Thomas to ORL 26 for 17 yards (31 C. Lewis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 3,
+      "ClockSeconds": 14
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20951",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "21028",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21546",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 14,
+          "HomeScore": 12,
+          "Period": 1,
+          "TimeRemSecTotal": 194.0,
+          "TimeRemStr": "3:14",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 6,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 17,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 26
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_1_DC@ORL",
+    "SituationCode": "",
+    "VisitorScore": 14,
+    "HomeScore": 12,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "40",
+    "OfficialCode": "2302028-DC-at-ORL"
+  },
+  {
+    "MarkerId": "518",
+    "MarkerUTC": 1680390497.0,
+    "MarkerLTC": 68897,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-4-DC 34 (4:39) 19 D. Whelan punts 42 yards from DC 34 to ORL 24. 14 C. Rambo to ORL 45 for 24 yards (57 A. Hines, 23 R. Armstead)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 4,
+      "ClockSeconds": 39
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20699",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20053",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21835",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "22018",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 12,
+          "Period": 2,
+          "TimeRemSecTotal": 279.0,
+          "TimeRemStr": "4:39",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Distance": 4,
+          "DriveNum": 9,
+          "Down": 4,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 42,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 24,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 45
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 12
+          },
+          "Plays": 4,
+          "Yards": 22,
+          "TOP": "1:53",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_1_DC@ORL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 12,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "75",
+    "OfficialCode": "2302028-DC-at-ORL"
+  },
+  {
+    "MarkerId": "521",
     "MarkerUTC": 1680397289.0,
     "MarkerLTC": 75689,
     "MajorType": "Event",
@@ -15805,7 +15695,7 @@
       {
         "EntityId": "",
         "Role": "MapRoleKicker",
-        "OfficialId": "20308",
+        "OfficialId": "21028",
         "SourceId": "QBStat"
       }
     ],
@@ -15862,14 +15752,116 @@
     "SituationCode": "",
     "VisitorScore": 36,
     "HomeScore": 37,
-    "RevisionNum": 22,
+    "RevisionNum": 25,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "182",
     "OfficialCode": "2302028-DC-at-ORL"
   },
   {
-    "MarkerId": "510",
-    "MarkerUTC": 1680547558.6727512,
+    "MarkerId": "523",
+    "MarkerUTC": 1680396515.0,
+    "MarkerLTC": 74915,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-1-ORL 33 (4:13) 4 A. Smith rush to ORL 23 for 10 yards Fumbled by 4 A. Smith,  Forced by 9 G. Willis Recovered by 9 G. Willis (9 G. Willis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 4,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21696",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 36,
+          "HomeScore": 37,
+          "Period": 4,
+          "TimeRemSecTotal": 253.0,
+          "TimeRemStr": "4:13",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Distance": 1,
+          "DriveNum": 21,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 23
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "8",
+          "PlayerFumbled": "21427",
+          "TeamRecovered": "4",
+          "PlayerRecovered": "21696",
+          "PlayerForcedFumble": "21696"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Plays": 5,
+          "Yards": 39,
+          "TOP": "1:50",
+          "Result": "FUMBLE"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_1_DC@ORL",
+    "SituationCode": "",
+    "VisitorScore": 36,
+    "HomeScore": 37,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "168",
+    "OfficialCode": "2302028-DC-at-ORL"
+  },
+  {
+    "MarkerId": "524",
+    "MarkerUTC": 1680644969.55862,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

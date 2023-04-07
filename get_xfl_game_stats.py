@@ -1607,8 +1607,8 @@ def generate_xfl_season_stats(save=False):
     games_df = pd.read_csv('game_stats/player/csv/2023_xfl_player_game_stats.csv')
     games_df = games_df.fillna(0)
 
-    finished_df = pd.DataFrame(games_df.groupby(['Season', 'OfficialID','TeamId','team_abv','team_name', 'FirstName', 'LastName'],as_index=False)\
-        ['Participated', 'IsStarting', 'Scratch',
+    finished_df = pd.DataFrame(games_df.groupby(['Season', 'OfficialID','TeamId','team_abv','team_name', 'FirstName', 'LastName'],as_index=False)[
+        'Participated', 'IsStarting', 'Scratch',
          'PassComp', 'PassAtt',  'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass','Sacked', 'SackedYards','Pass20YdPlays', 'Pass40YdPlays',
          'RushAtt', 'RushYards', 'RushTD', 'FirstDownsByRush', 'RushYardsLongTD', 'Rush10YdPlays', 'Rush20YdPlays',
          'RecThrownAt', 'Recs', 'RecYards', 'RecTD', 'FirstDownsByRec', 'RecYardsAfterCatch', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 
@@ -1700,19 +1700,19 @@ def generate_xfl_season_stats(save=False):
         how='left'
     )
 
-    cols = ['Season', 'OfficialID','TeamId','team_abv','team_name', 'FirstName', 'LastName','Participated', 'IsStarting', 'Scratch',\
-        'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong',\
-        'PASS_YPA', 'PASS_YPC', 'PASS_YDS_GM', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', \
-        'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong',  'Rush10YdPlays', 'Rush20YdPlays', \
-        'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'RecYardsLong', \
-        'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', \
-        'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush', \
-        'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards', \
-        'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards', 'DefSackYardsAvg', \
-        'DefINT', 'DefINTReturnYards', 'DefINTReturnYardsAvg', 'DefINTReturnTD', 'DefINTReturnYardsLong', \
-        'FGAtt', 'FGMade', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', \
-        'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', \
-        'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', \
+    cols = ['Season', 'OfficialID','TeamId','team_abv','team_name', 'FirstName', 'LastName','Participated', 'IsStarting', 'Scratch',
+        'PassComp', 'PassAtt', 'PassCompPercent', 'PassYards', 'PassTD', 'PassINT', 'FirstDownsByPass', 'FirstDownPercentOfPasses', 'PassYardsLong',
+        'PASS_YPA', 'PASS_YPC', 'PASS_YDS_GM', 'CFB_QBR', 'NFL_QBR', 'Sacked', 'SackedYards', 'SackedYardsAvg', 'Pass20YdPlays', 'Pass40YdPlays', 
+        'RushAtt', 'RushYards', 'RushYardsAvg', 'RushTD', 'FirstDownsByRush', 'FirstDownPercentOfRushes', 'RushYardsLong',  'Rush10YdPlays', 'Rush20YdPlays', 
+        'RecThrownAt', 'Recs', 'RecYards', 'RecYardsAvg', 'RecTD', 'FirstDownsByRec', 'FirstDownPercentOfRecs', 'RecYardsLong', 
+        'RecYardsAfterCatch', 'RecYardsAfterCatchAvg', 'RecDropped', 'Rec20YdPlays', 'Rec40YdPlays', 'Fumbles', 'FumblesLost', 'OffTD', 'FirstDowns', 
+        'PAT1PtAttPass', 'PAT1PtAttRec', 'PAT1PtAttRush', 'PAT1PtConvRush', 'PAT1PtPctRush', 'PAT2PtAttPass', 'PAT2PtAttRec', 'PAT2PtAttRush', 'PAT2PtConvRush', 'PAT2PtPctRush', 
+        'PAT3PtAttPass', 'PAT3PtAttRec', 'PAT3PtAttRush', 'PAT3PtConvRush', 'PAT3PtPctRush', 'TotalTD', 'TotalYards', 'Penalties', 'PenaltyYards', 
+        'DefTackles', 'DefSoloTackles', 'DefAssistTackles', 'DefQBHits', 'DefTacklesForLoss', 'DefSacks', 'DefSackYards', 'DefSackYardsAvg', 
+        'DefINT', 'DefINTReturnYards', 'DefINTReturnYardsAvg', 'DefINTReturnTD', 'DefINTReturnYardsLong', 
+        'FGAtt', 'FGMade', 'FGLong', 'FG0To19Att', 'FG0To19Made', 'FG20To29Att', 'FG20To29Made', 'FG30To39Att', 'FG30To39Made', 'FG40To49Att', 'FG40To49Made', 'FG50PlusAtt', 'FG50PlusMade', 
+        'Punts', 'PuntGrossYards', 'PuntGrossYardsAvg', 'PuntGrossYardsLong', 'PuntTouchbacks', 'PuntInside20', 
+        'PuntRetReturns', 'PuntRetYards', 'PuntRetYardsAvg', 'PuntRetTD', 'PuntRetYardsLong', 'PuntRetFairCatches', 
         'KickRetReturns', 'KickRetYards', 'KickRetYardsAvg', 'KickRetTD', 'KickRetYardsLong','KickRetFairCatches']
 
     finished_df = finished_df.reindex(columns=cols)
@@ -1727,12 +1727,12 @@ def main():
     sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
     event_id_arr = sched_df['EventId'].to_list()
     
-    for i in event_id_arr:
-        get_xfl_player_box(i,True)
-        get_xfl_team_box(i,True)
+    # for i in event_id_arr:
+    #     get_xfl_player_box(i,True)
+    #     get_xfl_team_box(i,True)
         
-    combine_player_box()
-    combine_team_box()
+    # combine_player_box()
+    # combine_team_box()
 
     generate_xfl_season_stats(True)
 

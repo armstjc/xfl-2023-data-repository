@@ -11,6 +11,7 @@ from tqdm import tqdm
 from get_xfl_api_token import get_xfl_api_token
 
 warnings.simplefilter(action='ignore', category=DeprecationWarning)
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 def combine_pbp_files():
     main_df = pd.DataFrame()

@@ -28,7 +28,7 @@ def get_xfl_rosters(season=2023,week=1,save=False):
     for player in tqdm(json_data):
         
         official_id = player['OfficialId']
-        print(f"\nPlayer #{official_id}")
+        #print(f"\nPlayer #{official_id}")
         row_df = pd.DataFrame({'Season':xfl_season,'OfficialID':official_id},index=[0])
         row_df['JerseyNum'] = player['JerseyNum']
         row_df['FirstName'] = player['FirstName']
@@ -93,7 +93,7 @@ def combine_weekly_rosters():
 
 def main():
     season = 2023
-    week = 8
+    week = 9
     get_xfl_rosters(season,week,True)
 
     combine_weekly_rosters()

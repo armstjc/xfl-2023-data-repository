@@ -11294,114 +11294,6 @@
     "OfficialCode": "2302030-ARL-at-ORL"
   },
   {
-    "MarkerId": "288",
-    "MarkerUTC": 1680991991.0,
-    "MarkerLTC": 65591,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "2-20-ORL 32 (12:50) 12 Q. Dormady pass intended for 17 E. Rogers INTERCEPTED by 50 W. Taylor returned 12 yards to ORL 15 Fumbled by 50 W. Taylor,  Forced by 10 K. Bryant Recovered by 10 D. Thomas",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 12,
-      "ClockSeconds": 50
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "20407",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "22708",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleInterceptor",
-        "OfficialId": "22375",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 18,
-          "HomeScore": 9,
-          "Period": 4,
-          "TimeRemSecTotal": 770.0,
-          "TimeRemStr": "12:50",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 32
-          },
-          "Distance": 20,
-          "DriveNum": 17,
-          "Down": 2,
-          "PossTeam": "4",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassInterception",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Home",
-          "YardNum": 15
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "1",
-          "PlayerFumbled": "22375",
-          "TeamRecovered": "4",
-          "PlayerRecovered": "21891",
-          "PlayerForcedFumble": "21891"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 13
-          },
-          "Plays": 6,
-          "Yards": 19,
-          "TOP": "2:29",
-          "Result": "INT"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_4_8_ARL@ORL",
-    "SituationCode": "",
-    "VisitorScore": 18,
-    "HomeScore": 9,
-    "RevisionNum": 6,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "113",
-    "OfficialCode": "2302030-ARL-at-ORL"
-  },
-  {
     "MarkerId": "290",
     "MarkerUTC": 1680993022.0,
     "MarkerLTC": 66622,
@@ -13428,7 +13320,159 @@
     "OfficialCode": "2302030-ARL-at-ORL"
   },
   {
-    "MarkerId": "339",
+    "MarkerId": "340",
+    "MarkerUTC": 1680994368.6433797,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 16,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 12,
+          "DriveNum": 23,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_8_ARL@ORL",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 16,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302030-ARL-at-ORL"
+  },
+  {
+    "MarkerId": "343",
+    "MarkerUTC": 1680991991.0,
+    "MarkerLTC": 65591,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-20-ORL 32 (12:50) 12 Q. Dormady pass intended for 17 E. Rogers INTERCEPTED by 50 W. Taylor returned 12 yards to ORL 15 Fumbled by 50 W. Taylor,  Forced by 10 D. Thomas Recovered by 10 D. Thomas",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 12,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20407",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22708",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleInterceptor",
+        "OfficialId": "22375",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 18,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 770.0,
+          "TimeRemStr": "12:50",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Distance": 20,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "4",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassInterception",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 15
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "1",
+          "PlayerFumbled": "22375",
+          "TeamRecovered": "4",
+          "PlayerRecovered": "21891",
+          "PlayerForcedFumble": "21891"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 6,
+          "Yards": 19,
+          "TOP": "2:29",
+          "Result": "INT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_8_ARL@ORL",
+    "SituationCode": "",
+    "VisitorScore": 18,
+    "HomeScore": 9,
+    "RevisionNum": 7,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "113",
+    "OfficialCode": "2302030-ARL-at-ORL"
+  },
+  {
+    "MarkerId": "348",
     "MarkerUTC": 1680994332.0,
     "MarkerLTC": 67932,
     "MajorType": "Event",
@@ -13499,17 +13543,17 @@
     "SituationCode": "",
     "VisitorScore": 18,
     "HomeScore": 16,
-    "RevisionNum": 3,
+    "RevisionNum": 6,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "151",
     "OfficialCode": "2302030-ARL-at-ORL"
   },
   {
-    "MarkerId": "340",
-    "MarkerUTC": 1680994368.6433797,
+    "MarkerId": "350",
+    "MarkerUTC": 1681239178.8497834,
     "MajorType": "Event",
-    "MinorType": "EventEnd",
-    "Descriptor_": "Game End Marker",
+    "MinorType": "EventOfficial",
+    "Descriptor_": "Game Official Marker",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -13545,7 +13589,7 @@
     "VisitorScore": 18,
     "HomeScore": 16,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10020",
+    "SourceNativeMarkerId": "10025",
     "OfficialCode": "2302030-ARL-at-ORL"
   }
 ]

@@ -31,7 +31,7 @@ def get_xfl_player_box(game_id:str,save=False,replace_col_names=False):
     for player in tqdm(json_data):
         
         official_id = player['OfficialId']
-        print(f"\nPlayer #{official_id}")
+        #print(f"\nPlayer #{official_id}")
         row_df = pd.DataFrame({'Season':xfl_season,'game_id':game_id,'OfficialID':official_id},index=[0])
 
 
@@ -866,7 +866,7 @@ def get_xfl_team_box(game_id:str,save=False):
     for team in tqdm(json_data):
         
         official_id = team['OfficialId']
-        print(f"{game_id}\tTeamID #{official_id}")
+        print(f"n\{game_id}\tTeamID #{official_id}")
         row_df = pd.DataFrame({'Season':xfl_season,'game_id':game_id,'OfficialID':official_id},index=[0])
 
         ###############################################################################################################################################################

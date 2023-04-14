@@ -1,4 +1,6 @@
 # xfl-2023-data-repository
+[![Update XFL Stats](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_stats.yml/badge.svg)](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_stats.yml)
+[![update_xfl_epa](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_pbp.yml/badge.svg)](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_pbp.yml)
 
 Houses data related to the 2023 relaunch of the XFL Football League.
 

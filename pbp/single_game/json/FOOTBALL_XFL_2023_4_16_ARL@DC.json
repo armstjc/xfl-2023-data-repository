@@ -14541,73 +14541,6 @@
     "OfficialCode": "2302035-ARL-at-DC"
   },
   {
-    "MarkerId": "415",
-    "MarkerUTC": 1681672421.0,
-    "MarkerLTC": 54821,
-    "MajorType": "Event",
-    "MinorType": "EventFootballOtTryPass",
-    "Descriptor_": "FROM DC 5 (0:00) OT Try: 12 L. Perez pass to 13 C. Vander Esch NO GOOD",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 5
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21207",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21601",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 26,
-          "HomeScore": 28,
-          "Period": 5,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 1,
-          "HomeTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 5
-          },
-          "DriveNum": 24,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_4_16_ARL@DC",
-    "SituationCode": "",
-    "VisitorScore": 26,
-    "HomeScore": 28,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "172",
-    "OfficialCode": "2302035-ARL-at-DC"
-  },
-  {
     "MarkerId": "416",
     "MarkerUTC": 1681672438.0083551,
     "MajorType": "Event",
@@ -15033,8 +14966,75 @@
     "OfficialCode": "2302035-ARL-at-DC"
   },
   {
-    "MarkerId": "421",
-    "MarkerUTC": 1681672525.1318967,
+    "MarkerId": "428",
+    "MarkerUTC": 1681672421.0,
+    "MarkerLTC": 54821,
+    "MajorType": "Event",
+    "MinorType": "EventFootballOtTryPass",
+    "Descriptor_": "FROM DC 5 (0:00) OT Try: 12 L. Perez pass to 13 C. Vander Esch NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 5
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 26,
+          "HomeScore": 28,
+          "Period": 5,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 5
+          },
+          "DriveNum": 24,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_16_ARL@DC",
+    "SituationCode": "",
+    "VisitorScore": 26,
+    "HomeScore": 28,
+    "RevisionNum": 6,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "172",
+    "OfficialCode": "2302035-ARL-at-DC"
+  },
+  {
+    "MarkerId": "430",
+    "MarkerUTC": 1681763591.5123851,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",

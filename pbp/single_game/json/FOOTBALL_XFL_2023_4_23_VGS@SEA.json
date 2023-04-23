@@ -1,0 +1,1680 @@
+[
+  {
+    "MarkerId": "1",
+    "MarkerUTC": 1682291046.8815768,
+    "MajorType": "Event",
+    "MinorType": "EventStart",
+    "Descriptor_": "Game Start Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 15
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10005",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "3",
+    "MarkerUTC": 1682291093.0,
+    "MarkerLTC": 68693,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM SEA 30 (15:00) 11 D. Eberle kicks from SEA 30. 14 C. Sweeting to VGS 34 for 28 yards (8 T. Walker)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 15
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22874",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21507",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 900.0,
+          "TimeRemStr": "15:00",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 30
+          },
+          "DriveNum": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 28,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 34
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "1",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "5",
+    "MarkerUTC": 1682291135.0,
+    "MarkerLTC": 68735,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 34 (14:49) 3 J. McClendon rush to VGS 35 for 1 yard Fumbled by 3 J. McClendon,  Recovered by 3 J. McClendon (8 T. Walker, 58 A. Faoliu)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 49
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21022",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20466",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 889.0,
+          "TimeRemStr": "14:49",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 35
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "7",
+          "PlayerFumbled": "21022",
+          "TeamRecovered": "7",
+          "PlayerRecovered": "21022",
+          "PlayerForcedFumble": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 1,
+          "Yards": 1,
+          "TOP": "0:37",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "2",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "7",
+    "MarkerUTC": 1682291173.0,
+    "MarkerLTC": 68773,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-9-VGS 35 (14:12) 8 J. Lovett rush to VGS 43 for 8 yards (8 T. Walker)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 14,
+      "ClockSeconds": 12
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21872",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21620",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 852.0,
+          "TimeRemStr": "14:12",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 35
+          },
+          "Distance": 9,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 8,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 2,
+          "Yards": 9,
+          "TOP": "0:55",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "3",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "9",
+    "MarkerUTC": 1682291205.0,
+    "MarkerLTC": 68805,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-1-VGS 43 (13:39) 3 J. McClendon rush to VGS 46 for 3 yards (32 Q. Cole, 52 A. Jackson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 39
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21022",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20760",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 819.0,
+          "TimeRemStr": "13:39",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 43
+          },
+          "Distance": 1,
+          "DriveNum": 1,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 3,
+          "Yards": 12,
+          "TOP": "1:35",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "4",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "11",
+    "MarkerUTC": 1682291240.0,
+    "MarkerLTC": 68840,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 46 (13:04) 14 C. Sweeting rush to VGS 46 for 0 yards (16 M. Wright)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 13,
+      "ClockSeconds": 4
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21507",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21721",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 784.0,
+          "TimeRemStr": "13:04",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 0,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 4,
+          "Yards": 12,
+          "TOP": "2:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "5",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "13",
+    "MarkerUTC": 1682291274.0,
+    "MarkerLTC": 68874,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-VGS 46 (12:30) 3 J. McClendon pass incomplete to 13 J. Badet",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 30
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21022",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20072",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 750.0,
+          "TimeRemStr": "12:30",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 2,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 5,
+          "Yards": 12,
+          "TOP": "2:30",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "6",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "15",
+    "MarkerUTC": 1682291312.0,
+    "MarkerLTC": 68912,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-10-VGS 46 (11:59) 3 J. McClendon pass incomplete to 19 G. Allison",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 59
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21022",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22325",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 719.0,
+          "TimeRemStr": "11:59",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 3,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 6,
+          "Yards": 12,
+          "TOP": "3:02",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "7",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "17",
+    "MarkerUTC": 1682291351.0,
+    "MarkerLTC": 68951,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-10-VGS 46 (11:25) 17 M. Carrizosa punts 52 yards from VGS 46 to SEA 2. 86 K. McKnight to SEA 13 for 11 yards (24 W. Adams)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 25
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20007",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21784",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "21875",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 685.0,
+          "TimeRemStr": "11:25",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 4,
+          "PossTeam": "7",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 52,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 13
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 34
+          },
+          "Plays": 6,
+          "Yards": 12,
+          "TOP": "3:35",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "8",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "19",
+    "MarkerUTC": 1682291396.0,
+    "MarkerLTC": 68996,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 13 (11:19) 6 B. DiNucci pass to 0 J. Gordon to SEA 26 for 13 yards (28 C. Avery, 25 M. Evans)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 11,
+      "ClockSeconds": 19
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20066",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20461",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 679.0,
+          "TimeRemStr": "11:19",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 13,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 1,
+          "Yards": 13,
+          "TOP": "0:15",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "9",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "21",
+    "MarkerUTC": 1682291435.0,
+    "MarkerLTC": 69035,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 26 (10:42) 6 B. DiNucci pass to 0 J. Gordon to SEA 38 for 12 yards (6 K. Kennedy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10,
+      "ClockSeconds": 42
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21943",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 642.0,
+          "TimeRemStr": "10:42",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 12,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 2,
+          "Yards": 25,
+          "TOP": "0:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "23",
+    "MarkerUTC": 1682291475.0,
+    "MarkerLTC": 69075,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 38 (10:02) 6 B. DiNucci pass to 0 J. Gordon to SEA 43 for 5 yards (6 K. Kennedy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 10,
+      "ClockSeconds": 2
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21943",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 602.0,
+          "TimeRemStr": "10:02",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 38
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 3,
+          "Yards": 30,
+          "TOP": "1:30",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "11",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "25",
+    "MarkerUTC": 1682291512.0,
+    "MarkerLTC": 69112,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-5-SEA 43 (9:25) 30 P. Lindsay rush to VGS 48 for 9 yards (9 D. Anderson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 9,
+      "ClockSeconds": 25
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22901",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20039",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 565.0,
+          "TimeRemStr": "9:25",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 43
+          },
+          "Distance": 5,
+          "DriveNum": 2,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 4,
+          "Yards": 39,
+          "TOP": "2:06",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "12",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "27",
+    "MarkerUTC": 1682291551.0,
+    "MarkerLTC": 69151,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-VGS 48 (8:46) 6 B. DiNucci pass to 89 C. Taumoepeau to VGS 36 for 12 yards (96 K. Pinkney)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 46
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21967",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21238",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 526.0,
+          "TimeRemStr": "8:46",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 48
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 12,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 5,
+          "Yards": 51,
+          "TOP": "2:58",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "13",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "29",
+    "MarkerUTC": 1682291593.0,
+    "MarkerLTC": 69193,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-VGS 36 (8:05) 19 T. Hammonds rush to VGS 29 for 7 yards (31 J. Summers, 25 M. Evans)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 8,
+      "ClockSeconds": 5
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22754",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20461",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 485.0,
+          "TimeRemStr": "8:05",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 6,
+          "Yards": 58,
+          "TOP": "3:38",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "14",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "31",
+    "MarkerUTC": 1682291631.0,
+    "MarkerLTC": 69231,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-3-VGS 29 (7:27) 19 T. Hammonds rush to VGS 25 for 4 yards (98 C. Walker, 90 J. Martin)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 7,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22794",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21948",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 447.0,
+          "TimeRemStr": "7:27",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Distance": 3,
+          "DriveNum": 2,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 7,
+          "Yards": 62,
+          "TOP": "4:08",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "15",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "33",
+    "MarkerUTC": 1682291673.0,
+    "MarkerLTC": 69273,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-VGS 25 (6:44) 6 B. DiNucci pass to 19 T. Hammonds to VGS 16 for 9 yards (48 D. Calhoun)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 44
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21744",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 404.0,
+          "TimeRemStr": "6:44",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Distance": 10,
+          "DriveNum": 2,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 8,
+          "Yards": 71,
+          "TOP": "4:45",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "16",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "35",
+    "MarkerUTC": 1682291710.0,
+    "MarkerLTC": 69310,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-1-VGS 16 (6:11) 19 T. Hammonds rush to VGS 21 for -5 yards (26 M. Smith)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 6,
+      "ClockSeconds": 11
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "20620",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21444",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 371.0,
+          "TimeRemStr": "6:11",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 16
+          },
+          "Distance": 1,
+          "DriveNum": 2,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 9,
+          "Yards": 66,
+          "TOP": "5:21",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "17",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "37",
+    "MarkerUTC": 1682291754.0,
+    "MarkerLTC": 69354,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-6-VGS 21 (5:28) 6 B. DiNucci pass incomplete to 86 K. McKnight",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 5,
+      "ClockSeconds": 28
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21875",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 328.0,
+          "TimeRemStr": "5:28",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 21
+          },
+          "Distance": 6,
+          "DriveNum": 2,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 10,
+          "Yards": 66,
+          "TOP": "5:54",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "18",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  },
+  {
+    "MarkerId": "39",
+    "MarkerUTC": 1682291789.0,
+    "MarkerLTC": 69389,
+    "MajorType": "Event",
+    "MinorType": "EventFootballFg",
+    "Descriptor_": "4-6-VGS 21 (4:57) 11 D. Eberle 39 yard field goal is NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 4,
+      "ClockSeconds": 57
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22874",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 297.0,
+          "TimeRemStr": "4:57",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 21
+          },
+          "Distance": 6,
+          "DriveNum": 2,
+          "Down": 4,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickMissed",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 39,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 13
+          },
+          "Plays": 11,
+          "Yards": 66,
+          "TOP": "6:28",
+          "Result": "MISSED FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
+    "SituationCode": "",
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "19",
+    "OfficialCode": "2302040-VGS-at-SEA"
+  }
+]

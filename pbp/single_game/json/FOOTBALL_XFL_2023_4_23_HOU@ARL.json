@@ -10496,12 +10496,12 @@
     "OfficialCode": "2302039-HOU-at-ARL"
   },
   {
-    "MarkerId": "335",
+    "MarkerId": "336",
     "MarkerUTC": 1682284492.0,
     "MarkerLTC": 62092,
     "MajorType": "Event",
     "MinorType": "EventFootballRush",
-    "Descriptor_": "2-7-HOU 32 (10:15) 35 J. Cox rush to HOU 36 for 4 yards",
+    "Descriptor_": "2-7-HOU 32 (10:15) 35 J. Cox rush to HOU 36 for 4 yards (72 T. Barnes)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -10515,6 +10515,12 @@
         "EntityId": "",
         "Role": "MapRoleRusher",
         "OfficialId": "21854",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20089",
         "SourceId": "QBStat"
       }
     ],
@@ -10542,7 +10548,7 @@
         "SourceId": "QBStat"
       },
       {
-        "FootballStatus": "StatusUnofficial",
+        "FootballStatus": "StatusOfficial",
         "SourceId": "QBStat"
       },
       {
@@ -10557,7 +10563,7 @@
           },
           "Plays": 2,
           "Yards": 7,
-          "TOP": "0:56",
+          "TOP": "1:05",
           "Result": " "
         },
         "SourceId": "QBStat"
@@ -10568,9 +10574,2077 @@
     "SituationCode": "",
     "VisitorScore": 22,
     "HomeScore": 9,
-    "RevisionNum": 1,
+    "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "119",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "338",
+    "MarkerUTC": 1682284529.0,
+    "MarkerLTC": 62129,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-3-HOU 36 (9:38) 35 J. Cox rush to HOU 40 for 4 yards (72 T. Barnes, 22 J. Carter)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 9,
+      "ClockSeconds": 38
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21854",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20089",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20270",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 578.0,
+          "TimeRemStr": "9:38",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 36
+          },
+          "Distance": 3,
+          "DriveNum": 15,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Plays": 3,
+          "Yards": 11,
+          "TOP": "1:37",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "120",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "340",
+    "MarkerUTC": 1682284572.0,
+    "MarkerLTC": 62172,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-HOU 40 (8:55) 21 G. Owens rush to HOU 44 for 4 yards (53 D. Sankey, 22 J. Carter)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 8,
+      "ClockSeconds": 55
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21173",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22886",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20270",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 535.0,
+          "TimeRemStr": "8:55",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 10,
+          "DriveNum": 15,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Plays": 4,
+          "Yards": 15,
+          "TOP": "2:44",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "121",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "342",
+    "MarkerUTC": 1682284626.0,
+    "MarkerLTC": 62226,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-6-HOU 44 (8:07) 5 K. Eleby pass dropped by 86 T. Salter",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 8,
+      "ClockSeconds": 7
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20445",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21362",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 487.0,
+          "TimeRemStr": "8:07",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 44
+          },
+          "Distance": 6,
+          "DriveNum": 15,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Plays": 5,
+          "Yards": 15,
+          "TOP": "3:01",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "122",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "344",
+    "MarkerUTC": 1682284658.0,
+    "MarkerLTC": 62258,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-6-HOU 44 (7:38) PENALTY on (HOU) 75 J. Baker, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7,
+      "ClockSeconds": 38
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 458.0,
+          "TimeRemStr": "7:38",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 44
+          },
+          "Distance": 6,
+          "DriveNum": 15,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "2",
+          "PlayerId": "20080",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Plays": 5,
+          "Yards": 10,
+          "TOP": "3:25",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "123",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "346",
+    "MarkerUTC": 1682284704.0,
+    "MarkerLTC": 62304,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-11-HOU 39 (7:09) 5 K. Eleby pass dropped by 10 J. Smith",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7,
+      "ClockSeconds": 9
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "20445",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21441",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 429.0,
+          "TimeRemStr": "7:09",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 11,
+          "DriveNum": 15,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Plays": 6,
+          "Yards": 10,
+          "TOP": "4:01",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "124",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "348",
+    "MarkerUTC": 1682284741.0,
+    "MarkerLTC": 62341,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-11-HOU 39 (6:35) 46 R. Porter punts 35 yards from HOU 39 to ARL 26. 16 R. Hall to ARL 32 for 6 yards (27 D. Lewis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 6,
+      "ClockSeconds": 35
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22597",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21248",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePuntreturner",
+        "OfficialId": "22529",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 395.0,
+          "TimeRemStr": "6:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 11,
+          "DriveNum": 15,
+          "Down": 4,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 35,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntRetYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 32
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Plays": 6,
+          "Yards": 10,
+          "TOP": "4:41",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "125",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "350",
+    "MarkerUTC": 1682284973.0,
+    "MarkerLTC": 62573,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ARL 32 (6:23) 12 L. Perez pass to 80 S. Cannella to HOU 46 for 22 yards (18 J. Mosley)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 6,
+      "ClockSeconds": 23
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22030",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21108",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 383.0,
+          "TimeRemStr": "6:23",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Distance": 10,
+          "DriveNum": 16,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 22,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 1,
+          "Yards": 22,
+          "TOP": "0:25",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "126",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "355",
+    "MarkerUTC": 1682285048.0,
+    "MarkerLTC": 62648,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-15-ARL 49 (5:08) 12 L. Perez pass to 35 B. Herrien to HOU 45 for 6 yards (27 D. Lewis)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 5,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20679",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22597",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 308.0,
+          "TimeRemStr": "5:08",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 49
+          },
+          "Distance": 15,
+          "DriveNum": 16,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 3,
+          "Yards": 23,
+          "TOP": "1:34",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "128",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "356",
+    "MarkerUTC": 1682285004.0,
+    "MarkerLTC": 62604,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-10-HOU 46 (5:52) 12 L. Perez sacked at ARL 49 for -5 yards Fumbled by 12 L. Perez,  Forced by 99 T. Mason Recovered by 56 C. Hunt (99 T. Mason)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 5,
+      "ClockSeconds": 52
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21004",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 352.0,
+          "TimeRemStr": "5:52",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 46
+          },
+          "Distance": 10,
+          "DriveNum": 16,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 49
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "1",
+          "PlayerFumbled": "21207",
+          "TeamRecovered": "1",
+          "PlayerRecovered": "20735",
+          "PlayerForcedFumble": "21004"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 2,
+          "Yards": 17,
+          "TOP": "1:21",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "127",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "358",
+    "MarkerUTC": 1682285079.0,
+    "MarkerLTC": 62679,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-9-HOU 45 (4:37) 12 L. Perez rush to HOU 39 for 6 yards (18 J. Mosley)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 4,
+      "ClockSeconds": 37
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21108",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 277.0,
+          "TimeRemStr": "4:37",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Distance": 9,
+          "DriveNum": 16,
+          "Down": 3,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 4,
+          "Yards": 29,
+          "TOP": "2:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "129",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "360",
+    "MarkerUTC": 1682285163.0,
+    "MarkerLTC": 62763,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "4-3-HOU 39 (3:56) 12 L. Perez pass incomplete to 35 B. Herrien Pass Defended by 11 T. Beckett",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 56
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20679",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "20107",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 236.0,
+          "TimeRemStr": "3:56",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 3,
+          "DriveNum": 16,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 32
+          },
+          "Plays": 5,
+          "Yards": 29,
+          "TOP": "2:39",
+          "Result": "DOWNS"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "130",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "362",
+    "MarkerUTC": 1682285204.0,
+    "MarkerLTC": 62804,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-HOU 39 (3:53) 35 J. Cox rush to HOU 38 for -1 yards (36 C. Schooler)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 53
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21854",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21379",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 233.0,
+          "TimeRemStr": "3:53",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 1,
+          "Yards": -1,
+          "TOP": "0:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "131",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "364",
+    "MarkerUTC": 1682285235.0,
+    "MarkerLTC": 62835,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-11-HOU 38 (3:22) 35 J. Cox rush to HOU 42 for 4 yards (53 D. Sankey, 22 J. Carter)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 3,
+      "ClockSeconds": 22
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21854",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22886",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20270",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 202.0,
+          "TimeRemStr": "3:22",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 38
+          },
+          "Distance": 11,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 2,
+          "Yards": 3,
+          "TOP": "0:49",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "132",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "367",
+    "MarkerUTC": 1682285292.0,
+    "MarkerLTC": 62892,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-7-HOU 42 (2:25) 14 C. McDonald pass to 86 T. Salter to ARL 25 for 33 yards (5 W. Hill)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 25
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21982",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21362",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20693",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 145.0,
+          "TimeRemStr": "2:25",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 42
+          },
+          "Distance": 7,
+          "DriveNum": 17,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 33,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 3,
+          "Yards": 36,
+          "TOP": "1:37",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "133",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "369",
+    "MarkerUTC": 1682285451.0,
+    "MarkerLTC": 63051,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "1-10-ARL 25 (2:09) Timeout by Arlington Renegades at 2:09",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 9
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 129.0,
+          "TimeRemStr": "2:09",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 3,
+          "Yards": 36,
+          "TOP": "1:47",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "134",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "371",
+    "MarkerUTC": 1682285458.0,
+    "MarkerLTC": 63058,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ARL 25 (2:05) 14 C. McDonald rush to ARL 26 for -1 yards (22 J. Carter)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 5
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21982",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20270",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 125.0,
+          "TimeRemStr": "2:05",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 25
+          },
+          "Distance": 10,
+          "DriveNum": 17,
+          "Down": 1,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 4,
+          "Yards": 35,
+          "TOP": "1:53",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "135",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "373",
+    "MarkerUTC": 1682285494.0,
+    "MarkerLTC": 63094,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "2-11-ARL 26 (2:03) Timeout by Arlington Renegades at 2:03",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 2,
+      "ClockSeconds": 3
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 123.0,
+          "TimeRemStr": "2:03",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 11,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "1",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 4,
+          "Yards": 35,
+          "TOP": "1:53",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "136",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "375",
+    "MarkerUTC": 1682285533.0,
+    "MarkerLTC": 63133,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-11-ARL 26 (1:58) 14 C. McDonald rush to ARL 24 for 2 yards (71 J. Coatney)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21982",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21922",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 118.0,
+          "TimeRemStr": "1:58",
+          "VisTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 26
+          },
+          "Distance": 11,
+          "DriveNum": 17,
+          "Down": 2,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 5,
+          "Yards": 37,
+          "TOP": "2:00",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "137",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "377",
+    "MarkerUTC": 1682285746.0,
+    "MarkerLTC": 63346,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-9-ARL 24 (1:53) 14 C. McDonald rush to ARL 20 for 4 yards (90 B. Hector)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 53
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21982",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22010",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 113.0,
+          "TimeRemStr": "1:53",
+          "VisTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Distance": 9,
+          "DriveNum": 17,
+          "Down": 3,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 6,
+          "Yards": 41,
+          "TOP": "2:16",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "138",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "379",
+    "MarkerUTC": 1682285796.0,
+    "MarkerLTC": 63396,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "4-5-ARL 20 (1:13) Timeout by Houston Roughnecks at 1:13",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 13
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 73.0,
+          "TimeRemStr": "1:13",
+          "VisTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 5,
+          "DriveNum": 17,
+          "Down": 4,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "2",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 6,
+          "Yards": 41,
+          "TOP": "2:43",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "139",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "381",
+    "MarkerUTC": 1682285841.0,
+    "MarkerLTC": 63441,
+    "MajorType": "Event",
+    "MinorType": "EventFootballFg",
+    "Descriptor_": "4-5-ARL 20 (1:13) 8 A. Jones 38 yard field goal is GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22903",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 22,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 73.0,
+          "TimeRemStr": "1:13",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 5,
+          "DriveNum": 17,
+          "Down": 4,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickMade",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 38,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeFg",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 7,
+          "Yards": 41,
+          "TOP": "2:43",
+          "Result": "FG"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 22,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "140",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "383",
+    "MarkerUTC": 1682285909.0,
+    "MarkerLTC": 63509,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM HOU 30 (1:08) 8 A. Jones kicks from HOU 30. 16 R. Hall to ARL 20 for 10 yards (24 A. Myres)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 8
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22032",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22903",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "22529",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 68.0,
+          "TimeRemStr": "1:08",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 18,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 20
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "141",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "385",
+    "MarkerUTC": 1682285972.0,
+    "MarkerLTC": 63572,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ARL 20 (0:58) 12 L. Perez pass incomplete to 35 B. Herrien",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20679",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 58.0,
+          "TimeRemStr": "0:58",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 18,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 1,
+          "TOP": "0:10",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "142",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "387",
+    "MarkerUTC": 1682286005.0,
+    "MarkerLTC": 63605,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-ARL 20 (0:52) 12 L. Perez pass to 35 B. Herrien to ARL 34 for 14 yards (11 T. Beckett)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 52
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20679",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20107",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 52.0,
+          "TimeRemStr": "0:52",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Distance": 10,
+          "DriveNum": 18,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 14,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 2,
+          "Yards": 14,
+          "TOP": "0:24",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "143",
     "OfficialCode": "2302039-HOU-at-ARL"
   }
 ]

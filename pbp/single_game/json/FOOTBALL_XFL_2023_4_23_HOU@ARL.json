@@ -12556,12 +12556,314 @@
     "OfficialCode": "2302039-HOU-at-ARL"
   },
   {
-    "MarkerId": "387",
+    "MarkerId": "389",
+    "MarkerUTC": 1682286038.0,
+    "MarkerLTC": 63638,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-ARL 34 (0:32) 12 L. Perez rush to ARL 44 for 10 yards (4 W. Likely)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 32
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22601",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 32.0,
+          "TimeRemStr": "0:32",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Distance": 10,
+          "DriveNum": 18,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 3,
+          "Yards": 24,
+          "TOP": "0:35",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "144",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "392",
+    "MarkerUTC": 1682286075.0,
+    "MarkerLTC": 63675,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-ARL 44 (0:27) 12 L. Perez pass to 35 B. Herrien to HOU 45 for 11 yards (16 R. Texada)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20679",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21536",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 27.0,
+          "TimeRemStr": "0:27",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 44
+          },
+          "Distance": 10,
+          "DriveNum": 18,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 11,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 4,
+          "Yards": 35,
+          "TOP": "0:51",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "145",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "395",
+    "MarkerUTC": 1682286105.0,
+    "MarkerLTC": 63705,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-10-HOU 45 (0:07) 12 L. Perez sacked at ARL 45 for -10 yards (33 T. Harris)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 7
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "22857",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemSecTotal": 7.0,
+          "TimeRemStr": "0:07",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Distance": 10,
+          "DriveNum": 18,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 20
+          },
+          "Plays": 5,
+          "Yards": 25,
+          "TOP": "1:07",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "146",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "396",
+    "MarkerUTC": 1682286129.8422844,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 20,
+          "DriveNum": 18,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "397",
     "MarkerUTC": 1682286005.0,
     "MarkerLTC": 63605,
     "MajorType": "Event",
     "MinorType": "EventFootballPass",
-    "Descriptor_": "2-10-ARL 20 (0:52) 12 L. Perez pass to 35 B. Herrien to ARL 34 for 14 yards (11 T. Beckett)",
+    "Descriptor_": "2-10-ARL 20 (0:52) 12 L. Perez pass to 35 B. Herrien to ARL 34 for 14 yards QB Hit by 47 C. Rivers (11 T. Beckett)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -12586,6 +12888,12 @@
         "EntityId": "",
         "Role": "MapRoleTackler1",
         "OfficialId": "20107",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleQbHitter",
+        "OfficialId": "21820",
         "SourceId": "QBStat"
       }
     ],
@@ -12638,13 +12946,58 @@
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
     "SituationCode": "",
     "VisitorScore": 25,
     "HomeScore": 9,
-    "RevisionNum": 2,
+    "RevisionNum": 3,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "143",
+    "OfficialCode": "2302039-HOU-at-ARL"
+  },
+  {
+    "MarkerId": "398",
+    "MarkerUTC": 1682286642.218003,
+    "MajorType": "Event",
+    "MinorType": "EventOfficial",
+    "Descriptor_": "Game Official Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 25,
+          "HomeScore": 9,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 20,
+          "DriveNum": 18,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_23_HOU@ARL",
+    "SituationCode": "",
+    "VisitorScore": 25,
+    "HomeScore": 9,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10025",
     "OfficialCode": "2302039-HOU-at-ARL"
   }
 ]

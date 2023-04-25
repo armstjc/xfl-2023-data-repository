@@ -12090,88 +12090,6 @@
     "OfficialCode": "2302040-VGS-at-SEA"
   },
   {
-    "MarkerId": "311",
-    "MarkerUTC": 1682300805.0,
-    "MarkerLTC": 78405,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-SEA 32 (0:00) 30 P. Lindsay rush to SEA 42 for 10 yards (24 W. Adams)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22901",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "20007",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 9,
-          "HomeScore": 28,
-          "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 2,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 32
-          },
-          "Distance": 10,
-          "DriveNum": 24,
-          "Down": 1,
-          "PossTeam": "6",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 10,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 17
-          },
-          "Plays": 3,
-          "Yards": 25,
-          "TOP": "1:33",
-          "Result": "HALF"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
-    "SituationCode": "",
-    "VisitorScore": 9,
-    "HomeScore": 28,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "141",
-    "OfficialCode": "2302040-VGS-at-SEA"
-  },
-  {
     "MarkerId": "312",
     "MarkerUTC": 1682300831.9488473,
     "MajorType": "Event",
@@ -12422,18 +12340,32 @@
     "OfficialCode": "2302040-VGS-at-SEA"
   },
   {
-    "MarkerId": "315",
-    "MarkerUTC": 1682301199.04192,
+    "MarkerId": "320",
+    "MarkerUTC": 1682300805.0,
+    "MarkerLTC": 78405,
     "MajorType": "Event",
-    "MinorType": "EventOfficial",
-    "Descriptor_": "Game Official Marker",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SEA 32 (0:00) 30 P. Lindsay rush to SEA 42 for 10 yards (24 W. Adams)",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
     "ETime": {
       "Period": 4
     },
-    "Participants": [],
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22901",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20007",
+        "SourceId": "QBStat"
+      }
+    ],
     "Properties": [
       {
         "FootballEventContext": {
@@ -12445,7 +12377,7 @@
           "HomeTimeouts": 3,
           "BallOn": {
             "VisOrHome": "Home",
-            "YardNum": 42
+            "YardNum": 32
           },
           "Distance": 10,
           "DriveNum": 24,
@@ -12455,15 +12387,38 @@
           "LastPlayStatus": ""
         },
         "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 17
+          },
+          "Plays": 3,
+          "Yards": 25,
+          "TOP": "1:33",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
       }
     ],
     "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
     "EventId": "FOOTBALL_XFL_2023_4_23_VGS@SEA",
     "SituationCode": "",
     "VisitorScore": 9,
     "HomeScore": 28,
+    "RevisionNum": 6,
     "SourceId": "QBStat",
-    "SourceNativeMarkerId": "10025",
+    "SourceNativeMarkerId": "141",
     "OfficialCode": "2302040-VGS-at-SEA"
   }
 ]

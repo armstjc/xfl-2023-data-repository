@@ -3252,12 +3252,12 @@
     "OfficialCode": "2303001-NorthChamp"
   },
   {
-    "MarkerId": "84",
-    "MarkerUTC": 1682883641.0,
-    "MarkerLTC": 56441,
+    "MarkerId": "87",
+    "MarkerUTC": 1682883674.0,
+    "MarkerLTC": 56474,
     "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "1-10-Midfield (14:54) 6 B. DiNucci pass dropped by 3 J. Pearson Pass Defended by 24 A. Kelly",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-Midfield (14:54) PENALTY on (DC) 36 D. Swearinger, 5 yards",
     "Comments": "",
     "IsOfficial": true,
     "Confidence": 100,
@@ -3266,26 +3266,7 @@
       "ClockMinutes": 14,
       "ClockSeconds": 54
     },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21979",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21203",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRolePassDefender",
-        "OfficialId": "20873",
-        "SourceId": "QBStat"
-      }
-    ],
+    "Participants": [],
     "Properties": [
       {
         "FootballEventContext": {
@@ -3314,7 +3295,13 @@
         "SourceId": "QBStat"
       },
       {
-        "FootballPlayResult": "ResultPassDropped",
+        "FootballPenalty": {
+          "TeamId": "8",
+          "PlayerId": "22902",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
         "SourceId": "QBStat"
       },
       {
@@ -3323,9 +3310,9 @@
             "VisOrHome": "Visitor",
             "YardNum": 24
           },
-          "Plays": 5,
-          "Yards": 26,
-          "TOP": "2:05",
+          "Plays": 4,
+          "Yards": 31,
+          "TOP": "2:10",
           "Result": " "
         },
         "SourceId": "QBStat"
@@ -3339,6 +3326,3415 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "37",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "89",
+    "MarkerUTC": 1682883706.0,
+    "MarkerLTC": 56506,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 45 (14:30) 6 B. DiNucci pass to 0 J. Gordon to DC 41 for 4 yards (39 S. Ramirez)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 14,
+      "ClockSeconds": 30
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 870.0,
+          "TimeRemStr": "14:30",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 45
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 5,
+          "Yards": 35,
+          "TOP": "2:46",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "38",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "91",
+    "MarkerUTC": 1682883742.0,
+    "MarkerLTC": 56542,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-6-DC 41 (13:56) 6 B. DiNucci pass incomplete to 4 J. Green Pass Defended by 39 S. Ramirez",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 13,
+      "ClockSeconds": 56
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22035",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 836.0,
+          "TimeRemStr": "13:56",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 6,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 6,
+          "Yards": 35,
+          "TOP": "3:08",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "39",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "93",
+    "MarkerUTC": 1682883780.0,
+    "MarkerLTC": 56580,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-6-DC 41 (13:21) 6 B. DiNucci pass to 80 B. Jackson to DC 24 for 17 yards (24 A. Kelly)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 13,
+      "ClockSeconds": 21
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20761",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20873",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 801.0,
+          "TimeRemStr": "13:21",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 6,
+          "DriveNum": 5,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 17,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 7,
+          "Yards": 52,
+          "TOP": "4:02",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "40",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "95",
+    "MarkerUTC": 1682883818.0,
+    "MarkerLTC": 56618,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 24 (12:43) 6 B. DiNucci pass to 4 J. Green to DC 15 for 9 yards (39 S. Ramirez)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 12,
+      "ClockSeconds": 43
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22035",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21278",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 763.0,
+          "TimeRemStr": "12:43",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 24
+          },
+          "Distance": 10,
+          "DriveNum": 5,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 9,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 8,
+          "Yards": 61,
+          "TOP": "4:34",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "41",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "97",
+    "MarkerUTC": 1682883857.0,
+    "MarkerLTC": 56657,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-1-DC 15 (12:11) 6 B. DiNucci pass dropped by 4 J. Green",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 12,
+      "ClockSeconds": 11
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22035",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 731.0,
+          "TimeRemStr": "12:11",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 15
+          },
+          "Distance": 1,
+          "DriveNum": 5,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 9,
+          "Yards": 61,
+          "TOP": "4:48",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "42",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "99",
+    "MarkerUTC": 1682883896.0,
+    "MarkerLTC": 56696,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-1-DC 15 (11:38) 6 B. DiNucci pass to 3 J. Pearson for 15 yards, TOUCHDOWN",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 11,
+      "ClockSeconds": 38
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21203",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 3,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 698.0,
+          "TimeRemStr": "11:38",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 15
+          },
+          "Distance": 1,
+          "DriveNum": 5,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 15,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballMainScoringPlay": "ScoreTypeTd",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 10,
+          "Yards": 76,
+          "TOP": "5:21",
+          "Result": "TD"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 3,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "43",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "101",
+    "MarkerUTC": 1682883967.0,
+    "MarkerLTC": 56767,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPat2PtPass",
+    "Descriptor_": "FROM DC 5 (11:38) 6 B. DiNucci 2-pt conversion pass to 88 J. Veasy NO GOOD",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 11,
+      "ClockSeconds": 38
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22306",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 698.0,
+          "TimeRemStr": "11:38",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 5
+          },
+          "DriveNum": 5,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballConvAttPts": 2,
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "44",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "103",
+    "MarkerUTC": 1682884200.0,
+    "MarkerLTC": 57000,
+    "MajorType": "Event",
+    "MinorType": "EventFootballKickoff",
+    "Descriptor_": "FROM SEA 30 (11:37) 11 D. Eberle kicks from SEA 30. 13 P. Williams to SEA 40 for 51 yards (1 B. Thompson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 11,
+      "ClockSeconds": 37
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22377",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKicker",
+        "OfficialId": "22874",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleKickreturner",
+        "OfficialId": "21685",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 697.0,
+          "TimeRemStr": "11:37",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 30
+          },
+          "DriveNum": 6,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickReturned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballKickRetYards": 51,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 40
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "45",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "105",
+    "MarkerUTC": 1682884258.0,
+    "MarkerLTC": 57058,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 40 (11:24) 10 J. Ta'amu pass intended for 0 J. Hammond INTERCEPTED by 48 S. Miller returned 11 yards to SEA 39 Pass Defended by 2 A. Brooks",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 11,
+      "ClockSeconds": 24
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20618",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleInterceptor",
+        "OfficialId": "22630",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21919",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 684.0,
+          "TimeRemStr": "11:24",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Distance": 10,
+          "DriveNum": 6,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassInterception",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 39
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 40
+          },
+          "Plays": 1,
+          "TOP": "0:14",
+          "Result": "INT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "46",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "108",
+    "MarkerUTC": 1682884323.0,
+    "MarkerLTC": 57123,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 39 (11:17) 6 B. DiNucci pass to 88 J. Veasy to SEA 44 for 5 yards (5 R. Northrup)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 11,
+      "ClockSeconds": 17
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22306",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21148",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 677.0,
+          "TimeRemStr": "11:17",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Distance": 10,
+          "DriveNum": 7,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 5,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 1,
+          "Yards": 5,
+          "TOP": "0:29",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "47",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "110",
+    "MarkerUTC": 1682884354.0,
+    "MarkerLTC": 57154,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-5-SEA 44 (10:46) 6 B. DiNucci pass to 3 J. Pearson to Midfield for 6 yards (5 R. Northrup)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 10,
+      "ClockSeconds": 46
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21203",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21148",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 646.0,
+          "TimeRemStr": "10:46",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 44
+          },
+          "Distance": 5,
+          "DriveNum": 7,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 2,
+          "Yards": 11,
+          "TOP": "0:42",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "48",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "112",
+    "MarkerUTC": 1682884387.0,
+    "MarkerLTC": 57187,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-Midfield (10:13) 6 B. DiNucci pass to 4 J. Green to DC 33 for 17 yards (29 K. Brice)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 10,
+      "ClockSeconds": 13
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22035",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20180",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 613.0,
+          "TimeRemStr": "10:13",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 50
+          },
+          "Distance": 10,
+          "DriveNum": 7,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 17,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 3,
+          "Yards": 28,
+          "TOP": "1:34",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "49",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "114",
+    "MarkerUTC": 1682884422.0,
+    "MarkerLTC": 57222,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-10-DC 33 (9:38) 6 B. DiNucci sacked at DC 40 for -7 yards (48 A. Mintze)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 9,
+      "ClockSeconds": 38
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "21080",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 578.0,
+          "TimeRemStr": "9:38",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 33
+          },
+          "Distance": 10,
+          "DriveNum": 7,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -7,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 4,
+          "Yards": 21,
+          "TOP": "2:03",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "50",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "116",
+    "MarkerUTC": 1682884462.0,
+    "MarkerLTC": 57262,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-17-DC 40 (8:59) 6 B. DiNucci pass incomplete",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 8,
+      "ClockSeconds": 59
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 539.0,
+          "TimeRemStr": "8:59",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 17,
+          "DriveNum": 7,
+          "Down": 2,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 5,
+          "Yards": 21,
+          "TOP": "2:25",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "51",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "118",
+    "MarkerUTC": 1682884502.0,
+    "MarkerLTC": 57302,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-17-DC 40 (8:26) 6 B. DiNucci pass incomplete to 0 J. Gordon",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 8,
+      "ClockSeconds": 26
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21979",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22840",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 506.0,
+          "TimeRemStr": "8:26",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 17,
+          "DriveNum": 7,
+          "Down": 3,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 6,
+          "Yards": 21,
+          "TOP": "2:55",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "52",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "120",
+    "MarkerUTC": 1682884539.0,
+    "MarkerLTC": 57339,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "4-17-DC 40 (8:03) Timeout by D.C. Defenders at 8:03",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 8,
+      "ClockSeconds": 3
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 483.0,
+          "TimeRemStr": "8:03",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 17,
+          "DriveNum": 7,
+          "Down": 4,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "8",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 6,
+          "Yards": 21,
+          "TOP": "3:18",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "53",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "123",
+    "MarkerUTC": 1682884604.0,
+    "MarkerLTC": 57404,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPunt",
+    "Descriptor_": "4-17-DC 40 (7:52) 10 C. Nizialek punts 34 yards, downed at DC 6",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 7,
+      "ClockSeconds": 52
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePunter",
+        "OfficialId": "21997",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 472.0,
+          "TimeRemStr": "7:52",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 17,
+          "DriveNum": 7,
+          "Down": 4,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultKickDowned",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPuntYards": 34,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Home",
+          "YardNum": 6
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 39
+          },
+          "Plays": 6,
+          "Yards": 21,
+          "TOP": "3:32",
+          "Result": "PUNT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "54",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "125",
+    "MarkerUTC": 1682884814.0,
+    "MarkerLTC": 57614,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-DC 6 (7:48) 4 A. Smith rush to DC 8 for 2 yards (96 D. Joseph)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 7,
+      "ClockSeconds": 48
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21869",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 468.0,
+          "TimeRemStr": "7:48",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 1,
+          "Yards": 2,
+          "TOP": "0:16",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "55",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "127",
+    "MarkerUTC": 1682884915.0,
+    "MarkerLTC": 57715,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-8-DC 8 (7:10) 10 J. Ta'amu pass to 4 A. Smith to DC 14 for 6 yards (32 Q. Cole)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 7,
+      "ClockSeconds": 10
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20311",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 430.0,
+          "TimeRemStr": "7:10",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 8
+          },
+          "Distance": 8,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 2,
+          "Yards": 8,
+          "TOP": "0:54",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "56",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "129",
+    "MarkerUTC": 1682884959.0,
+    "MarkerLTC": 57759,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-2-DC 14 (6:35) PENALTY on D.C. Defenders, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 6,
+      "ClockSeconds": 35
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 395.0,
+          "TimeRemStr": "6:35",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Distance": 2,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "8",
+          "PlayerId": "TM",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 2,
+          "Yards": 3,
+          "TOP": "1:17",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "57",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "131",
+    "MarkerUTC": 1682885005.0,
+    "MarkerLTC": 57805,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "3-7-DC 9 (6:19) PENALTY on Seattle Sea Dragons, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 6,
+      "ClockSeconds": 19
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 379.0,
+          "TimeRemStr": "6:19",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 9
+          },
+          "Distance": 7,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "6",
+          "PlayerId": "TM",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 2,
+          "Yards": 8,
+          "TOP": "1:33",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "58",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "133",
+    "MarkerUTC": 1682885064.0,
+    "MarkerLTC": 57864,
+    "MajorType": "Event",
+    "MinorType": "EventFootballTimeout",
+    "Descriptor_": "3-2-DC 14 (6:04) Timeout by Seattle Sea Dragons at 6:04",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 6,
+      "ClockSeconds": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 364.0,
+          "TimeRemStr": "6:04",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Distance": 2,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballTimeoutTeamId": "6",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 2,
+          "Yards": 8,
+          "TOP": "1:48",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "59",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "135",
+    "MarkerUTC": 1682885135.0,
+    "MarkerLTC": 57935,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-2-DC 14 (6:00) 4 A. Smith rush to DC 16 for 2 yards (48 S. Miller, 99 T. Tisdale)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22630",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21564",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 360.0,
+          "TimeRemStr": "6:00",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 14
+          },
+          "Distance": 2,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 3,
+          "Yards": 10,
+          "TOP": "2:03",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "60",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "137",
+    "MarkerUTC": 1682885168.0,
+    "MarkerLTC": 57968,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 16 (5:28) 10 J. Ta'amu pass to 0 J. Hammond to DC 29 for 13 yards (33 A. Holder)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 5,
+      "ClockSeconds": 28
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20618",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22552",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 328.0,
+          "TimeRemStr": "5:28",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 16
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 13,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 4,
+          "Yards": 23,
+          "TOP": "2:38",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "61",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "139",
+    "MarkerUTC": 1682885281.0,
+    "MarkerLTC": 58081,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-DC 29 (4:58) 10 J. Ta'amu pass incomplete to 0 J. Hammond",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 4,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20618",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 298.0,
+          "TimeRemStr": "4:58",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 29
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 5,
+          "Yards": 23,
+          "TOP": "2:54",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "62",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "141",
+    "MarkerUTC": 1682885330.0,
+    "MarkerLTC": 58130,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "2-10-DC 29 (4:32) PENALTY on Seattle Sea Dragons, 5 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 4,
+      "ClockSeconds": 32
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 272.0,
+          "TimeRemStr": "4:32",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 29
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "6",
+          "PlayerId": "TM",
+          "Yards": 5,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 5,
+          "Yards": 28,
+          "TOP": "3:20",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "63",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "145",
+    "MarkerUTC": 1682885399.0,
+    "MarkerLTC": 58199,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-1-DC 38 (3:46) 4 A. Smith rush to DC 40 for 2 yards (9 C. Hicks, 58 A. Faoliu)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 3,
+      "ClockSeconds": 46
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22344",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20466",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 226.0,
+          "TimeRemStr": "3:46",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 38
+          },
+          "Distance": 1,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 7,
+          "Yards": 34,
+          "TOP": "4:20",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "65",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "146",
+    "MarkerUTC": 1682885370.0,
+    "MarkerLTC": 58170,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-5-DC 34 (4:14) 4 A. Smith rush to DC 38 for 4 yards (97 N. Lalos, 51 T. Skipper)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 4,
+      "ClockSeconds": 14
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20918",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "21422",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 254.0,
+          "TimeRemStr": "4:14",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Distance": 5,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 6,
+          "Yards": 32,
+          "TOP": "3:57",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "64",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "148",
+    "MarkerUTC": 1682885434.0,
+    "MarkerLTC": 58234,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPenalty",
+    "Descriptor_": "1-10-DC 40 (3:13) PENALTY on (SEA) 51 T. Skipper, 15 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 3,
+      "ClockSeconds": 13
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 193.0,
+          "TimeRemStr": "3:13",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "6",
+          "PlayerId": "21422",
+          "Yards": 15,
+          "PenaltyResult": "ResultPenaltyAuto1Stdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 7,
+          "Yards": 49,
+          "TOP": "4:39",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "66",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "150",
+    "MarkerUTC": 1682885490.0,
+    "MarkerLTC": 58290,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SEA 45 (2:58) 4 A. Smith rush to SEA 41 for 4 yards (97 N. Lalos)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 2,
+      "ClockSeconds": 58
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20918",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 178.0,
+          "TimeRemStr": "2:58",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 45
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 8,
+          "Yards": 53,
+          "TOP": "5:05",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "67",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "152",
+    "MarkerUTC": 1682885521.0,
+    "MarkerLTC": 58321,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-6-SEA 41 (2:27) 4 A. Smith rush to SEA 37 for 4 yards (99 T. Tisdale, 53 T. Adams)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 2,
+      "ClockSeconds": 27
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21564",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "22899",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 147.0,
+          "TimeRemStr": "2:27",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 41
+          },
+          "Distance": 6,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 4,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 9,
+          "Yards": 57,
+          "TOP": "5:43",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "68",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "154",
+    "MarkerUTC": 1682885757.0,
+    "MarkerLTC": 58557,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-2-SEA 37 (1:54) 10 J. Ta'amu pass incomplete to 11 L. Jackson QB Hit by 99 T. Tisdale",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 54
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20766",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleQbHitter",
+        "OfficialId": "21564",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 114.0,
+          "TimeRemStr": "1:54",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 37
+          },
+          "Distance": 2,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 10,
+          "Yards": 57,
+          "TOP": "5:58",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "69",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "156",
+    "MarkerUTC": 1682885793.0,
+    "MarkerLTC": 58593,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "4-2-SEA 37 (1:50) 10 J. Ta'amu pass to 18 A. Ellis to SEA 27 for 10 yards (33 A. Holder)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 50
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20448",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22552",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 110.0,
+          "TimeRemStr": "1:50",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 37
+          },
+          "Distance": 2,
+          "DriveNum": 8,
+          "Down": 4,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 10,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 11,
+          "Yards": 67,
+          "TOP": "6:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "70",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "160",
+    "MarkerUTC": 1682885846.0,
+    "MarkerLTC": 58646,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 27 (1:33) 10 J. Ta'amu pass incomplete to 16 B. Smith Pass Defended by 16 M. Wright",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 33
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "22889",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "21721",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 93.0,
+          "TimeRemStr": "1:33",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 27
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 12,
+          "Yards": 67,
+          "TOP": "6:20",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "71",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "162",
+    "MarkerUTC": 1682885855.0,
+    "MarkerLTC": 58655,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "2-10-SEA 27 (1:29) 10 J. Ta'amu pass to 11 L. Jackson to SEA 15 for 12 yards (5 C. Payton-Jones)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 29
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20766",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20836",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 89.0,
+          "TimeRemStr": "1:29",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 27
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassComplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 12,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 13,
+          "Yards": 79,
+          "TOP": "6:23",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "72",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "164",
+    "MarkerUTC": 1682885887.0,
+    "MarkerLTC": 58687,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "1-10-SEA 15 (1:25) 10 J. Ta'amu pass dropped by 4 A. Smith",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 25
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 85.0,
+          "TimeRemStr": "1:25",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassDropped",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 14,
+          "Yards": 79,
+          "TOP": "6:27",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "73",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "166",
+    "MarkerUTC": 1682885920.0,
+    "MarkerLTC": 58720,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-10-SEA 15 (1:20) 4 A. Smith rush to SEA 21 for -6 yards (1 B. Thompson)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockMinutes": 1,
+      "ClockSeconds": 20
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21427",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "22377",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 80.0,
+          "TimeRemStr": "1:20",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 15
+          },
+          "Distance": 10,
+          "DriveNum": 8,
+          "Down": 2,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -6,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 15,
+          "Yards": 73,
+          "TOP": "6:40",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "74",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "168",
+    "MarkerUTC": 1682885953.0,
+    "MarkerLTC": 58753,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "3-16-SEA 21 (0:46) 10 J. Ta'amu pass intended for 18 A. Ellis INTERCEPTED by 2 A. Brooks returned 11 yards to SEA 7 Pass Defended by 53 T. Adams PENALTY on (SEA) 58 A. Faoliu, 10 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 46
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "22296",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "20448",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleInterceptor",
+        "OfficialId": "21919",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRolePassDefender",
+        "OfficialId": "22899",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 46.0,
+          "TimeRemStr": "0:46",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 21
+          },
+          "Distance": 16,
+          "DriveNum": 8,
+          "Down": 3,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassInterception",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 7
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPenalty": {
+          "TeamId": "6",
+          "PlayerId": "20466",
+          "Yards": 10,
+          "PenaltyResult": "ResultPenaltyRepeatdown",
+          "Description": "NA"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 6
+          },
+          "Plays": 16,
+          "Yards": 73,
+          "TOP": "7:06",
+          "Result": "INT"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "75",
+    "OfficialCode": "2303001-NorthChamp"
+  },
+  {
+    "MarkerId": "170",
+    "MarkerUTC": 1682886034.0,
+    "MarkerLTC": 58834,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SEA 7 (0:37) 30 P. Lindsay rush to SEA 4 for -3 yards (99 J. Wallace)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 2,
+      "ClockSeconds": 37
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22901",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "21623",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 9,
+          "HomeScore": 9,
+          "Period": 2,
+          "TimeRemSecTotal": 37.0,
+          "TimeRemStr": "0:37",
+          "VisTimeouts": 2,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 7
+          },
+          "Distance": 10,
+          "DriveNum": 9,
+          "Down": 1,
+          "PossTeam": "6",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 7
+          },
+          "Plays": 1,
+          "Yards": -3,
+          "TOP": "0:15",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 9,
+    "HomeScore": 9,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "76",
     "OfficialCode": "2303001-NorthChamp"
   }
 ]

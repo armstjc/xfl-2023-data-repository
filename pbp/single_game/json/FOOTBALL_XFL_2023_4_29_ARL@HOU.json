@@ -13191,87 +13191,6 @@
     "OfficialCode": "2303002-SouthChamp"
   },
   {
-    "MarkerId": "340",
-    "MarkerUTC": 1682819679.0,
-    "MarkerLTC": 78879,
-    "MajorType": "Event",
-    "MinorType": "EventFootballPass",
-    "Descriptor_": "4-10-ARL 29 (0:00) 14 C. McDonald pass incomplete to 10 J. Smith",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21982",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleReceiver",
-        "OfficialId": "21441",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 26,
-          "HomeScore": 11,
-          "Period": 4,
-          "TimeRemStr": "0:00",
-          "VisTimeouts": 1,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 29
-          },
-          "Distance": 10,
-          "DriveNum": 20,
-          "Down": 4,
-          "PossTeam": "2",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballPlayResult": "ResultPassIncomplete",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Home",
-            "YardNum": 34
-          },
-          "Plays": 8,
-          "Yards": 37,
-          "TOP": "1:04",
-          "Result": "DOWNS"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_4_29_ARL@HOU",
-    "SituationCode": "",
-    "VisitorScore": 26,
-    "HomeScore": 11,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "158",
-    "OfficialCode": "2303002-SouthChamp"
-  },
-  {
     "MarkerId": "341",
     "MarkerUTC": 1682819700.2059295,
     "MajorType": "Event",
@@ -13754,8 +13673,89 @@
     "OfficialCode": "2303002-SouthChamp"
   },
   {
-    "MarkerId": "348",
-    "MarkerUTC": 1682820029.2115822,
+    "MarkerId": "352",
+    "MarkerUTC": 1682819679.0,
+    "MarkerLTC": 78879,
+    "MajorType": "Event",
+    "MinorType": "EventFootballPass",
+    "Descriptor_": "4-10-ARL 29 (0:00) 14 C. McDonald pass incomplete to 10 J. Smith",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21982",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleReceiver",
+        "OfficialId": "21441",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 26,
+          "HomeScore": 11,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "VisTimeouts": 1,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 29
+          },
+          "Distance": 10,
+          "DriveNum": 20,
+          "Down": 4,
+          "PossTeam": "2",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballPlayResult": "ResultPassIncomplete",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 34
+          },
+          "Plays": 8,
+          "Yards": 37,
+          "TOP": "1:04",
+          "Result": "DOWNS"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_29_ARL@HOU",
+    "SituationCode": "",
+    "VisitorScore": 26,
+    "HomeScore": 11,
+    "RevisionNum": 5,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "158",
+    "OfficialCode": "2303002-ARL-at-HOU"
+  },
+  {
+    "MarkerId": "354",
+    "MarkerUTC": 1682963873.9516723,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",
@@ -13795,6 +13795,6 @@
     "HomeScore": 11,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10025",
-    "OfficialCode": "2303002-SouthChamp"
+    "OfficialCode": "2303002-ARL-at-HOU"
   }
 ]

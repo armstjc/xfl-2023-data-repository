@@ -14749,83 +14749,6 @@
     "OfficialCode": "2303001-NorthChamp"
   },
   {
-    "MarkerId": "391",
-    "MarkerUTC": 1682892082.0,
-    "MarkerLTC": 64882,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "1-10-SEA 25 (0:06) 3 D. King rush to SEA 26 for -1 yards",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockSeconds": 6
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "21981",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 21,
-          "HomeScore": 37,
-          "Period": 4,
-          "TimeRemSecTotal": 6.0,
-          "TimeRemStr": "0:06",
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 25
-          },
-          "Distance": 10,
-          "DriveNum": 21,
-          "Down": 1,
-          "PossTeam": "8",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -1,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 25
-          },
-          "Plays": 1,
-          "Yards": -1,
-          "TOP": "0:07",
-          "Result": "HALF"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeEdit",
-    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
-    "SituationCode": "",
-    "VisitorScore": 21,
-    "HomeScore": 37,
-    "RevisionNum": 3,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "170",
-    "OfficialCode": "2303001-NorthChamp"
-  },
-  {
     "MarkerId": "392",
     "MarkerUTC": 1682892093.7252982,
     "MajorType": "Event",
@@ -14955,8 +14878,85 @@
     "OfficialCode": "2303001-NorthChamp"
   },
   {
-    "MarkerId": "394",
-    "MarkerUTC": 1682892148.4036148,
+    "MarkerId": "395",
+    "MarkerUTC": 1682892082.0,
+    "MarkerLTC": 64882,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "1-10-SEA 25 (0:06) 3 D. King rush to SEA 26 for -1 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 6
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21981",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 21,
+          "HomeScore": 37,
+          "Period": 4,
+          "TimeRemSecTotal": 6.0,
+          "TimeRemStr": "0:06",
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Distance": 10,
+          "DriveNum": 21,
+          "Down": 1,
+          "PossTeam": "8",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 25
+          },
+          "Plays": 1,
+          "Yards": -1,
+          "TOP": "0:07",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_4_30_SEA@DC",
+    "SituationCode": "",
+    "VisitorScore": 21,
+    "HomeScore": 37,
+    "RevisionNum": 4,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "170",
+    "OfficialCode": "2303001-SEA-at-DC"
+  },
+  {
+    "MarkerId": "397",
+    "MarkerUTC": 1682964304.7840893,
     "MajorType": "Event",
     "MinorType": "EventOfficial",
     "Descriptor_": "Game Official Marker",
@@ -14996,6 +14996,6 @@
     "HomeScore": 37,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "10025",
-    "OfficialCode": "2303001-NorthChamp"
+    "OfficialCode": "2303001-SEA-at-DC"
   }
 ]

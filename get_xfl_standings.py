@@ -8,24 +8,25 @@ from tqdm import tqdm
 from get_xfl_api_token import get_xfl_api_token
 
 
-def get_xfl_standings(season=2023,week=1,save=False):
+def get_xfl_standings(season=2023, week=1, save=False):
     xfl_api_token = get_xfl_api_token()
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
-    
+
     xfl_season = season
     xfl_week = week
-    #headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
-    
+    # headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
+
     url = f"https://api.xfl.com/scoring/v3.30/standings?access_token={xfl_api_token}"
     response = urlopen(url)
     json_data = json.loads(response.read())
-    
+
     for player in tqdm(json_data):
-        
+
         official_id = player['OfficialId']
-        #print(f"Player #{official_id}")
-        row_df = pd.DataFrame({'Season':xfl_season,'OfficialID':official_id},index=[0])
+        # print(f"Player #{official_id}")
+        row_df = pd.DataFrame(
+            {'Season': xfl_season, 'OfficialID': official_id}, index=[0])
         row_df['Rank'] = player['Rank']
         row_df['RankInConference'] = player['RankInConference']
         row_df['RankInDivision'] = player['RankInDivision']
@@ -103,25 +104,29 @@ def get_xfl_standings(season=2023,week=1,save=False):
         row_df['HockeyRoadOTAndSOLosses'] = player['HockeyRoadOTAndSOLosses']
         row_df['HockeyHomeOTAndSOLosses'] = player['HockeyHomeOTAndSOLosses']
 
-        main_df = pd.concat([main_df,row_df],ignore_index=True)
+        main_df = pd.concat([main_df, row_df], ignore_index=True)
 
     if save == True:
-        
-        main_df.to_csv(f'standings/{xfl_season}_xfl_standings.csv',index=False)
-        main_df.to_parquet(f'standings/{xfl_season}_xfl_standings.parquet',index=False)
 
+        main_df.to_csv(
+            f'standings/{xfl_season}_xfl_standings.csv', index=False)
+        main_df.to_parquet(
+            f'standings/{xfl_season}_xfl_standings.parquet', index=False)
 
-        main_df.to_parquet(f'standings/weekly_standings/parquet/{xfl_season}_{xfl_week}_xfl_standings.parquet',index=False)
-        main_df.to_csv(f'standings/weekly_standings/csv/{xfl_season}_{xfl_week}_xfl_standings.csv',index=False)
+        main_df.to_parquet(
+            f'standings/weekly_standings/parquet/{xfl_season}_{xfl_week}_xfl_standings.parquet', index=False)
+        main_df.to_csv(
+            f'standings/weekly_standings/csv/{xfl_season}_{xfl_week}_xfl_standings.csv', index=False)
         with open(f"standings/weekly_standings/json/{xfl_season}_{xfl_week}_xfl_standings.json", "w+") as f:
-            f.write(json.dumps(json_data,indent=2))
+            f.write(json.dumps(json_data, indent=2))
 
     return main_df
 
+
 def main():
     season = 2023
-    week = 11
-    get_xfl_standings(season,week,True)
+    week = 12
+    get_xfl_standings(season, week, True)
 
     now = datetime.now()
     current_year = now.year
@@ -130,7 +135,7 @@ def main():
     current_hour = now.hour
     current_minute = now.minute
 
-    with open('timestamp.json','w+') as f:
+    with open('timestamp.json', 'w+') as f:
         f.write(f"{{ \"year\":{current_year},\"month\":{current_month},\"day\":{current_day},\"hour\":{current_hour},\"minute\":{current_minute}}}")
 
 

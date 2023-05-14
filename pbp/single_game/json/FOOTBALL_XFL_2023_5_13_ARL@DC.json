@@ -495,104 +495,6 @@
     "OfficialCode": "2303003-Champ"
   },
   {
-    "MarkerId": "130",
-    "MarkerUTC": 1684023609.0,
-    "MarkerLTC": 69609,
-    "MajorType": "Event",
-    "MinorType": "EventFootballSack",
-    "Descriptor_": "1-10-DC 38 (12:20) 12 L. Perez sacked at DC 41 for -3 yards Fumbled by 12 L. Perez,  Forced by 17 D. Bellamy Recovered by 12 L. Perez (17 D. Bellamy)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 1,
-      "ClockMinutes": 12,
-      "ClockSeconds": 20
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRolePasser",
-        "OfficialId": "21207",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleSacker1",
-        "OfficialId": "22416",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "Period": 1,
-          "TimeRemSecTotal": 740.0,
-          "TimeRemStr": "12:20",
-          "VisTimeouts": 3,
-          "HomeTimeouts": 3,
-          "BallOn": {
-            "VisOrHome": "Home",
-            "YardNum": 38
-          },
-          "Distance": 10,
-          "DriveNum": 1,
-          "Down": 1,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": -3,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballSetBallOn": {
-          "VisOrHome": "Visitor",
-          "YardNum": 41
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballFumble": {
-          "TeamFumbled": "1",
-          "PlayerFumbled": "21207",
-          "TeamRecovered": "1",
-          "PlayerRecovered": "21207",
-          "PlayerForcedFumble": "22416"
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 24
-          },
-          "Plays": 5,
-          "Yards": 17,
-          "TOP": "2:40",
-          "Result": "HALF"
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "UpdateType": "MaUpdateTypeResend",
-    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
-    "SituationCode": "",
-    "RevisionNum": 6,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "6",
-    "OfficialCode": "2303003-Champ"
-  },
-  {
     "MarkerId": "133",
     "MarkerUTC": 1684023719.0,
     "MarkerLTC": 69719,
@@ -11939,96 +11841,6 @@
     "OfficialCode": "2303003-Champ"
   },
   {
-    "MarkerId": "359",
-    "MarkerUTC": 1684032889.0,
-    "MarkerLTC": 78889,
-    "MajorType": "Event",
-    "MinorType": "EventFootballRush",
-    "Descriptor_": "2-1-ARL 27 (7:29) 2 D. Smith rush to ARL 29 for 2 yards (99 J. Wallace, 92 M. Fisher)",
-    "Comments": "",
-    "IsOfficial": true,
-    "Confidence": 100,
-    "ETime": {
-      "Period": 4,
-      "ClockMinutes": 7,
-      "ClockSeconds": 29
-    },
-    "Participants": [
-      {
-        "EntityId": "",
-        "Role": "MapRoleRusher",
-        "OfficialId": "22305",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler1",
-        "OfficialId": "21623",
-        "SourceId": "QBStat"
-      },
-      {
-        "EntityId": "",
-        "Role": "MapRoleTackler2",
-        "OfficialId": "20480",
-        "SourceId": "QBStat"
-      }
-    ],
-    "Properties": [
-      {
-        "FootballEventContext": {
-          "VisScore": 35,
-          "HomeScore": 20,
-          "Period": 4,
-          "TimeRemSecTotal": 449.0,
-          "TimeRemStr": "7:29",
-          "VisTimeouts": 1,
-          "HomeTimeouts": 2,
-          "BallOn": {
-            "VisOrHome": "Visitor",
-            "YardNum": 27
-          },
-          "Distance": 1,
-          "DriveNum": 19,
-          "Down": 2,
-          "PossTeam": "1",
-          "LastPlaySummary": "",
-          "LastPlayStatus": ""
-        },
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballStatus": "StatusOfficial",
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballYards": 2,
-        "SourceId": "QBStat"
-      },
-      {
-        "FootballDriveSummary": {
-          "DriveStart": {
-            "VisOrHome": "Visitor",
-            "YardNum": 18
-          },
-          "Plays": 2,
-          "Yards": 11,
-          "TOP": "0:58",
-          "Result": " "
-        },
-        "SourceId": "QBStat"
-      }
-    ],
-    "SourceType": "MaSourceTypeOfficialScoring",
-    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
-    "SituationCode": "",
-    "VisitorScore": 35,
-    "HomeScore": 20,
-    "RevisionNum": 2,
-    "SourceId": "QBStat",
-    "SourceNativeMarkerId": "137",
-    "OfficialCode": "2303003-Champ"
-  },
-  {
     "MarkerId": "361",
     "MarkerUTC": 1684032929.0,
     "MarkerLTC": 78929,
@@ -13904,6 +13716,433 @@
     "RevisionNum": 2,
     "SourceId": "QBStat",
     "SourceNativeMarkerId": "159",
+    "OfficialCode": "2303003-Champ"
+  },
+  {
+    "MarkerId": "408",
+    "MarkerUTC": 1684034144.0,
+    "MarkerLTC": 80144,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-11-DC 41 (1:04) 12 L. Perez rush to DC 42 for -1 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 1,
+      "ClockSeconds": 4
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 35,
+          "HomeScore": 26,
+          "Period": 4,
+          "TimeRemSecTotal": 64.0,
+          "TimeRemStr": "1:04",
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 41
+          },
+          "Distance": 11,
+          "DriveNum": 22,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Plays": 2,
+          "Yards": -2,
+          "TOP": "0:09",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
+    "SituationCode": "",
+    "VisitorScore": 35,
+    "HomeScore": 26,
+    "RevisionNum": 2,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "160",
+    "OfficialCode": "2303003-Champ"
+  },
+  {
+    "MarkerId": "411",
+    "MarkerUTC": 1684034178.0,
+    "MarkerLTC": 80178,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "3-12-DC 42 (0:30) 12 L. Perez rush to DC 43 for -1 yards",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockSeconds": 30
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 35,
+          "HomeScore": 26,
+          "Period": 4,
+          "TimeRemSecTotal": 30.0,
+          "TimeRemStr": "0:30",
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 42
+          },
+          "Distance": 12,
+          "DriveNum": 22,
+          "Down": 3,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -1,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Home",
+            "YardNum": 40
+          },
+          "Plays": 3,
+          "Yards": -3,
+          "TOP": "1:08",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
+    "SituationCode": "",
+    "VisitorScore": 35,
+    "HomeScore": 26,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "161",
+    "OfficialCode": "2303003-Champ"
+  },
+  {
+    "MarkerId": "412",
+    "MarkerUTC": 1684034211.7789445,
+    "MajorType": "Event",
+    "MinorType": "EventEnd",
+    "Descriptor_": "Game End Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 35,
+          "HomeScore": 26,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 43
+          },
+          "Distance": 13,
+          "DriveNum": 22,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
+    "SituationCode": "",
+    "VisitorScore": 35,
+    "HomeScore": 26,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10020",
+    "OfficialCode": "2303003-Champ"
+  },
+  {
+    "MarkerId": "413",
+    "MarkerUTC": 1684032889.0,
+    "MarkerLTC": 78889,
+    "MajorType": "Event",
+    "MinorType": "EventFootballRush",
+    "Descriptor_": "2-1-ARL 27 (7:29) 2 D. Smith rush to ARL 29 for 2 yards (24 A. Kelly, 92 M. Fisher)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4,
+      "ClockMinutes": 7,
+      "ClockSeconds": 29
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRoleRusher",
+        "OfficialId": "22305",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler1",
+        "OfficialId": "20873",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleTackler2",
+        "OfficialId": "20480",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 35,
+          "HomeScore": 20,
+          "Period": 4,
+          "TimeRemSecTotal": 449.0,
+          "TimeRemStr": "7:29",
+          "VisTimeouts": 1,
+          "HomeTimeouts": 2,
+          "BallOn": {
+            "VisOrHome": "Visitor",
+            "YardNum": 27
+          },
+          "Distance": 1,
+          "DriveNum": 19,
+          "Down": 2,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": 2,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 18
+          },
+          "Plays": 2,
+          "Yards": 11,
+          "TOP": "0:58",
+          "Result": " "
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
+    "SituationCode": "",
+    "VisitorScore": 35,
+    "HomeScore": 20,
+    "RevisionNum": 3,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "137",
+    "OfficialCode": "2303003-Champ"
+  },
+  {
+    "MarkerId": "414",
+    "MarkerUTC": 1684023609.0,
+    "MarkerLTC": 69609,
+    "MajorType": "Event",
+    "MinorType": "EventFootballSack",
+    "Descriptor_": "1-10-DC 38 (12:20) 12 L. Perez sacked at DC 41 for -3 yards Fumbled by 12 L. Perez,  Forced by 17 D. Bellamy Recovered by 12 L. Perez (17 D. Bellamy)",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 1,
+      "ClockMinutes": 12,
+      "ClockSeconds": 20
+    },
+    "Participants": [
+      {
+        "EntityId": "",
+        "Role": "MapRolePasser",
+        "OfficialId": "21207",
+        "SourceId": "QBStat"
+      },
+      {
+        "EntityId": "",
+        "Role": "MapRoleSacker1",
+        "OfficialId": "22416",
+        "SourceId": "QBStat"
+      }
+    ],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "Period": 1,
+          "TimeRemSecTotal": 740.0,
+          "TimeRemStr": "12:20",
+          "VisTimeouts": 3,
+          "HomeTimeouts": 3,
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 38
+          },
+          "Distance": 10,
+          "DriveNum": 1,
+          "Down": 1,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballStatus": "StatusOfficial",
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballYards": -3,
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballSetBallOn": {
+          "VisOrHome": "Visitor",
+          "YardNum": 41
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballFumble": {
+          "TeamFumbled": "1",
+          "PlayerFumbled": "21207",
+          "TeamRecovered": "1",
+          "PlayerRecovered": "21207",
+          "PlayerForcedFumble": "22416"
+        },
+        "SourceId": "QBStat"
+      },
+      {
+        "FootballDriveSummary": {
+          "DriveStart": {
+            "VisOrHome": "Visitor",
+            "YardNum": 24
+          },
+          "Plays": 5,
+          "Yards": 17,
+          "TOP": "2:40",
+          "Result": "HALF"
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "UpdateType": "MaUpdateTypeEdit",
+    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
+    "SituationCode": "",
+    "RevisionNum": 7,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "6",
+    "OfficialCode": "2303003-Champ"
+  },
+  {
+    "MarkerId": "415",
+    "MarkerUTC": 1684034353.768339,
+    "MajorType": "Event",
+    "MinorType": "EventOfficial",
+    "Descriptor_": "Game Official Marker",
+    "Comments": "",
+    "IsOfficial": true,
+    "Confidence": 100,
+    "ETime": {
+      "Period": 4
+    },
+    "Participants": [],
+    "Properties": [
+      {
+        "FootballEventContext": {
+          "VisScore": 35,
+          "HomeScore": 26,
+          "Period": 4,
+          "TimeRemStr": "0:00",
+          "BallOn": {
+            "VisOrHome": "Home",
+            "YardNum": 43
+          },
+          "Distance": 13,
+          "DriveNum": 22,
+          "Down": 4,
+          "PossTeam": "1",
+          "LastPlaySummary": "",
+          "LastPlayStatus": ""
+        },
+        "SourceId": "QBStat"
+      }
+    ],
+    "SourceType": "MaSourceTypeOfficialScoring",
+    "EventId": "FOOTBALL_XFL_2023_5_13_ARL@DC",
+    "SituationCode": "",
+    "VisitorScore": 35,
+    "HomeScore": 26,
+    "SourceId": "QBStat",
+    "SourceNativeMarkerId": "10025",
     "OfficialCode": "2303003-Champ"
   }
 ]

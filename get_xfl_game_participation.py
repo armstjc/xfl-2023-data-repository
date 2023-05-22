@@ -7,24 +7,25 @@ from tqdm import tqdm
 from get_xfl_api_token import get_xfl_api_token
 
 
-def get_xfl_game_participation(game_id:str,save=False):
+def get_xfl_game_participation(game_id: str, save=False):
     xfl_api_token = get_xfl_api_token()
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
 
-    #headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
-    
+    # headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}
+
     xfl_season = 2023
-    #game_id = "FOOTBALL_XFL_2023_2_18_VGS@ARL"
+    # game_id = "FOOTBALL_XFL_2023_2_18_VGS@ARL"
     url = f"https://api.xfl.com/scoring/v3.30/players?game={game_id}&access_token={xfl_api_token}"
     response = urlopen(url)
     json_data = json.loads(response.read())
-    
+
     for player in tqdm(json_data):
-        
+
         official_id = player['OfficialId']
-        #print(f"Player #{official_id}")
-        row_df = pd.DataFrame({'Season':xfl_season,'OfficialID':official_id,'game_id':game_id},index=[0])
+        # print(f"Player #{official_id}")
+        row_df = pd.DataFrame(
+            {'Season': xfl_season, 'OfficialID': official_id, 'game_id': game_id}, index=[0])
         row_df['VisOrHome'] = player['VisOrHome']
         row_df['JerseyNum'] = player['JerseyNum']
         row_df['FirstName'] = player['FirstName']
@@ -37,7 +38,7 @@ def get_xfl_game_participation(game_id:str,save=False):
         row_df['Weight'] = player['Weight']
         row_df['DOB'] = player['DOB']
         row_df['POB'] = player['POB']
-        
+
         try:
             row_df['Age'] = player['Age']
         except:
@@ -55,14 +56,14 @@ def get_xfl_game_participation(game_id:str,save=False):
             row_df['GfxId'] = None
 
         row_df['Headshot'] = player['Headshot']
-        
+
         try:
             row_df['IsStarting'] = player['IsStarting']
         except:
             row_df['IsStarting'] = None
 
         row_df['Initials'] = player['Initials']
-        
+
         try:
             row_df['Scratch'] = player['Scratch']
         except:
@@ -79,28 +80,30 @@ def get_xfl_game_participation(game_id:str,save=False):
             row_df['Participated'] = player['Participated']
         except:
             row_df['Participated'] = None
-        main_df = pd.concat([main_df,row_df],ignore_index=True)
+        main_df = pd.concat([main_df, row_df], ignore_index=True)
 
-    ##main_df = main_df.replace({False:0,True:1},inplace=True)
-    main_df.replace({False:0,True:1},inplace=True)
+    # main_df = main_df.replace({False:0,True:1},inplace=True)
+    main_df.replace({False: 0, True: 1}, inplace=True)
     if save == True:
-        
-        main_df.to_csv(f'player_info/participation_data/csv/{game_id}.csv',index=False)
-        main_df.to_parquet(f'player_info/participation_data/parquet/{game_id}.parquet',index=False)
+
+        main_df.to_csv(
+            f'player_info/participation_data/csv/{game_id}.csv', index=False)
+        main_df.to_parquet(
+            f'player_info/participation_data/parquet/{game_id}.parquet', index=False)
 
         with open(f"player_info/participation_data/json/{game_id}.json", "w+") as f:
-            f.write(json.dumps(json_data,indent=2))
-
+            f.write(json.dumps(json_data, indent=2))
 
     return main_df
+
 
 def main():
     sched_df = pd.read_csv('schedule/2023_xfl_schedule.csv')
     event_id_arr = sched_df['EventId'].to_list()
-    
+
     for i in event_id_arr:
-        get_xfl_game_participation(i,True)
-        
+        get_xfl_game_participation(i, True)
+
 
 if __name__ == "__main__":
     main()

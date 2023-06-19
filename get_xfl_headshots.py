@@ -29,7 +29,7 @@ def get_xfl_headshots(season: int):
 
 
 def main():
-    get_xfl_headshots(2023)
+    get_xfl_headshots(2024)
 
 
 if __name__ == "__main__":

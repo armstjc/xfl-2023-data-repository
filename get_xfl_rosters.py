@@ -94,9 +94,9 @@ def combine_weekly_rosters():
     for i in seasons_arr:
         season_df = main_df[main_df['Season'] == i]
         season_df.to_csv(
-            f"rosters/weekly_rosters/{i}_weekly_xfl_roster.csv", index=False)
+            f"rosters/weekly_rosters/season/{i}_weekly_xfl_roster.csv", index=False)
         season_df.to_parquet(
-            f"rosters/weekly_rosters/{i}_weekly_xfl_roster.parquet", index=False)
+            f"rosters/weekly_rosters/season/{i}_weekly_xfl_roster.parquet", index=False)
 
 
 def main():

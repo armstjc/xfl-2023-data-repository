@@ -1,4 +1,5 @@
 # xfl-2023-data-repository
+
 [![Update XFL Stats](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_stats.yml/badge.svg)](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_stats.yml)
 [![update_xfl_epa](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_pbp.yml/badge.svg)](https://github.com/armstjc/xfl-2023-data-repository/actions/workflows/update_xfl_pbp.yml)
 
@@ -12,18 +13,13 @@ xfl-2023-data-repository
 ├── game_stats
 |   └── player
 |       ├── csv
-|       |   ├── 2023_xfl_player_game_stats.csv
-|       |   └── 2023_xfl_player_game_stats.csv
 |       ├── parquet
-|       |   ├── 2023_xfl_player_game_stats.parquet
-|       |   └── 2023_xfl_player_game_stats.parquet
 |       └── raw
 |           ├── csv
 |           ├── json
 |           └── parquet
 ├── team
 |   ├── csv
-|   |   └── 2023_xfl_team_game_stats.csv
 |   ├── parquet
 |   └── raw
 |       ├── csv
@@ -32,9 +28,7 @@ xfl-2023-data-repository
 ├── pbp
 |   ├── season
 |   |   ├── csv
-|   |   |   └── 2023_xfl_pbp.csv
 |   |   └── parquet
-|   |       └── 2023_xfl_pbp.parquet
 |   └── single_game
 |       ├── csv
 |       ├── json
@@ -65,20 +59,17 @@ xfl-2023-data-repository
 |   └── 2023_xfl_schedule.parquet
 |
 ├── standings
-|   ├── weekly_standings
-|   |   ├── csv
-|   |   ├── json
-|   |   └── parquet
-|   ├── 2023_xfl_standings.csv
-|   └── 2023_xfl_standings.parquet
+|   └── weekly_standings
+|       ├── csv
+|       ├── json
+|       └── parquet
+|
 ├── teams
 |   └── xfl_teams.csv
-├── xfl_draft
-|   ├── csv
-|   |   └── 2023_xfl_draft.csv
-|   ├── json
-|   |   └── 2023_xfl_draft.json
-|   └── parquet
-|       └── 2023_xfl_draft.parquet
 |
+├── xfl_draft
+    ├── csv
+    ├── json
+    └── parquet
+
 ```

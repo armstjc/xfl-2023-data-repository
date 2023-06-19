@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 
 
-def get_xfl_transactions(season=2023, save=False):
+def get_xfl_transactions(season=2024, save=False):
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
 

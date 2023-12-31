@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 
 import pandas as pd
 import requests
+from tqdm import tqdm
 
 
 def get_xfl_transactions(season=2024, save=False):
@@ -18,7 +19,7 @@ def get_xfl_transactions(season=2024, save=False):
 
     table_rows = soup.find_all('tr')
 
-    for i in range(1, len(table_rows)):
+    for i in tqdm(range(1, len(table_rows))):
         t_rows = table_rows[i]
         t_cells = t_rows.find_all('td')
         team_logo_url = t_cells[0].find('img').get('src')
@@ -61,6 +62,8 @@ def get_xfl_transactions(season=2024, save=False):
                 team_id = "SA"
             case "https://res.cloudinary.com/xfl-production/image/upload/c_thumb,w_100,g_face/v1671555934/xfl-prod/logos/logo-san-antonio-brahmas-500x500.png":
                 team_id = "SA"
+            case "https://res.cloudinary.com/xfl-production/image/upload/v1698177464/xfl-prod/logos/logo-xfl-500x500.png":
+                team_id = "XFL"
             case _:
                 raise ValueError(
                     f'Unhandled Team abreviation: {team_logo_url}')
